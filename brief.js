@@ -1,5 +1,5 @@
-import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=b5b49bdd9760';
-import {calendarLink} from './calendar.js?v=b5b49bdd9760';
+import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=a9bb1fd6e752';
+import {calendarLink} from './calendar.js?v=a9bb1fd6e752';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
@@ -122,15 +122,22 @@ function glance(b) {
 
 function files(b) {
   if (!b.attachments.length) return null;
+  const read = Object.fromEntries((b.file_text || []).map(f => [f.name, f]));
   const ul = el('ul', undefined, 'plain-list files');
-  for (const f of b.attachments) { const li = el('li'); const n = el('span', f.name); n.lang = 'ko'; li.append(n); ul.append(li); }
+  for (const f of b.attachments) {
+    const li = el('li'); const n = el('span', f.name); n.lang = 'ko'; li.append(n);
+    const r = read[f.name];
+    if (r?.blocks?.length) {
+      const d = el('details'); d.append(el('summary', 'Read it in English'));
+      const wrap = el('div', undefined, 'original'); wrap.dataset.mode = 'en';
+      wrap.append(imageText(r.blocks, 'Read from the file and translated by AI. Check numbers against the file.'));
+      d.append(wrap); li.append(d);
+    } else li.append(el('small', r?.note ? `Read for the summary above; ${r.note.replace(/; used for the summary$/, '')}.` : 'Not read — open it on the ECE page.'));
+    ul.append(li);
+  }
   const get = el('a', 'Download on the ECE page ↗', 'btn'); get.href = b.source_url; get.target = '_blank'; get.rel = 'noopener';
   const hwp = b.attachments.some(f => /\.hwpx?$/i.test(f.name));
-  const read = (b.file_text || []).flat();
-  const s = box('Files in this notice', ul, get, el('p', 'The files are at the bottom of the ECE notice. ' + (hwp ? '.hwp files open in the free Hancom Office Viewer. ' : '') +
-    (read.length ? 'Pages translated so far are below.' : 'These files are not translated here. To understand one, upload it to ChatGPT Edu and ask.'), 'hint'));
-  if (read.length) { const wrap = el('div', undefined, 'original'); wrap.dataset.mode = 'en'; wrap.append(imageText(read, 'From the attached file, read and translated by AI. Check numbers against the file.')); s.append(wrap); }
-  return s;
+  return box('Files in this notice', ul, get, el('p', 'The originals are at the bottom of the ECE notice.' + (hwp ? ' .hwp files open in the free Hancom Office Viewer.' : ''), 'hint'));
 }
 
 function fullNotice(b, quotes) {
@@ -179,7 +186,7 @@ function fullNotice(b, quotes) {
         const lens = el('a', 'Translate this image ↗', 'btn light small');
         lens.href = 'https://lens.google.com/uploadbyurl?hl=en&url=' + encodeURIComponent(block.src);
         lens.target = '_blank'; lens.rel = 'noopener';
-        blk.append(el('p', 'This image is not translated here yet. The button opens it in Google Lens — tap Translate.', 'img-note'), lens);
+        blk.append(el('p', 'This image could not be read yet. The button opens it in Google Lens — tap Translate.', 'img-note'), lens);
       }
     } else {
       const ko = el('div', undefined, 'ko'); ko.lang = 'ko';
