@@ -1,20 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57376-1@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:New/transfer: real basket / first-come registration · Register spr
- ing courses and finish over-quota confirmation
-DTSTART:20260225T073000Z
-DTEND:20260225T074500Z
-DESCRIPTION:Basket 19 February 09:00–20 February 16:00\; first-come 24–
- 25 February 08:30–16:30 KST\nKorean source: 02-24.(화)\, 02-25.(수) 08
- :30~16:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI
-  draft — not yet checked by a Korean reader. Verify the original\; this 
- calendar entry is a reminder\, not an official submission. Times converted
-  from the source timezone to UTC.
+SUMMARY:Over-quota request (graduate courses) · Register spring courses an
+ d confirm over-quota requests
+DTSTART:20260309T145900Z
+DTEND:20260309T151400Z
+DESCRIPTION:3–9 Mar 2026\nKorean source: 03-03.(화)~03-09.(월)\nhttps:/
+ /ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI explanation — m
+ ay contain errors\; check the original. This is a reminder\, not an offici
+ al submission. Times converted from the source timezone to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
 END:VEVENT
 END:VCALENDAR

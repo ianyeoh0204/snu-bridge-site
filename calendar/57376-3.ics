@@ -1,19 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57376-3@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:ECE undergraduate-course over-quota request · Register spring cour
- ses and finish over-quota confirmation
-DTSTART:20260305T090000Z
-DTEND:20260305T091500Z
-DESCRIPTION:3 March 08:30–5 March 18:00 KST\nKorean source: 03-03.(화) 0
- 8:30 ~03-05.(목) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=
- 57376&md=v\nAI draft — not yet checked by a Korean reader. Verify the or
- iginal\; this calendar entry is a reminder\, not an official submission. T
- imes converted from the source timezone to UTC.
+SUMMARY:Withdrawal · Register spring courses and confirm over-quota reques
+ ts
+DTSTART:20260421T145900Z
+DTEND:20260421T151400Z
+DESCRIPTION:10 Mar – 21 Apr 2026\nKorean source: 03-10.(화)~4-21.(화) 0
+ 0:00~23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nA
+ I explanation — may contain errors\; check the original. This is a remin
+ der\, not an official submission. Times converted from the source timezone
+  to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
 END:VEVENT
 END:VCALENDAR

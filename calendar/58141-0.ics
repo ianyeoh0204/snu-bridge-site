@@ -1,19 +1,17 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58141-0@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Essay submission · Share your multiple-major experience in the Nov
- ember essay call
+SUMMARY:Essay submission · Enter the multiple-major essay contest
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-DESCRIPTION:22 November 2026\; closing time not stated\nKorean source: 2026
- . 11. 22.(일)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58141&md=
- v\nAI draft — not yet checked by a Korean reader. Verify the original\; 
- this calendar entry is a reminder\, not an official submission. Closing ti
- me is not supplied by an all-day reminder.
+DESCRIPTION:22 Nov 2026\nKorean source: 2026. 11. 22.(일)\nhttps://ece.snu
+ .ac.kr/community/academics?bbsidx=58141&md=v\nAI explanation — may conta
+ in errors\; check the original. This is a reminder\, not an official submi
+ ssion. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58141&md=v
 END:VEVENT
 END:VCALENDAR

@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58012-1@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Overlapping-course request · Check Fall course changes\, over-quot
- a requests and withdrawal
+SUMMARY:Overlapping-course request · Request over-quota ECE courses by 3 S
+ eptember
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
-DESCRIPTION:1–9 September 2026\; closing time not stated\nKorean source: 
- 9/1(화) ~ 9/9(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5801
- 2&md=v\nAI draft — not yet checked by a Korean reader. Verify the origin
- al\; this calendar entry is a reminder\, not an official submission. Closi
- ng time is not supplied by an all-day reminder.
+DESCRIPTION:1–9 Sep 2026\nKorean source: 9/1(화) ~ 9/9(수)\nhttps://ece
+ .snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanation — may c
+ ontain errors\; check the original. This is a reminder\, not an official s
+ ubmission. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
 END:VEVENT
 END:VCALENDAR

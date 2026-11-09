@@ -1,19 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57627-1@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Research-guidance report and publication confirmation · Complete t
- he spring PhD preliminary-review paperwork
+SUMMARY:Guidance report + publication confirmation · Submit PhD preliminar
+ y-review documents (February 2027 graduates)
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
-DESCRIPTION:15 June–27 July 2026\; closing time not stated\nKorean source
- : 2026. 6. 15. ~ 2026. 7. 27.\nhttps://ece.snu.ac.kr/community/academics?b
- bsidx=57627&md=v\nAI draft — not yet checked by a Korean reader. Verify 
- the original\; this calendar entry is a reminder\, not an official submiss
- ion. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:15 Jun – 27 Jul 2026\nKorean source: 2026. 6. 15. ~ 2026. 7. 
+ 27.\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v\nAI expla
+ nation — may contain errors\; check the original. This is a reminder\, n
+ ot an official submission. Closing time is not supplied by an all-day remi
+ nder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v
 END:VEVENT
 END:VCALENDAR

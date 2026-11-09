@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58044-1@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Delayed thesis hand-in\, only with the confirmation filed on time 
- · Submit your undergraduate graduation thesis in December
+SUMMARY:Late hand-in\, only with the form · Submit your graduation thesis 
+ by 21 December
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
-DESCRIPTION:By 28 December 2026\; time not stated\nKorean source: 2026.12.2
- 8.(월)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v
- \nAI draft — not yet checked by a Korean reader. Verify the original\; t
- his calendar entry is a reminder\, not an official submission. Closing tim
- e is not supplied by an all-day reminder.
+DESCRIPTION:By 28 Dec 2026\nKorean source: 2026.12.28.(월)까지\nhttps://
+ ece.snu.ac.kr/community/academics?bbsidx=58044&md=v\nAI explanation — ma
+ y contain errors\; check the original. This is a reminder\, not an officia
+ l submission. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v
 END:VEVENT
 END:VCALENDAR

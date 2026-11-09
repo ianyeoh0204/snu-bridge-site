@@ -1,26 +1,164 @@
-import {isHistorical} from './product-model.mjs?v=83ffed8c28a8';
-import {calendarLink} from './calendar.js?v=83ffed8c28a8';
-const base=document.querySelector('meta[name="app-base"]')?.content||'/';
-function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
-function section(index,title){const s=el('section',undefined,'brief-section');s.id='section-'+index;s.append(el('div',String(index).padStart(2,'0'),'brief-index'),el('h2',title));return s;}
-function bullets(s,items,ordered=false){const l=el(ordered?'ol':'ul');for(const item of items)l.append(el('li',item));s.append(l);}
-fetch(base+'notices.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Brief data could not be loaded.');return r.json();}).then(data=>{
- const b=data.notices.find(p=>p.id===document.body.dataset.noticeId);if(!b)throw new Error('This brief is not available in this publication. It may still require review.');
- document.title=b.title+' · SNU Bridge';const root=document.querySelector('#brief-content');root.replaceChildren();
- root.append(el('div',b.period+' · ECE academic affairs','label'),el('h1',b.title),el('p',b.summary,'brief-lead'));
- const jumps=el('nav',undefined,'brief-jumps');jumps.setAttribute('aria-label','Brief sections');[['Dates',3],['Steps',4],['Exceptions',5],['Email draft',9],['Evidence',10]].forEach(([text,i])=>{const a=el('a',text);a.href='#section-'+i;jumps.append(a);});root.append(jumps);
- const notice=el('aside',undefined,'note');notice.append(el('strong',b.stale?'Source changed — review invalidated':b.publication_eligible?(b.review_status==='office_reviewed'?'Office reviewed':'AI-generated · student reviewed'):'AI draft — not yet checked by a Korean reader'),el('p',isHistorical(b)?'Historical example. These dates belong to the stated original period.':'Check the source and all conditions before acting. This is a dated source snapshot.'));root.append(notice);
- if(b.superseded_by){const a=el('a','Read the later rule notice '+b.superseded_by+' →');a.href=base+'briefs/'+b.superseded_by+'/';notice.append(el('p','A later rule notice is available. Do not use this earlier version alone for current decisions.'),a);}
- const source=section(1,'Source');const link=el('a','Open the official Korean notice ↗');link.href=b.source_url;link.target='_blank';link.rel='noopener noreferrer';source.append(link,el('p',b.korean_title,'korean-quote'),el('p','Posted '+b.posting_date+' · '+b.period));root.append(source);
- const applies=section(2,'Does this apply to me?');applies.append(el('p',b.applicability));b.eligibility_quotes.forEach(q=>applies.append(el('blockquote',q)));applies.append(el('h3','What the requirement means'),el('p',b.context));root.append(applies);
- const dates=section(3,'Deadlines & dates');if(!b.deadlines.length)dates.append(el('p','No exact deadline is stated in the readable page text. Check unread files and current official instructions.'));else{const table=el('table',undefined,'brief-dates');const head=el('tr');['Action','When · Korea time','Original Korean','Reminder'].forEach(t=>head.append(el('th',t)));const th=el('thead');th.append(head);table.append(th);const body=el('tbody');b.deadlines.forEach(d=>{const row=el('tr');row.append(el('td',d.label),el('td',d.when),el('td',d.quote,'korean-quote'));const reminder=el('td');const calendar=calendarLink(d);if(calendar)reminder.append(calendar);row.append(reminder);body.append(row);});table.append(body);const scroll=el('div',undefined,'table-scroll');scroll.append(table);dates.append(scroll);}root.append(dates);
- const steps=section(4,'What you must do');bullets(steps,b.steps,true);root.append(steps);
- const exceptions=section(5,'Exceptions that change your steps');bullets(exceptions,b.exceptions);root.append(exceptions);
- const forms=section(6,'Forms & attachments');forms.append(el('p',b.forms_note));if(b.image_count)forms.append(el('p',`${b.image_count} body image(s) NOT READ. Key dates or eligibility can be inside them.`,'unread-warning'));if(b.attachments.length)bullets(forms,b.attachments.map(a=>a.name+' — NOT READ'));else forms.append(el('p','No attachment listed in the saved page.'));forms.append(el('p','Download files from the official page yourself; supply them to Navigator for help. This collector does not fetch ECE’s blocked attachment/image paths.'));root.append(forms);
- const terms=section(7,'Terms explained');const dl=el('dl');b.terms.forEach(t=>dl.append(el('dt',t.ko),el('dd',t.en)));terms.append(dl);root.append(terms);
- const miss=section(8,'If you miss it');miss.append(el('p',b.consequence.text));if(b.consequence.quote)miss.append(el('blockquote',b.consequence.quote));root.append(miss);
- const office=section(9,'Confirm with the office');bullets(office,b.confirm);const emails=el('details');emails.append(el('summary','Korean & English email drafts'));emails.append(el('h3','Korean'),el('p',b.email_ko,'email-draft'),el('h3','English'),el('p',b.email_en,'email-draft'),el('p','Replace the placeholders yourself and verify the recipient in the official notice. Nothing is sent by this page.','small-note'));const emailActions=el('div',undefined,'email-actions');const feedback=el('p','','copy-feedback');for(const [label,text] of [['Copy Korean email',b.email_ko],['Copy English email',b.email_en]]){const button=el('button',label,'btn');button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(text);feedback.textContent='Email draft copied. Replace placeholders and check the official recipient before sending.';}catch{feedback.textContent='Select the draft text above to copy it.';}});emailActions.append(button);}emails.append(emailActions,feedback);office.append(emails);root.append(office);
- const evidence=section(10,'Evidence & review');evidence.append(el('p','Page text checked: '+b.source_checked_at),el('p','Draft source version: '+b.source_hash,'source-hash'),el('p','Read: saved official page body text. Not read: all listed body images and attachments.'),el('p','English-board matching: '+b.english_match.note),el('p','Checked range: '+(b.english_match.checked_range||'Not recorded')+' · '+b.english_match.method),el('p','Review: '+(b.publication_eligible?b.review_status+' · '+b.reviewed_at:'generated_unreviewed · no Korean-reader review recorded')),el('p','AI explanation, not an official translation. Verify dates against the original notice.'));root.append(evidence);
- const copy=document.querySelector('#copy-source');copy.disabled=false;copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.source_url);document.querySelector('#copy-status').textContent='Official notice link copied.';}catch{document.querySelector('#copy-status').textContent='Copy this link: '+b.source_url;}});
- const prompt=document.querySelector('#copy-question');prompt.disabled=false;prompt.addEventListener('click',async()=>{const question=`Please help me understand this SNU ECE notice: ${b.source_url}\nNotice: ${b.title}\nExplain who it applies to, exact deadlines with Korean evidence, required steps, signatures, exceptions and consequences. Ask about my status if needed. Do not assume international-student eligibility. Read any files I supply; clearly identify files/images you cannot read. The existing AI draft has not been checked by a Korean reader.\nMy question: [replace with your question]`;try{await navigator.clipboard.writeText(question);document.querySelector('#copy-status').textContent='Question copied. Paste it into Navigator or an ordinary ChatGPT Edu chat.';}catch{document.querySelector('#copy-status').textContent=question;}});
-}).catch(error=>{document.querySelector('#brief-content').replaceChildren(el('h1','Brief unavailable'),el('p',error.message));});
+import {isHistorical} from './product-model.mjs?v=33b984331f32';
+import {calendarLink} from './calendar.js?v=33b984331f32';
+
+const base = document.querySelector('meta[name="app-base"]')?.content || '/';
+const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
+const NAVIGATOR = 'https://chatgpt.com/plugins/plugin_ed558e3e3ce08191b3ba6544f0541575';
+const main = document.querySelector('#content');
+
+function el(tag, text, cls) {
+  const n = document.createElement(tag);
+  if (text !== undefined && text !== null) n.textContent = text;
+  if (cls) n.className = cls;
+  return n;
+}
+function box(title, ...children) {
+  const s = el('section', undefined, 'box');
+  s.append(el('h3', title), ...children);
+  return s;
+}
+function para(text, cls, lang) {
+  const p = el('p', text, cls);
+  if (lang) p.lang = lang;
+  return p;
+}
+// One sourced point: Korean original -> English -> what it means for you.
+function point(ko, en, you) {
+  const d = el('div', undefined, 'point');
+  if (ko) d.append(para(ko, 'ko', 'ko'));
+  if (en) d.append(para(en, 'en'));
+  if (you) d.append(you instanceof Node ? you : para(you, 'you'));
+  return d;
+}
+
+const squash = s => (s || '').replace(/\s+/g, ' ').trim();
+// Text with quoted sentences highlighted and web links clickable.
+function richText(parent, text, quotes) {
+  const ranges = [];
+  for (const q of quotes) {
+    const i = text.indexOf(q);
+    if (q && i >= 0) ranges.push([i, i + q.length]);
+  }
+  ranges.sort((a, b) => a[0] - b[0]);
+  let at = 0;
+  const push = (s, marked) => {
+    const holder = marked ? el('mark') : parent;
+    s.split(/(https?:\/\/[^\s)]+)/).forEach((part, k) => {
+      if (k % 2) { const a = el('a', part); a.href = part; a.target = '_blank'; a.rel = 'noopener'; holder.append(a); }
+      else if (part) holder.append(part);
+    });
+    if (marked) parent.append(holder);
+  };
+  for (const [s, e] of ranges) {
+    if (s < at) continue;
+    push(text.slice(at, s), false); push(text.slice(s, e), true); at = e;
+  }
+  push(text.slice(at), false);
+}
+
+function original(b, quotes) {
+  const wrap = el('div', undefined, 'original');
+  wrap.lang = 'ko';
+  for (const block of b.original) {
+    if (block.t === 'p') { const p = el('p'); richText(p, block.text, quotes); wrap.append(p); }
+    else if (block.t === 'table') {
+      const t = el('table'); const scroller = el('div', undefined, 'tbl');
+      for (const row of block.rows) {
+        const tr = el('tr');
+        for (const cell of row) { const td = el('td'); richText(td, cell, quotes); tr.append(td); }
+        t.append(tr);
+      }
+      scroller.append(t); wrap.append(scroller);
+    } else if (block.t === 'img') {
+      const img = el('img'); img.src = block.src; img.alt = block.alt || 'Image in the original notice';
+      img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+      const fallback = el('a', 'Open this image on the ECE site ↗'); fallback.href = b.source_url; fallback.target = '_blank'; fallback.rel = 'noopener';
+      img.addEventListener('error', () => img.replaceWith(fallback));
+      wrap.append(img, el('p', 'SNU Bridge did not read this image — check it for dates or tables.', 'img-note'));
+    }
+  }
+  const source = el('p', undefined, 'source-line');
+  const link = el('a', 'Open on the ECE site ↗'); link.href = b.source_url; link.target = '_blank'; link.rel = 'noopener';
+  source.append(`${b.korean_title} · posted ${b.posting_date} · `, link);
+  source.lang = 'ko';
+  return box('Original notice (Korean)', source, wrap);
+}
+
+function files(b) {
+  if (!b.attachments.length) return null;
+  // ECE only serves files to visitors coming from its own notice page, so we send students there.
+  const ul = el('ul', undefined, 'plain-list files');
+  for (const f of b.attachments) { const li = el('li'); const name = el('span', f.name); name.lang = 'ko'; li.append(name); ul.append(li); }
+  const get = el('a', 'Download on the ECE page ↗', 'btn'); get.href = b.source_url; get.target = '_blank'; get.rel = 'noopener';
+  const hwp = b.attachments.some(f => /\.hwpx?$/i.test(f.name));
+  return box('Files in this notice', ul, get, el('p', 'The files are at the bottom of the ECE notice. ' + (hwp ? '.hwp files open in the free Hancom Office Viewer. ' : '') +
+    'SNU Bridge has not read these files — to understand one, upload it to ChatGPT Edu and ask.', 'hint'));
+}
+
+function ask(b) {
+  const s = el('section', undefined, 'ask');
+  const status = el('p', '', 'status');
+  const p = el('p'); p.append(el('b', 'Still unsure? '), 'Ask ChatGPT Edu — you can upload the files too. If it cannot answer, it will tell you who to contact.');
+  const copy = el('button', 'Copy my question', 'btn');
+  copy.addEventListener('click', async () => {
+    const q = `Please explain this SNU ECE notice for me: ${b.source_url}\nDoes it apply to me, what is the exact deadline (quote the Korean), and what must I do?\nMy situation: [write here]`;
+    try { await navigator.clipboard.writeText(q); status.textContent = 'Copied — paste it into ChatGPT Edu.'; } catch { status.textContent = q; }
+  });
+  const open = el('a', 'Open ChatGPT Edu ↗', 'btn light'); open.href = NAVIGATOR; open.target = '_blank'; open.rel = 'noopener';
+  s.append(p, copy, open, status);
+  return s;
+}
+
+fetch(base + 'briefs/' + document.body.dataset.noticeId + '/data.json', {cache: 'no-store'}).then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(b => {
+  document.title = b.title + ' · SNU Bridge';
+  const back = el('a', '‹ All notices', 'back'); back.href = base;
+  main.replaceChildren(back, el('h1', b.title), el('p', b.who + (isHistorical(b) ? ' · past notice' : ''), 'who'));
+  const quotes = [...(b.eligibility_quotes || []), ...(b.deadlines || []).map(d => d.quote), b.consequence?.quote, b.contact?.quote].filter(Boolean).map(squash);
+
+  if (b.state !== 'full') {
+    main.append(el('p', b.state_note, 'warn'));
+    const f = files(b); if (f) main.append(f);
+    main.append(original(b, []), ask(b));
+    return;
+  }
+  if (b.superseded_by) {
+    const a = el('a', `A newer rule replaces this: notice ${b.superseded_by} ›`); a.href = base + 'briefs/' + b.superseded_by + '/';
+    main.append(el('p', undefined, 'warn')); main.lastChild.append(a);
+  }
+
+  const t = b.translations || {};
+  const verdict = el('p', undefined, 'you');
+  verdict.append(el('span', VERDICT[b.verdict], 'verdict ' + b.verdict), ' ', b.applicability);
+  const applies = box('Does this apply to me?');
+  b.eligibility_quotes.forEach((q, i) => applies.append(point(q, t[q], i === b.eligibility_quotes.length - 1 ? verdict : null)));
+  if (!b.eligibility_quotes.length) applies.append(point(null, null, verdict));
+  main.append(applies);
+
+  if (b.deadlines.length) {
+    const when = box('When');
+    for (const d of b.deadlines) {
+      const row = el('div', undefined, 'deadline');
+      const left = el('div'); left.append(el('b', d.label), el('br'), el('span', d.when));
+      const cal = calendarLink(d); if (cal) cal.className = 'cal';
+      row.append(left); if (cal) row.append(cal);
+      when.append(row, para(d.quote, 'quote-ko', 'ko'));
+    }
+    main.append(when);
+  }
+
+  const steps = el('ol', undefined, 'steps');
+  b.steps.forEach(s => steps.append(el('li', s)));
+  main.append(box('What to do', steps));
+
+  const miss = box('If you miss it');
+  miss.append(b.consequence.quote ? point(b.consequence.quote, t[b.consequence.quote], b.consequence.text) : el('p', b.consequence.text));
+  main.append(miss);
+
+  const f = files(b); if (f) main.append(f);
+  main.append(original(b, quotes), ask(b));
+
+  const contact = b.contact?.text && !/^Not stated/.test(b.contact.text) ? b.contact.text : 'the ECE office (see the original notice)';
+  document.querySelector('#footer').textContent = `AI explanation — may contain errors; check the original. Contact: ${contact}.`;
+}).catch(() => {
+  main.replaceChildren(el('h1', 'Notice unavailable'), el('p', 'Please use the ECE academic board.'));
+});

@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57448-1@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Final registration window · Register as a graduate research studen
- t after coursework completion
+SUMMARY:Final window · Register as a research student (연구생)
 DTSTART:20260331T080000Z
 DTEND:20260331T081500Z
-DESCRIPTION:19 March 09:00–31 March 2026 17:00 KST\nKorean source: 2026. 
- 3. 19.(목) 09:00 ~ 3. 31.(화) 17:00\nhttps://ece.snu.ac.kr/community/aca
- demics?bbsidx=57448&md=v\nAI draft — not yet checked by a Korean reader.
-  Verify the original\; this calendar entry is a reminder\, not an official
-  submission. Times converted from the source timezone to UTC.
+DESCRIPTION:19–31 Mar 2026\, 17:00\nKorean source: 2026. 3. 19.(목) 09:0
+ 0 ~ 3. 31.(화) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57
+ 448&md=v\nAI explanation — may contain errors\; check the original. This
+  is a reminder\, not an official submission. Times converted from the sour
+ ce timezone to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57448&md=v
 END:VEVENT
 END:VCALENDAR

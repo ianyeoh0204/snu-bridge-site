@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58012-2@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Course-classification approval / grading-option request · Check Fa
- ll course changes\, over-quota requests and withdrawal
+SUMMARY:Course classification / grading option · Request over-quota ECE co
+ urses by 3 September
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-DESCRIPTION:By 23 September 2026\; closing time not stated\nKorean source: 
- 2026.09.23.(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&m
- d=v\nAI draft — not yet checked by a Korean reader. Verify the original\
- ; this calendar entry is a reminder\, not an official submission. Closing 
- time is not supplied by an all-day reminder.
+DESCRIPTION:By 23 Sep 2026\nKorean source: 2026.09.23.(수)\nhttps://ece.sn
+ u.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanation — may cont
+ ain errors\; check the original. This is a reminder\, not an official subm
+ ission. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
 END:VEVENT
 END:VCALENDAR

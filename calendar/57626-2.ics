@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57626-2@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Master’s result documents · Prepare every stage of the Spring 20
- 26 graduate thesis review
-DTSTART:20260612T080000Z
-DTEND:20260612T081500Z
-DESCRIPTION:12 June 2026\, 17:00 KST\nKorean source: 2026년 6월 12일 17:
- 00까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v\nAI 
- draft — not yet checked by a Korean reader. Verify the original\; this c
- alendar entry is a reminder\, not an official submission. Times converted 
- from the source timezone to UTC.
+SUMMARY:PhD result documents · Complete every stage of thesis review
+DTSTART:20260619T080000Z
+DTEND:20260619T081500Z
+DESCRIPTION:19 Jun 2026\, 17:00\nKorean source: 2026년 6월 19일 17:00까
+ 지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v\nAI expla
+ nation — may contain errors\; check the original. This is a reminder\, n
+ ot an official submission. Times converted from the source timezone to UTC
+ .
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v
 END:VEVENT
 END:VCALENDAR

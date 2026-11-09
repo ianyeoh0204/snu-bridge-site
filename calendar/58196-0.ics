@@ -1,19 +1,17 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58196-0@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Poster PDF for department printing · Submit your graduation-projec
- t poster and prepare the final exhibition
+SUMMARY:Poster PDF upload · Submit your graduation-project poster PDF
 DTSTART:20261109T145900Z
 DTEND:20261109T151400Z
-DESCRIPTION:9 November 2026\, 23:59 KST\nKorean source: 11월 9일(월) 23:
- 59까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI 
- draft — not yet checked by a Korean reader. Verify the original\; this c
- alendar entry is a reminder\, not an official submission. Times converted 
- from the source timezone to UTC.
+DESCRIPTION:9 Nov 2026\, 23:59\nKorean source: 11월 9일(월) 23:59까지\
+ nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI explanati
+ on — may contain errors\; check the original. This is a reminder\, not a
+ n official submission. Times converted from the source timezone to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
 END:VEVENT
 END:VCALENDAR

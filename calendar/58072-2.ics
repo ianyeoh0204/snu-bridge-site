@@ -1,19 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58072-2@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Master’s result documents · Finish the remaining Fall graduate t
- hesis-review and deposit stages
-DTSTART:20261214T080000Z
-DTEND:20261214T081500Z
-DESCRIPTION:14 December 2026 17:00 KST\nKorean source: 2026년 12월 14일(
- 월) 17:00까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58072&m
- d=v\nAI draft — not yet checked by a Korean reader. Verify the original\
- ; this calendar entry is a reminder\, not an official submission. Times co
- nverted from the source timezone to UTC.
+SUMMARY:Office: confirmation + approval page · Submit thesis-review result
+ s and final thesis
+DTSTART:20270122T080000Z
+DTEND:20270122T081500Z
+DESCRIPTION:15–22 Jan 2027\, 17:00\nKorean source: 2027년 1월 15일(금
+ ) ∼ 1월 22일(금) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbs
+ idx=58072&md=v\nAI explanation — may contain errors\; check the original
+ . This is a reminder\, not an official submission. Times converted from th
+ e source timezone to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
 END:VEVENT
 END:VCALENDAR

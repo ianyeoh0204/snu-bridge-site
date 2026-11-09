@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57626-0@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Online application AND office documents · Prepare every stage of t
- he Spring 2026 graduate thesis review
+SUMMARY:Online + paper application · Complete every stage of thesis review
 DTSTART:20260331T080000Z
 DTEND:20260331T081500Z
-DESCRIPTION:23–31 March 2026\, closes 17:00 KST\nKorean source: 2026년 3
- 월 23일～3월 31일 17:00까지\nhttps://ece.snu.ac.kr/community/academ
- ics?bbsidx=57626&md=v\nAI draft — not yet checked by a Korean reader. Ve
- rify the original\; this calendar entry is a reminder\, not an official su
- bmission. Times converted from the source timezone to UTC.
+DESCRIPTION:23–31 Mar 2026\, 17:00\nKorean source: 2026년 3월 23일～3
+ 월 31일 17:00까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57
+ 626&md=v\nAI explanation — may contain errors\; check the original. This
+  is a reminder\, not an official submission. Times converted from the sour
+ ce timezone to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v
 END:VEVENT
 END:VCALENDAR

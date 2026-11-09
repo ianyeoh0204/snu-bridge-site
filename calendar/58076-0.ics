@@ -1,19 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58076-0@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Committee appointment report · Finish Fall preliminary-review pape
- rwork for an August 2027 PhD target
+SUMMARY:Committee report (ended) · Submit PhD preliminary-review documents
+  (August 2027 graduates)
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
-DESCRIPTION:12–26 October 2026\; time not stated\nKorean source: 2026. 10
- . 12.(월) ~ 10. 26.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsid
- x=58076&md=v\nAI draft — not yet checked by a Korean reader. Verify the 
- original\; this calendar entry is a reminder\, not an official submission.
-  Closing time is not supplied by an all-day reminder.
+DESCRIPTION:12–26 Oct 2026\nKorean source: 2026. 10. 12.(월) ~ 10. 26.(
+ 월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58076&md=v\nAI expl
+ anation — may contain errors\; check the original. This is a reminder\, 
+ not an official submission. Closing time is not supplied by an all-day rem
+ inder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58076&md=v
 END:VEVENT
 END:VCALENDAR

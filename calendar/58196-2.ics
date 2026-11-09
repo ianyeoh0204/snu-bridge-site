@@ -1,19 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58196-2@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Panel setup · Submit your graduation-project poster and prepare th
- e final exhibition
+SUMMARY:Panel setup (one person per lab) · Submit your graduation-project 
+ poster PDF
 DTSTART:20261119T060000Z
 DTEND:20261119T061500Z
-DESCRIPTION:19 November 2026\, 15:00 KST\nKorean source: 11월 19일(목) 
- 오후 3시\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\n
- AI draft — not yet checked by a Korean reader. Verify the original\; thi
- s calendar entry is a reminder\, not an official submission. Times convert
- ed from the source timezone to UTC.
+DESCRIPTION:19 Nov 2026\, 15:00\nKorean source: 11월 19일(목) 오후 3
+ 시\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI expla
+ nation — may contain errors\; check the original. This is a reminder\, n
+ ot an official submission. Times converted from the source timezone to UTC
+ .
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
 END:VEVENT
 END:VCALENDAR

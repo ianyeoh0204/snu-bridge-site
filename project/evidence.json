@@ -1,9 +1,10 @@
 {
   "source_records": 68,
   "collection_checks": 30,
-  "student_trials": 0,
-  "accuracy_measured": false,
-  "checked_at": "2026-11-09T02:41:23Z",
+  "grounding_passed": 30,
+  "checked_at": "2026-11-09T08:33:08Z",
+  "built_at": "2026-11-09T08:33:17Z",
   "brief_drafts": 30,
-  "reviewed_briefs": 0
+  "reviewed_briefs": 0,
+  "generator_configured": false
 }

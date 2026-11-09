@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57441-0@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Google Form · Complete all three steps to register for the spring 
- qualifying exam
+SUMMARY:Google Form · Register for the qualifying exam in three steps
 DTSTART;VALUE=DATE:20260218
 DTEND;VALUE=DATE:20260219
-DESCRIPTION:11–18 February 2026\; closing time not stated\nKorean source:
-  2026. 2. 11.(수) - 2026. 2. 18.(수)까지\nhttps://ece.snu.ac.kr/commun
- ity/academics?bbsidx=57441&md=v\nAI draft — not yet checked by a Korean 
- reader. Verify the original\; this calendar entry is a reminder\, not an o
- fficial submission. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:11–18 Feb 2026\nKorean source: 2026. 2. 11.(수) - 2026. 2. 1
+ 8.(수)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v
+ \nAI explanation — may contain errors\; check the original. This is a re
+ minder\, not an official submission. Closing time is not supplied by an al
+ l-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v
 END:VEVENT
 END:VCALENDAR

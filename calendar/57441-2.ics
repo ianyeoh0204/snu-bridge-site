@@ -1,20 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57441-2@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Exam · Complete all three steps to register for the spring qualify
- ing exam
+SUMMARY:Exam · Register for the qualifying exam in three steps
 DTSTART:20260313T005000Z
 DTEND:20260313T030000Z
-DESCRIPTION:13 March 2026\, 10:00–12:00 KST\; arrive by 09:50\nKorean sou
- rce: 2026. 3. 13.(금) 10:00 -12:00(2시간) * 9:50까지 입실\nhttps://
- ece.snu.ac.kr/community/academics?bbsidx=57441&md=v\nAI draft — not yet 
- checked by a Korean reader. Verify the original\; this calendar entry is a
-  reminder\, not an official submission. Times converted from the source ti
- mezone to UTC.
+DESCRIPTION:13 Mar 2026\, 10:00–12:00\nKorean source: 2026. 3. 13.(금) 1
+ 0:00 -12:00(2시간) * 9:50까지 입실\nhttps://ece.snu.ac.kr/community/
+ academics?bbsidx=57441&md=v\nAI explanation — may contain errors\; check
+  the original. This is a reminder\, not an official submission. Times conv
+ erted from the source timezone to UTC.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v
 END:VEVENT
 END:VCALENDAR

@@ -1,19 +1,18 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//SNU Bridge//Real-notice demo//EN
+PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58045-1@snu-bridge
 DTSTAMP:20261109T060539Z
-SUMMARY:Advisor-permitted signature extension / confirmed delayed hand-in 
- · Get your graduation-project thesis signed even if you graduate later
+SUMMARY:Latest extension\, if arranged in advance · Get your graduation th
+ esis signed by 21 December
 DTSTART;VALUE=DATE:20261228
 DTEND;VALUE=DATE:20261229
-DESCRIPTION:At most 28 December 2026\, under the stated prior-approval/form
-  conditions\nKorean source: 12. 28.(월)까지\nhttps://ece.snu.ac.kr/comm
- unity/academics?bbsidx=58045&md=v\nAI draft — not yet checked by a Korea
- n reader. Verify the original\; this calendar entry is a reminder\, not an
-  official submission. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:28 Dec 2026\nKorean source: 12. 28.(월)까지\nhttps://ece.snu
+ .ac.kr/community/academics?bbsidx=58045&md=v\nAI explanation — may conta
+ in errors\; check the original. This is a reminder\, not an official submi
+ ssion. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58045&md=v
 END:VEVENT
 END:VCALENDAR
