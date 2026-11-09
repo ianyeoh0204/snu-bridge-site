@@ -1,9 +1,10 @@
-import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=f43f1b71bdf4';
+import {DEGREES, filterBriefs, cardDate} from './product-model.mjs?v=b5b49bdd9760';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');
 const pastButton = document.querySelector('#past');
-let notices = [], grad = 'unsure', showPast = false;
+let notices = [], showPast = false;
+let grad = (() => { try { return localStorage.getItem('graduating') || 'unsure'; } catch { return 'unsure'; } })();
 let degree = (() => { try { return localStorage.getItem('degree') || 'masters'; } catch { return 'masters'; } })();
 
 function el(tag, text, cls) {
@@ -15,28 +16,35 @@ function el(tag, text, cls) {
 const MONTH = new Intl.DateTimeFormat('en-GB', {month: 'short', timeZone: 'Asia/Seoul'});
 const DAY = new Intl.DateTimeFormat('en-GB', {day: 'numeric', timeZone: 'Asia/Seoul'});
 
-function dateChip(d) {
+
+function dateChip(c) {
   const chip = el('div', undefined, 'date');
-  if (!d) { chip.classList.add('none'); chip.append(el('b', '—')); return chip; }
-  const end = new Date(endTime(d.end));
-  if (endTime(d.end) - Date.now() < 7 * 86400e3) chip.classList.add('soon');
-  chip.append(el('b', DAY.format(end)), el('span', MONTH.format(end)));
+  if (!c) { chip.classList.add('none'); chip.append(el('b', '—')); return chip; }
+  const at = new Date(c.at);
+  if (c.phase === 'closed') { chip.classList.add('closed'); chip.append(el('span', 'Closed'), el('b', DAY.format(at)), el('span', MONTH.format(at))); return chip; }
+  if (c.at - Date.now() < 7 * 86400e3) chip.classList.add('soon');
+  if (c.phase === 'starts') chip.append(el('span', 'From'));
+  chip.append(el('b', DAY.format(at)), el('span', MONTH.format(at)));
   return chip;
 }
 
-function card(p) {
-  const d = nextDate(p, degree);
+function card(p, uncertain) {
+  const c = cardDate(p, degree);
   const full = p.state === 'full';
   const a = el('a', undefined, 'card');
   a.href = full ? base + 'briefs/' + p.id + '/' : p.source_url;
   if (!full) { a.target = '_blank'; a.rel = 'noopener'; }
   const body = el('div');
-  body.append(el('h2', p.title), el('p', p.who));
-  if (d) body.append(el('p', `${d.label} · ${d.when}`, 'when'));
-  else if (p.ongoing_condition) body.append(el('p', p.ongoing_condition, 'when'));
+  body.append(el('h2', c?.closed && c.d.action ? c.d.action : p.title), el('p', p.who));
+  if (c) {
+    const when = c.phase === 'starts' ? `${c.d.label} · starts ${c.d.when}` : c.phase === 'closed' ? `Closed: ${c.d.label} · ${c.d.when}` : `${c.d.label} · ${c.d.when}`;
+    body.append(el('p', when, 'when'));
+  } else if (p.ongoing_condition) body.append(el('p', p.ongoing_condition, 'when'));
+  if (c?.closed) body.append(el('span', `Closed: ${c.closed.label} · ${c.closed.when}`, 'tag closed'));
+  if (uncertain) body.append(el('span', 'Eligibility unclear — check the notice', 'tag pending'));
   if (p.change_note) body.append(el('span', p.change_note.text, 'tag changed'));
   if (!full) body.append(el('span', p.state === 'changed' ? 'Updated · see original' : 'See original', 'tag pending'));
-  a.append(dateChip(d), body);
+  a.append(dateChip(c), body);
   return a;
 }
 
@@ -45,11 +53,14 @@ function render() {
   document.querySelectorAll('[data-grad]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.grad === grad)));
   const current = filterBriefs(notices, {degree, graduating: grad, period: 'active'});
   const past = filterBriefs(notices, {degree, graduating: grad, period: 'history'});
+  const maybe = filterBriefs(notices, {degree, graduating: grad, period: 'active', uncertain: true});
   const shown = showPast ? [...current, ...past] : current;
-  list.replaceChildren(...shown.map(card));
+  list.replaceChildren(...shown.map(p => card(p, false)));
   if (!shown.length) list.append(el('div', `No current notices for ${degree === 'all' ? 'these choices' : DEGREES[degree] + ' students'}. That does not guarantee you have nothing to do — check the ECE board too.`, 'empty'));
+  document.querySelector('#maybe').hidden = !maybe.length;
+  document.querySelector('#maybe-list').replaceChildren(...maybe.map(p => card(p, true)));
   pastButton.hidden = !past.length;
-  pastButton.textContent = showPast ? 'Hide past notices' : `Show ${past.length} past notice${past.length === 1 ? '' : 's'}`;
+  pastButton.textContent = showPast ? 'Hide past and closed notices' : `Show ${past.length} past or closed notice${past.length === 1 ? '' : 's'}`;
 }
 
 document.querySelectorAll('[data-degree]').forEach(b => b.addEventListener('click', () => {
@@ -57,7 +68,11 @@ document.querySelectorAll('[data-degree]').forEach(b => b.addEventListener('clic
   try { localStorage.setItem('degree', degree); } catch { /* private mode: choice not remembered */ }
   render();
 }));
-document.querySelectorAll('[data-grad]').forEach(b => b.addEventListener('click', () => { grad = b.dataset.grad; render(); }));
+document.querySelectorAll('[data-grad]').forEach(b => b.addEventListener('click', () => {
+  grad = b.dataset.grad;
+  try { localStorage.setItem('graduating', grad); } catch { /* private mode */ }
+  render();
+}));
 pastButton.addEventListener('click', () => { showPast = !showPast; render(); });
 
 fetch(base + 'notices.json', {cache: 'no-store'}).then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => {

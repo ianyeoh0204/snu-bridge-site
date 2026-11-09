@@ -1,5 +1,5 @@
-import {isHistorical} from './product-model.mjs?v=f43f1b71bdf4';
-import {calendarLink} from './calendar.js?v=f43f1b71bdf4';
+import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=b5b49bdd9760';
+import {calendarLink} from './calendar.js?v=b5b49bdd9760';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
@@ -94,9 +94,16 @@ function glance(b) {
   applies.append(el('span', VERDICT[b.verdict], 'verdict ' + b.verdict), el('p', b.applicability));
   const src = sourceLink(b, b.eligibility_quotes[0]); if (src) applies.append(src);
   s.append(applies);
+  for (const m of b.missing || []) s.append(el('p', m, 'missing'));
   for (const d of b.deadlines) {
     const row = el('div', undefined, 'deadline');
-    const left = el('div'); left.append(el('b', d.label), el('br'), el('span', d.when));
+    const left = el('div'); left.append(el('b', d.label));
+    const passed = endTime(d.end) < Date.now(), started = startTime(d.start) <= Date.now();
+    if (passed) left.append(el('span', 'Closed', 'tag closed'));
+    else if (['event', 'closure'].includes(d.kind) && d.start && started) left.append(el('span', 'Now', 'tag changed'));
+    if (d.kind === 'info') left.append(el('span', 'For information', 'tag pending'));
+    left.append(el('br'), el('span', d.when));
+    if (passed) row.classList.add('passed');
     const right = el('div', undefined, 'deadline-links');
     const cal = calendarLink(d); if (cal) { cal.className = 'cal'; right.append(cal); }
     const link = sourceLink(b, d.quote); if (link) right.append(link);
@@ -128,7 +135,8 @@ function files(b) {
 
 function fullNotice(b, quotes) {
   const english = Array.isArray(b.english) ? b.english : null;
-  const s = box(english ? 'Full notice in English' : 'Full notice');
+  const unread = b.original.filter((x, i) => x.t === 'img' && !b.image_text?.[String(i)]).length;
+  const s = box(english ? (unread ? `Notice text in English · ${unread} image${unread > 1 ? 's' : ''} not translated` : 'Full notice in English') : 'Full notice');
   const source = el('p', undefined, 'source-line');
   const link = el('a', 'Open on the ECE site ↗'); link.href = b.source_url; link.target = '_blank'; link.rel = 'noopener';
   const title = el('span', b.korean_title); title.lang = 'ko';
@@ -191,17 +199,25 @@ function fullNotice(b, quotes) {
   return s;
 }
 
+function profile() {
+  const read = k => { try { return localStorage.getItem(k); } catch { return null; } };
+  const degree = DEGREES[read('degree')], grad = {yes: 'graduating this semester', no: 'not graduating this semester'}[read('graduating')];
+  return [degree && `ECE ${degree} student`, grad].filter(Boolean).join(', ');
+}
+
 function ask(b) {
   const s = el('section', undefined, 'ask');
   const status = el('p', '', 'status');
-  const p = el('p'); p.append(el('b', 'Still unsure? '), 'Ask ChatGPT Edu — you can upload the files too. If it cannot answer, it will tell you who to contact.');
+  const p = el('p'); p.append(el('b', 'Still unsure? '), 'Ask SNU Bridge in ChatGPT Edu — you can upload the files too. If it cannot answer, it tells you who to contact.');
   const copy = el('button', 'Copy my question', 'btn');
   copy.addEventListener('click', async () => {
-    const q = `Please explain this SNU ECE notice for me: ${b.source_url}\nDoes it apply to me, what is the exact deadline (quote the Korean), and what must I do?\nMy situation: [write here]`;
+    const me = profile();
+    const q = `Please explain this SNU ECE notice for me: ${b.source_url}\nDoes it apply to me, what is the exact deadline (quote the Korean), and what must I do?\nMy situation: ${me ? me + '. ' : ''}[add anything else]`;
     try { await navigator.clipboard.writeText(q); status.textContent = 'Copied — paste it into ChatGPT Edu.'; } catch { status.textContent = q; }
   });
-  const open = el('a', 'Open ChatGPT Edu ↗', 'btn light'); open.href = NAVIGATOR; open.target = '_blank'; open.rel = 'noopener';
-  s.append(p, copy, open, status);
+  const open = el('a', 'Ask SNU Bridge ↗', 'btn light'); open.href = NAVIGATOR; open.target = '_blank'; open.rel = 'noopener';
+  const note = el('p', 'Opens the SNU Bridge assistant in ChatGPT Edu. It needs your SNU ChatGPT Edu account, and the assistant has to be available in your workspace. If it does not open, paste the copied question into any ChatGPT Edu chat.', 'hint');
+  s.append(p, copy, open, status, note);
   return s;
 }
 
