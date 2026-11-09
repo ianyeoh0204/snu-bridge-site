@@ -1,5 +1,5 @@
-import {isHistorical} from './product-model.mjs?v=589824715d6e';
-import {calendarLink} from './calendar.js?v=589824715d6e';
+import {isHistorical} from './product-model.mjs?v=7768b9202cc4';
+import {calendarLink} from './calendar.js?v=7768b9202cc4';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
@@ -36,9 +36,20 @@ function rich(parent, text, quotes = []) {
   for (const [s, e] of ranges) { if (s < at) continue; push(text.slice(at, s), false); push(text.slice(s, e), true); at = e; }
   push(text.slice(at), false);
 }
-function table(rows, quotes) {
+// spans: [colspan, rowspan] per cell, from the ECE page, so merged cells stay merged.
+function table(rows, quotes, spans) {
   const wrap = el('div', undefined, 'tbl'); const t = el('table');
-  for (const row of rows) { const tr = el('tr'); for (const cell of row) { const td = el('td'); rich(td, cell || '', quotes); tr.append(td); } t.append(tr); }
+  rows.forEach((row, r) => {
+    const tr = el('tr');
+    row.forEach((cell, c) => {
+      const td = el('td'); rich(td, cell || '', quotes);
+      const [cs, rs] = spans?.[r]?.[c] || [1, 1];
+      if (cs > 1) td.colSpan = cs;
+      if (rs > 1) td.rowSpan = rs;
+      tr.append(td);
+    });
+    t.append(tr);
+  });
   wrap.append(t); return wrap;
 }
 
@@ -75,10 +86,12 @@ function glance(b) {
   }
   const steps = el('ol', undefined, 'steps'); b.steps.forEach(x => steps.append(el('li', x)));
   s.append(el('h4', 'What to do'), steps);
-  const miss = el('div', undefined, 'g-row');
-  miss.append(el('p', 'If you miss it: ' + b.consequence.text));
-  const mlink = sourceLink(b, b.consequence.quote); if (mlink) miss.append(mlink);
-  s.append(miss);
+  if (b.consequence?.text && !/^Not stated/i.test(b.consequence.text)) {
+    const miss = el('div', undefined, 'g-row');
+    miss.append(el('p', 'If you miss it: ' + b.consequence.text));
+    const mlink = sourceLink(b, b.consequence.quote); if (mlink) miss.append(mlink);
+    s.append(miss);
+  }
   return s;
 }
 
@@ -123,7 +136,9 @@ function fullNotice(b, quotes) {
   b.original.forEach((block, i) => {
     const blk = el('div', undefined, 'blk'); blk.id = 'b' + i;
     const en = english ? english[i] : null;
-    if (block.t === 'img') {
+    if (block.t === 'p' && /^[\s=\-_─━*~.·]{5,}$/.test(block.text)) {  // a divider line in the notice
+      blk.append(el('hr', undefined, 'divider'));
+    } else if (block.t === 'img') {
       const img = el('img'); img.src = block.src; img.alt = block.alt || 'Image in the notice';
       img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
       const fallback = el('a', 'Open this image on the ECE site ↗'); fallback.href = b.source_url; fallback.target = '_blank'; fallback.rel = 'noopener';
@@ -131,10 +146,10 @@ function fullNotice(b, quotes) {
       blk.append(img, el('p', 'This image is not translated — check it for dates or tables.', 'img-note'));
     } else {
       const ko = el('div', undefined, 'ko'); ko.lang = 'ko';
-      if (block.t === 'p') { const p = el('p'); rich(p, block.text, quotes); ko.append(p); } else ko.append(table(block.rows, quotes));
+      if (block.t === 'p') { const p = el('p'); rich(p, block.text, quotes); ko.append(p); } else ko.append(table(block.rows, quotes, block.spans));
       if (en !== null && en !== undefined) {
         const eng = el('div', undefined, 'en');
-        if (block.t === 'p') { const p = el('p'); rich(p, en); eng.append(p); } else eng.append(table(en, []));
+        if (block.t === 'p') { const p = el('p'); rich(p, en); eng.append(p); } else eng.append(table(en, [], block.spans));
         blk.append(eng, ko);
       } else {
         if (english) ko.classList.add('untranslated');

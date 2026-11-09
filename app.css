@@ -84,7 +84,8 @@ a.card:hover{text-decoration:none;transform:translateY(-1px);box-shadow:0 6px 20
 .original mark{background:var(--mark);border-radius:3px;padding:0 2px}
 .original .tbl{overflow-x:auto;margin:10px 0}
 .original table{border-collapse:collapse;font-size:14px;min-width:100%}
-.original td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;white-space:pre-line}
+.original td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;white-space:pre-line;overflow-wrap:break-word}
+.original p,.box p,.box li{overflow-wrap:anywhere}
 .original img{max-width:100%;height:auto;border-radius:8px;border:1px solid var(--line);margin:8px 0;display:block}
 .img-note{font-size:13px;color:var(--warn);margin:0 0 10px}
 .source-line{font-size:14px;color:var(--muted);margin:0 0 12px}
@@ -126,3 +127,4 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
 .original[data-mode=both] .blk .en + .ko{color:var(--muted);font-size:14px;border-left:2px solid var(--line);padding-left:10px;margin:2px 0 8px}
 .original .ko.untranslated::before{content:"한국어";display:inline-block;font-size:11px;font-weight:700;color:var(--muted);background:#f0f0f3;border-radius:4px;padding:1px 6px;margin-bottom:2px}
 .original .en p,.original .ko p{margin:0 0 4px}
+.original hr.divider{border:0;border-top:1px solid var(--line);margin:18px 0}
