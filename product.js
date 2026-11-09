@@ -1,9 +1,10 @@
-import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=82622663cf57';
+import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=ddaae5b1aca3';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');
 const pastButton = document.querySelector('#past');
-let notices = [], degree = 'masters', grad = 'unsure', showPast = false;
+let notices = [], grad = 'unsure', showPast = false;
+let degree = (() => { try { return localStorage.getItem('degree') || 'masters'; } catch { return 'masters'; } })();
 
 function el(tag, text, cls) {
   const n = document.createElement(tag);
@@ -51,7 +52,11 @@ function render() {
   pastButton.textContent = showPast ? 'Hide past notices' : `Show ${past.length} past notice${past.length === 1 ? '' : 's'}`;
 }
 
-document.querySelectorAll('[data-degree]').forEach(b => b.addEventListener('click', () => { degree = b.dataset.degree; render(); }));
+document.querySelectorAll('[data-degree]').forEach(b => b.addEventListener('click', () => {
+  degree = b.dataset.degree;
+  try { localStorage.setItem('degree', degree); } catch { /* private mode: choice not remembered */ }
+  render();
+}));
 document.querySelectorAll('[data-grad]').forEach(b => b.addEventListener('click', () => { grad = b.dataset.grad; render(); }));
 pastButton.addEventListener('click', () => { showPast = !showPast; render(); });
 

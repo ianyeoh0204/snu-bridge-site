@@ -141,3 +141,7 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
 .flow.you li::before{background:var(--ok)}
 .flow b{display:block;font-size:17px}.flow span{display:block;color:var(--muted);font-size:15px}
 @media (max-width:560px){.stats{grid-template-columns:1fr}.stats div{display:flex;align-items:baseline;gap:10px}.stats b{font-size:22px;flex:none}}
+
+/* Start here */
+.earlier{margin:12px 0 0}.earlier summary{cursor:pointer;color:var(--accent);font-size:15px;padding:6px 0}
+.earlier .plain-list{margin-top:8px}
