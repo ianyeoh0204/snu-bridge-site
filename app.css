@@ -108,3 +108,21 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
   .card{grid-template-columns:54px 1fr;gap:12px;padding:15px}.date b{font-size:20px}
   .bar nav{gap:14px}.box{padding:18px}
 }
+/* At a glance + full translated notice (2026-11-09) */
+.g-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin:0 0 10px}.g-row p{margin:0;flex:1 1 260px}
+.g-row .verdict{margin:0}
+.box h4{font-size:15px;margin:16px 0 4px}
+.deadline{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
+.deadline-links{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.src-link{font-size:13px;white-space:nowrap}
+.seg{display:inline-flex;background:#e8e8ed;border-radius:999px;padding:3px;margin:0 0 12px}
+.seg button{border:0;background:transparent;border-radius:999px;padding:6px 14px;font-size:14px;color:var(--ink)}
+.seg button[aria-pressed=true]{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.12);font-weight:600}
+.blk{padding:4px 8px;margin:0 -8px 4px;border-radius:8px;scroll-margin-top:70px}
+.blk.flash{animation:flash 2s ease}
+@keyframes flash{0%,40%{background:var(--mark)}100%{background:transparent}}
+.original[data-mode=en] .blk .en + .ko{display:none}
+.original[data-mode=ko] .blk .en{display:none}
+.original[data-mode=both] .blk .en + .ko{color:var(--muted);font-size:14px;border-left:2px solid var(--line);padding-left:10px;margin:2px 0 8px}
+.original .ko.untranslated::before{content:"한국어";display:inline-block;font-size:11px;font-weight:700;color:var(--muted);background:#f0f0f3;border-radius:4px;padding:1px 6px;margin-bottom:2px}
+.original .en p,.original .ko p{margin:0 0 4px}
