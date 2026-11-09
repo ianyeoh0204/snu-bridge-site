@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58128-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Building 17 access control · Avoid Law School Building 17 during e
+ ntrance exams
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+DESCRIPTION:6–7 November 2026\; time not stated\nKorean source: 2026. 11.
+  6.(금) ~ 11. 7.(토)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8128&md=v\nAI explanation — may contain errors\; check the original. Thi
+ s is a reminder\, not an official submission. Closing time is not supplied
+  by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58128&md=v
+END:VEVENT
+END:VCALENDAR
