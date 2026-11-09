@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58183-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:3rd interim presentation (already passed) · Check graduation proje
+ ct presentation notice (5 Nov passed)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DESCRIPTION:5 November 2026 (Thu)\, 18:30\nKorean source: 3회차 11월 5
+ 일 (목) 18:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58183&md
+ =v\nAI explanation — may contain errors\; check the original. This is a 
+ reminder\, not an official submission. Closing time is not supplied by an 
+ all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v
+END:VEVENT
+END:VCALENDAR

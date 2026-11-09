@@ -1,15 +1,15 @@
 {
-  "built_at": "2026-11-09T08:44:51Z",
-  "checked_at": "2026-11-09T08:44:44Z",
+  "built_at": "2026-11-09T09:03:46Z",
+  "checked_at": "2026-11-09T09:03:01Z",
   "grounding": {
-    "checked": 30,
-    "passed": 30
+    "checked": 33,
+    "passed": 33
   },
   "generator": {
-    "configured": false,
-    "model": null,
-    "last_run": "2026-11-09T08:44:51Z",
-    "waiting": 38
+    "configured": true,
+    "model": "claude-sonnet-5-5",
+    "last_run": "2026-11-09T09:03:08Z",
+    "waiting": 35
   },
   "notices": [
     {
@@ -994,27 +994,89 @@
       "posting_date": "2026.09.14",
       "korean_title": "Cross-listing 교과목 이수시 유의사항",
       "period": "Cross-listing guidance"
-    }
-  ],
-  "pending": [
-    {
-      "id": "58183",
-      "korean_title": "[2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 3회차 중간발표 안내",
-      "posting_date": "2026.10.29",
-      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v"
-    },
-    {
-      "id": "58161",
-      "korean_title": "2027학년도 2학기 해외파견 교환학생 모집 설명회 안내",
-      "posting_date": "2026.10.23",
-      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v"
     },
     {
       "id": "58152",
-      "korean_title": "2026학년도 공과대학 학부생 연구인턴십 시범사업 신청 안내(신청기간 연장 10월 29일 마감)",
+      "title": "Confirm undergraduate research internship status (deadline passed)",
+      "who": "Undergraduates in years 2–4 wanting a winter research internship",
+      "deadlines": [
+        {
+          "end": "2026-10-29",
+          "label": "Submit original documents",
+          "quote": "10월 29일(목) 18:00까지",
+          "when": "29 October 2026, 18:00 (already passed)",
+          "calendar_path": "calendar/58152-0.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v",
       "posting_date": "2026.10.20",
-      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v"
+      "korean_title": "2026학년도 공과대학 학부생 연구인턴십 시범사업 신청 안내(신청기간 연장 10월 29일 마감)",
+      "period": "Winter break 2026–27"
     },
+    {
+      "id": "58161",
+      "title": "Review exchange program details on the OGA page",
+      "who": "Undergraduate and graduate students interested in studying abroad",
+      "deadlines": [
+        {
+          "end": "2026-10-30",
+          "label": "Info session (already held)",
+          "quote": "2026. 10. 30.(금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30",
+          "start": "2026-10-30",
+          "when": "30 October 2026, 10:00–11:30 and 14:00–15:30 (same content twice)",
+          "calendar_path": "calendar/58161-0.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate",
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v",
+      "posting_date": "2026.10.23",
+      "korean_title": "2027학년도 2학기 해외파견 교환학생 모집 설명회 안내",
+      "period": "Fall 2027 exchange (2027학년도 2학기)"
+    },
+    {
+      "id": "58183",
+      "title": "Check graduation project presentation notice (5 Nov passed)",
+      "who": "Undergraduates in the Graduation Project (전기공학설계프로젝트) course",
+      "deadlines": [
+        {
+          "end": "2026-11-05",
+          "label": "3rd interim presentation (already passed)",
+          "quote": "3회차 11월 5일 (목) 18:30",
+          "start": "2026-11-05",
+          "when": "5 November 2026 (Thu), 18:30",
+          "calendar_path": "calendar/58183-0.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v",
+      "posting_date": "2026.10.29",
+      "korean_title": "[2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 3회차 중간발표 안내",
+      "period": "Fall 2026"
+    }
+  ],
+  "pending": [
     {
       "id": "58128",
       "korean_title": "2027학년도 법학전문대학원 입학전형 관련 출입통제 안내",

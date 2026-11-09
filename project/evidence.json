@@ -1,10 +1,10 @@
 {
   "source_records": 68,
-  "collection_checks": 30,
-  "grounding_passed": 30,
-  "checked_at": "2026-11-09T08:44:44Z",
-  "built_at": "2026-11-09T08:44:51Z",
-  "brief_drafts": 30,
+  "collection_checks": 33,
+  "grounding_passed": 33,
+  "checked_at": "2026-11-09T09:03:01Z",
+  "built_at": "2026-11-09T09:03:46Z",
+  "brief_drafts": 33,
   "reviewed_briefs": 0,
-  "generator_configured": false
+  "generator_configured": true
 }
