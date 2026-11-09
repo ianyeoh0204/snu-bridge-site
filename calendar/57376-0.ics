@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Continuing/on-leave: real basket / first-come registration · Regis
+ ter spring courses and finish over-quota confirmation
+DTSTART:20260203T073000Z
+DTEND:20260203T074500Z
+DESCRIPTION:Basket 27 January 09:00–28 January 16:00\; first-come 30 Janu
+ ary\, 2–3 February 08:30–16:30 KST\nKorean source: 01-30.(금) 08:30~1
+ 6:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI draf
+ t — not yet checked by a Korean reader. Verify the original\; this calen
+ dar entry is a reminder\, not an official submission. Times converted from
+  the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR

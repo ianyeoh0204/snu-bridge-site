@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58044-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Thesis or delayed-submission confirmation · Submit your undergradu
+ ate graduation thesis in December
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+DESCRIPTION:By 21 December 2026\; time not stated. Submit completed theses 
+ from December\, not earlier.\nKorean source: 2026. 12. 21(월)까지\nhttp
+ s://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v\nAI draft — not 
+ yet checked by a Korean reader. Verify the original\; this calendar entry 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v
+END:VEVENT
+END:VCALENDAR

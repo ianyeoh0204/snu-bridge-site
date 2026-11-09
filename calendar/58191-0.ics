@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58191-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Training session · Book the November initial safety training if yo
+ u still need it
+DTSTART:20261120T003000Z
+DTEND:20261120T093000Z
+DESCRIPTION:20 November 2026\, 09:30–18:30 KST\nKorean source: 2026. 11. 
+ 20.(금) 09:30~18:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=581
+ 91&md=v\nAI draft — not yet checked by a Korean reader. Verify the origi
+ nal\; this calendar entry is a reminder\, not an official submission. Time
+ s converted from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58191&md=v
+END:VEVENT
+END:VCALENDAR

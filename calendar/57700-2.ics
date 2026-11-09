@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57700-2@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Course changes · Register and pay for Summer 2026 courses on separ
+ ate schedules
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+DESCRIPTION:18–21 May 2026\; daily hours not stated\nKorean source: 2026.
+  5. 18.(월) ∼ 5. 21.(목)\nhttps://ece.snu.ac.kr/community/academics?bb
+ sidx=57700&md=v\nAI draft — not yet checked by a Korean reader. Verify t
+ he original\; this calendar entry is a reminder\, not an official submissi
+ on. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v
+END:VEVENT
+END:VCALENDAR

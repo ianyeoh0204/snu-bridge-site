@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58159-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Conditional second application round · Check whether a second wint
+ er internship application round will open
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+DESCRIPTION:10–11 November 2026\, only if the round is held\; hours not s
+ tated\nKorean source: 2026.11.10.(화) ~ 2026.11.11.(수)\nhttps://ece.snu
+ .ac.kr/community/academics?bbsidx=58159&md=v\nAI draft — not yet checked
+  by a Korean reader. Verify the original\; this calendar entry is a remind
+ er\, not an official submission. Closing time is not supplied by an all-da
+ y reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58159&md=v
+END:VEVENT
+END:VCALENDAR

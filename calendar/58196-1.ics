@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58196-1@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Advisor review of thesis and poster drafts · Submit your graduatio
+ n-project poster and prepare the final exhibition
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:By 16 November 2026\; time not stated\nKorean source: 11월 16
+ 일(월)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=
+ v\nAI draft — not yet checked by a Korean reader. Verify the original\; 
+ this calendar entry is a reminder\, not an official submission. Closing ti
+ me is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58045-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Write/sign thesis\; graduating students hand it in or file delay fo
+ rm · Get your graduation-project thesis signed even if you graduate later
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+DESCRIPTION:By 21 December 2026\; closing time not stated\nKorean source: 2
+ 026.12. 21.(월)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8045&md=v\nAI draft — not yet checked by a Korean reader. Verify the ori
+ ginal\; this calendar entry is a reminder\, not an official submission. Cl
+ osing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58045&md=v
+END:VEVENT
+END:VCALENDAR

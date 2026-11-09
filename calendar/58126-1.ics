@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58126-1@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Other named interview tracks / Building 39 closure · Plan around e
+ ngineering class suspensions and building closures
+DTSTART:20261203T000000Z
+DTEND:20261204T110000Z
+DESCRIPTION:3 December 09:00–4 December 2026 20:00 KST\nKorean source: 20
+ 26. 12. 3.(목) 09:00 ~ 12. 4.(금) 20:00\nhttps://ece.snu.ac.kr/community
+ /academics?bbsidx=58126&md=v\nAI draft — not yet checked by a Korean rea
+ der. Verify the original\; this calendar entry is a reminder\, not an offi
+ cial submission. Times converted from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58126&md=v
+END:VEVENT
+END:VCALENDAR

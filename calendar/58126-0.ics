@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58126-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:General-admission engineering class suspension / Building 302 closu
+ re · Plan around engineering class suspensions and building closures
+DTSTART:20261126T000000Z
+DTEND:20261127T110000Z
+DESCRIPTION:26 November 09:00–27 November 2026 20:00 KST\nKorean source: 
+ 2026. 11. 26.(목) 09:00 ~ 11. 27.(금) 20:00\nhttps://ece.snu.ac.kr/commu
+ nity/academics?bbsidx=58126&md=v\nAI draft — not yet checked by a Korean
+  reader. Verify the original\; this calendar entry is a reminder\, not an 
+ official submission. Times converted from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58126&md=v
+END:VEVENT
+END:VCALENDAR

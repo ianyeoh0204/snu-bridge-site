@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-1@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:New/transfer: real basket / first-come registration · Register spr
+ ing courses and finish over-quota confirmation
+DTSTART:20260225T073000Z
+DTEND:20260225T074500Z
+DESCRIPTION:Basket 19 February 09:00–20 February 16:00\; first-come 24–
+ 25 February 08:30–16:30 KST\nKorean source: 02-24.(화)\, 02-25.(수) 08
+ :30~16:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI
+  draft — not yet checked by a Korean reader. Verify the original\; this 
+ calendar entry is a reminder\, not an official submission. Times converted
+  from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR

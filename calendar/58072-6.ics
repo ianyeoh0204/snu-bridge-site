@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58072-6@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Office confirmation + original approval page · Finish the remainin
+ g Fall graduate thesis-review and deposit stages
+DTSTART:20270122T080000Z
+DTEND:20270122T081500Z
+DESCRIPTION:15–22 January 2027\, closes 17:00 KST\nKorean source: 2027년
+  1월 15일(금) ∼ 1월 22일(금) 17:00\nhttps://ece.snu.ac.kr/communit
+ y/academics?bbsidx=58072&md=v\nAI draft — not yet checked by a Korean re
+ ader. Verify the original\; this calendar entry is a reminder\, not an off
+ icial submission. Times converted from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
+END:VEVENT
+END:VCALENDAR

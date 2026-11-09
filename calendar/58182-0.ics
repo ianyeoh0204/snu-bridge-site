@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58182-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Extended survey period · Give mid-semester course feedback by the 
+ extended deadline
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DESCRIPTION:29 October–12 November 2026\; closing time not stated\nKorean
+  source: 2026.10.29.(목) ~ 11.12.(목) ※ 1주일 연장\nhttps://ece.sn
+ u.ac.kr/community/academics?bbsidx=58182&md=v\nAI draft — not yet checke
+ d by a Korean reader. Verify the original\; this calendar entry is a remin
+ der\, not an official submission. Closing time is not supplied by an all-d
+ ay reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58182&md=v
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58072-5@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Non-disclosure request · Finish the remaining Fall graduate thesis
+ -review and deposit stages
+DTSTART:20270108T080000Z
+DTEND:20270108T081500Z
+DESCRIPTION:After review\, by 8 January 2027 17:00 KST\nKorean source: 2027
+ 년 1월 8일(금) 17:00까지\nhttps://ece.snu.ac.kr/community/academics?
+ bbsidx=58072&md=v\nAI draft — not yet checked by a Korean reader. Verify
+  the original\; this calendar entry is a reminder\, not an official submis
+ sion. Times converted from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
+END:VEVENT
+END:VCALENDAR

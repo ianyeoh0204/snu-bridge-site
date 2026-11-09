@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57700-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Mock registration · Register and pay for Summer 2026 courses on se
+ parate schedules
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DESCRIPTION:27–30 April 2026\; daily hours not stated\nKorean source: 202
+ 6. 4. 27.(월) ∼ 4. 30.(목)\nhttps://ece.snu.ac.kr/community/academics?
+ bbsidx=57700&md=v\nAI draft — not yet checked by a Korean reader. Verify
+  the original\; this calendar entry is a reminder\, not an official submis
+ sion. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v
+END:VEVENT
+END:VCALENDAR

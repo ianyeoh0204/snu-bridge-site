@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58134-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:General training extension · Check your research-ethics training d
+ eadline\, including the BK21 exception
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:1 September–31 October 2026\; hours not stated\nKorean source
+ : 2026. 9. 1.(화)~10. 31.(토)\nhttps://ece.snu.ac.kr/community/academics
+ ?bbsidx=58134&md=v\nAI draft — not yet checked by a Korean reader. Verif
+ y the original\; this calendar entry is a reminder\, not an official submi
+ ssion. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58134&md=v
+END:VEVENT
+END:VCALENDAR

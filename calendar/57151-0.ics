@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57151-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:English-name correction request · Check the February 2026 completi
+ on/graduation list and report errors
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+DESCRIPTION:By 12 January 2026\; closing time not stated\nKorean source: 20
+ 26. 1. 12.(월)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57
+ 151&md=v\nAI draft — not yet checked by a Korean reader. Verify the orig
+ inal\; this calendar entry is a reminder\, not an official submission. Clo
+ sing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v
+END:VEVENT
+END:VCALENDAR

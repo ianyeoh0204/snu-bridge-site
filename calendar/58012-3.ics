@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58012-3@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Military-service remote-course change request · Check Fall course 
+ changes\, over-quota requests and withdrawal
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:By 17 September 2026\; this special rule concerns the named sta
+ tus\nKorean source: 2026.09.17.(목)\nhttps://ece.snu.ac.kr/community/acad
+ emics?bbsidx=58012&md=v\nAI draft — not yet checked by a Korean reader. 
+ Verify the original\; this calendar entry is a reminder\, not an official 
+ submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
+END:VEVENT
+END:VCALENDAR

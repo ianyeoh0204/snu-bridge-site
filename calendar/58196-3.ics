@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58196-3@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Final presentation · Submit your graduation-project poster and pre
+ pare the final exhibition
+DTSTART:20261120T010000Z
+DTEND:20261120T070000Z
+DESCRIPTION:20 November 2026\, 10:00–16:00 KST\; arrive before 10:00\nKor
+ ean source: 11월 20일(금) 10:00 ~ 16:00\nhttps://ece.snu.ac.kr/communit
+ y/academics?bbsidx=58196&md=v\nAI draft — not yet checked by a Korean re
+ ader. Verify the original\; this calendar entry is a reminder\, not an off
+ icial submission. Times converted from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
+END:VEVENT
+END:VCALENDAR

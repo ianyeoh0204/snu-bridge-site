@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58022-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Complete both submissions · Submit your thesis-research course con
+ firmation
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:3–17 September 2026\; closing time not stated\nKorean source:
+  2026. 9. 3.(목) ~ 2026. 9. 17.(목)\nhttps://ece.snu.ac.kr/community/aca
+ demics?bbsidx=58022&md=v\nAI draft — not yet checked by a Korean reader.
+  Verify the original\; this calendar entry is a reminder\, not an official
+  submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58022&md=v
+END:VEVENT
+END:VCALENDAR

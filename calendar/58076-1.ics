@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58076-1@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Research-guidance report and journal-publication confirmation · Fi
+ nish Fall preliminary-review paperwork for an August 2027 PhD target
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DESCRIPTION:14 December 2026–22 January 2027\; time not stated\nKorean so
+ urce: 2026. 12. 14.(월) ~ 2027. 1. 22.(금)\nhttps://ece.snu.ac.kr/commun
+ ity/academics?bbsidx=58076&md=v\nAI draft — not yet checked by a Korean 
+ reader. Verify the original\; this calendar entry is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58076&md=v
+END:VEVENT
+END:VCALENDAR

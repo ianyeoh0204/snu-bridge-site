@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57627-0@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Committee appointment report · Complete the spring PhD preliminary
+ -review paperwork
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+DESCRIPTION:13–27 April 2026\; closing time not stated\nKorean source: 20
+ 26. 4. 13.(월) ~ 4. 27.(월)\nhttps://ece.snu.ac.kr/community/academics?b
+ bsidx=57627&md=v\nAI draft — not yet checked by a Korean reader. Verify 
+ the original\; this calendar entry is a reminder\, not an official submiss
+ ion. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v
+END:VEVENT
+END:VCALENDAR

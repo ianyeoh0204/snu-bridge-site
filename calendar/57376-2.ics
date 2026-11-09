@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-2@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:Add/drop · Register spring courses and finish over-quota confirmat
+ ion
+DTSTART:20260309T150000Z
+DTEND:20260309T151500Z
+DESCRIPTION:26–27 February and 3–9 March (weekends excluded)\, normally
+  09:00–18:30\; last day ends 24:00\nKorean source: 마지막날(3.9.) 24
+ :00 종료\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nA
+ I draft — not yet checked by a Korean reader. Verify the original\; this
+  calendar entry is a reminder\, not an official submission. Times converte
+ d from the source timezone to UTC.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR

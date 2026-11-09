@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Real-notice demo//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57626-7@snu-bridge
+DTSTAMP:20261109T060539Z
+SUMMARY:ECE office final confirmation and original approval page · Prepare
+  every stage of the Spring 2026 graduate thesis review
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+DESCRIPTION:17–24 July 2026\; closing time not stated\nKorean source: 202
+ 6년 7월 17일 ∼ 7월 24일\nhttps://ece.snu.ac.kr/community/academics?
+ bbsidx=57626&md=v\nAI draft — not yet checked by a Korean reader. Verify
+  the original\; this calendar entry is a reminder\, not an official submis
+ sion. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v
+END:VEVENT
+END:VCALENDAR
