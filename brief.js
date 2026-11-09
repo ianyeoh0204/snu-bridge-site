@@ -1,10 +1,10 @@
-import {isHistorical} from './product-model.mjs';
-import {calendarLink} from './calendar.js';
+import {isHistorical} from './product-model.mjs?v=83ffed8c28a8';
+import {calendarLink} from './calendar.js?v=83ffed8c28a8';
 const base=document.querySelector('meta[name="app-base"]')?.content||'/';
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function section(index,title){const s=el('section',undefined,'brief-section');s.id='section-'+index;s.append(el('div',String(index).padStart(2,'0'),'brief-index'),el('h2',title));return s;}
 function bullets(s,items,ordered=false){const l=el(ordered?'ol':'ul');for(const item of items)l.append(el('li',item));s.append(l);}
-fetch(base+'notices.json').then(r=>{if(!r.ok)throw new Error('Brief data could not be loaded.');return r.json();}).then(data=>{
+fetch(base+'notices.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Brief data could not be loaded.');return r.json();}).then(data=>{
  const b=data.notices.find(p=>p.id===document.body.dataset.noticeId);if(!b)throw new Error('This brief is not available in this publication. It may still require review.');
  document.title=b.title+' · SNU Bridge';const root=document.querySelector('#brief-content');root.replaceChildren();
  root.append(el('div',b.period+' · ECE academic affairs','label'),el('h1',b.title),el('p',b.summary,'brief-lead'));
