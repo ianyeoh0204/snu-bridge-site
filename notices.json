@@ -1,15 +1,15 @@
 {
-  "built_at": "2026-11-09T14:14:54Z",
-  "checked_at": "2026-11-09T14:12:39Z",
+  "built_at": "2026-11-09T14:19:50Z",
+  "checked_at": "2026-11-09T14:16:30Z",
   "grounding": {
-    "checked": 56,
-    "passed": 55
+    "checked": 68,
+    "passed": 68
   },
   "generator": {
     "configured": true,
     "model": "claude-sonnet-5-5",
-    "last_run": "2026-11-09T14:12:45Z",
-    "waiting": 13
+    "last_run": "2026-11-09T14:16:40Z",
+    "waiting": 0
   },
   "notices": [
     {
@@ -996,6 +996,181 @@
       "period": "Cross-listing guidance"
     },
     {
+      "id": "48621",
+      "title": "Check subtitle codes for Group 2 courses",
+      "who": "Graduate students taking subtitled Group 2 courses",
+      "deadlines": [],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=48621&md=v",
+      "posting_date": "2020.01.21",
+      "korean_title": "(과목 추가) 2군 교과목(부제명 있는 교과목) 학점 인정 안내",
+      "period": "Not stated"
+    },
+    {
+      "id": "51949",
+      "title": "Complete one research ethics course",
+      "who": "Graduate students admitted from Spring 2022 onward",
+      "deadlines": [],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=51949&md=v",
+      "posting_date": "2021.12.20",
+      "korean_title": "“대학원 공통역량 교과목” 공과대학 이수요건 및 이수인정 안내(연구윤리 교과목 필수 이수)",
+      "period": "Not stated"
+    },
+    {
+      "id": "55507",
+      "title": "Plan for written-only thesis qualifying exam",
+      "who": "Graduate students taking the qualifying exam or forming committees",
+      "deadlines": [],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55507&md=v",
+      "posting_date": "2024.04.15",
+      "korean_title": "[내규 안내] 논문제출자격시험 구술고사 폐지. 논문심사위원회 구성",
+      "period": "From Fall 2024"
+    },
+    {
+      "id": "55871",
+      "title": "Retake thesis qualifying exam via advisor petition",
+      "who": "Integrated MS-PhD students who failed the qualifying exam",
+      "deadlines": [
+        {
+          "label": "Advisor's petition",
+          "quote": "해당학기에",
+          "when": "Same semester as failure; no date stated"
+        },
+        {
+          "label": "Rule applies from",
+          "quote": "2024학년도 2학기(2024년 9월 시행)부터 적용.",
+          "when": "Fall 2024 (September 2024)"
+        }
+      ],
+      "degrees": [
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55871&md=v",
+      "posting_date": "2024.09.25",
+      "korean_title": "[내규 안내] 논문제출자격시험 석박사통합과정 재응시 관련",
+      "period": "Fall 2024 onward"
+    },
+    {
+      "id": "55998",
+      "title": "Apply 1/N credit to co-first-author papers",
+      "who": "PhD students with co-first-author papers",
+      "deadlines": [],
+      "degrees": [
+        "phd"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55998&md=v",
+      "posting_date": "2024.11.07",
+      "korean_title": "[내규 안내] 박사 학위수여 요건 관련 공동1저자 인정여부",
+      "period": "Not stated"
+    },
+    {
+      "id": "57425",
+      "title": "Read the 2026 SNU Graduate Student Guide",
+      "who": "2026 graduate students (master's, PhD, integrated)",
+      "deadlines": [],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57425&md=v",
+      "posting_date": "2026.02.05",
+      "korean_title": "2026년 서울대학교 대학원생 가이드 배부 안내",
+      "period": "2026"
+    },
+    {
+      "id": "57662",
+      "title": "Follow the graduation project procedure",
+      "who": "Undergraduates doing the graduation project (졸프)",
+      "deadlines": [
+        {
+          "label": "Project application",
+          "quote": "매년 4월 3주, 10월 2주",
+          "when": "April week 3; October week 2"
+        },
+        {
+          "label": "Interview form deadline",
+          "quote": "마감은 3월/9월 1주 금요일까지, 원본 마감일 엄수",
+          "when": "Friday of week 1, March/September"
+        },
+        {
+          "label": "Thesis submission",
+          "quote": "매년 6월, 12월 중순 학부에 제출 (별도 공지)",
+          "when": "Mid-June or mid-December"
+        }
+      ],
+      "degrees": [
+        "undergraduate"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57662&md=v",
+      "posting_date": "2026.04.03",
+      "korean_title": "[필독] 졸업프로젝트 진행절차 상세안내 (학생 / 조교 확인용)",
+      "period": "Every semester"
+    },
+    {
+      "id": "57854",
+      "title": "Apply online for course double-counting",
+      "who": "Undergraduates with multiple majors sharing courses",
+      "deadlines": [
+        {
+          "label": "Application window",
+          "quote": "수시 신청",
+          "when": "Anytime; no deadline stated"
+        }
+      ],
+      "degrees": [
+        "undergraduate"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57854&md=v",
+      "posting_date": "2026.07.01",
+      "korean_title": "교과목 중복인정 신청 메뉴 오픈 알림",
+      "period": "Ongoing from July 2026"
+    },
+    {
       "id": "57944",
       "title": "Submit final poster PDF; attend poster presentation",
       "who": "Students enrolled in the Fall 2026 graduation project",
@@ -1035,6 +1210,119 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v",
       "posting_date": "2026.09.22",
       "korean_title": "[2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 안내 - 최종 포스터 발표일자 변경 > 11.20 (금)",
+      "period": "Fall 2026"
+    },
+    {
+      "id": "57951",
+      "title": "Check how common-curriculum courses count toward requirements",
+      "who": "Undergraduates taking common curriculum (liberal arts) courses",
+      "deadlines": [],
+      "degrees": [
+        "undergraduate"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57951&md=v",
+      "posting_date": "2026.08.06",
+      "korean_title": "공통교육과정 교과목 영역 인정 기준 안내 (학문의 세계 영역 등.)",
+      "period": "2025 curriculum revision onward"
+    },
+    {
+      "id": "57960",
+      "title": "Apply online to rent your graduation gown",
+      "who": "Engineering College students receiving degrees at 80th late-term ceremony",
+      "deadlines": [
+        {
+          "end": "2026-08-31",
+          "label": "Gown rental period",
+          "quote": "2026. 8.13.(목) ~ 2026. 8. 31.(월)",
+          "start": "2026-08-13",
+          "when": "13–31 August 2026",
+          "calendar_path": "calendar/57960-0.ics"
+        },
+        {
+          "end": "2026-08-28",
+          "label": "Degree ceremony day",
+          "quote": "2026. 8. 28.(금) 학위수여식 당일",
+          "start": "2026-08-28",
+          "when": "28 August 2026",
+          "calendar_path": "calendar/57960-1.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate",
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "graduating_only",
+      "historical": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57960&md=v",
+      "posting_date": "2026.08.10",
+      "korean_title": "제80회 후기 학위수여자를 위한 공과대학 포토존 운영 및 학위복 대여 안내",
+      "period": "Fall 2026 (August 2026 degree conferral)"
+    },
+    {
+      "id": "57961",
+      "title": "Check your graduation and completion status online",
+      "who": "Undergraduate and graduate students tracking graduation or completion",
+      "deadlines": [
+        {
+          "end": "2026-08-10",
+          "label": "Pilot program opens",
+          "quote": "2026. 8. 10.(월) 13:00",
+          "start": "2026-08-10",
+          "when": "10 August 2026, 13:00",
+          "calendar_path": "calendar/57961-0.ics"
+        },
+        {
+          "label": "Official launch (planned)",
+          "quote": "2026년도 2학기(9월 중) 정식 운영을 계획하고 있습니다",
+          "when": "September 2026"
+        }
+      ],
+      "degrees": [
+        "undergraduate",
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57961&md=v",
+      "posting_date": "2026.08.10",
+      "korean_title": "졸업 및 수료 현황 확인 프로그램 시범운영 알림",
+      "period": "Fall 2026"
+    },
+    {
+      "id": "57962",
+      "title": "Attend graduate new student orientation",
+      "who": "New graduate students entering September 2026",
+      "deadlines": [
+        {
+          "end": "2026-08-26",
+          "label": "Orientation",
+          "quote": "2026. 8. 26.(수) 오후 2시 ~",
+          "start": "2026-08-26",
+          "when": "26 Aug 2026, 2 PM start",
+          "calendar_path": "calendar/57962-0.ics"
+        }
+      ],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57962&md=v",
+      "posting_date": "2026.08.10",
+      "korean_title": "2026-2학기 대학원 신입생 오리엔테이션 개최 안내(2026년 9월 입학자)",
       "period": "Fall 2026"
     },
     {
@@ -1324,22 +1612,21 @@
     },
     {
       "id": "58043",
-      "title": "Attend the 논자시 written exam, 11 September",
-      "who": "Students sitting the 논자시 (thesis qualifying exam) this semester",
+      "title": "Arrive by 09:50 for the thesis qualifying exam",
+      "who": "Graduate students sitting the written qualifying exam",
       "deadlines": [
         {
           "end": "2026-09-11",
           "label": "Written exam",
           "quote": "2026. 9. 11.(금) 10:00 ~ 12:00(120분)",
           "start": "2026-09-11",
-          "when": "11 Sep 2026, 10:00–12:00"
+          "when": "11 Sep 2026, 10:00–12:00",
+          "calendar_path": "calendar/58043-0.ics"
         },
         {
-          "end": "2026-09-11",
           "label": "Be seated by",
           "quote": "입실완료 시간: 09:50.",
-          "start": "2026-09-11",
-          "when": "09:50 on 11 Sep 2026"
+          "when": "09:50 on exam day"
         },
         {
           "label": "Results",
@@ -1355,8 +1642,7 @@
       "graduation_scope": "any",
       "historical": false,
       "applicability_uncertain": true,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58043&md=v",
       "posting_date": "2026.09.08",
       "korean_title": "★2026학년도 2학기 대학원 논문제출자격시험(논자시) 수험생 유의사항 안내",
