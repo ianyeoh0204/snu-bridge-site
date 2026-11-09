@@ -101,7 +101,7 @@ a.card:hover{text-decoration:none;transform:translateY(-1px);box-shadow:0 6px 20
 .road{counter-reset:s;list-style:none;margin:0;padding:0}
 .road li{background:var(--card);border-radius:18px;padding:18px 20px 18px 62px;margin:0 0 12px;position:relative}
 .road li::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:18px;width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font-size:14px;font-weight:600;display:grid;place-items:center}
-.road h2{font-size:17px;margin:2px 0 4px}.road p{margin:0 0 6px;color:var(--muted);font-size:15px}.road a{font-size:14px;margin-right:12px}
+.road h2{font-size:17px;margin:2px 0 4px}.road p{margin:0 0 6px;color:var(--muted);font-size:15px}.road a{display:block;font-size:14px;margin:2px 0}
 
 footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-size:13px}
 @media (max-width:560px){
@@ -149,3 +149,4 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
 .img-tr{border-left:3px solid var(--navy);padding:4px 0 2px 14px;margin:6px 0 12px}
 .img-tr-note{font-size:13px;color:var(--muted);margin:0 0 8px}
 .btn.light.small{border:1px solid var(--line)}
+.road .road-next{color:var(--ink);font-size:14px;margin:4px 0 6px}.road-next b{font-weight:600}

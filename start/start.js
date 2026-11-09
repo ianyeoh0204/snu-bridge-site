@@ -39,18 +39,32 @@ function renderFirst() {
   }));
 }
 
+const byId = id => notices.find(n => n.id === id);
+const DAYFMT = new Intl.DateTimeFormat('en-GB', {day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Seoul'});
+
 function renderRoad() {
-  const steps = roadmaps[degree] || [];
+  const road = roadmaps[degree];
+  const steps = road?.steps || [];
   document.querySelector('#road').replaceChildren(...steps.map(step => {
     const li = el('li');
     li.append(el('h2', step.title), el('p', step.text));
+    // The step has no dates of its own: show the soonest open date among the notices it cites.
+    const next = step.sources.map(byId).filter(Boolean).map(n => ({n, d: nextDate(n, degree)})).filter(x => x.d)
+      .sort((a, b) => endTime(a.d.end) - endTime(b.d.end))[0];
+    if (next) {
+      const p = el('p', undefined, 'road-next'); p.append(el('b', 'Next: '), `${next.d.label} · ${next.d.when}`);
+      li.append(p);
+    }
     for (const id of step.sources) {
       if (!available.has(id)) continue;
-      const a = el('a', 'Notice ' + id + ' ›'); a.href = base + 'briefs/' + id + '/'; li.append(a);
+      const a = el('a', (byId(id)?.title || 'Notice ' + id) + ' ›'); a.href = base + 'briefs/' + id + '/'; li.append(a);
     }
     return li;
   }));
   if (!steps.length) document.querySelector('#road').append(el('li', 'No roadmap for this degree yet.'));
+  document.querySelector('#note').textContent = road?.updated_at
+    ? `Rewritten by AI from the ECE notices whenever they change; last ${DAYFMT.format(new Date(road.updated_at))}. Each step links to the notices it is based on. The department's current rules control.`
+    : 'Written by hand from the ECE notices; being replaced by a version that updates itself. The department\'s current rules control.';
 }
 
 function render() {
@@ -67,6 +81,5 @@ fetch(base + 'notices.json', {cache: 'no-store'}).then(r => { if (!r.ok) throw n
   roadmaps = data.roadmaps || {};
   notices = data.notices;
   available = new Set(notices.filter(n => n.state === 'full').map(n => n.id));
-  document.querySelector('#note').textContent = roadmaps.note || '';
   render();
 }).catch(() => { document.querySelector('#first').replaceChildren(el('div', 'Notices could not be loaded. Please use the ECE board.', 'empty')); });
