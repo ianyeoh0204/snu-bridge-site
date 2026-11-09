@@ -4,9 +4,9 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58123-1@snu-bridge
-DTSTAMP:20261109T081340Z
-SUMMARY:Practical interview · Apply for Hanwha Aerospace winter field prac
- tice
+DTSTAMP:20261109T165228Z
+SUMMARY:Job interview · Apply for Hanwha Aerospace winter internship cours
+ e
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 DESCRIPTION:One day\, 4–6 November 2026\nKorean source: 2026.11.4.(수)~1

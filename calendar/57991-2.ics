@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57991-2@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Funding claim (selected students) · Submit your SAP application to
+  the department office
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:By 8 November 2026\nKorean source: 2026. 11. 8(일)까지\nhttp
+ s://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v
+END:VEVENT
+END:VCALENDAR

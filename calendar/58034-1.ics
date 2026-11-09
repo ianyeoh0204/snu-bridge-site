@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58034-1@snu-bridge
-DTSTAMP:20261108T220811Z
-SUMMARY:Minor/linked/design application · Apply for 2027 spring multi-majo
- r programs
+DTSTAMP:20261109T165228Z
+SUMMARY:Minor/linked/student-designed application · Apply for a second maj
+ or or minor
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-DESCRIPTION:26–30 Oct 2026\, 09:00–18:00\nKorean source: 2026.10. 26.(
- 월) 09:00 ~ 10. 30.(금) 18:00\nhttps://ece.snu.ac.kr/community/academics
- ?bbsidx=58034&md=v\nAI explanation — may contain errors\; check the orig
- inal. This is a reminder\, not an official submission. Closing time is not
-  supplied by an all-day reminder.
+DESCRIPTION:26–30 October 2026\, 09:00–18:00\nKorean source: 2026.10. 2
+ 6.(월) 09:00 ~ 10. 30.(금) 18:00\nhttps://ece.snu.ac.kr/community/academ
+ ics?bbsidx=58034&md=v\nAI explanation — may contain errors\; check the o
+ riginal. This is a reminder\, not an official submission. Closing time is 
+ not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58034&md=v
 END:VEVENT
 END:VCALENDAR

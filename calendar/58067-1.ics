@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58067-1@snu-bridge
-DTSTAMP:20261108T213114Z
-SUMMARY:Waiver for Feb 2027 completion · Submit integrated-program waiver 
- or continuation form
+DTSTAMP:20261109T165228Z
+SUMMARY:Give-up for Feb 2027 completion · Submit your integrated-program g
+ ive-up or continuation form
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-DESCRIPTION:By morning of 23 Sep 2026\nKorean source: 2026년 9월 23일 
- 오전까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58067&md=v\
- nAI explanation — may contain errors\; check the original. This is a rem
- inder\, not an official submission. Closing time is not supplied by an all
- -day reminder.
+DESCRIPTION:By 23 September 2026\, morning\nKorean source: 2026년 9월 23
+ 일 오전까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58067&m
+ d=v\nAI explanation — may contain errors\; check the original. This is a
+  reminder\, not an official submission. Closing time is not supplied by an
+  all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58067&md=v
 END:VEVENT
 END:VCALENDAR

@@ -4,15 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57991-1@snu-bridge
-DTSTAMP:20261108T220811Z
-SUMMARY:Results announced · Submit your winter SAP application
+DTSTAMP:20261109T143545Z
+SUMMARY:Results announced · Submit your SAP application to the department 
+ office
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
-DESCRIPTION:23 September 2026 (planned)\nKorean source: 2026. 9. 23.(수) 
- 예정\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v\nAI ex
- planation — may contain errors\; check the original. This is a reminder\
- , not an official submission. Closing time is not supplied by an all-day r
- eminder.
+DESCRIPTION:23 September 2026 (planned)\nKorean source: 2026. 9. 23.(수)\n
+ https://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v\nAI explanatio
+ n — may contain errors\; check the original. This is a reminder\, not an
+  official submission. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v
 END:VEVENT
 END:VCALENDAR

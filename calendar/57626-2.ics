@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57626-2@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:PhD result documents · Complete every stage of thesis review
-DTSTART:20260619T080000Z
-DTEND:20260619T081500Z
-DESCRIPTION:19 Jun 2026\, 17:00\nKorean source: 2026년 6월 19일 17:00까
- 지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v\nAI expla
- nation — may contain errors\; check the original. This is a reminder\, n
- ot an official submission. Times converted from the source timezone to UTC
- .
+DTSTAMP:20261109T165228Z
+SUMMARY:Final thesis submission · Register online and submit thesis review
+  documents
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+DESCRIPTION:17 July–2 August 2026\nKorean source: 2026년 7월 17일 ∼ 
+ 8월 2일\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v\nAI
+  explanation — may contain errors\; check the original. This is a remind
+ er\, not an official submission. Closing time is not supplied by an all-da
+ y reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v
 END:VEVENT
 END:VCALENDAR

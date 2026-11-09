@@ -4,9 +4,9 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58123-0@snu-bridge
-DTSTAMP:20261109T081340Z
-SUMMARY:Course registration/application · Apply for Hanwha Aerospace winte
- r field practice
+DTSTAMP:20261109T165228Z
+SUMMARY:Course application · Apply for Hanwha Aerospace winter internship 
+ course
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 DESCRIPTION:15–19 October 2026\; time not stated\nKorean source: 2026.10.

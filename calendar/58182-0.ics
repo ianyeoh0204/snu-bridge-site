@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58182-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Survey period (extended) · Complete the mid-semester course survey
+DTSTAMP:20261109T081340Z
+SUMMARY:Mid-semester feedback survey · Submit mid-semester course feedback
+  on mySNU
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DESCRIPTION:29 Oct – 12 Nov 2026\nKorean source: 2026.10.29.(목) ~ 11.12
- .(목) ※ 1주일 연장\nhttps://ece.snu.ac.kr/community/academics?bbsid
- x=58182&md=v\nAI explanation — may contain errors\; check the original. 
- This is a reminder\, not an official submission. Closing time is not suppl
- ied by an all-day reminder.
+DESCRIPTION:29 October – 12 November 2026\nKorean source: 2026.10.29.(목
+ ) ~ 11.12.(목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58182&md
+ =v\nAI explanation — may contain errors\; check the original. This is a 
+ reminder\, not an official submission. Closing time is not supplied by an 
+ all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58182&md=v
 END:VEVENT
 END:VCALENDAR

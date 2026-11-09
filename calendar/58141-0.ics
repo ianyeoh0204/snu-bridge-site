@@ -4,14 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58141-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Essay submission · Enter the multiple-major essay contest
+DTSTAMP:20261109T081340Z
+SUMMARY:Essay submission · Submit your multiple-major experience essay
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-DESCRIPTION:22 Nov 2026\nKorean source: 2026. 11. 22.(일)\nhttps://ece.snu
- .ac.kr/community/academics?bbsidx=58141&md=v\nAI explanation — may conta
- in errors\; check the original. This is a reminder\, not an official submi
- ssion. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:22 November 2026\, 23:59\nKorean source: 2026년 11월 22일(
+ 일) 23:59까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58141&m
+ d=v\nAI explanation — may contain errors\; check the original. This is a
+  reminder\, not an official submission. Closing time is not supplied by an
+  all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58141&md=v
 END:VEVENT
 END:VCALENDAR

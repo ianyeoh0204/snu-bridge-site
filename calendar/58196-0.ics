@@ -4,14 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58196-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Poster PDF upload · Submit your graduation-project poster PDF
-DTSTART:20261109T145900Z
-DTEND:20261109T151400Z
-DESCRIPTION:9 Nov 2026\, 23:59\nKorean source: 11월 9일(월) 23:59까지\
- nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI explanati
- on — may contain errors\; check the original. This is a reminder\, not a
- n official submission. Times converted from the source timezone to UTC.
+DTSTAMP:20261109T081340Z
+SUMMARY:Submit poster PDF · Submit your graduation project poster PDF
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DESCRIPTION:9 November 2026\, 23:59\nKorean source: 11월 9일(월) 23:59
+ 까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI ex
+ planation — may contain errors\; check the original. This is a reminder\
+ , not an official submission. Closing time is not supplied by an all-day r
+ eminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
 END:VEVENT
 END:VCALENDAR

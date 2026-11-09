@@ -4,15 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58043-0@snu-bridge
-DTSTAMP:20261108T220811Z
-SUMMARY:Written exam · Arrive by 09:50 for the thesis qualifying exam
+DTSTAMP:20261109T143545Z
+SUMMARY:Written exam · Attend the thesis qualifying written exam
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-DESCRIPTION:11 Sep 2026\, 10:00–12:00\nKorean source: 2026. 9. 11.(금) 1
- 0:00 ~ 12:00(120분)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=580
- 43&md=v\nAI explanation — may contain errors\; check the original. This 
- is a reminder\, not an official submission. Closing time is not supplied b
- y an all-day reminder.
+DESCRIPTION:11 September 2026\, 10:00–12:00\nKorean source: 2026. 9. 11.(
+ 금) 10:00 ~ 12:00(120분)\nhttps://ece.snu.ac.kr/community/academics?bbsi
+ dx=58043&md=v\nAI explanation — may contain errors\; check the original.
+  This is a reminder\, not an official submission. Closing time is not supp
+ lied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58043&md=v
 END:VEVENT
 END:VCALENDAR

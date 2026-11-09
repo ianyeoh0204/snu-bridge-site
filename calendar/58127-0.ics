@@ -4,9 +4,9 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58127-0@snu-bridge
-DTSTAMP:20261109T081340Z
-SUMMARY:Two lots closed · Avoid controlled campus parking and roads during
-  concert
+DTSTAMP:20261109T165228Z
+SUMMARY:Stadium and riverside lots closed · Avoid closed campus parking an
+ d roads
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 DESCRIPTION:8 Oct 21:00–14 Oct 23:59\nKorean source: 10. 8.(목) 21:00 ~ 

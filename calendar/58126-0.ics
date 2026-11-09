@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58126-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Engineering classes off\; Building 302 closed · Plan around interv
- iew-day class cancellations
-DTSTART:20261126T000000Z
-DTEND:20261127T110000Z
-DESCRIPTION:26 Nov 09:00 – 27 Nov 20:00\nKorean source: 2026. 11. 26.(목
- ) 09:00 ~ 11. 27.(금) 20:00\nhttps://ece.snu.ac.kr/community/academics?bb
- sidx=58126&md=v\nAI explanation — may contain errors\; check the origina
- l. This is a reminder\, not an official submission. Times converted from t
- he source timezone to UTC.
+DTSTAMP:20261109T165228Z
+SUMMARY:Classes off\, 302 closed · Note class cancellations and building c
+ losures
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DESCRIPTION:26 Nov 09:00–27 Nov 20:00\nKorean source: 2026. 11. 26.(목) 
+ 09:00 ~ 11. 27.(금) 20:00\nhttps://ece.snu.ac.kr/community/academics?bbsi
+ dx=58126&md=v\nAI explanation — may contain errors\; check the original.
+  This is a reminder\, not an official submission. Closing time is not supp
+ lied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58126&md=v
 END:VEVENT
 END:VCALENDAR

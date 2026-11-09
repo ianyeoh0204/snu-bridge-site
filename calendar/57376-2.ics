@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57376-2@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Confirm approved requests · Register spring courses and confirm ov
- er-quota requests
-DTSTART:20260311T145900Z
-DTEND:20260311T151400Z
-DESCRIPTION:By 11 Mar 2026\nKorean source: 3/11(수)까지\nhttps://ece.snu
- .ac.kr/community/academics?bbsidx=57376&md=v\nAI explanation — may conta
- in errors\; check the original. This is a reminder\, not an official submi
- ssion. Times converted from the source timezone to UTC.
+DTSTAMP:20261109T165228Z
+SUMMARY:Confirm off-quota courses · Complete Spring 2026 course registrati
+ on and changes
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+DESCRIPTION:3–11 March 2026\, until 23:59\nKorean source: 03-03.(화)~03-
+ 11.(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI 
+ explanation — may contain errors\; check the original. This is a reminde
+ r\, not an official submission. Closing time is not supplied by an all-day
+  reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
 END:VEVENT
 END:VCALENDAR

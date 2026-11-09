@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58191-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Training session · Book the 20 November new safety training
-DTSTART:20261120T003000Z
-DTEND:20261120T093000Z
-DESCRIPTION:20 Nov 2026\, 09:30–18:30\nKorean source: 2026. 11. 20.(금) 
- 09:30~18:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58191&md=v\n
- AI explanation — may contain errors\; check the original. This is a remi
- nder\, not an official submission. Times converted from the source timezon
- e to UTC.
+DTSTAMP:20261109T081340Z
+SUMMARY:Safety training session · Attend new-researcher lab safety trainin
+ g
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DESCRIPTION:20 November 2026\, 09:30–18:30\nKorean source: 2026. 11. 20.(
+ 금) 09:30~18:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58191&m
+ d=v\nAI explanation — may contain errors\; check the original. This is a
+  reminder\, not an official submission. Closing time is not supplied by an
+  all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58191&md=v
 END:VEVENT
 END:VCALENDAR

@@ -4,15 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57441-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Google Form · Register for the qualifying exam in three steps
+DTSTAMP:20261109T081340Z
+SUMMARY:Google Form · Register for the thesis qualifying exam
 DTSTART;VALUE=DATE:20260218
 DTEND;VALUE=DATE:20260219
-DESCRIPTION:11–18 Feb 2026\nKorean source: 2026. 2. 11.(수) - 2026. 2. 1
- 8.(수)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v
- \nAI explanation — may contain errors\; check the original. This is a re
- minder\, not an official submission. Closing time is not supplied by an al
- l-day reminder.
+DESCRIPTION:11–18 February 2026\nKorean source: 2026. 2. 11.(수) - 2026.
+  2. 18.(수)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57441
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v
 END:VEVENT
 END:VCALENDAR

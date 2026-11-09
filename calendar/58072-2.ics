@@ -4,16 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58072-2@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Office: confirmation + approval page · Submit thesis-review result
- s and final thesis
-DTSTART:20270122T080000Z
-DTEND:20270122T081500Z
-DESCRIPTION:15–22 Jan 2027\, 17:00\nKorean source: 2027년 1월 15일(금
- ) ∼ 1월 22일(금) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbs
- idx=58072&md=v\nAI explanation — may contain errors\; check the original
- . This is a reminder\, not an official submission. Times converted from th
- e source timezone to UTC.
+DTSTAMP:20261109T165228Z
+SUMMARY:Final thesis submission · Apply for thesis review and pay fee
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+DESCRIPTION:15 Jan–1 Feb 2027\, 23:59\nKorean source: 2027년 1월 15일(
+ 금) ∼ 2월 1일(월) 23:59\nhttps://ece.snu.ac.kr/community/academics?b
+ bsidx=58072&md=v\nAI explanation — may contain errors\; check the origin
+ al. This is a reminder\, not an official submission. Closing time is not s
+ upplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
 END:VEVENT
 END:VCALENDAR

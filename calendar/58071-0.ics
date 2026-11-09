@@ -4,15 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58071-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:First-round interviews · Get a professor for your Spring 2027 proj
- ect
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-DESCRIPTION:3–17 Nov 2026\nKorean source: 11.3(화) - 11.17(화)\nhttps:/
- /ece.snu.ac.kr/community/academics?bbsidx=58071&md=v\nAI explanation — m
- ay contain errors\; check the original. This is a reminder\, not an offici
- al submission. Closing time is not supplied by an all-day reminder.
+DTSTAMP:20261109T165228Z
+SUMMARY:Round 1 topic preference · Apply for your graduation project topic
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+DESCRIPTION:21–28 October 2026\nKorean source: 10.21(수) – 10.28(수)\
+ nhttps://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v\nAI explanati
+ on — may contain errors\; check the original. This is a reminder\, not a
+ n official submission. Closing time is not supplied by an all-day reminder
+ .
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v
 END:VEVENT
 END:VCALENDAR

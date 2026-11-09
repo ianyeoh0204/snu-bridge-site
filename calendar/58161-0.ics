@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58161-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Information session · Attend the exchange student information sess
- ion
+SUMMARY:Exchange info session · Attend the outbound exchange student info 
+ session
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
-DESCRIPTION:30 Oct 2026\, 10:00 or 14:00\nKorean source: 2026. 10. 30.(금)
-  오전 10:00 - 11:30 / 오후 14:00 - 15:30\nhttps://ece.snu.ac.kr/commun
- ity/academics?bbsidx=58161&md=v\nAI explanation — may contain errors\; c
- heck the original. This is a reminder\, not an official submission. Closin
- g time is not supplied by an all-day reminder.
+DESCRIPTION:30 October 2026\; 10:00 or 14:00\nKorean source: 2026. 10. 30.(
+ 금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30\nhttps://ece.snu.ac.kr/co
+ mmunity/academics?bbsidx=58161&md=v\nAI explanation — may contain errors
+ \; check the original. This is a reminder\, not an official submission. Cl
+ osing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v
 END:VEVENT
 END:VCALENDAR

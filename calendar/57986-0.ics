@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57986-0@snu-bridge
-DTSTAMP:20261108T213114Z
-SUMMARY:Round 1 course period · Complete the life-respect suicide preventi
- on course on eTL
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-DESCRIPTION:24 Aug–7 Sep 2026\nKorean source: 2026. 8.24.(월) ~ 9.7.(월
- )\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57986&md=v\nAI explana
- tion — may contain errors\; check the original. This is a reminder\, not
-  an official submission. Closing time is not supplied by an all-day remind
- er.
+DTSTAMP:20261109T143545Z
+SUMMARY:Course period (2nd round) · Complete the online suicide prevention
+  course
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DESCRIPTION:28 October – 27 November 2026\nKorean source: (2차) 2026. 10
+ .28.(수) ~ 11. 27.(금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx
+ =57986&md=v\nAI explanation — may contain errors\; check the original. T
+ his is a reminder\, not an official submission. Closing time is not suppli
+ ed by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57986&md=v
 END:VEVENT
 END:VCALENDAR

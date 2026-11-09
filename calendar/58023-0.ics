@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58023-0@snu-bridge
-DTSTAMP:20261109T060727Z
-SUMMARY:Approval application · Get approval for outside-department credits
+DTSTAMP:20261109T165228Z
+SUMMARY:Approval form submission · Submit course credit approval form for 
+ outside courses
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DESCRIPTION:3–17 Sep 2026\nKorean source: 2026. 9. 3.(목) ~ 2026. 9. 17.
- (목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58023&md=v\nAI exp
- lanation — may contain errors\; check the original. This is a reminder\,
-  not an official submission. Closing time is not supplied by an all-day re
- minder.
+DESCRIPTION:3–17 September 2026\; time not stated\nKorean source: 2026. 9
+ . 3.(목) ~ 2026. 9. 17.(목)\nhttps://ece.snu.ac.kr/community/academics?b
+ bsidx=58023&md=v\nAI explanation — may contain errors\; check the origin
+ al. This is a reminder\, not an official submission. Closing time is not s
+ upplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58023&md=v
 END:VEVENT
 END:VCALENDAR

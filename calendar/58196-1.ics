@@ -4,15 +4,14 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58196-1@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Advisor reviews thesis and poster · Submit your graduation-project
-  poster PDF
+DTSTAMP:20261109T081340Z
+SUMMARY:Advisor draft review · Submit your graduation project poster PDF
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-DESCRIPTION:By 16 Nov 2026\nKorean source: 11월 16일(월)까지\nhttps://
- ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI explanation — ma
- y contain errors\; check the original. This is a reminder\, not an officia
- l submission. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:By 16 November 2026\nKorean source: 11월 16일(월)까지\nhtt
+ ps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
 END:VEVENT
 END:VCALENDAR

@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57376-1@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Over-quota request (graduate courses) · Register spring courses an
- d confirm over-quota requests
-DTSTART:20260309T145900Z
-DTEND:20260309T151400Z
-DESCRIPTION:3–9 Mar 2026\nKorean source: 03-03.(화)~03-09.(월)\nhttps:/
- /ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI explanation — m
- ay contain errors\; check the original. This is a reminder\, not an offici
- al submission. Times converted from the source timezone to UTC.
+DTSTAMP:20261109T165228Z
+SUMMARY:ECE undergrad off-quota requests · Complete Spring 2026 course reg
+ istration and changes
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+DESCRIPTION:Until 5 March 2026\, 18:00\nKorean source: 3.5.(목) 18시까
+ 지만 신청 가능\nhttps://ece.snu.ac.kr/community/academics?bbsidx=573
+ 76&md=v\nAI explanation — may contain errors\; check the original. This 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
 END:VEVENT
 END:VCALENDAR

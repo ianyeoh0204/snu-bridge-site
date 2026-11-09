@@ -4,8 +4,9 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58056-0@snu-bridge
-DTSTAMP:20261108T213114Z
-SUMMARY:Document submission · Apply to recognize prior graduate credits
+DTSTAMP:20261109T165228Z
+SUMMARY:Submit application documents · Apply for prior graduate credit rec
+ ognition
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 DESCRIPTION:By 21 September 2026\, 5 pm\nKorean source: ~ 2026. 9. 21.(월)

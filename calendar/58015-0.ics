@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58015-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Grading method change period · Change grading method for eligible 
+ general-education courses
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DESCRIPTION:1–23 September 2026\, 09:00–23:59\nKorean source: 2026. 9. 
+ 1.(화) 09:00 ~ 9. 23.(수) 23:59\nhttps://ece.snu.ac.kr/community/academi
+ cs?bbsidx=58015&md=v\nAI explanation — may contain errors\; check the or
+ iginal. This is a reminder\, not an official submission. Closing time is n
+ ot supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58015&md=v
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58034-2@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:ECE double-major documents · Apply for a second major or minor
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+DESCRIPTION:16 October 2026\, 18:00\nKorean source: 10. 16.(금) 18:00까
+ 지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58034&md=v\nAI expla
+ nation — may contain errors\; check the original. This is a reminder\, n
+ ot an official submission. Closing time is not supplied by an all-day remi
+ nder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58034&md=v
+END:VEVENT
+END:VCALENDAR

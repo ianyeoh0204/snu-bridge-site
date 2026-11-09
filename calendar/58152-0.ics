@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58152-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Application due · Submit your research internship application
+SUMMARY:Application submission · Submit your research internship applicati
+ on
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-DESCRIPTION:29 Oct 2026\, 18:00\nKorean source: 10월 29일(목) 18:00까
- 지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v\nAI expla
- nation — may contain errors\; check the original. This is a reminder\, n
- ot an official submission. Closing time is not supplied by an all-day remi
- nder.
+DESCRIPTION:29 October 2026\, 18:00\nKorean source: 10월 29일(목) 18:00
+ 까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v\nAI ex
+ planation — may contain errors\; check the original. This is a reminder\
+ , not an official submission. Closing time is not supplied by an all-day r
+ eminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v
 END:VEVENT
 END:VCALENDAR

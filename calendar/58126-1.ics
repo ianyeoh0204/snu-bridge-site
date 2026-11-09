@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58126-1@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Building 39 classes off and closed · Plan around interview-day cla
- ss cancellations
-DTSTART:20261203T000000Z
-DTEND:20261204T110000Z
-DESCRIPTION:3 Dec 09:00 – 4 Dec 20:00\nKorean source: 2026. 12. 3.(목) 0
- 9:00 ~ 12. 4.(금) 20:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx
- =58126&md=v\nAI explanation — may contain errors\; check the original. T
- his is a reminder\, not an official submission. Times converted from the s
- ource timezone to UTC.
+DTSTAMP:20261109T165228Z
+SUMMARY:Some classes off\, 39 closed · Note class cancellations and buildi
+ ng closures
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+DESCRIPTION:3 Dec 09:00–4 Dec 20:00\nKorean source: 2026. 12. 3.(목) 09:
+ 00 ~ 12. 4.(금) 20:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8126&md=v\nAI explanation — may contain errors\; check the original. Thi
+ s is a reminder\, not an official submission. Closing time is not supplied
+  by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58126&md=v
 END:VEVENT
 END:VCALENDAR

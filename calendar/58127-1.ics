@@ -4,9 +4,8 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58127-1@snu-bridge
-DTSTAMP:20261109T081340Z
-SUMMARY:Road parking ban · Avoid controlled campus parking and roads durin
- g concert
+DTSTAMP:20261109T165228Z
+SUMMARY:No parking Gate B–G9 · Avoid closed campus parking and roads
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 DESCRIPTION:11 Oct 21:00–13 Oct 23:59\nKorean source: 10. 11.(일) 21:00 

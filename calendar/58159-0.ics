@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58159-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Possible second round · Check if internship round two opens
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
-DESCRIPTION:10–11 Nov 2026\, if held\nKorean source: 2026.11.10.(화) ~ 2
- 026.11.11.(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58159&md
- =v\nAI explanation — may contain errors\; check the original. This is a 
- reminder\, not an official submission. Closing time is not supplied by an 
- all-day reminder.
+DTSTAMP:20261109T081340Z
+SUMMARY:Round 1 applications · Apply for the Hanwha Ocean winter internshi
+ p course
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+DESCRIPTION:26–30 October 2026\nKorean source: 2026.10.26.(월) ~ 2026.10
+ .30.(금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58159&md=v\nAI
+  explanation — may contain errors\; check the original. This is a remind
+ er\, not an official submission. Closing time is not supplied by an all-da
+ y reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58159&md=v
 END:VEVENT
 END:VCALENDAR

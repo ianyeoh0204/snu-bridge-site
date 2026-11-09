@@ -4,8 +4,9 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58123-2@snu-bridge
-DTSTAMP:20261109T081340Z
-SUMMARY:Tuition payment · Apply for Hanwha Aerospace winter field practice
+DTSTAMP:20261109T165228Z
+SUMMARY:Course fee (if selected) · Apply for Hanwha Aerospace winter inter
+ nship course
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 DESCRIPTION:By 23 November 2026\nKorean source: 11/23(월)까지\nhttps://e

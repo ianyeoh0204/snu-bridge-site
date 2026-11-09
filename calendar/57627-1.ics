@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57627-1@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Guidance report + publication confirmation · Submit PhD preliminar
- y-review documents (February 2027 graduates)
+DTSTAMP:20261109T165228Z
+SUMMARY:Guidance and journal reports · Submit PhD preliminary review commi
+ ttee report
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
-DESCRIPTION:15 Jun – 27 Jul 2026\nKorean source: 2026. 6. 15. ~ 2026. 7. 
- 27.\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v\nAI expla
- nation — may contain errors\; check the original. This is a reminder\, n
- ot an official submission. Closing time is not supplied by an all-day remi
- nder.
+DESCRIPTION:15 June – 27 July 2026\nKorean source: 2026. 6. 15. ~ 2026. 7
+ . 27.\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v\nAI exp
+ lanation — may contain errors\; check the original. This is a reminder\,
+  not an official submission. Closing time is not supplied by an all-day re
+ minder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v
 END:VEVENT
 END:VCALENDAR

@@ -4,15 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57960-0@snu-bridge
-DTSTAMP:20261108T220811Z
-SUMMARY:Gown rental period · Apply online to rent your graduation gown
+DTSTAMP:20261109T165228Z
+SUMMARY:Gown rental period · Rent your graduation gown online
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-DESCRIPTION:13–31 August 2026\nKorean source: 2026. 8.13.(목) ~ 2026. 8.
-  31.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57960&md=v\nAI
-  explanation — may contain errors\; check the original. This is a remind
- er\, not an official submission. Closing time is not supplied by an all-da
- y reminder.
+DESCRIPTION:13–31 August 2026\, 10:00–17:00\nKorean source: 2026. 8.13.
+ (목) ~ 2026. 8. 31.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsid
+ x=57960&md=v\nAI explanation — may contain errors\; check the original. 
+ This is a reminder\, not an official submission. Closing time is not suppl
+ ied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57960&md=v
 END:VEVENT
 END:VCALENDAR

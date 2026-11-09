@@ -4,15 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57448-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:First window · Register as a research student (연구생)
-DTSTART:20260309T080000Z
-DTEND:20260309T081500Z
-DESCRIPTION:20 Feb – 9 Mar 2026\, 17:00\nKorean source: 2026. 2. 20.(금)
-  09:00 ~ 3. 9.(월) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbsid
- x=57448&md=v\nAI explanation — may contain errors\; check the original. 
- This is a reminder\, not an official submission. Times converted from the 
- source timezone to UTC.
+DTSTAMP:20261109T081340Z
+SUMMARY:1st registration round · Pay the graduate research student registr
+ ation fee
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+DESCRIPTION:20 Feb–9 Mar 2026\, 17:00\nKorean source: 2026. 2. 20.(금) 0
+ 9:00 ~ 3. 9.(월) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=
+ 57448&md=v\nAI explanation — may contain errors\; check the original. Th
+ is is a reminder\, not an official submission. Closing time is not supplie
+ d by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57448&md=v
 END:VEVENT
 END:VCALENDAR

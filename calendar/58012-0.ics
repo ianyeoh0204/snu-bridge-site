@@ -4,16 +4,15 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58012-0@snu-bridge
-DTSTAMP:20261109T060539Z
-SUMMARY:Over-quota request (ECE undergraduate courses) · Request over-quot
- a ECE courses by 3 September
-DTSTART:20260903T090000Z
-DTEND:20260903T091500Z
-DESCRIPTION:1–3 Sep 2026\, 18:00\nKorean source: 2026.09.01.(화)~09.03.(
- 목) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nA
- I explanation — may contain errors\; check the original. This is a remin
- der\, not an official submission. Times converted from the source timezone
-  to UTC.
+DTSTAMP:20261109T081340Z
+SUMMARY:Course change period · Change or drop your Fall 2026 courses
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:28 Aug–7 Sep 2026\nKorean source: 개강전 8. 28.(금) ~ 8. 
+ 31.(월) / 개강후 9. 1.(화) ~ 9. 7(월)\nhttps://ece.snu.ac.kr/communi
+ ty/academics?bbsidx=58012&md=v\nAI explanation — may contain errors\; ch
+ eck the original. This is a reminder\, not an official submission. Closing
+  time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
 END:VEVENT
 END:VCALENDAR

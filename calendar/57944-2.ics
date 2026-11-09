@@ -4,16 +4,16 @@ PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57944-2@snu-bridge
-DTSTAMP:20261108T213114Z
-SUMMARY:Poster presentation · Submit final poster PDF\; attend poster pres
- entation
+DTSTAMP:20261109T165228Z
+SUMMARY:Final poster presentation · Submit poster file and attend final pr
+ esentation
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DESCRIPTION:20 Nov 2026\, 09:30–16:30\nKorean source: 최종포스터발
- 표회 11월 20일 (금) 09:30-16:30\nhttps://ece.snu.ac.kr/community/acad
- emics?bbsidx=57944&md=v\nAI explanation — may contain errors\; check the
-  original. This is a reminder\, not an official submission. Closing time i
- s not supplied by an all-day reminder.
+DESCRIPTION:20 November 2026\, 09:30–16:30\nKorean source: 11월 20일 (
+ 금) 09:30-16:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57944&m
+ d=v\nAI explanation — may contain errors\; check the original. This is a
+  reminder\, not an official submission. Closing time is not supplied by an
+  all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v
 END:VEVENT
 END:VCALENDAR

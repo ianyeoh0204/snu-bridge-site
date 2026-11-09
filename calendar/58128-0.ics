@@ -5,8 +5,7 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58128-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Building 17 access control · Avoid Law School Building 17 during e
- ntrance exams
+SUMMARY:Building 17 closed · Stay out of Building 17 during law exams
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 DESCRIPTION:6–7 November 2026\; time not stated\nKorean source: 2026. 11.

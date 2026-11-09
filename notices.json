@@ -1,52 +1,48 @@
 {
-  "built_at": "2026-11-09T18:26:00Z",
-  "checked_at": "2026-11-09T18:12:10Z",
+  "built_at": "2026-11-09T19:07:42Z",
+  "checked_at": "2026-11-09T18:30:18Z",
   "grounding": {
     "checked": 68,
-    "passed": 68
+    "passed": 61
   },
   "generator": {
-    "configured": false,
-    "model": null,
-    "last_run": null,
-    "waiting": 0
+    "configured": true,
+    "model": "claude-opus-5-5",
+    "last_run": "2026-11-09T19:00:31Z",
+    "waiting": 4
   },
   "notices": [
     {
       "id": "58196",
-      "title": "Submit your graduation-project poster PDF",
-      "who": "Undergraduates in the Fall 2026 graduation project",
+      "title": "Submit your graduation project poster PDF",
+      "who": "Undergraduates in this semester's graduation project",
       "deadlines": [
         {
-          "label": "Poster PDF upload",
-          "when": "9 Nov 2026, 23:59",
+          "action": "Upload A1 portrait PDF poster",
+          "end": "2026-11-09",
+          "kind": "action",
+          "label": "Submit poster PDF",
           "quote": "11월 9일(월) 23:59까지",
-          "end": "2026-11-09T23:59:00+09:00",
+          "when": "9 November 2026, 23:59",
           "calendar_path": "calendar/58196-0.ics"
         },
         {
-          "label": "Advisor reviews thesis and poster",
-          "when": "By 16 Nov 2026",
-          "quote": "11월 16일(월)까지",
+          "action": "Get drafts reviewed by advisor",
           "end": "2026-11-16",
+          "kind": "action",
+          "label": "Advisor draft review",
+          "quote": "11월 16일(월)까지",
+          "when": "By 16 November 2026",
           "calendar_path": "calendar/58196-1.ics"
         },
         {
-          "label": "Panel setup (one person per lab)",
-          "when": "19 Nov 2026, 15:00",
-          "quote": "11월 19일(목) 오후 3시",
-          "end": "2026-11-19T15:00:00+09:00",
+          "end": "2026-11-20",
           "kind": "event",
-          "calendar_path": "calendar/58196-2.ics"
-        },
-        {
           "label": "Final presentation",
-          "when": "20 Nov 2026, 10:00–16:00",
           "quote": "11월 20일(금) 10:00 ~ 16:00",
-          "start": "2026-11-20T10:00:00+09:00",
-          "end": "2026-11-20T16:00:00+09:00",
-          "kind": "event",
-          "calendar_path": "calendar/58196-3.ics"
+          "start": "2026-11-20",
+          "when": "20 November 2026, 10:00–16:00",
+          "calendar_path": "calendar/58196-2.ics"
         }
       ],
       "degrees": [
@@ -63,15 +59,17 @@
     },
     {
       "id": "58182",
-      "title": "Complete the mid-semester course survey",
-      "who": "Students in any course except Thesis Research",
+      "title": "Submit mid-semester course feedback on mySNU",
+      "who": "Students taking courses in Fall 2026",
       "deadlines": [
         {
-          "label": "Survey period (extended)",
-          "when": "29 Oct – 12 Nov 2026",
-          "quote": "2026.10.29.(목) ~ 11.12.(목) ※ 1주일 연장",
-          "start": "2026-10-29",
+          "action": "Submit feedback for each course",
           "end": "2026-11-12",
+          "kind": "action",
+          "label": "Mid-semester feedback survey",
+          "quote": "2026.10.29.(목) ~ 11.12.(목)",
+          "start": "2026-10-29",
+          "when": "29 October – 12 November 2026",
           "calendar_path": "calendar/58182-0.ics"
         }
       ],
@@ -83,11 +81,6 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "change_note": {
-        "text": "Deadline extended: 5 → 12 November",
-        "quote": "2026.10.29.(목) ~ 11.12.(목) ※ 1주일 연장",
-        "basis": "The current notice explicitly states this extension; not inferred from a synthetic edit."
-      },
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58182&md=v",
@@ -97,24 +90,23 @@
     },
     {
       "id": "58191",
-      "title": "Book the 20 November new safety training",
-      "who": "Researchers who have not done new safety training",
+      "title": "Attend new-researcher lab safety training",
+      "who": "Graduate researchers who have not completed new safety training",
       "deadlines": [
         {
-          "label": "Training session",
-          "when": "20 Nov 2026, 09:30–18:30",
-          "quote": "2026. 11. 20.(금) 09:30~18:30",
-          "start": "2026-11-20T09:30:00+09:00",
-          "end": "2026-11-20T18:30:00+09:00",
+          "end": "2026-11-20",
           "kind": "event",
+          "label": "Safety training session",
+          "quote": "2026. 11. 20.(금) 09:30~18:30",
+          "start": "2026-11-20",
+          "when": "20 November 2026, 09:30–18:30",
           "calendar_path": "calendar/58191-0.ics"
         }
       ],
       "degrees": [
         "masters",
         "phd",
-        "integrated",
-        "undergraduate"
+        "integrated"
       ],
       "graduation_scope": "any",
       "historical": false,
@@ -123,50 +115,87 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58191&md=v",
       "posting_date": "2026.11.02",
       "korean_title": "2026년 연구활동종사자 안전환경교육(신규교육) 11월 일정 안내",
-      "period": "November 2026"
+      "period": "Fall 2026"
     },
     {
       "id": "58159",
-      "title": "Check if internship round two opens",
-      "who": "Students interested in the Hanwha Ocean winter internship",
+      "title": "Apply for the Hanwha Ocean winter internship course",
+      "who": "Undergraduates in 3rd year or above, listed majors",
       "deadlines": [
         {
-          "label": "Possible second round",
-          "when": "10–11 Nov 2026, if held",
+          "action": "Email signed application form",
+          "end": "2026-10-30",
+          "kind": "action",
+          "label": "Round 1 applications",
+          "quote": "2026.10.26.(월) ~ 2026.10.30.(금)",
+          "start": "2026-10-26",
+          "when": "26–30 October 2026",
+          "calendar_path": "calendar/58159-0.ics"
+        },
+        {
+          "action": "Email signed application form",
+          "end": "2026-11-11",
+          "kind": "action",
+          "label": "Round 2 applications (if held)",
           "quote": "2026.11.10.(화) ~ 2026.11.11.(수)",
           "start": "2026-11-10",
-          "end": "2026-11-11",
-          "calendar_path": "calendar/58159-0.ics"
+          "when": "10–11 November 2026",
+          "calendar_path": "calendar/58159-1.ics"
+        },
+        {
+          "kind": "event",
+          "label": "Intern pre-training",
+          "quote": "2026.12.07.(월)",
+          "start": "2026-12-07",
+          "when": "7 December 2026"
         }
       ],
       "degrees": [
-        "undergraduate",
-        "masters",
-        "phd",
-        "integrated"
+        "undergraduate"
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58159&md=v",
       "posting_date": "2026.10.22",
       "korean_title": "2026학년도 동계계절학기 실습학기제 『현장실습 3』교과목 현장실습 신청 안내(10.26.(월)~10.30.(금) 신청서류 접수)",
-      "period": "Winter 2026 planning"
+      "period": "Winter 2026"
     },
     {
       "id": "58200",
-      "title": "Pay winter-session tuition on time",
-      "who": "Students registered for a Winter 2026 course",
+      "title": "Pay your winter session tuition",
+      "who": "Students registered for 2026 winter session courses",
       "deadlines": [
         {
-          "label": "Final course cancellations announced",
-          "when": "8 Dec 2026",
-          "quote": "최종 폐강(수납인원 20명 미만): 2026.12.08.(화)",
-          "end": "2026-12-08",
-          "kind": "info",
+          "action": "Pay winter session tuition",
+          "end": "2026-11-23",
+          "kind": "action",
+          "label": "Payment, 1st round",
+          "quote": "2026.11.18.(수)~11.23.(월)",
+          "start": "2026-11-18",
+          "when": "18–23 November 2026, weekdays",
           "calendar_path": "calendar/58200-0.ics"
+        },
+        {
+          "action": "Pay tuition if not yet paid",
+          "end": "2026-11-27",
+          "kind": "action",
+          "label": "Payment, final round",
+          "quote": "2026.11.26.(목)~11.27.(금)",
+          "start": "2026-11-26",
+          "when": "26–27 November 2026",
+          "calendar_path": "calendar/58200-1.ics"
+        },
+        {
+          "action": "Drop course for full refund",
+          "end": "2026-12-21",
+          "kind": "action",
+          "label": "Withdraw for full refund",
+          "quote": "2026.12.11.(금)~2026.12.21.(월)",
+          "start": "2026-12-11",
+          "when": "11–21 December 2026",
+          "calendar_path": "calendar/58200-2.ics"
         }
       ],
       "degrees": [
@@ -177,18 +206,17 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v",
       "posting_date": "2026.11.05",
       "korean_title": "2026학년도 동계 계절수업 수강료 납부 및 환불 계획 안내",
-      "period": "Winter 2026 planning"
+      "period": "Winter 2026"
     },
     {
       "id": "58160",
-      "title": "Check your thesis presentation time and room",
-      "who": "Master's/PhD presenters and seminar attendees this semester",
+      "title": "Check the thesis defense presentation schedule",
+      "who": "Thesis defenders and seminar attendees, Fall 2026",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -197,7 +225,6 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58160&md=v",
@@ -207,16 +234,23 @@
     },
     {
       "id": "58134",
-      "title": "Complete research-ethics training (BK21: by December)",
-      "who": "New graduate students and those without ethics training",
+      "title": "Complete the online research ethics course",
+      "who": "New and not-yet-completed graduate students",
       "deadlines": [
         {
-          "label": "General period (ended)",
-          "when": "1 Sep – 31 Oct 2026",
-          "quote": "2026. 9. 1.(화)~10. 31.(토)",
-          "start": "2026-09-01",
+          "action": "Finish all videos and the PDF",
           "end": "2026-10-31",
+          "kind": "action",
+          "label": "Course completion deadline",
+          "quote": "2026. 10. 31.(토)",
+          "when": "31 October 2026; time not stated",
           "calendar_path": "calendar/58134-0.ics"
+        },
+        {
+          "kind": "info",
+          "label": "BK21 participants' extended deadline",
+          "quote": "2026년 12월까지 수강 가능",
+          "when": "December 2026; day not stated"
         }
       ],
       "degrees": [
@@ -226,7 +260,6 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "ongoing_condition": "BK21 participants only: through December 2026; exact day/time not stated. Confirm your eligibility and cutoff.",
       "new_students": true,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58134&md=v",
@@ -236,25 +269,25 @@
     },
     {
       "id": "58126",
-      "title": "Plan around interview-day class cancellations",
-      "who": "Students taking engineering courses or using Buildings 302/39",
+      "title": "Note class cancellations and building closures",
+      "who": "All students taking College of Engineering courses",
       "deadlines": [
         {
-          "label": "Engineering classes off; Building 302 closed",
-          "when": "26 Nov 09:00 – 27 Nov 20:00",
+          "end": "2026-11-27",
+          "kind": "closure",
+          "label": "Classes off, 302 closed",
           "quote": "2026. 11. 26.(목) 09:00 ~ 11. 27.(금) 20:00",
-          "start": "2026-11-26T09:00:00+09:00",
-          "end": "2026-11-27T20:00:00+09:00",
-          "kind": "event",
+          "start": "2026-11-26",
+          "when": "26 Nov 09:00–27 Nov 20:00",
           "calendar_path": "calendar/58126-0.ics"
         },
         {
-          "label": "Building 39 classes off and closed",
-          "when": "3 Dec 09:00 – 4 Dec 20:00",
+          "end": "2026-12-04",
+          "kind": "closure",
+          "label": "Some classes off, 39 closed",
           "quote": "2026. 12. 3.(목) 09:00 ~ 12. 4.(금) 20:00",
-          "start": "2026-12-03T09:00:00+09:00",
-          "end": "2026-12-04T20:00:00+09:00",
-          "kind": "event",
+          "start": "2026-12-03",
+          "when": "3 Dec 09:00–4 Dec 20:00",
           "calendar_path": "calendar/58126-1.ics"
         }
       ],
@@ -271,18 +304,20 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58126&md=v",
       "posting_date": "2026.10.08",
       "korean_title": "2027학년도 공과대학 수시모집 면접고사 시행에 따른 휴강 및 건물 출입통제 안내",
-      "period": "November–December 2026"
+      "period": "Fall 2026"
     },
     {
       "id": "58141",
-      "title": "Enter the multiple-major essay contest",
-      "who": "Year-3+ undergraduates or graduates with multiple-major experience",
+      "title": "Submit your multiple-major experience essay",
+      "who": "Undergraduates in year 3+ with multiple-major experience",
       "deadlines": [
         {
-          "label": "Essay submission",
-          "when": "22 Nov 2026",
-          "quote": "2026. 11. 22.(일)",
+          "action": "Apply and submit essay on SNU비교과",
           "end": "2026-11-22",
+          "kind": "action",
+          "label": "Essay submission",
+          "quote": "2026년 11월 22일(일) 23:59까지",
+          "when": "22 November 2026, 23:59",
           "calendar_path": "calendar/58141-0.ics"
         }
       ],
@@ -296,13 +331,44 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58141&md=v",
       "posting_date": "2026.10.14",
       "korean_title": "2026 다전공 수기 공모전 프로그램 홍보",
-      "period": "November 2026"
+      "period": "Fall 2026"
     },
     {
       "id": "58149",
-      "title": "Read the winter course-registration schedule",
-      "who": "Students planning Winter 2026 session courses",
-      "deadlines": [],
+      "title": "Register for winter session courses",
+      "who": "Students who want to take winter session courses",
+      "deadlines": [
+        {
+          "action": "Register for winter session courses",
+          "end": "2026-11-03",
+          "kind": "action",
+          "label": "Course registration",
+          "quote": "2026.10.27.(화) ~ 11.03.(화)",
+          "start": "2026-10-27",
+          "when": "27 Oct–3 Nov 2026, weekdays",
+          "calendar_path": "calendar/58149-0.ics"
+        },
+        {
+          "action": "Add or drop winter courses",
+          "end": "2026-11-13",
+          "kind": "action",
+          "label": "Course change period",
+          "quote": "2026.11.11.(수) ~ 11.13.(금)",
+          "start": "2026-11-11",
+          "when": "11–13 November 2026",
+          "calendar_path": "calendar/58149-1.ics"
+        },
+        {
+          "action": "Print bill and pay tuition",
+          "end": "2026-11-23",
+          "kind": "action",
+          "label": "Tuition payment (first round)",
+          "quote": "2026.11.18.(수) ~ 11.23.(월)",
+          "start": "2026-11-18",
+          "when": "18–23 November 2026",
+          "calendar_path": "calendar/58149-2.ics"
+        }
+      ],
       "degrees": [
         "undergraduate",
         "masters",
@@ -311,32 +377,44 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v",
       "posting_date": "2026.10.19",
       "korean_title": "2026학년도 동계 계절수업 수강신청 안내",
-      "period": "Winter 2026 planning"
+      "period": "Winter 2026"
     },
     {
       "id": "58044",
-      "title": "Submit your graduation thesis by 21 December",
-      "who": "February 2027 ECE graduation applicants",
+      "title": "Submit your bachelor's graduation thesis",
+      "who": "Undergraduates graduating in February 2027",
       "deadlines": [
         {
-          "label": "Thesis (or late-submission form)",
-          "when": "By 21 Dec 2026",
-          "quote": "2026. 12. 21(월)까지",
+          "action": "Submit thesis to department office",
           "end": "2026-12-21",
+          "kind": "action",
+          "label": "Thesis submission",
+          "quote": "2026. 12. 21(월)까지",
+          "when": "By 21 December 2026",
           "calendar_path": "calendar/58044-0.ics"
         },
         {
-          "label": "Late hand-in, only with the form",
-          "when": "By 28 Dec 2026",
-          "quote": "2026.12.28.(월)까지",
-          "end": "2026-12-28",
+          "action": "Submit submission-date confirmation form if late",
+          "end": "2026-12-21",
+          "kind": "action",
+          "label": "Late-submission form",
+          "quote": "2026. 12. 21.(월)까지",
+          "when": "By 21 December 2026",
           "calendar_path": "calendar/58044-1.ics"
+        },
+        {
+          "action": "Submit thesis under the extension",
+          "end": "2026-12-28",
+          "kind": "action",
+          "label": "Extended thesis deadline",
+          "quote": "2026.12.28.(월)까지",
+          "when": "By 28 December 2026",
+          "calendar_path": "calendar/58044-2.ics"
         }
       ],
       "degrees": [
@@ -349,26 +427,42 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v",
       "posting_date": "2026.09.07",
       "korean_title": "2027년 2월 학사과정 졸업예정자 졸업논문 제출 안내",
-      "period": "Fall 2026; February 2027 graduation"
+      "period": "Fall 2026"
     },
     {
       "id": "58045",
-      "title": "Get your graduation thesis signed by 21 December",
-      "who": "Undergraduates finishing the graduation project this semester",
+      "title": "Submit your advisor-signed graduation thesis",
+      "who": "Undergraduates who did the graduation project this semester",
       "deadlines": [
         {
-          "label": "Thesis signed (submitted if graduating)",
-          "when": "By 21 Dec 2026",
-          "quote": "2026.12. 21.(월)까지",
+          "action": "Submit thesis with signed approval page",
           "end": "2026-12-21",
+          "kind": "action",
+          "label": "Submit signed thesis",
+          "quote": "2026.12. 21.(월)까지 제출",
+          "start": "2026-12-21",
+          "when": "21 December 2026; time not stated",
           "calendar_path": "calendar/58045-0.ics"
         },
         {
-          "label": "Latest extension, if arranged in advance",
-          "when": "28 Dec 2026",
-          "quote": "12. 28.(월)까지",
-          "end": "2026-12-28",
+          "action": "Submit confirmation form if thesis is late",
+          "end": "2026-12-21",
+          "kind": "action",
+          "label": "Late-submission form",
+          "quote": "2026. 12. 21.(월)까지",
+          "start": "2026-12-21",
+          "when": "21 December 2026; time not stated",
           "calendar_path": "calendar/58045-1.ics"
+        },
+        {
+          "action": "Submit the late thesis",
+          "end": "2026-12-28",
+          "kind": "action",
+          "label": "Late thesis final deadline",
+          "quote": "2026.12.28.(월)까지",
+          "start": "2026-12-28",
+          "when": "28 December 2026; time not stated",
+          "calendar_path": "calendar/58045-2.ics"
         }
       ],
       "degrees": [
@@ -381,27 +475,31 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58045&md=v",
       "posting_date": "2026.09.07",
       "korean_title": "[2026학년도 2학기] 졸업프로젝트 이후 졸업논문 작성 및 지도교수님 서명 관련 안내",
-      "period": "Fall 2026 graduation project"
+      "period": "Fall 2026"
     },
     {
       "id": "58076",
-      "title": "Submit PhD preliminary-review documents (August 2027 graduates)",
-      "who": "PhD candidates aiming to graduate in August 2027",
+      "title": "Submit your PhD preliminary review documents",
+      "who": "PhD candidates planning to graduate August 2027",
       "deadlines": [
         {
-          "label": "Committee report (ended)",
-          "when": "12–26 Oct 2026",
+          "action": "Submit the committee appointment report",
+          "end": "2026-10-26",
+          "kind": "action",
+          "label": "Committee appointment report",
           "quote": "2026. 10. 12.(월) ~ 10. 26.(월)",
           "start": "2026-10-12",
-          "end": "2026-10-26",
+          "when": "12–26 October 2026",
           "calendar_path": "calendar/58076-0.ics"
         },
         {
-          "label": "Guidance report + publication confirmation",
-          "when": "14 Dec 2026 – 22 Jan 2027",
+          "action": "Submit guidance report and journal confirmation",
+          "end": "2027-01-22",
+          "kind": "action",
+          "label": "Guidance and journal forms",
           "quote": "2026. 12. 14.(월) ~ 2027. 1. 22.(금)",
           "start": "2026-12-14",
-          "end": "2027-01-22",
+          "when": "14 Dec 2026–22 Jan 2027",
           "calendar_path": "calendar/58076-1.ics"
         }
       ],
@@ -409,98 +507,97 @@
         "phd",
         "integrated"
       ],
-      "graduation_scope": "any",
+      "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58076&md=v",
       "posting_date": "2026.09.16",
       "korean_title": "★2026학년도 2학기 박사 예비심사 일정 안내(2027년 8월 졸업)",
-      "period": "Fall 2026; August 2027 PhD target"
+      "period": "Fall 2026"
     },
     {
       "id": "58071",
-      "title": "Get a professor for your Spring 2027 project",
+      "title": "Apply for your graduation project topic",
       "who": "Undergraduates taking the graduation project in Spring 2027",
       "deadlines": [
         {
-          "label": "First-round interviews",
-          "when": "3–17 Nov 2026",
-          "quote": "11.3(화) - 11.17(화)",
-          "start": "2026-11-03",
-          "end": "2026-11-17",
+          "action": "Choose project preferences on the intranet",
+          "end": "2026-10-28",
+          "kind": "action",
+          "label": "Round 1 topic preference",
+          "quote": "10.21(수) – 10.28(수)",
+          "start": "2026-10-21",
+          "when": "21–28 October 2026",
           "calendar_path": "calendar/58071-0.ics"
         },
         {
-          "label": "Preference changes",
-          "when": "27 Nov – 1 Dec 2026",
-          "quote": "11.27(금) - 12.1(화)",
-          "start": "2026-11-27",
-          "end": "2026-12-01",
+          "action": "Submit signed paper interview form",
+          "end": "2026-11-17",
+          "kind": "action",
+          "label": "Round 1 interview form",
+          "quote": "11.3(화) - 11.17(화)",
+          "start": "2026-11-03",
+          "when": "3–17 November 2026",
           "calendar_path": "calendar/58071-1.ics"
         },
         {
-          "label": "Second-round interviews",
-          "when": "2–16 Dec 2026",
-          "quote": "12.2(수) - 12.16(수)",
-          "start": "2026-12-02",
-          "end": "2026-12-16",
+          "action": "Choose project preferences if still unassigned",
+          "end": "2026-11-26",
+          "kind": "action",
+          "label": "Round 2 topic preference",
+          "quote": "11.19(목) - 11.26(목)",
+          "start": "2026-11-19",
+          "when": "19–26 November 2026",
           "calendar_path": "calendar/58071-2.ics"
         }
       ],
       "degrees": [
         "undergraduate"
       ],
-      "graduation_scope": "any",
+      "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v",
       "posting_date": "2026.09.14",
       "korean_title": "[2027학년도 1학기] 전기공학설계프로젝트 (졸업프로젝트) 안내",
-      "period": "Spring 2027 project preparation"
+      "period": "Spring 2027"
     },
     {
       "id": "58072",
-      "title": "Submit thesis-review results and final thesis",
-      "who": "Master's/PhD students in Fall 2026 thesis review",
+      "title": "Apply for thesis review and pay fee",
+      "who": "Master's and PhD students defending in Fall 2026",
       "deadlines": [
         {
-          "label": "Master's result documents",
-          "when": "14 Dec 2026, 17:00",
-          "quote": "2026년 12월 14일(월) 17:00까지",
-          "end": "2026-12-14T17:00:00+09:00",
-          "degrees": [
-            "masters"
-          ],
+          "action": "Apply online and submit documents",
+          "end": "2026-10-01",
+          "kind": "action",
+          "label": "Online application",
+          "quote": "2026년 9월 21일(월)～10월 1일(목) 17:00까지",
+          "start": "2026-09-21",
+          "when": "21 Sep–1 Oct 2026, 17:00",
           "calendar_path": "calendar/58072-0.ics"
         },
         {
-          "label": "PhD result documents",
-          "when": "21 Dec 2026, 17:00",
-          "quote": "2026년 12월 21일(월) 17:00까지",
-          "end": "2026-12-21T17:00:00+09:00",
-          "degrees": [
-            "phd",
-            "integrated"
-          ],
+          "action": "Pay the thesis review fee",
+          "end": "2026-11-03",
+          "kind": "action",
+          "label": "Pay review fee",
+          "quote": "2026년 10월 21일(수)～ 11월 3일(화) 17:00까지",
+          "start": "2026-10-21",
+          "when": "21 Oct–3 Nov 2026, 17:00",
           "calendar_path": "calendar/58072-1.ics"
         },
         {
-          "label": "Office: confirmation + approval page",
-          "when": "15–22 Jan 2027, 17:00",
-          "quote": "2027년 1월 15일(금) ∼ 1월 22일(금) 17:00",
-          "start": "2027-01-15",
-          "end": "2027-01-22T17:00:00+09:00",
-          "calendar_path": "calendar/58072-2.ics"
-        },
-        {
-          "label": "Library: final PDF",
-          "when": "15 Jan – 1 Feb 2027, 23:59",
+          "action": "Submit the final approved thesis",
+          "end": "2027-02-01",
+          "kind": "action",
+          "label": "Final thesis submission",
           "quote": "2027년 1월 15일(금) ∼ 2월 1일(월) 23:59",
           "start": "2027-01-15",
-          "end": "2027-02-01T23:59:00+09:00",
-          "calendar_path": "calendar/58072-3.ics"
+          "when": "15 Jan–1 Feb 2027, 23:59",
+          "calendar_path": "calendar/58072-2.ics"
         }
       ],
       "degrees": [
@@ -515,7 +612,7 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v",
       "posting_date": "2026.09.15",
       "korean_title": "★2026학년도 2학기 대학원 논문 심사 일정 안내",
-      "period": "Fall 2026; February 2027 degree"
+      "period": "Fall 2026"
     },
     {
       "id": "58022",
@@ -523,11 +620,13 @@
       "who": "Graduate students registered for Thesis Research (430.960)",
       "deadlines": [
         {
-          "label": "Both submissions",
-          "when": "3–17 Sep 2026",
+          "action": "Submit Google Form and signed confirmation form",
+          "end": "2026-09-17",
+          "kind": "action",
+          "label": "Submit confirmation form",
           "quote": "2026. 9. 3.(목) ~ 2026. 9. 17.(목)",
           "start": "2026-09-03",
-          "end": "2026-09-17",
+          "when": "3–17 September 2026; time not stated",
           "calendar_path": "calendar/58022-0.ics"
         }
       ],
@@ -537,7 +636,7 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58022&md=v",
@@ -547,30 +646,37 @@
     },
     {
       "id": "58012",
-      "title": "Request over-quota ECE courses by 3 September",
-      "who": "Students changing Fall 2026 courses",
+      "title": "Change or drop your Fall 2026 courses",
+      "who": "All students taking Fall 2026 courses",
       "deadlines": [
         {
-          "label": "Over-quota request (ECE undergraduate courses)",
-          "when": "1–3 Sep 2026, 18:00",
-          "quote": "2026.09.01.(화)~09.03.(목) 18:00",
-          "start": "2026-09-01",
-          "end": "2026-09-03T18:00:00+09:00",
+          "action": "Add or delete courses on sugang.snu.ac.kr",
+          "end": "2026-09-07",
+          "kind": "action",
+          "label": "Course change period",
+          "quote": "개강전 8. 28.(금) ~ 8. 31.(월) / 개강후 9. 1.(화) ~ 9. 7(월)",
+          "start": "2026-08-28",
+          "when": "28 Aug–7 Sep 2026",
           "calendar_path": "calendar/58012-0.ics"
         },
         {
-          "label": "Overlapping-course request",
-          "when": "1–9 Sep 2026",
-          "quote": "9/1(화) ~ 9/9(수)",
-          "start": "2026-09-01",
+          "action": "Confirm approved over-quota courses",
           "end": "2026-09-09",
+          "kind": "action",
+          "label": "Confirm over-quota courses",
+          "quote": "2026.09.01.(화)~09.09.(수)",
+          "start": "2026-09-01",
+          "when": "1–9 September 2026",
           "calendar_path": "calendar/58012-1.ics"
         },
         {
-          "label": "Course classification / grading option",
-          "when": "By 23 Sep 2026",
-          "quote": "2026.09.23.(수)",
-          "end": "2026-09-23",
+          "action": "Request course drops in mySNU",
+          "end": "2026-10-20",
+          "kind": "action",
+          "label": "Course drop requests",
+          "quote": "2026.09.08.(화)~10.20.(화)",
+          "start": "2026-09-08",
+          "when": "8 September–20 October 2026",
           "calendar_path": "calendar/58012-2.ics"
         }
       ],
@@ -581,7 +687,7 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v",
@@ -592,7 +698,7 @@
     {
       "id": "56747",
       "title": "Check your graduate completion requirements",
-      "who": "All ECE graduate students",
+      "who": "ECE graduate students (master's, PhD, integrated)",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -606,33 +712,36 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=56747&md=v",
       "posting_date": "2026.02.26",
       "korean_title": "★[대학원 필독] 학점, 수료, 졸업 등 주요사항 및 자주 묻는 질문 안내",
-      "period": "2026 graduate guidance"
+      "period": "Spring 2026"
     },
     {
       "id": "57151",
-      "title": "Check the completion/graduation list for errors",
-      "who": "Graduate students expecting February 2026 completion or degree",
+      "title": "Check your name on the completion list",
+      "who": "Grad students completing or graduating in February 2026",
       "deadlines": [
         {
-          "label": "English-name correction",
-          "when": "By 12 Jan 2026",
-          "quote": "2026. 1. 12.(월)까지",
-          "end": "2026-01-12",
-          "calendar_path": "calendar/57151-0.ics"
-        },
-        {
-          "label": "Report list errors or deferral",
-          "when": "By 14 Jan 2026",
-          "quote": "2026. 1. 14.(수)까지",
+          "action": "Report list errors or submit deferral",
           "end": "2026-01-14",
-          "calendar_path": "calendar/57151-1.ics"
+          "kind": "action",
+          "label": "Report list problems",
+          "quote": "2026. 1. 14.(수)까지",
+          "when": "14 January 2026; time not stated"
         },
         {
-          "label": "PhD survey certificate",
-          "when": "By 6 Feb 2026",
-          "quote": "2026. 2. 6.(금)까지",
+          "action": "Apply for English name change",
+          "end": "2026-01-12",
+          "kind": "action",
+          "label": "Request English name change",
+          "quote": "2026. 1. 12.(월)까지",
+          "when": "12 January 2026; time not stated"
+        },
+        {
+          "action": "Email survey completion certificate",
           "end": "2026-02-06",
-          "calendar_path": "calendar/57151-2.ics"
+          "kind": "action",
+          "label": "Submit PhD survey certificate",
+          "quote": "2026. 2. 6.(금)까지",
+          "when": "6 February 2026; time not stated"
         }
       ],
       "degrees": [
@@ -640,44 +749,47 @@
         "phd",
         "integrated"
       ],
-      "graduation_scope": "planning",
-      "historical": true,
+      "graduation_scope": "graduating_only",
+      "historical": false,
       "new_students": false,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v",
       "posting_date": "2026.01.05",
       "korean_title": "[대학원] ★2026년 2월 석사, 박사과정 수료/졸업예정자 명단 안내",
-      "period": "February 2026 graduation"
+      "period": "February 2026"
     },
     {
       "id": "57441",
-      "title": "Register for the qualifying exam in three steps",
-      "who": "Master's/PhD in semester 2; integrated in semester 3",
+      "title": "Register for the thesis qualifying exam",
+      "who": "Graduate students in their 2nd or 3rd semester",
       "deadlines": [
         {
+          "action": "Fill in the registration Google Form",
+          "end": "2026-02-18",
+          "kind": "action",
           "label": "Google Form",
-          "when": "11–18 Feb 2026",
           "quote": "2026. 2. 11.(수) - 2026. 2. 18.(수)까지",
           "start": "2026-02-11",
-          "end": "2026-02-18",
+          "when": "11–18 February 2026",
           "calendar_path": "calendar/57441-0.ics"
         },
         {
-          "label": "mySNU application",
-          "when": "20–27 Feb 2026",
-          "quote": "2026. 2. 20.(금) 10:00 - 2026. 2. 27.(금)까지",
-          "start": "2026-02-20T10:00:00+09:00",
+          "action": "Register on the portal and upload certificates",
           "end": "2026-02-27",
+          "kind": "action",
+          "label": "Portal registration",
+          "quote": "2026. 2. 20.(금) 10:00 - 2026. 2. 27.(금)까지",
+          "start": "2026-02-20",
+          "when": "20 Feb 10:00 – 27 Feb 2026",
           "calendar_path": "calendar/57441-1.ics"
         },
         {
-          "label": "Exam",
-          "when": "13 Mar 2026, 10:00–12:00",
-          "quote": "2026. 3. 13.(금) 10:00 -12:00(2시간) * 9:50까지 입실",
-          "start": "2026-03-13T09:50:00+09:00",
-          "end": "2026-03-13T12:00:00+09:00",
           "kind": "event",
-          "calendar_path": "calendar/57441-2.ics"
+          "label": "Written exam",
+          "quote": "2026. 3. 13.(금) 10:00 -12:00(2시간) * 9:50까지 입실",
+          "start": "2026-03-13",
+          "when": "13 March 2026, 10:00–12:00"
         }
       ],
       "degrees": [
@@ -686,7 +798,7 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57441&md=v",
@@ -696,42 +808,55 @@
     },
     {
       "id": "57606",
-      "title": "Use the new publication rule from Fall 2026",
-      "who": "ECE graduate students preparing thesis review",
-      "deadlines": [],
+      "title": "Meet the new thesis publication requirements",
+      "who": "Graduate students with thesis review from Fall 2026",
+      "deadlines": [
+        {
+          "kind": "info",
+          "label": "New rules take effect",
+          "quote": "2026년 9월부터",
+          "start": "2026-09-01",
+          "when": "From September 2026 (Fall review)"
+        }
+      ],
       "degrees": [
         "masters",
         "phd",
         "integrated"
       ],
-      "graduation_scope": "planning",
-      "historical": true,
+      "graduation_scope": "graduating_only",
+      "historical": false,
       "new_students": false,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57606&md=v",
       "posting_date": "2026.03.13",
       "korean_title": "★[내규] 대학원(석사, 박사, 석박통합 과정) 학위수여(논문 관련) 변경 규정 안내",
-      "period": "Rule transition from September 2026"
+      "period": "Fall 2026 onward"
     },
     {
       "id": "57627",
-      "title": "Submit PhD preliminary-review documents (February 2027 graduates)",
-      "who": "PhD candidates aiming to graduate in February 2027",
+      "title": "Submit PhD preliminary review committee report",
+      "who": "PhD candidates graduating in February 2027",
       "deadlines": [
         {
-          "label": "Committee report",
-          "when": "13–27 Apr 2026",
+          "action": "Submit committee appointment report (attachment 01)",
+          "end": "2026-04-27",
+          "kind": "action",
+          "label": "Committee appointment report",
           "quote": "2026. 4. 13.(월) ~ 4. 27.(월)",
           "start": "2026-04-13",
-          "end": "2026-04-27",
+          "when": "13–27 April 2026",
           "calendar_path": "calendar/57627-0.ics"
         },
         {
-          "label": "Guidance report + publication confirmation",
-          "when": "15 Jun – 27 Jul 2026",
+          "action": "Submit guidance report and journal confirmation",
+          "end": "2026-07-27",
+          "kind": "action",
+          "label": "Guidance and journal reports",
           "quote": "2026. 6. 15. ~ 2026. 7. 27.",
           "start": "2026-06-15",
-          "end": "2026-07-27",
+          "when": "15 June – 27 July 2026",
           "calendar_path": "calendar/57627-1.ics"
         }
       ],
@@ -739,34 +864,38 @@
         "phd",
         "integrated"
       ],
-      "graduation_scope": "planning",
-      "historical": true,
+      "graduation_scope": "graduating_only",
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57627&md=v",
       "posting_date": "2026.03.18",
       "korean_title": "[대학원] 2026학년도 1학기 박사 예비심사 일정 안내(2027년 2월 졸업)",
-      "period": "Spring 2026; February 2027 PhD target"
+      "period": "Spring 2026"
     },
     {
       "id": "57448",
-      "title": "Register as a research student (연구생)",
-      "who": "Graduates who finished coursework and still need facilities",
+      "title": "Pay the graduate research student registration fee",
+      "who": "Graduate students who completed coursework (수료생)",
       "deadlines": [
         {
-          "label": "First window",
-          "when": "20 Feb – 9 Mar 2026, 17:00",
+          "action": "Pay the research student fee",
+          "end": "2026-03-09",
+          "kind": "action",
+          "label": "1st registration round",
           "quote": "2026. 2. 20.(금) 09:00 ~ 3. 9.(월) 17:00",
-          "start": "2026-02-20T09:00:00+09:00",
-          "end": "2026-03-09T17:00:00+09:00",
+          "start": "2026-02-20",
+          "when": "20 Feb–9 Mar 2026, 17:00",
           "calendar_path": "calendar/57448-0.ics"
         },
         {
-          "label": "Final window",
-          "when": "19–31 Mar 2026, 17:00",
+          "action": "Pay the fee if you missed round 1",
+          "end": "2026-03-31",
+          "kind": "action",
+          "label": "2nd (final) round",
           "quote": "2026. 3. 19.(목) 09:00 ~ 3. 31.(화) 17:00",
-          "start": "2026-03-19T09:00:00+09:00",
-          "end": "2026-03-31T17:00:00+09:00",
+          "start": "2026-03-19",
+          "when": "19–31 Mar 2026, 17:00",
           "calendar_path": "calendar/57448-1.ics"
         }
       ],
@@ -776,7 +905,7 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57448&md=v",
@@ -786,45 +915,38 @@
     },
     {
       "id": "57626",
-      "title": "Complete every stage of thesis review",
-      "who": "Master's/PhD students in Spring 2026 thesis review",
+      "title": "Register online and submit thesis review documents",
+      "who": "Master's and PhD students defending their thesis in Spring 2026",
       "deadlines": [
         {
-          "label": "Online + paper application",
-          "when": "23–31 Mar 2026, 17:00",
+          "action": "Register online and submit application documents",
+          "end": "2026-03-31",
+          "kind": "action",
+          "label": "Online application and documents",
           "quote": "2026년 3월 23일～3월 31일 17:00까지",
           "start": "2026-03-23",
-          "end": "2026-03-31T17:00:00+09:00",
+          "when": "23–31 March 2026, 17:00",
           "calendar_path": "calendar/57626-0.ics"
         },
         {
-          "label": "Master's result documents",
-          "when": "12 Jun 2026, 17:00",
-          "quote": "2026년 6월 12일 17:00까지",
-          "end": "2026-06-12T17:00:00+09:00",
-          "degrees": [
-            "masters"
-          ],
+          "action": "Pay the thesis review fee",
+          "end": "2026-05-03",
+          "kind": "action",
+          "label": "Pay review fee",
+          "quote": "2026년 4월 20일～ 5월 3일까지",
+          "start": "2026-04-20",
+          "when": "20 April–3 May 2026",
           "calendar_path": "calendar/57626-1.ics"
         },
         {
-          "label": "PhD result documents",
-          "when": "19 Jun 2026, 17:00",
-          "quote": "2026년 6월 19일 17:00까지",
-          "end": "2026-06-19T17:00:00+09:00",
-          "degrees": [
-            "phd",
-            "integrated"
-          ],
-          "calendar_path": "calendar/57626-2.ics"
-        },
-        {
-          "label": "Library: final PDF",
-          "when": "17 Jul – 2 Aug 2026",
+          "action": "Submit final approved thesis",
+          "end": "2026-08-02",
+          "kind": "action",
+          "label": "Final thesis submission",
           "quote": "2026년 7월 17일 ∼ 8월 2일",
           "start": "2026-07-17",
-          "end": "2026-08-02",
-          "calendar_path": "calendar/57626-3.ics"
+          "when": "17 July–2 August 2026",
+          "calendar_path": "calendar/57626-2.ics"
         }
       ],
       "degrees": [
@@ -832,8 +954,8 @@
         "phd",
         "integrated"
       ],
-      "graduation_scope": "planning",
-      "historical": true,
+      "graduation_scope": "graduating_only",
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v",
@@ -843,39 +965,37 @@
     },
     {
       "id": "57376",
-      "title": "Register spring courses and confirm over-quota requests",
-      "who": "All students registering Spring 2026 courses",
+      "title": "Complete Spring 2026 course registration and changes",
+      "who": "All enrolled ECE students taking Spring 2026 courses",
       "deadlines": [
         {
-          "label": "Over-quota request (ECE undergraduate courses)",
-          "when": "3 Mar 08:30 – 5 Mar 18:00",
-          "quote": "03-03.(화) 08:30 ~03-05.(목) 18:00",
-          "start": "2026-03-03T08:30:00+09:00",
-          "end": "2026-03-05T18:00:00+09:00",
+          "action": "Finalise your course additions and drops",
+          "end": "2026-03-09",
+          "kind": "action",
+          "label": "Course change period",
+          "quote": "03-03.(화)~03-09.(월)",
+          "start": "2026-03-03",
+          "when": "3–9 March 2026, 09:00–18:30",
           "calendar_path": "calendar/57376-0.ics"
         },
         {
-          "label": "Over-quota request (graduate courses)",
-          "when": "3–9 Mar 2026",
-          "quote": "03-03.(화)~03-09.(월)",
-          "start": "2026-03-03T08:30:00+09:00",
-          "end": "2026-03-09T23:59:00+09:00",
+          "action": "Request extra-capacity seats in ECE undergraduate courses",
+          "end": "2026-03-05",
+          "kind": "action",
+          "label": "ECE undergrad off-quota requests",
+          "quote": "3.5.(목) 18시까지만 신청 가능",
+          "when": "Until 5 March 2026, 18:00",
           "calendar_path": "calendar/57376-1.ics"
         },
         {
-          "label": "Confirm approved requests",
-          "when": "By 11 Mar 2026",
-          "quote": "3/11(수)까지",
-          "end": "2026-03-11T23:59:00+09:00",
+          "action": "Confirm approved off-quota courses yourself",
+          "end": "2026-03-11",
+          "kind": "action",
+          "label": "Confirm off-quota courses",
+          "quote": "03-03.(화)~03-11.(수)",
+          "start": "2026-03-03",
+          "when": "3–11 March 2026, until 23:59",
           "calendar_path": "calendar/57376-2.ics"
-        },
-        {
-          "label": "Withdrawal",
-          "when": "10 Mar – 21 Apr 2026",
-          "quote": "03-10.(화)~4-21.(화) 00:00~23:59",
-          "start": "2026-03-10",
-          "end": "2026-04-21T23:59:00+09:00",
-          "calendar_path": "calendar/57376-3.ics"
         }
       ],
       "degrees": [
@@ -885,7 +1005,7 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v",
@@ -895,51 +1015,54 @@
     },
     {
       "id": "57374",
-      "title": "Read the revised spring course guide",
-      "who": "ECE undergraduates planning Spring 2026 courses",
+      "title": "Check Spring 2026 ECE course changes before registering",
+      "who": "ECE undergraduates registering for Spring 2026 courses",
       "deadlines": [],
       "degrees": [
-        "undergraduate",
-        "masters",
-        "phd",
-        "integrated"
+        "undergraduate"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57374&md=v",
       "posting_date": "2026.01.14",
       "korean_title": "[학부] 2026학년도 1학기 전기·정보공학부 학사 교과목 수강 안내(2026.3.4.자 수정)",
-      "period": "Spring 2026 course guide, revised 4 March"
+      "period": "Spring 2026"
     },
     {
       "id": "57700",
-      "title": "Register and pay for summer courses",
-      "who": "Students taking Summer 2026 session courses",
+      "title": "Register for 2026 summer session courses",
+      "who": "Students who want to take summer session courses",
       "deadlines": [
         {
-          "label": "Registration",
-          "when": "6–13 May 2026",
+          "action": "Register for summer courses",
+          "end": "2026-05-13",
+          "kind": "action",
+          "label": "Course registration",
           "quote": "2026. 5. 6.(수) ∼ 5. 13.(수)",
           "start": "2026-05-06",
-          "end": "2026-05-13",
+          "when": "6–13 May 2026, weekdays",
           "calendar_path": "calendar/57700-0.ics"
         },
         {
-          "label": "Final tuition payment",
-          "when": "4–8 Jun 2026",
-          "quote": "2026. 6. 4.(목) ∼ 6. 8.(월)",
-          "start": "2026-06-04",
-          "end": "2026-06-08",
+          "action": "Print bill and pay tuition",
+          "end": "2026-06-02",
+          "kind": "action",
+          "label": "Tuition payment (1st)",
+          "quote": "(1차) 2026. 5. 28.(목) ∼ 6. 2.(화)",
+          "start": "2026-05-28",
+          "when": "28 May – 2 June 2026",
           "calendar_path": "calendar/57700-1.ics"
         },
         {
-          "label": "Withdrawal with full refund",
-          "when": "12–22 Jun 2026",
-          "quote": "2026. 6. 12.(금) ∼ 6. 22.(월)",
-          "start": "2026-06-12",
-          "end": "2026-06-22",
+          "action": "Pay tuition if still unpaid",
+          "end": "2026-06-08",
+          "kind": "action",
+          "label": "Tuition payment (final)",
+          "quote": "(최종) 2026. 6. 4.(목) ∼ 6. 8.(월)",
+          "start": "2026-06-04",
+          "when": "4–8 June 2026",
           "calendar_path": "calendar/57700-2.ics"
         }
       ],
@@ -950,7 +1073,7 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v",
@@ -960,34 +1083,52 @@
     },
     {
       "id": "57963",
-      "title": "Check publication rules before thesis review",
-      "who": "ECE graduate students reviewed from Fall 2026",
-      "deadlines": [],
+      "title": "Submit publication proof before thesis results deadline",
+      "who": "Graduate students with thesis review from Fall 2026",
+      "deadlines": [
+        {
+          "action": "Submit publication proof and signed forms",
+          "kind": "action",
+          "label": "Submit publication proof",
+          "quote": "논문심사 결과서류 제출일자 이전까지 제출",
+          "when": "Thesis results deadline; date not stated"
+        },
+        {
+          "kind": "info",
+          "label": "New rules apply",
+          "quote": "2026년 9월부터",
+          "start": "2026-09-01",
+          "when": "From September 2026"
+        }
+      ],
       "degrees": [
         "masters",
         "phd",
         "integrated"
       ],
-      "graduation_scope": "any",
+      "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57963&md=v",
       "posting_date": "2026.08.29",
       "korean_title": "대학원(석사, 박사, 석박통합 과정) 학위수여(논문 관련) 변경 규정 안내",
-      "period": "From Fall 2026"
+      "period": "Fall 2026"
     },
     {
       "id": "58023",
-      "title": "Get approval for outside-department credits",
-      "who": "Graduate students counting other departments' or undergraduate courses",
+      "title": "Submit course credit approval form for outside courses",
+      "who": "Graduate students taking other-department or undergraduate courses",
       "deadlines": [
         {
-          "label": "Approval application",
-          "when": "3–17 Sep 2026",
+          "action": "Submit signed approval form to Room 319",
+          "end": "2026-09-17",
+          "kind": "action",
+          "label": "Approval form submission",
           "quote": "2026. 9. 3.(목) ~ 2026. 9. 17.(목)",
           "start": "2026-09-03",
-          "end": "2026-09-17",
+          "when": "3–17 September 2026; time not stated",
           "calendar_path": "calendar/58023-0.ics"
         }
       ],
@@ -997,24 +1138,21 @@
         "integrated"
       ],
       "graduation_scope": "any",
-      "historical": true,
+      "historical": false,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58023&md=v",
       "posting_date": "2026.09.01",
       "korean_title": "2026학년도 2학기 타학과 및 학사과정 교과목 이수 승인 신청 안내",
-      "period": "Fall 2026 application; cohort-dependent credit rules"
+      "period": "Fall 2026"
     },
     {
       "id": "58075",
-      "title": "Register cross-listed courses under the right code",
-      "who": "Students taking or retaking a cross-listed course",
+      "title": "Register cross-listed courses under the correct number",
+      "who": "Undergraduates taking or retaking cross-listed courses",
       "deadlines": [],
       "degrees": [
-        "undergraduate",
-        "masters",
-        "phd",
-        "integrated"
+        "undergraduate"
       ],
       "graduation_scope": "any",
       "historical": false,
@@ -1023,12 +1161,12 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58075&md=v",
       "posting_date": "2026.09.14",
       "korean_title": "Cross-listing 교과목 이수시 유의사항",
-      "period": "Cross-listing guidance"
+      "period": "Fall 2026"
     },
     {
       "id": "48621",
-      "title": "Check subtitle codes for Group 2 courses",
-      "who": "Graduate students taking subtitled Group 2 courses",
+      "title": "Check subtitle codes of special topics courses",
+      "who": "Graduate students taking subtitled (Group 2) special topics courses",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -1042,11 +1180,11 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=48621&md=v",
       "posting_date": "2020.01.21",
       "korean_title": "(과목 추가) 2군 교과목(부제명 있는 교과목) 학점 인정 안내",
-      "period": "Not stated"
+      "period": "Not stated (posted January 2020)"
     },
     {
       "id": "51949",
-      "title": "Complete one research ethics course",
+      "title": "Complete one required research ethics course",
       "who": "Graduate students admitted from Spring 2022 onward",
       "deadlines": [],
       "degrees": [
@@ -1061,12 +1199,12 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=51949&md=v",
       "posting_date": "2021.12.20",
       "korean_title": "“대학원 공통역량 교과목” 공과대학 이수요건 및 이수인정 안내(연구윤리 교과목 필수 이수)",
-      "period": "Not stated"
+      "period": "From Spring 2022 admissions onward"
     },
     {
       "id": "55507",
-      "title": "Plan for written-only thesis qualifying exam",
-      "who": "Graduate students taking the qualifying exam or forming committees",
+      "title": "Include an ECE faculty member on your committee",
+      "who": "Graduate students forming a thesis committee or taking 논자시",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -1080,22 +1218,18 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55507&md=v",
       "posting_date": "2024.04.15",
       "korean_title": "[내규 안내] 논문제출자격시험 구술고사 폐지. 논문심사위원회 구성",
-      "period": "From Fall 2024"
+      "period": "From Spring 2024 onward"
     },
     {
       "id": "55871",
-      "title": "Retake thesis qualifying exam via advisor petition",
-      "who": "Integrated MS-PhD students who failed the qualifying exam",
+      "title": "Take PhD qualifying exam in third semester",
+      "who": "Integrated master's-PhD (석박사통합과정) students",
       "deadlines": [
         {
-          "label": "Advisor's petition",
-          "quote": "해당학기에",
-          "when": "Same semester as failure; no date stated"
-        },
-        {
-          "label": "Rule applies from",
-          "quote": "2024학년도 2학기(2024년 9월 시행)부터 적용.",
-          "when": "Fall 2024 (September 2024)"
+          "kind": "info",
+          "label": "Rule takes effect",
+          "quote": "2024학년도 2학기(2024년 9월 시행)부터 적용",
+          "when": "From Fall 2024 (September 2024)"
         }
       ],
       "degrees": [
@@ -1104,7 +1238,8 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55871&md=v",
       "posting_date": "2024.09.25",
       "korean_title": "[내규 안내] 논문제출자격시험 석박사통합과정 재응시 관련",
@@ -1112,11 +1247,12 @@
     },
     {
       "id": "55998",
-      "title": "Apply 1/N credit to co-first-author papers",
-      "who": "PhD students with co-first-author papers",
+      "title": "Check co-first-author credit for PhD requirements",
+      "who": "PhD candidates counting co-first-authored papers",
       "deadlines": [],
       "degrees": [
-        "phd"
+        "phd",
+        "integrated"
       ],
       "graduation_scope": "any",
       "historical": false,
@@ -1125,12 +1261,12 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55998&md=v",
       "posting_date": "2024.11.07",
       "korean_title": "[내규 안내] 박사 학위수여 요건 관련 공동1저자 인정여부",
-      "period": "Not stated"
+      "period": "Ongoing (rule decided 24 May 2023)"
     },
     {
       "id": "57425",
       "title": "Read the 2026 SNU Graduate Student Guide",
-      "who": "2026 graduate students (master's, PhD, integrated)",
+      "who": "All SNU graduate students in 2026",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -1148,23 +1284,29 @@
     },
     {
       "id": "57662",
-      "title": "Follow the graduation project procedure",
-      "who": "Undergraduates doing the graduation project (졸프)",
+      "title": "Follow the graduation project (졸업프로젝트) procedure",
+      "who": "Undergraduates planning to take the graduation project",
       "deadlines": [
         {
-          "label": "Project application",
+          "action": "Apply for a project on the intranet",
+          "kind": "action",
+          "label": "Apply for project",
           "quote": "매년 4월 3주, 10월 2주",
-          "when": "April week 3; October week 2"
+          "when": "3rd week April, 2nd week October"
         },
         {
-          "label": "Interview form deadline",
-          "quote": "마감은 3월/9월 1주 금요일까지, 원본 마감일 엄수",
-          "when": "Friday of week 1, March/September"
+          "action": "Submit the signed interview form",
+          "kind": "action",
+          "label": "Submit interview form",
+          "quote": "마감은 3월/9월 1주 금요일까지",
+          "when": "Friday of 1st week, March/September"
         },
         {
-          "label": "Thesis submission",
-          "quote": "매년 6월, 12월 중순 학부에 제출 (별도 공지)",
-          "when": "Mid-June or mid-December"
+          "action": "Submit your thesis to the department",
+          "kind": "action",
+          "label": "Submit thesis (graduating)",
+          "quote": "종강일(6월, 12월 중순)까지",
+          "when": "Mid-June/December (last class day)"
         }
       ],
       "degrees": [
@@ -1177,19 +1319,13 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57662&md=v",
       "posting_date": "2026.04.03",
       "korean_title": "[필독] 졸업프로젝트 진행절차 상세안내 (학생 / 조교 확인용)",
-      "period": "Every semester"
+      "period": "Every semester (from Spring 2026)"
     },
     {
       "id": "57854",
-      "title": "Apply online for course double-counting",
-      "who": "Undergraduates with multiple majors sharing courses",
-      "deadlines": [
-        {
-          "label": "Application window",
-          "quote": "수시 신청",
-          "when": "Anytime; no deadline stated"
-        }
-      ],
+      "title": "Apply online for course double-counting between majors",
+      "who": "Undergraduates with double, joint or multiple majors",
+      "deadlines": [],
       "degrees": [
         "undergraduate"
       ],
@@ -1200,35 +1336,38 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57854&md=v",
       "posting_date": "2026.07.01",
       "korean_title": "교과목 중복인정 신청 메뉴 오픈 알림",
-      "period": "Ongoing from July 2026"
+      "period": "Fall 2026"
     },
     {
       "id": "57944",
-      "title": "Submit final poster PDF; attend poster presentation",
-      "who": "Students enrolled in the Fall 2026 graduation project",
+      "title": "Submit poster file and attend final presentation",
+      "who": "Undergraduates taking the Fall 2026 graduation project course",
       "deadlines": [
         {
+          "action": "Submit final poster PDF (A1, portrait)",
           "end": "2026-11-09",
-          "label": "Poster PDF due",
+          "kind": "action",
+          "label": "Final poster file",
           "quote": "~ 11월 9일(월) 23:59",
-          "start": "2026-11-09",
-          "when": "9 Nov 2026, 23:59",
+          "when": "By 9 November 2026, 23:59",
           "calendar_path": "calendar/57944-0.ics"
         },
         {
+          "action": "Get thesis draft reviewed by advisor",
           "end": "2026-11-16",
+          "kind": "action",
           "label": "Thesis draft review",
           "quote": "~ 11월 16일(월) 23:59",
-          "start": "2026-11-16",
-          "when": "16 Nov 2026, 23:59",
+          "when": "By 16 November 2026, 23:59",
           "calendar_path": "calendar/57944-1.ics"
         },
         {
           "end": "2026-11-20",
-          "label": "Poster presentation",
-          "quote": "최종포스터발표회 11월 20일 (금) 09:30-16:30",
+          "kind": "event",
+          "label": "Final poster presentation",
+          "quote": "11월 20일 (금) 09:30-16:30",
           "start": "2026-11-20",
-          "when": "20 Nov 2026, 09:30–16:30",
+          "when": "20 November 2026, 09:30–16:30",
           "calendar_path": "calendar/57944-2.ics"
         }
       ],
@@ -1246,8 +1385,8 @@
     },
     {
       "id": "57951",
-      "title": "Check how common-curriculum courses count toward requirements",
-      "who": "Undergraduates taking common curriculum (liberal arts) courses",
+      "title": "Check how new general-education courses count",
+      "who": "Undergraduates taking general-education (교양) courses",
       "deadlines": [],
       "degrees": [
         "undergraduate"
@@ -1259,28 +1398,29 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57951&md=v",
       "posting_date": "2026.08.06",
       "korean_title": "공통교육과정 교과목 영역 인정 기준 안내 (학문의 세계 영역 등.)",
-      "period": "2025 curriculum revision onward"
+      "period": "Fall 2026"
     },
     {
       "id": "57960",
-      "title": "Apply online to rent your graduation gown",
-      "who": "Engineering College students receiving degrees at 80th late-term ceremony",
+      "title": "Rent your graduation gown online",
+      "who": "Engineering graduates at the August 2026 (80th) commencement",
       "deadlines": [
         {
+          "action": "Apply online and collect your gown",
           "end": "2026-08-31",
+          "kind": "action",
           "label": "Gown rental period",
           "quote": "2026. 8.13.(목) ~ 2026. 8. 31.(월)",
           "start": "2026-08-13",
-          "when": "13–31 August 2026",
+          "when": "13–31 August 2026, 10:00–17:00",
           "calendar_path": "calendar/57960-0.ics"
         },
         {
-          "end": "2026-08-28",
-          "label": "Degree ceremony day",
+          "kind": "event",
+          "label": "Commencement day",
           "quote": "2026. 8. 28.(금) 학위수여식 당일",
           "start": "2026-08-28",
-          "when": "28 August 2026",
-          "calendar_path": "calendar/57960-1.ics"
+          "when": "28 August 2026"
         }
       ],
       "degrees": [
@@ -1296,25 +1436,25 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57960&md=v",
       "posting_date": "2026.08.10",
       "korean_title": "제80회 후기 학위수여자를 위한 공과대학 포토존 운영 및 학위복 대여 안내",
-      "period": "Fall 2026 (August 2026 degree conferral)"
+      "period": "August 2026 commencement"
     },
     {
       "id": "57961",
-      "title": "Check your graduation and completion status online",
-      "who": "Undergraduate and graduate students tracking graduation or completion",
+      "title": "Check your graduation or completion status online",
+      "who": "Students preparing to graduate or complete coursework",
       "deadlines": [
         {
-          "end": "2026-08-10",
-          "label": "Pilot program opens",
+          "kind": "event",
+          "label": "Trial program opens",
           "quote": "2026. 8. 10.(월) 13:00",
           "start": "2026-08-10",
-          "when": "10 August 2026, 13:00",
-          "calendar_path": "calendar/57961-0.ics"
+          "when": "10 August 2026, 13:00"
         },
         {
-          "label": "Official launch (planned)",
-          "quote": "2026년도 2학기(9월 중) 정식 운영을 계획하고 있습니다",
-          "when": "September 2026"
+          "kind": "info",
+          "label": "Official launch",
+          "quote": "2026년도 2학기(9월 중)",
+          "when": "September 2026 (Fall semester)"
         }
       ],
       "degrees": [
@@ -1323,7 +1463,7 @@
         "phd",
         "integrated"
       ],
-      "graduation_scope": "any",
+      "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
       "state": "full",
@@ -1334,16 +1474,15 @@
     },
     {
       "id": "57962",
-      "title": "Attend graduate new student orientation",
-      "who": "New graduate students entering September 2026",
+      "title": "Attend the graduate new student orientation",
+      "who": "New ECE graduate students entering September 2026",
       "deadlines": [
         {
-          "end": "2026-08-26",
-          "label": "Orientation",
+          "kind": "event",
+          "label": "Graduate orientation",
           "quote": "2026. 8. 26.(수) 오후 2시 ~",
           "start": "2026-08-26",
-          "when": "26 Aug 2026, 2 PM start",
-          "calendar_path": "calendar/57962-0.ics"
+          "when": "26 August 2026, 2:00 PM"
         }
       ],
       "degrees": [
@@ -1362,23 +1501,27 @@
     },
     {
       "id": "57986",
-      "title": "Complete the life-respect suicide prevention course on eTL",
-      "who": "New or transfer College of Engineering students",
+      "title": "Complete the online suicide prevention course",
+      "who": "Engineering students admitted since 2016, not yet completed",
       "deadlines": [
         {
-          "end": "2026-09-07",
-          "label": "Round 1 course period",
-          "quote": "2026. 8.24.(월) ~ 9.7.(월)",
-          "start": "2026-08-24",
-          "when": "24 Aug–7 Sep 2026",
+          "action": "Watch the video and take the quiz",
+          "end": "2026-11-27",
+          "kind": "action",
+          "label": "Course period (2nd round)",
+          "quote": "(2차) 2026. 10.28.(수) ~ 11. 27.(금)",
+          "start": "2026-10-28",
+          "when": "28 October – 27 November 2026",
           "calendar_path": "calendar/57986-0.ics"
         },
         {
-          "end": "2026-11-27",
-          "label": "Round 2 course period",
-          "quote": "2026. 10.28.(수) ~ 11. 27.(금)",
-          "start": "2026-10-28",
-          "when": "28 Oct–27 Nov 2026",
+          "action": "Watch the video and take the quiz",
+          "end": "2026-09-07",
+          "kind": "action",
+          "label": "Course period (1st round)",
+          "quote": "(1차) 2026. 8.24.(월) ~ 9.7.(월)",
+          "start": "2026-08-24",
+          "when": "24 August – 7 September 2026",
           "calendar_path": "calendar/57986-1.ics"
         }
       ],
@@ -1399,8 +1542,8 @@
     },
     {
       "id": "57987",
-      "title": "Pay tuition and check course registration rules",
-      "who": "Graduate students expected to complete coursework (수료예정자)",
+      "title": "Pay tuition and register courses if required",
+      "who": "Graduate students nearing coursework completion (수료)",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -1418,69 +1561,99 @@
     },
     {
       "id": "57991",
-      "title": "Submit your winter SAP application",
-      "who": "Interested SNU students (eligibility in attached PDF)",
+      "title": "Submit your SAP application to the department office",
+      "who": "Enrolled undergraduate and graduate students meeting GPA and language requirements",
       "deadlines": [
         {
+          "action": "Submit SAP application documents",
           "end": "2026-09-03",
-          "label": "Application submission",
+          "kind": "action",
+          "label": "Application to department office",
           "quote": "2026. 9. 3.(목)까지",
-          "when": "By 3 Sept 2026; time not stated",
+          "when": "By 3 September 2026",
           "calendar_path": "calendar/57991-0.ics"
         },
         {
           "end": "2026-09-23",
+          "kind": "info",
           "label": "Results announced",
-          "quote": "2026. 9. 23.(수) 예정",
+          "quote": "2026. 9. 23.(수)",
           "start": "2026-09-23",
           "when": "23 September 2026 (planned)",
           "calendar_path": "calendar/57991-1.ics"
+        },
+        {
+          "action": "Submit funding form and bankbook copy",
+          "end": "2026-11-08",
+          "kind": "action",
+          "label": "Funding claim (selected students)",
+          "quote": "2026. 11. 8(일)까지",
+          "when": "By 8 November 2026",
+          "calendar_path": "calendar/57991-2.ics"
         }
       ],
-      "degrees": [],
+      "degrees": [
+        "undergraduate",
+        "masters",
+        "phd",
+        "integrated"
+      ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v",
       "posting_date": "2026.08.21",
       "korean_title": "2026학년도 동계 Study Abroad Program (SAP) 참가자 모집 안내",
-      "period": "Winter 2026"
+      "period": "Winter 2026 (January–February 2027)"
     },
     {
       "id": "57998",
-      "title": "Get your 전공하나 absence form stamped",
-      "who": "Undergraduates who took part in 2026 전공하나",
-      "deadlines": [],
+      "title": "Submit your 전공하나 absence note to professors",
+      "who": "Undergraduates who attended 2026 전공하나 and missed classes",
+      "deadlines": [
+        {
+          "end": "2026-09-19",
+          "kind": "info",
+          "label": "전공하나 retreat dates",
+          "quote": "2026년 9월 18일(금) ~ 9월 19일(토)",
+          "start": "2026-09-18",
+          "when": "18–19 September 2026"
+        }
+      ],
       "degrees": [
         "undergraduate"
       ],
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57998&md=v",
       "posting_date": "2026.08.26",
       "korean_title": "2026 전공하나 잠가확인서(결석계)",
-      "period": "2026 (semester not stated)"
+      "period": "Fall 2026"
     },
     {
       "id": "58011",
-      "title": "Complete the graduate research ethics online course",
-      "who": "New graduate students and those yet to complete it",
+      "title": "Complete the online research ethics course",
+      "who": "New and uncertified graduate students, Fall 2026",
       "deadlines": [
         {
+          "action": "Finish the research ethics course",
           "end": "2026-09-30",
+          "kind": "action",
           "label": "Course period",
           "quote": "2026. 9. 1.(화)~9. 30.(수)",
           "start": "2026-09-01",
-          "when": "1–30 September 2026",
-          "calendar_path": "calendar/58011-0.ics"
+          "when": "1–30 September 2026; time not stated"
         },
         {
-          "label": "BK21 extended period",
-          "quote": "'26.12월까지 수강 가능",
+          "action": "BK21 participants: finish the course",
+          "end": "2026-12-31",
+          "kind": "action",
+          "label": "BK21 participants' extended period",
+          "quote": "※ BK21 참여대학원생의 경우 '26.12월까지 수강 가능",
           "when": "Until December 2026"
         }
       ],
@@ -1492,7 +1665,8 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": true,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v",
       "posting_date": "2026.08.31",
       "korean_title": "2026학년도 2학기 대학원생 연구윤리 교육 실시 안내",
@@ -1500,15 +1674,25 @@
     },
     {
       "id": "58015",
-      "title": "Check grading method change for common courses",
-      "who": "Students in Fall 2026 common curriculum courses (공통교육과정)",
-      "deadlines": [],
+      "title": "Change grading method for eligible general-education courses",
+      "who": "Undergraduates taking eligible common-curriculum courses",
+      "deadlines": [
+        {
+          "action": "Submit grading method change in mySNU",
+          "end": "2026-09-23",
+          "kind": "action",
+          "label": "Grading method change period",
+          "quote": "2026. 9. 1.(화) 09:00 ~ 9. 23.(수) 23:59",
+          "start": "2026-09-01",
+          "when": "1–23 September 2026, 09:00–23:59",
+          "calendar_path": "calendar/58015-0.ics"
+        }
+      ],
       "degrees": [
         "undergraduate"
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58015&md=v",
@@ -1518,15 +1702,25 @@
     },
     {
       "id": "58016",
-      "title": "Apply for grading option on other-department major courses",
-      "who": "Undergraduates taking other departments' major courses",
-      "deadlines": [],
+      "title": "Request S/U grading for other-department major courses",
+      "who": "Undergraduates taking other departments' major courses as electives",
+      "deadlines": [
+        {
+          "action": "Request grading change in mySNU",
+          "end": "2026-09-23",
+          "kind": "action",
+          "label": "Grading option request period",
+          "quote": "2026. 9. 1.(화) 09:00~9. 23.(수) 23:59",
+          "start": "2026-09-01",
+          "when": "1–23 September 2026, 09:00–23:59",
+          "calendar_path": "calendar/58016-0.ics"
+        }
+      ],
       "degrees": [
         "undergraduate"
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
       "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58016&md=v",
@@ -1536,16 +1730,15 @@
     },
     {
       "id": "58025",
-      "title": "Attend the thesis writing overview lecture",
-      "who": "Undergraduates enrolled in the graduation project",
+      "title": "Attend the thesis-writing lecture on 11 September",
+      "who": "Undergraduates taking the graduation project course",
       "deadlines": [
         {
-          "end": "2026-09-11",
-          "label": "Lecture date and time",
+          "kind": "event",
+          "label": "Thesis-writing lecture",
           "quote": "9월 11일 금요일 18시 30분",
           "start": "2026-09-11",
-          "when": "11 September 2026, 18:30",
-          "calendar_path": "calendar/58025-0.ics"
+          "when": "11 September 2026, 18:30"
         }
       ],
       "degrees": [
@@ -1562,15 +1755,17 @@
     },
     {
       "id": "58026",
-      "title": "Apply for military remote-course credit recognition",
-      "who": "Fall 2026 returnees from military leave",
+      "title": "Apply for military remote course credit recognition",
+      "who": "Students returning from military service in Fall 2026",
       "deadlines": [
         {
+          "action": "Submit credit recognition application in mySNU",
           "end": "2026-12-11",
-          "label": "Recommended application period",
-          "quote": "2026. 9. 7.(월) ~ 2026. 12. 11.(금)",
+          "kind": "action",
+          "label": "Credit recognition application",
+          "quote": "2026. 9. 7.(월) ~ 2026. 12. 11.(금) 신청 권장",
           "start": "2026-09-07",
-          "when": "7 Sep–11 Dec 2026, recommended",
+          "when": "7 Sep–11 Dec 2026; recommended",
           "calendar_path": "calendar/58026-0.ics"
         }
       ],
@@ -1588,12 +1783,13 @@
     },
     {
       "id": "58031",
-      "title": "Avoid Building 38 floors 4–5 on 23 October",
-      "who": "Everyone except graduate school entrance exam officials",
+      "title": "Stay out of Building 38, floors 4–5",
+      "who": "All students not involved in the admission exam",
       "deadlines": [
         {
           "end": "2026-10-23",
-          "label": "Building closure",
+          "kind": "closure",
+          "label": "Building 38 floors closed",
           "quote": "2026. 10. 23.(금) 11:30 ~ 18:00",
           "start": "2026-10-23",
           "when": "23 October 2026, 11:30–18:00",
@@ -1617,24 +1813,37 @@
     },
     {
       "id": "58034",
-      "title": "Apply for 2027 spring multi-major programs",
-      "who": "Undergraduates seeking a multi-major from 2027 spring",
+      "title": "Apply for a second major or minor",
+      "who": "Undergraduates wanting a double major, minor or similar",
       "deadlines": [
         {
+          "action": "Apply for double or joint major",
           "end": "2026-10-16",
+          "kind": "action",
           "label": "Double/joint major application",
           "quote": "2026.10.12(월) 09:00 ~ 10.16.(금) 18:00",
           "start": "2026-10-12",
-          "when": "12–16 Oct 2026, 09:00–18:00",
+          "when": "12–16 October 2026, 09:00–18:00",
           "calendar_path": "calendar/58034-0.ics"
         },
         {
+          "action": "Apply for minor or student-designed major",
           "end": "2026-10-30",
-          "label": "Minor/linked/design application",
+          "kind": "action",
+          "label": "Minor/linked/student-designed application",
           "quote": "2026.10. 26.(월) 09:00 ~ 10. 30.(금) 18:00",
           "start": "2026-10-26",
-          "when": "26–30 Oct 2026, 09:00–18:00",
+          "when": "26–30 October 2026, 09:00–18:00",
           "calendar_path": "calendar/58034-1.ics"
+        },
+        {
+          "action": "Email transcript and study plan",
+          "end": "2026-10-16",
+          "kind": "action",
+          "label": "ECE double-major documents",
+          "quote": "10. 16.(금) 18:00까지",
+          "when": "16 October 2026, 18:00",
+          "calendar_path": "calendar/58034-2.ics"
         }
       ],
       "degrees": [
@@ -1647,30 +1856,27 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58034&md=v",
       "posting_date": "2026.09.04",
       "korean_title": "2027학년도 1학기 다전공자 선발 계획 알림",
-      "period": "Spring 2027 (2027학년도 1학기)"
+      "period": "Spring 2027"
     },
     {
       "id": "58043",
-      "title": "Arrive by 09:50 for the thesis qualifying exam",
-      "who": "Graduate students sitting the written qualifying exam",
+      "title": "Attend the thesis qualifying written exam",
+      "who": "Graduate students registered for this semester's 논자시",
       "deadlines": [
         {
           "end": "2026-09-11",
+          "kind": "event",
           "label": "Written exam",
           "quote": "2026. 9. 11.(금) 10:00 ~ 12:00(120분)",
           "start": "2026-09-11",
-          "when": "11 Sep 2026, 10:00–12:00",
+          "when": "11 September 2026, 10:00–12:00",
           "calendar_path": "calendar/58043-0.ics"
         },
         {
-          "label": "Be seated by",
-          "quote": "입실완료 시간: 09:50.",
-          "when": "09:50 on exam day"
-        },
-        {
-          "label": "Results",
-          "quote": "10월 말 이후",
-          "when": "After end of October"
+          "kind": "info",
+          "label": "Results on MySNU",
+          "quote": "10월 말 이후, 마이스누에서 확인 가능",
+          "when": "After late October 2026"
         }
       ],
       "degrees": [
@@ -1689,8 +1895,8 @@
     },
     {
       "id": "58046",
-      "title": "Check your safety education certificate",
-      "who": "New students who took August 2026 safety education",
+      "title": "Print and submit your safety training certificate",
+      "who": "Fall 2026 thesis exam takers lacking a safety certificate",
       "deadlines": [],
       "degrees": [
         "masters",
@@ -1699,7 +1905,7 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "new_students": true,
+      "new_students": false,
       "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58046&md=v",
       "posting_date": "2026.09.08",
@@ -1708,21 +1914,23 @@
     },
     {
       "id": "58055",
-      "title": "Apply for cross-degree graduate credit transfer",
-      "who": "Grad students transferring SNU credits between degrees",
+      "title": "Apply for graduate credit transfer (통산인정)",
+      "who": "Graduate students with SNU bachelor's or master's credits",
       "deadlines": [
         {
+          "action": "Apply online and submit signed documents",
           "end": "2026-09-21",
-          "label": "Submission deadline",
+          "kind": "action",
+          "label": "Application and documents",
           "quote": "~ 2026. 9. 21.(월) 오후 5시까지",
-          "start": "2026-09-21",
           "when": "21 September 2026, 5 pm",
           "calendar_path": "calendar/58055-0.ics"
         }
       ],
       "degrees": [
         "masters",
-        "phd"
+        "phd",
+        "integrated"
       ],
       "graduation_scope": "any",
       "historical": false,
@@ -1735,12 +1943,14 @@
     },
     {
       "id": "58056",
-      "title": "Apply to recognize prior graduate credits",
-      "who": "Graduate students with credits from another graduate school",
+      "title": "Apply for prior graduate credit recognition",
+      "who": "Graduate students with graduate credits from another school",
       "deadlines": [
         {
+          "action": "Submit credit recognition documents to department office",
           "end": "2026-09-21",
-          "label": "Document submission",
+          "kind": "action",
+          "label": "Submit application documents",
           "quote": "~ 2026. 9. 21.(월) 오후 5시까지",
           "when": "By 21 September 2026, 5 pm",
           "calendar_path": "calendar/58056-0.ics"
@@ -1762,14 +1972,16 @@
     },
     {
       "id": "58057",
-      "title": "Apply to recognize prior SNU graduate credits",
-      "who": "Graduate students with SNU graduate credits from before admission",
+      "title": "Submit prior SNU graduate credit recognition application",
+      "who": "Graduate students with earlier SNU graduate course credits",
       "deadlines": [
         {
+          "action": "Submit form and transcript to office",
           "end": "2026-09-21",
-          "label": "Submit application documents",
+          "kind": "action",
+          "label": "Submit paper application",
           "quote": "~ 2026. 9. 21.(월) 오후 5시까지",
-          "when": "By 21 September 2026, 5 pm",
+          "when": "Until 21 September 2026, 5 pm",
           "calendar_path": "calendar/58057-0.ics"
         }
       ],
@@ -1789,22 +2001,26 @@
     },
     {
       "id": "58067",
-      "title": "Submit integrated-program waiver or continuation form",
-      "who": "Integrated MS-PhD students in their second semester",
+      "title": "Submit your integrated-program give-up or continuation form",
+      "who": "Integrated MS–PhD students in their second semester",
       "deadlines": [
         {
+          "action": "Submit 포기원 or 지속원 to office",
           "end": "2026-12-11",
-          "label": "Main submission deadline",
+          "kind": "action",
+          "label": "Submit give-up/continuation form",
           "quote": "2026년 9월 15일 ~ 2026년 12월 11일 17:00시까지",
           "start": "2026-09-15",
           "when": "15 Sep–11 Dec 2026, 17:00",
           "calendar_path": "calendar/58067-0.ics"
         },
         {
+          "action": "Submit 포기원 if finishing master's Feb 2027",
           "end": "2026-09-23",
-          "label": "Waiver for Feb 2027 completion",
+          "kind": "action",
+          "label": "Give-up for Feb 2027 completion",
           "quote": "2026년 9월 23일 오전까지",
-          "when": "By morning of 23 Sep 2026",
+          "when": "By 23 September 2026, morning",
           "calendar_path": "calendar/58067-1.ics"
         }
       ],
@@ -1822,24 +2038,22 @@
     },
     {
       "id": "58098",
-      "title": "Attend your graduation project 2nd midterm presentation",
-      "who": "Undergraduates taking the graduation project this semester",
+      "title": "Attend the second graduation project midterm presentation",
+      "who": "Undergraduates taking the graduation project course this semester",
       "deadlines": [
         {
-          "end": "2026-10-08",
-          "label": "2nd midterm presentation",
-          "quote": "10월 8일 (목) 18:30",
+          "kind": "event",
+          "label": "Second midterm presentation",
+          "quote": "2회차 10월 8일 (목) 18:30",
           "start": "2026-10-08",
-          "when": "8 Oct 2026, 18:30",
-          "calendar_path": "calendar/58098-0.ics"
+          "when": "8 October 2026, 18:30"
         },
         {
-          "end": "2026-11-20",
-          "label": "Final poster presentation",
+          "kind": "event",
+          "label": "Final poster session (rescheduled)",
           "quote": "11.19(목) -> 11.20 (금)",
           "start": "2026-11-20",
-          "when": "20 Nov 2026, moved from 19th",
-          "calendar_path": "calendar/58098-1.ics"
+          "when": "20 November 2026; time not stated"
         }
       ],
       "degrees": [
@@ -1856,24 +2070,24 @@
     },
     {
       "id": "58122",
-      "title": "Check exam-period night shuttle changes",
-      "who": "Students using the night library or late-night shuttles",
+      "title": "Check exam-period night shuttle schedule changes",
+      "who": "Students riding night campus shuttles during exam periods",
       "deadlines": [
         {
           "end": "2026-10-30",
-          "label": "Round 1 (weekdays only)",
+          "kind": "info",
+          "label": "First operating period",
           "quote": "2026. 10. 12.(월) ~ 10. 30.(금)",
           "start": "2026-10-12",
-          "when": "12–30 October 2026; no weekends or holidays",
-          "calendar_path": "calendar/58122-0.ics"
+          "when": "12–30 October 2026, weekdays"
         },
         {
           "end": "2026-12-14",
-          "label": "Round 2 (weekdays only)",
+          "kind": "info",
+          "label": "Second operating period",
           "quote": "2026. 11. 30.(월) ~ 12. 14.(월)",
           "start": "2026-11-30",
-          "when": "30 November–14 December 2026; no weekends or holidays",
-          "calendar_path": "calendar/58122-1.ics"
+          "when": "30 November–14 December 2026, weekdays"
         }
       ],
       "degrees": [
@@ -1885,7 +2099,8 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "full",
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58122&md=v",
       "posting_date": "2026.10.06",
       "korean_title": "시험기간 중 야간 도서관 셔틀버스 증차 및 심야셔틀 운행 노선 변경 안내",
@@ -1893,12 +2108,14 @@
     },
     {
       "id": "58123",
-      "title": "Apply for Hanwha Aerospace winter field practice",
-      "who": "Undergraduates, year 3+, in listed majors with English speaking score",
+      "title": "Apply for Hanwha Aerospace winter internship course",
+      "who": "Undergraduates in third year or above, listed majors",
       "deadlines": [
         {
+          "action": "Submit application to department office and Hanwha",
           "end": "2026-10-19",
-          "label": "Course registration/application",
+          "kind": "action",
+          "label": "Course application",
           "quote": "2026.10.15.(목)~10.19.(월)",
           "start": "2026-10-15",
           "when": "15–19 October 2026; time not stated",
@@ -1906,15 +2123,18 @@
         },
         {
           "end": "2026-11-06",
-          "label": "Practical interview",
+          "kind": "event",
+          "label": "Job interview",
           "quote": "2026.11.4.(수)~11.6.(금)",
           "start": "2026-11-04",
           "when": "One day, 4–6 November 2026",
           "calendar_path": "calendar/58123-1.ics"
         },
         {
+          "action": "Pay the course fee",
           "end": "2026-11-23",
-          "label": "Tuition payment",
+          "kind": "action",
+          "label": "Course fee (if selected)",
           "quote": "11/23(월)까지",
           "when": "By 23 November 2026",
           "calendar_path": "calendar/58123-2.ics"
@@ -1930,16 +2150,17 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v",
       "posting_date": "2026.10.06",
       "korean_title": "[한화에어로스페이스] 2026학년도 동계 계절수업 현장실습학기제 운영 예정 안내(영어회화성적 필수)",
-      "period": "Winter 2026 seasonal session"
+      "period": "Winter session 2026"
     },
     {
       "id": "58127",
-      "title": "Avoid controlled campus parking and roads during concert",
-      "who": "Anyone driving or parking on the SNU campus",
+      "title": "Avoid closed campus parking and roads",
+      "who": "Anyone driving or parking on Gwanak campus",
       "deadlines": [
         {
           "end": "2026-10-14",
-          "label": "Two lots closed",
+          "kind": "closure",
+          "label": "Stadium and riverside lots closed",
           "quote": "10. 8.(목) 21:00 ~ 10. 14.(수) 23:59",
           "start": "2026-10-08",
           "when": "8 Oct 21:00–14 Oct 23:59",
@@ -1947,7 +2168,8 @@
         },
         {
           "end": "2026-10-13",
-          "label": "Road parking ban",
+          "kind": "closure",
+          "label": "No parking Gate B–G9",
           "quote": "10. 11.(일) 21:00 ~ 10. 13.(화) 23:59",
           "start": "2026-10-11",
           "when": "11 Oct 21:00–13 Oct 23:59",
@@ -1955,10 +2177,11 @@
         },
         {
           "end": "2026-10-13",
-          "label": "Car traffic ban",
+          "kind": "closure",
+          "label": "Gate B–G9 road closed",
           "quote": "10. 13.(화) 21:30 ~ 22:30",
           "start": "2026-10-13",
-          "when": "13 Oct, 21:30–22:30",
+          "when": "13 October, 21:30–22:30",
           "calendar_path": "calendar/58127-2.ics"
         }
       ],
@@ -1979,12 +2202,13 @@
     },
     {
       "id": "58128",
-      "title": "Avoid Law School Building 17 during entrance exams",
-      "who": "Anyone who might enter Law School Building 17",
+      "title": "Stay out of Building 17 during law exams",
+      "who": "All students and staff near Building 17",
       "deadlines": [
         {
           "end": "2026-11-07",
-          "label": "Building 17 access control",
+          "kind": "closure",
+          "label": "Building 17 closed",
           "quote": "2026. 11. 6.(금) ~ 11. 7.(토)",
           "start": "2026-11-06",
           "when": "6–7 November 2026; time not stated",
@@ -2009,23 +2233,32 @@
     {
       "id": "58152",
       "title": "Submit your research internship application",
-      "who": "Undergraduate students in years 2–4",
+      "who": "ECE undergraduates in years 2–4",
       "deadlines": [
         {
+          "action": "Submit original documents to Room 319",
           "end": "2026-10-29",
-          "label": "Application due",
+          "kind": "action",
+          "label": "Application submission",
           "quote": "10월 29일(목) 18:00까지",
-          "start": "2026-10-29",
-          "when": "29 Oct 2026, 18:00",
+          "when": "29 October 2026, 18:00",
           "calendar_path": "calendar/58152-0.ics"
         },
         {
+          "action": "Submit safety training certificate if selected",
+          "kind": "action",
+          "label": "Safety certificate (if selected)",
+          "quote": "2026. 11월 말까지",
+          "when": "End of November 2026"
+        },
+        {
           "end": "2027-02-08",
+          "kind": "info",
           "label": "Internship period",
           "quote": "2026. 12. 15.(화)~2027. 2. 8.(월)",
           "start": "2026-12-15",
-          "when": "15 Dec 2026–8 Feb 2027",
-          "calendar_path": "calendar/58152-1.ics"
+          "when": "15 Dec 2026 – 8 Feb 2027",
+          "calendar_path": "calendar/58152-2.ics"
         }
       ],
       "degrees": [
@@ -2038,19 +2271,20 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v",
       "posting_date": "2026.10.20",
       "korean_title": "2026학년도 공과대학 학부생 연구인턴십 시범사업 신청 안내(신청기간 연장 10월 29일 마감)",
-      "period": "Winter break 2026–27"
+      "period": "Winter 2026–27"
     },
     {
       "id": "58161",
-      "title": "Attend the exchange student information session",
-      "who": "Undergraduate and graduate students interested in exchange abroad",
+      "title": "Attend the outbound exchange student info session",
+      "who": "Students interested in exchange abroad, Fall 2027",
       "deadlines": [
         {
           "end": "2026-10-30",
-          "label": "Information session",
+          "kind": "event",
+          "label": "Exchange info session",
           "quote": "2026. 10. 30.(금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30",
           "start": "2026-10-30",
-          "when": "30 Oct 2026, 10:00 or 14:00",
+          "when": "30 October 2026; 10:00 or 14:00",
           "calendar_path": "calendar/58161-0.ics"
         }
       ],
@@ -2067,19 +2301,20 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v",
       "posting_date": "2026.10.23",
       "korean_title": "2027학년도 2학기 해외파견 교환학생 모집 설명회 안내",
-      "period": "Fall 2027 exchange"
+      "period": "Fall 2027"
     },
     {
       "id": "58183",
-      "title": "Attend the 3rd graduation project midterm presentation",
-      "who": "Students in the Fall 2026 graduation project course",
+      "title": "Attend graduation project third midterm presentation",
+      "who": "Undergraduates taking the graduation project course",
       "deadlines": [
         {
           "end": "2026-11-05",
-          "label": "3rd midterm presentation",
+          "kind": "event",
+          "label": "Third midterm presentation",
           "quote": "3회차 11월 5일 (목) 18:30",
           "start": "2026-11-05",
-          "when": "5 November 2026 (Thu), 18:30",
+          "when": "5 November 2026, 18:30",
           "calendar_path": "calendar/58183-0.ics"
         }
       ],
@@ -2103,33 +2338,56 @@
         {
           "quotes": [
             {
-              "id": "57662",
-              "quote": "앞의 1,2,3 절차를 하지 않고 수강신청만 한 학생은 모두 'F' 처리됨"
+              "id": "57986",
+              "quote": "2016학년도 이후 모든 공과대학 학부 및 대학원 신(편)입생"
             },
             {
-              "id": "58071",
-              "quote": "지망하고자 하는 교수님과 면담 후"
+              "id": "57986",
+              "quote": "수강기간 내 미이수 시 예외적인 추가 수강 불가"
             }
           ],
           "sources": [
-            "57662",
-            "58071"
+            "57986"
           ],
-          "text": "Choose a 졸업프로젝트 (graduation project) topic on the intranet. Meet the professor and hand in the signed 면담확인서 (interview confirmation form). Then register for the course. Registering without the interview form gives an F.",
-          "title": "Secure a lab for your graduation project"
+          "text": "All new College of Engineering students must complete the online 생명존중교육 (suicide-prevention education) on eTL. Watch at least 80% of the video, then take the quiz. If you miss the course period, no extra session is offered.",
+          "title": "Complete the suicide-prevention course as a new student"
+        },
+        {
+          "quotes": [
+            {
+              "id": "57944",
+              "quote": "교수님 면담 후 면담확인서를 담당자(308호 사무실)에게 전달해야 배정이 되며, 학생은 수강신청까지 마무리 해야합니다."
+            },
+            {
+              "id": "57662",
+              "quote": "앞의 1,2,3 절차를 하지 않고 수강신청만 한 학생은 모두 'F' 처리됨"
+            }
+          ],
+          "sources": [
+            "58071",
+            "57944",
+            "57662"
+          ],
+          "text": "On the department intranet, choose a 졸업프로젝트 (graduation project) topic. Meet the professor. Hand in the professor-signed 면담확인서 (interview confirmation form). Also register for the course. If you only register and skip these steps, you receive an F.",
+          "title": "Choose a graduation project topic and get it approved"
         },
         {
           "quotes": [
             {
               "id": "57944",
               "quote": "학생은 2회 불참(또는 지각)이면 F가 부여되오니 반드시 출석을 해주세요."
+            },
+            {
+              "id": "58025",
+              "quote": "※ 출석은 18시 30분에 체크합니다."
             }
           ],
           "sources": [
-            "57944"
+            "57944",
+            "58025"
           ],
-          "text": "Attendance is called at the start of each session. One absence or late arrival lowers your grade by one step. Two give an F. Prepare the midterm presentations together with your lab.",
-          "title": "Attend every graduation-project session on time"
+          "text": "Attend the thesis-writing lecture and every midterm presentation. Attendance is checked exactly at the start time. One absence or late arrival lowers your grade by one step. Two absences or late arrivals give you an F.",
+          "title": "Attend every graduation project session on time"
         },
         {
           "quotes": [
@@ -2139,49 +2397,48 @@
             },
             {
               "id": "58196",
-              "quote": "3회 모두 없으면 결석 처리됩니다."
+              "quote": "지도교수님께 논문 초안 및 포스터 초안을 검토받으셔야 합니다."
             }
           ],
           "sources": [
-            "58196",
-            "57944"
+            "58196"
           ],
-          "text": "Upload the final poster as an A1 portrait PDF by the deadline. Get your thesis draft and poster reviewed by your advisor. Stay at your panel for the whole poster session, because attendance is checked several times.",
-          "title": "Submit poster PDF and present all day"
+          "text": "Upload your poster as a PDF only, A1 size, portrait orientation. Have your advisor review your thesis draft and poster draft. Stay at your poster for the whole final presentation so the judges can grade you.",
+          "title": "Submit your poster and present at the final session"
         },
         {
           "quotes": [
             {
               "id": "58045",
               "quote": "논문 작성과 인준지 서명은 전부 졸업프로젝트 학기에 해야 합니다."
-            },
-            {
-              "id": "57662",
-              "quote": "졸업하는 학기에만 논문을 학부사무실에 제출하세요"
             }
           ],
           "sources": [
-            "58045",
-            "57662"
+            "58045"
           ],
-          "text": "Write the graduation thesis and get your advisor's signature on the 인준지 (signed approval page) in the project semester. If you are not graduating yet, keep the signed thesis unchanged and submit it later.",
-          "title": "Get your thesis signed in the project semester"
+          "text": "In the same semester as your graduation project, write the 졸업논문 (graduation thesis) following the writing guidelines. Get your advisor's signature on the 인준지 (approval page). If this is not your graduating semester, keep the signed copy. Do not change it later.",
+          "title": "Write your thesis and get the advisor's signature"
         },
         {
           "quotes": [
             {
               "id": "58044",
               "quote": "졸업을 하지 않으면서 졸업논문만 제출할 수 없음"
+            },
+            {
+              "id": "58045",
+              "quote": "1) 논문 표지 하단에 연필로 학번 기재요망"
             }
           ],
           "sources": [
-            "58044"
+            "58044",
+            "58045"
           ],
-          "text": "In your graduating semester, hand the signed thesis to the department office. You cannot submit it without graduating. If you will be late, submit the 졸업논문제출일 확인서 (late-submission form) before the deadline.",
-          "title": "Submit the graduation thesis when you graduate"
+          "text": "Graduating students hand in the signed thesis to the department office (Building 301, Room 319). Write your student number in pencil on the cover. No binding is needed. If you will be late, submit a submission-date confirmation form before the deadline.",
+          "title": "Submit your thesis in your graduating semester"
         }
       ],
-      "updated_at": "2026-11-09T17:27:04Z"
+      "updated_at": "2026-11-09T19:06:11Z"
     },
     "masters": {
       "steps": [
