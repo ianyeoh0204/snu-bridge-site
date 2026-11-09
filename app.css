@@ -145,3 +145,7 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
 /* Start here */
 .earlier{margin:12px 0 0}.earlier summary{cursor:pointer;color:var(--accent);font-size:15px;padding:6px 0}
 .earlier .plain-list{margin-top:8px}
+.btn.small{font-size:14px;padding:7px 14px}
+.img-tr{border-left:3px solid var(--navy);padding:4px 0 2px 14px;margin:6px 0 12px}
+.img-tr-note{font-size:13px;color:var(--muted);margin:0 0 8px}
+.btn.light.small{border:1px solid var(--line)}

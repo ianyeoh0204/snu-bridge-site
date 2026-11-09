@@ -2,12 +2,14 @@
   "source_records": 68,
   "collection_checks": 68,
   "grounding_passed": 68,
-  "checked_at": "2026-11-09T17:13:42Z",
-  "built_at": "2026-11-09T17:13:52Z",
+  "checked_at": "2026-11-09T17:23:53Z",
+  "built_at": "2026-11-09T17:24:00Z",
   "brief_drafts": 68,
   "reviewed_briefs": 0,
   "generator_configured": true,
   "translated_notices": 68,
   "text_pieces": 2147,
-  "text_pieces_in_english": 2145
+  "text_pieces_in_english": 2145,
+  "images": 13,
+  "images_in_english": 0
 }

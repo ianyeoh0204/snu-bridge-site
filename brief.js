@@ -1,5 +1,5 @@
-import {isHistorical} from './product-model.mjs?v=ddaae5b1aca3';
-import {calendarLink} from './calendar.js?v=ddaae5b1aca3';
+import {isHistorical} from './product-model.mjs?v=a150e69c75a5';
+import {calendarLink} from './calendar.js?v=a150e69c75a5';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
@@ -53,6 +53,24 @@ function table(rows, quotes, spans) {
   wrap.append(t); return wrap;
 }
 
+// Text an AI read from an uploaded copy of an image: English with the Korean it read.
+function imageText(blocks, note) {
+  const box = el('div', undefined, 'img-tr');
+  box.append(el('p', note, 'img-tr-note'));
+  for (const block of blocks) {
+    const pair = el('div', undefined, 'blk');
+    const ko = el('div', undefined, 'ko'); ko.lang = 'ko';
+    if (block.t === 'p') { ko.append(el('p', block.ko)); } else ko.append(table(block.ko, []));
+    if (block.en !== null && block.en !== undefined) {
+      const en = el('div', undefined, 'en');
+      if (block.t === 'p') { const p = el('p'); rich(p, block.en); en.append(p); } else en.append(table(block.en, []));
+      pair.append(en, ko);
+    } else { ko.classList.add('untranslated'); pair.append(ko); }
+    box.append(pair);
+  }
+  return box;
+}
+
 // Which block of the notice a quoted Korean sentence comes from.
 function blockOf(b, quote) {
   const q = squash(quote);
@@ -101,8 +119,11 @@ function files(b) {
   for (const f of b.attachments) { const li = el('li'); const n = el('span', f.name); n.lang = 'ko'; li.append(n); ul.append(li); }
   const get = el('a', 'Download on the ECE page ↗', 'btn'); get.href = b.source_url; get.target = '_blank'; get.rel = 'noopener';
   const hwp = b.attachments.some(f => /\.hwpx?$/i.test(f.name));
-  return box('Files in this notice', ul, get, el('p', 'The files are at the bottom of the ECE notice. ' + (hwp ? '.hwp files open in the free Hancom Office Viewer. ' : '') +
-    'These files are not translated here. To understand one, upload it to ChatGPT Edu and ask.', 'hint'));
+  const read = (b.file_text || []).flat();
+  const s = box('Files in this notice', ul, get, el('p', 'The files are at the bottom of the ECE notice. ' + (hwp ? '.hwp files open in the free Hancom Office Viewer. ' : '') +
+    (read.length ? 'Pages translated so far are below.' : 'These files are not translated here. To understand one, upload it to ChatGPT Edu and ask.'), 'hint'));
+  if (read.length) { const wrap = el('div', undefined, 'original'); wrap.dataset.mode = 'en'; wrap.append(imageText(read, 'From the attached file, read and translated by AI. Check numbers against the file.')); s.append(wrap); }
+  return s;
 }
 
 function fullNotice(b, quotes) {
@@ -143,7 +164,15 @@ function fullNotice(b, quotes) {
       img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
       const fallback = el('a', 'Open this image on the ECE site ↗'); fallback.href = b.source_url; fallback.target = '_blank'; fallback.rel = 'noopener';
       img.addEventListener('error', () => img.replaceWith(fallback));
-      blk.append(img, el('p', 'This image is not translated — check it for dates or tables.', 'img-note'));
+      blk.append(img);
+      const read = b.image_text?.[String(i)];
+      if (read) blk.append(imageText(read, 'Text in this image, read and translated by AI. Check numbers against the image.'));
+      else {
+        const lens = el('a', 'Translate this image ↗', 'btn light small');
+        lens.href = 'https://lens.google.com/uploadbyurl?hl=en&url=' + encodeURIComponent(block.src);
+        lens.target = '_blank'; lens.rel = 'noopener';
+        blk.append(el('p', 'This image is not translated here yet. The button opens it in Google Lens — tap Translate.', 'img-note'), lens);
+      }
     } else {
       const ko = el('div', undefined, 'ko'); ko.lang = 'ko';
       if (block.t === 'p') { const p = el('p'); rich(p, block.text, quotes); ko.append(p); } else ko.append(table(block.rows, quotes, block.spans));
