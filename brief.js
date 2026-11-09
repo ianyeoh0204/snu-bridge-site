@@ -1,5 +1,5 @@
-import {isHistorical} from './product-model.mjs?v=33b984331f32';
-import {calendarLink} from './calendar.js?v=33b984331f32';
+import {isHistorical} from './product-model.mjs?v=a3644a371853';
+import {calendarLink} from './calendar.js?v=a3644a371853';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
@@ -74,7 +74,7 @@ function original(b, quotes) {
       img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
       const fallback = el('a', 'Open this image on the ECE site ↗'); fallback.href = b.source_url; fallback.target = '_blank'; fallback.rel = 'noopener';
       img.addEventListener('error', () => img.replaceWith(fallback));
-      wrap.append(img, el('p', 'SNU Bridge did not read this image — check it for dates or tables.', 'img-note'));
+      wrap.append(img, el('p', 'This image is not translated — check it for dates or tables.', 'img-note'));
     }
   }
   const source = el('p', undefined, 'source-line');
@@ -92,7 +92,7 @@ function files(b) {
   const get = el('a', 'Download on the ECE page ↗', 'btn'); get.href = b.source_url; get.target = '_blank'; get.rel = 'noopener';
   const hwp = b.attachments.some(f => /\.hwpx?$/i.test(f.name));
   return box('Files in this notice', ul, get, el('p', 'The files are at the bottom of the ECE notice. ' + (hwp ? '.hwp files open in the free Hancom Office Viewer. ' : '') +
-    'SNU Bridge has not read these files — to understand one, upload it to ChatGPT Edu and ask.', 'hint'));
+    'These files are not translated here. To understand one, upload it to ChatGPT Edu and ask.', 'hint'));
 }
 
 function ask(b) {

@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-11-09T08:33:17Z",
-  "checked_at": "2026-11-09T08:33:08Z",
+  "built_at": "2026-11-09T08:44:51Z",
+  "checked_at": "2026-11-09T08:44:44Z",
   "grounding": {
     "checked": 30,
     "passed": 30
@@ -8,7 +8,7 @@
   "generator": {
     "configured": false,
     "model": null,
-    "last_run": "2026-11-09T08:33:17Z",
+    "last_run": "2026-11-09T08:44:51Z",
     "waiting": 38
   },
   "notices": [

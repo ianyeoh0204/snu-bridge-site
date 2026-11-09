@@ -1,7 +1,7 @@
 /* Student pages: calm, Apple-like. About/study pages use styles.css. */
 :root{
   --bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e3e3e8;
-  --accent:#0071e3;--accent-soft:#e8f1fd;--warn:#b25000;--warn-soft:#fff4e5;--red:#d70015;--red-soft:#ffeef0;
+  --navy:#0f3a8a;--accent:#0f3a8a;--accent-soft:#e9eef8;--warn:#b25000;--warn-soft:#fff4e5;--red:#d70015;--red-soft:#ffeef0;
   --ok:#1d8a3a;--ok-soft:#e9f7ee;--mark:#fff1b8;
   --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Apple SD Gothic Neo","Noto Sans KR","Segoe UI",Roboto,sans-serif;
 }
@@ -12,10 +12,10 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 button{font:inherit;cursor:pointer}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
-.bar{position:sticky;top:0;z-index:5;background:rgba(245,245,247,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
+.bar{position:sticky;top:0;z-index:5;background:var(--navy);box-shadow:0 1px 0 rgba(0,0,0,.08)}
 .bar-in{max-width:760px;margin:auto;padding:0 20px;height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.brand{font-weight:600;color:var(--ink);font-size:17px}.brand:hover{text-decoration:none}
-.bar nav{display:flex;gap:20px;font-size:14px}.bar nav a{color:var(--ink)}.bar nav a[aria-current=page]{color:var(--accent)}
+.brand{font-weight:700;color:#fff;font-size:17px}.brand:hover{text-decoration:none}
+.bar nav{display:flex;gap:20px;font-size:14px}.bar nav a{color:rgba(255,255,255,.78)}.bar nav a:hover{color:#fff;text-decoration:none}.bar nav a[aria-current=page]{color:#fff;font-weight:600}
 
 main{max-width:760px;margin:auto;padding:28px 20px 60px}
 h1{font-size:34px;line-height:1.15;letter-spacing:-.025em;margin:8px 0 8px;font-weight:700}
@@ -25,7 +25,7 @@ h1{font-size:34px;line-height:1.15;letter-spacing:-.025em;margin:8px 0 8px;font-
 /* filters */
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
 .chip{border:0;background:#e8e8ed;color:var(--ink);border-radius:999px;padding:8px 15px;font-size:15px}
-.chip[aria-pressed=true]{background:var(--ink);color:#fff}
+.chip[aria-pressed=true]{background:var(--navy);color:#fff}
 .chips-label{font-size:13px;color:var(--muted);margin:14px 0 6px}
 
 /* list */
@@ -89,16 +89,17 @@ a.card:hover{text-decoration:none;transform:translateY(-1px);box-shadow:0 6px 20
 .img-note{font-size:13px;color:var(--warn);margin:0 0 10px}
 .source-line{font-size:14px;color:var(--muted);margin:0 0 12px}
 
-.ask{background:var(--ink);color:#fff;border-radius:18px;padding:20px 22px;margin:14px 0}
-.ask p{margin:0 0 12px;color:#d2d2d7}.ask b{color:#fff}
+.ask{background:var(--navy);color:#fff;border-radius:18px;padding:20px 22px;margin:14px 0}
+.ask p{margin:0 0 12px;color:#d6dff0}.ask b{color:#fff}
 .btn{display:inline-block;border:0;border-radius:999px;padding:9px 16px;font-size:15px;background:var(--accent);color:#fff;margin:0 8px 8px 0}
+.ask .btn:not(.light){background:#fff;color:var(--navy);font-weight:600}.ask .btn.light{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.6)}
 .btn.light{background:#fff;color:var(--ink)}.btn:hover{text-decoration:none;filter:brightness(1.05)}
-.status{font-size:13px;margin:4px 0 0;color:#d2d2d7}
+.status{font-size:13px;margin:4px 0 0;color:#d6dff0}
 
 /* roadmap */
 .road{counter-reset:s;list-style:none;margin:0;padding:0}
 .road li{background:var(--card);border-radius:18px;padding:18px 20px 18px 62px;margin:0 0 12px;position:relative}
-.road li::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:18px;width:28px;height:28px;border-radius:50%;background:var(--ink);color:#fff;font-size:14px;font-weight:600;display:grid;place-items:center}
+.road li::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:18px;width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font-size:14px;font-weight:600;display:grid;place-items:center}
 .road h2{font-size:17px;margin:2px 0 4px}.road p{margin:0 0 6px;color:var(--muted);font-size:15px}.road a{font-size:14px;margin-right:12px}
 
 footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-size:13px}

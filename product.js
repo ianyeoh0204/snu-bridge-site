@@ -1,4 +1,4 @@
-import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=33b984331f32';
+import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=a3644a371853';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');
@@ -34,7 +34,7 @@ function card(p) {
   if (d) body.append(el('p', `${d.label} · ${d.when}`, 'when'));
   else if (p.ongoing_condition) body.append(el('p', p.ongoing_condition, 'when'));
   if (p.change_note) body.append(el('span', p.change_note.text, 'tag changed'));
-  if (!full) body.append(el('span', p.state_note, 'tag pending'));
+  if (!full) body.append(el('span', p.state === 'changed' ? 'Updated · see original' : 'See original', 'tag pending'));
   a.append(dateChip(d), body);
   return a;
 }
