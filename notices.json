@@ -1,15 +1,15 @@
 {
-  "built_at": "2026-11-09T09:08:31Z",
-  "checked_at": "2026-11-09T09:05:12Z",
+  "built_at": "2026-11-09T09:23:32Z",
+  "checked_at": "2026-11-09T09:20:35Z",
   "grounding": {
-    "checked": 42,
-    "passed": 37
+    "checked": 47,
+    "passed": 46
   },
   "generator": {
     "configured": true,
     "model": "claude-sonnet-5-5",
-    "last_run": "2026-11-09T09:05:21Z",
-    "waiting": 31
+    "last_run": "2026-11-09T09:20:42Z",
+    "waiting": 22
   },
   "notices": [
     {
@@ -997,27 +997,32 @@
     },
     {
       "id": "57944",
-      "title": "Attend graduation project final poster presentation",
+      "title": "Submit final poster PDF; attend poster presentation",
       "who": "Students enrolled in the Fall 2026 graduation project",
       "deadlines": [
         {
           "end": "2026-11-09",
-          "label": "Final poster PDF (A1, portrait)",
+          "label": "Poster PDF due",
           "quote": "~ 11월 9일(월) 23:59",
-          "when": "By 9 November 2026, 23:59"
+          "start": "2026-11-09",
+          "when": "9 Nov 2026, 23:59",
+          "calendar_path": "calendar/57944-0.ics"
         },
         {
           "end": "2026-11-16",
-          "label": "Thesis draft reviewed by advisor",
+          "label": "Thesis draft review",
           "quote": "~ 11월 16일(월) 23:59",
-          "when": "By 16 November 2026, 23:59"
+          "start": "2026-11-16",
+          "when": "16 Nov 2026, 23:59",
+          "calendar_path": "calendar/57944-1.ics"
         },
         {
           "end": "2026-11-20",
-          "label": "Final poster presentation (attend all day)",
-          "quote": "11월 20일 (금) 09:30-16:30",
+          "label": "Poster presentation",
+          "quote": "최종포스터발표회 11월 20일 (금) 09:30-16:30",
           "start": "2026-11-20",
-          "when": "20 November 2026, 09:30–16:30"
+          "when": "20 Nov 2026, 09:30–16:30",
+          "calendar_path": "calendar/57944-2.ics"
         }
       ],
       "degrees": [
@@ -1026,11 +1031,131 @@
       "graduation_scope": "any",
       "historical": false,
       "applicability_uncertain": true,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v",
       "posting_date": "2026.09.22",
       "korean_title": "[2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 안내 - 최종 포스터 발표일자 변경 > 11.20 (금)",
+      "period": "Fall 2026"
+    },
+    {
+      "id": "58031",
+      "title": "Avoid Building 38 floors 4–5 on 23 October",
+      "who": "Everyone except graduate school entrance exam officials",
+      "deadlines": [
+        {
+          "end": "2026-10-23",
+          "label": "Building closure",
+          "quote": "2026. 10. 23.(금) 11:30 ~ 18:00",
+          "start": "2026-10-23",
+          "when": "23 October 2026, 11:30–18:00",
+          "calendar_path": "calendar/58031-0.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate",
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58031&md=v",
+      "posting_date": "2026.09.04",
+      "korean_title": "2027학년도 공학전문대학원 신입생 모집 입학 전형에 따른 건물 통제 안내",
+      "period": "Fall 2026"
+    },
+    {
+      "id": "58034",
+      "title": "Apply for 2027 spring multi-major programs",
+      "who": "Undergraduates seeking a multi-major from 2027 spring",
+      "deadlines": [
+        {
+          "end": "2026-10-16",
+          "label": "Double/joint major application",
+          "quote": "2026.10.12(월) 09:00 ~ 10.16.(금) 18:00",
+          "start": "2026-10-12",
+          "when": "12–16 Oct 2026, 09:00–18:00",
+          "calendar_path": "calendar/58034-0.ics"
+        },
+        {
+          "end": "2026-10-30",
+          "label": "Minor/linked/design application",
+          "quote": "2026.10. 26.(월) 09:00 ~ 10. 30.(금) 18:00",
+          "start": "2026-10-26",
+          "when": "26–30 Oct 2026, 09:00–18:00",
+          "calendar_path": "calendar/58034-1.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58034&md=v",
+      "posting_date": "2026.09.04",
+      "korean_title": "2027학년도 1학기 다전공자 선발 계획 알림",
+      "period": "Spring 2027 (2027학년도 1학기)"
+    },
+    {
+      "id": "58043",
+      "title": "Attend the thesis qualifying exam written test",
+      "who": "Graduate students taking the 논자시 written exam",
+      "deadlines": [
+        {
+          "end": "2026-09-11",
+          "label": "Exam",
+          "quote": "2026. 9. 11.(금) 10:00 ~ 12:00(120분)",
+          "start": "2026-09-11",
+          "when": "11 Sep 2026, 10:00–12:00"
+        },
+        {
+          "end": "2026-09-11",
+          "label": "Be seated by",
+          "quote": "입실완료 시간: 09:50.",
+          "start": "2026-09-11",
+          "when": "11 Sep 2026, 09:50"
+        },
+        {
+          "label": "Results",
+          "quote": "10월 말 이후",
+          "when": "After late October 2026"
+        }
+      ],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "summary_only",
+      "state_note": "See the original notice for the details.",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58043&md=v",
+      "posting_date": "2026.09.08",
+      "korean_title": "★2026학년도 2학기 대학원 논문제출자격시험(논자시) 수험생 유의사항 안내",
+      "period": "Fall 2026"
+    },
+    {
+      "id": "58046",
+      "title": "Check your safety education certificate",
+      "who": "New students who took August 2026 safety education",
+      "deadlines": [],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58046&md=v",
+      "posting_date": "2026.09.08",
+      "korean_title": "2026년 여름방학 신입학생 안전환경교육 이수증 발급 안내(26년 2학기 논자시 응시자 확인 요망)",
       "period": "Fall 2026"
     },
     {
@@ -1116,21 +1241,23 @@
     },
     {
       "id": "58067",
-      "title": "Submit integrated-program 포기원 or 지속원 form",
-      "who": "Integrated MS-PhD students in their 2nd semester",
+      "title": "Submit integrated-program waiver or continuation form",
+      "who": "Integrated MS-PhD students in their second semester",
       "deadlines": [
         {
           "end": "2026-12-11",
-          "label": "Submission period",
+          "label": "Main submission deadline",
           "quote": "2026년 9월 15일 ~ 2026년 12월 11일 17:00시까지",
           "start": "2026-09-15",
-          "when": "15 Sep – 11 Dec 2026, 17:00"
+          "when": "15 Sep–11 Dec 2026, 17:00",
+          "calendar_path": "calendar/58067-0.ics"
         },
         {
           "end": "2026-09-23",
-          "label": "포기원 for Feb 2027 master's completion (semester 4+)",
+          "label": "Waiver for Feb 2027 completion",
           "quote": "2026년 9월 23일 오전까지",
-          "when": "By the morning of 23 Sep 2026"
+          "when": "By morning of 23 Sep 2026",
+          "calendar_path": "calendar/58067-1.ics"
         }
       ],
       "degrees": [
@@ -1138,8 +1265,7 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58067&md=v",
       "posting_date": "2026.09.15",
       "korean_title": "2026학년도 2학기 석박통합과정생 포기원/지속원 제출 안내",
@@ -1147,22 +1273,24 @@
     },
     {
       "id": "58098",
-      "title": "Attend your 2nd graduation project mid-presentation",
-      "who": "Students in the graduation project (전기공학설계프로젝트), Fall 2026",
+      "title": "Attend your graduation project 2nd midterm presentation",
+      "who": "Undergraduates taking the graduation project this semester",
       "deadlines": [
         {
           "end": "2026-10-08",
-          "label": "2nd mid-presentation",
-          "quote": "2회차 10월 8일 (목) 18:30",
+          "label": "2nd midterm presentation",
+          "quote": "10월 8일 (목) 18:30",
           "start": "2026-10-08",
-          "when": "Thursday 8 October 2026, 18:30"
+          "when": "8 Oct 2026, 18:30",
+          "calendar_path": "calendar/58098-0.ics"
         },
         {
           "end": "2026-11-20",
-          "label": "4th final poster session (rescheduled)",
+          "label": "Final poster presentation",
           "quote": "11.19(목) -> 11.20 (금)",
           "start": "2026-11-20",
-          "when": "Moved from Thursday 19 November to Friday 20 November 2026; time not stated"
+          "when": "20 Nov 2026, moved from 19th",
+          "calendar_path": "calendar/58098-1.ics"
         }
       ],
       "degrees": [
@@ -1170,9 +1298,7 @@
       ],
       "graduation_scope": "any",
       "historical": false,
-      "applicability_uncertain": true,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58098&md=v",
       "posting_date": "2026.09.22",
       "korean_title": "[2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 2회차 중간발표 안내",
@@ -1217,34 +1343,31 @@
     },
     {
       "id": "58123",
-      "title": "Apply for Hanwha Aerospace winter field practicum",
-      "who": "Year 3+ undergraduates in listed majors with an English speaking score",
+      "title": "Apply for Hanwha Aerospace winter field practice",
+      "who": "Undergraduates, year 3+, in listed majors with English speaking score",
       "deadlines": [
         {
           "end": "2026-10-19",
-          "label": "Course application",
+          "label": "Course registration/application",
           "quote": "2026.10.15.(목)~10.19.(월)",
           "start": "2026-10-15",
-          "when": "15–19 October 2026; time not stated"
+          "when": "15–19 October 2026; time not stated",
+          "calendar_path": "calendar/58123-0.ics"
         },
         {
           "end": "2026-11-06",
-          "label": "Interview (one day)",
+          "label": "Practical interview",
           "quote": "2026.11.4.(수)~11.6.(금)",
           "start": "2026-11-04",
-          "when": "4–6 November 2026; time not stated"
-        },
-        {
-          "end": "2026-11-20",
-          "label": "Final selection (planned)",
-          "quote": "2026. 11. 20.(금) 예정",
-          "when": "20 November 2026"
+          "when": "One day, 4–6 November 2026",
+          "calendar_path": "calendar/58123-1.ics"
         },
         {
           "end": "2026-11-23",
           "label": "Tuition payment",
           "quote": "11/23(월)까지",
-          "when": "By 23 November 2026; time not stated"
+          "when": "By 23 November 2026",
+          "calendar_path": "calendar/58123-2.ics"
         }
       ],
       "degrees": [
@@ -1253,8 +1376,7 @@
       "graduation_scope": "any",
       "historical": false,
       "applicability_uncertain": true,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v",
       "posting_date": "2026.10.06",
       "korean_title": "[한화에어로스페이스] 2026학년도 동계 계절수업 현장실습학기제 운영 예정 안내(영어회화성적 필수)",
@@ -1262,29 +1384,32 @@
     },
     {
       "id": "58127",
-      "title": "Avoid parking and driving in controlled campus zones",
+      "title": "Avoid controlled campus parking and roads during concert",
       "who": "Anyone driving or parking on the SNU campus",
       "deadlines": [
         {
           "end": "2026-10-14",
-          "label": "Daeun-dongjang side-road lot and Main Gate temporary lot",
+          "label": "Two lots closed",
           "quote": "10. 8.(목) 21:00 ~ 10. 14.(수) 23:59",
           "start": "2026-10-08",
-          "when": "8 Oct 2026 21:00 – 14 Oct 2026 23:59"
+          "when": "8 Oct 21:00–14 Oct 23:59",
+          "calendar_path": "calendar/58127-0.ics"
         },
         {
           "end": "2026-10-13",
-          "label": "No parking, Main Gate B booth to Business School junction",
+          "label": "Road parking ban",
           "quote": "10. 11.(일) 21:00 ~ 10. 13.(화) 23:59",
           "start": "2026-10-11",
-          "when": "11 Oct 2026 21:00 – 13 Oct 2026 23:59"
+          "when": "11 Oct 21:00–13 Oct 23:59",
+          "calendar_path": "calendar/58127-1.ics"
         },
         {
           "end": "2026-10-13",
-          "label": "General vehicles banned on that road",
+          "label": "Car traffic ban",
           "quote": "10. 13.(화) 21:30 ~ 22:30",
           "start": "2026-10-13",
-          "when": "13 Oct 2026 21:30–22:30"
+          "when": "13 Oct, 21:30–22:30",
+          "calendar_path": "calendar/58127-2.ics"
         }
       ],
       "degrees": [
@@ -1296,8 +1421,7 @@
       "graduation_scope": "any",
       "historical": false,
       "applicability_uncertain": true,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v",
       "posting_date": "2026.10.08",
       "korean_title": "「개교 80주년 KBS 열린음악회」개최 관련 교통 통제 안내",
@@ -1367,6 +1491,35 @@
       "period": "Winter break 2026–27"
     },
     {
+      "id": "58161",
+      "title": "Attend the exchange student information session",
+      "who": "Undergraduate and graduate students interested in exchange abroad",
+      "deadlines": [
+        {
+          "end": "2026-10-30",
+          "label": "Information session",
+          "quote": "2026. 10. 30.(금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30",
+          "start": "2026-10-30",
+          "when": "30 Oct 2026, 10:00 or 14:00",
+          "calendar_path": "calendar/58161-0.ics"
+        }
+      ],
+      "degrees": [
+        "undergraduate",
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "applicability_uncertain": true,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v",
+      "posting_date": "2026.10.23",
+      "korean_title": "2027학년도 2학기 해외파견 교환학생 모집 설명회 안내",
+      "period": "Fall 2027 exchange"
+    },
+    {
       "id": "58183",
       "title": "Attend the 3rd graduation project midterm presentation",
       "who": "Students in the Fall 2026 graduation project course",
@@ -1392,14 +1545,7 @@
       "period": "Fall 2026"
     }
   ],
-  "pending": [
-    {
-      "id": "58161",
-      "korean_title": "2027학년도 2학기 해외파견 교환학생 모집 설명회 안내",
-      "posting_date": "2026.10.23",
-      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58161&md=v"
-    }
-  ],
+  "pending": [],
   "roadmaps": {
     "note": "AI-draft planning guide from the cited ECE notices. Your cohort, approvals and the current semester’s rules still control; the department makes the final decision.",
     "masters": [

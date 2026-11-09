@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58123-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course registration/application · Apply for Hanwha Aerospace winte
+ r field practice
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+DESCRIPTION:15–19 October 2026\; time not stated\nKorean source: 2026.10.
+ 15.(목)~10.19.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=581
+ 23&md=v\nAI explanation — may contain errors\; check the original. This 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v
+END:VEVENT
+END:VCALENDAR

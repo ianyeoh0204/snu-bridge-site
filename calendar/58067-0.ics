@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58067-0@snu-bridge
+DTSTAMP:20261108T213114Z
+SUMMARY:Main submission deadline · Submit integrated-program waiver or con
+ tinuation form
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+DESCRIPTION:15 Sep–11 Dec 2026\, 17:00\nKorean source: 2026년 9월 15일
+  ~ 2026년 12월 11일 17:00시까지\nhttps://ece.snu.ac.kr/community/aca
+ demics?bbsidx=58067&md=v\nAI explanation — may contain errors\; check th
+ e original. This is a reminder\, not an official submission. Closing time 
+ is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58067&md=v
+END:VEVENT
+END:VCALENDAR

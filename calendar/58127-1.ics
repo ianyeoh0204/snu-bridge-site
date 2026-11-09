@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58127-1@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Road parking ban · Avoid controlled campus parking and roads durin
+ g concert
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:11 Oct 21:00–13 Oct 23:59\nKorean source: 10. 11.(일) 21:00 
+ ~ 10. 13.(화) 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=581
+ 27&md=v\nAI explanation — may contain errors\; check the original. This 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v
+END:VEVENT
+END:VCALENDAR

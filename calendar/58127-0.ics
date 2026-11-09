@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58127-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Two lots closed · Avoid controlled campus parking and roads during
+  concert
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+DESCRIPTION:8 Oct 21:00–14 Oct 23:59\nKorean source: 10. 8.(목) 21:00 ~ 
+ 10. 14.(수) 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58127
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v
+END:VEVENT
+END:VCALENDAR

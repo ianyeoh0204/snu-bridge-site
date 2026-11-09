@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58127-2@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Car traffic ban · Avoid controlled campus parking and roads during
+  concert
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:13 Oct\, 21:30–22:30\nKorean source: 10. 13.(화) 21:30 ~ 22:
+ 30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v\nAI explan
+ ation — may contain errors\; check the original. This is a reminder\, no
+ t an official submission. Closing time is not supplied by an all-day remin
+ der.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v
+END:VEVENT
+END:VCALENDAR

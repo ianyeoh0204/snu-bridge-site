@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58034-0@snu-bridge
+DTSTAMP:20261108T220811Z
+SUMMARY:Double/joint major application · Apply for 2027 spring multi-major
+  programs
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+DESCRIPTION:12–16 Oct 2026\, 09:00–18:00\nKorean source: 2026.10.12(월
+ ) 09:00 ~ 10.16.(금) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbs
+ idx=58034&md=v\nAI explanation — may contain errors\; check the original
+ . This is a reminder\, not an official submission. Closing time is not sup
+ plied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58034&md=v
+END:VEVENT
+END:VCALENDAR

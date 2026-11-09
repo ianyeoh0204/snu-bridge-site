@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58123-1@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Practical interview · Apply for Hanwha Aerospace winter field prac
+ tice
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+DESCRIPTION:One day\, 4–6 November 2026\nKorean source: 2026.11.4.(수)~1
+ 1.6.(금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v\nAI
+  explanation — may contain errors\; check the original. This is a remind
+ er\, not an official submission. Closing time is not supplied by an all-da
+ y reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v
+END:VEVENT
+END:VCALENDAR
