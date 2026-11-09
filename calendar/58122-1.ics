@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58122-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Second operating period · Check exam-period night shuttle schedule
+  changes
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+DESCRIPTION:30 November–14 December 2026\, weekdays\nKorean source: 2026.
+  11. 30.(월) ~ 12. 14.(월)\nhttps://ece.snu.ac.kr/community/academics?bb
+ sidx=58122&md=v\nAI explanation — may contain errors\; check the origina
+ l. This is a reminder\, not an official submission. Closing time is not su
+ pplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58122&md=v
+END:VEVENT
+END:VCALENDAR

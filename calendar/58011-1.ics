@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58011-1@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:BK21 students' extended period · Complete the online research ethi
+ cs course
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Until December 2026\nKorean source: '26.12월까지 수강 가
+ 능\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v\nAI expla
+ nation — may contain errors\; check the original. This is a reminder\, n
+ ot an official submission. Closing time is not supplied by an all-day remi
+ nder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v
+END:VEVENT
+END:VCALENDAR

@@ -5,15 +5,14 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57376-2@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Confirm off-quota courses · Complete Spring 2026 course registrati
- on and changes
+SUMMARY:Confirm over-quota course · Register for Spring 2026 courses
 DTSTART;VALUE=DATE:20260311
 DTEND;VALUE=DATE:20260312
-DESCRIPTION:3–11 March 2026\, until 23:59\nKorean source: 03-03.(화)~03-
- 11.(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI 
- explanation — may contain errors\; check the original. This is a reminde
- r\, not an official submission. Closing time is not supplied by an all-day
-  reminder.
+DESCRIPTION:3–11 March 2026\, 23:59\nKorean source: 03-03.(화)~03-11.(
+ 수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI expl
+ anation — may contain errors\; check the original. This is a reminder\, 
+ not an official submission. Closing time is not supplied by an all-day rem
+ inder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
 END:VEVENT
 END:VCALENDAR

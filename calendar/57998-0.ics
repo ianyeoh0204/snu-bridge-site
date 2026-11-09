@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57998-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:전공하나 retreat dates · Submit your 전공하나 absence note
+  to professors
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+DESCRIPTION:18–19 September 2026\nKorean source: 2026년 9월 18일(금) 
+ ~ 9월 19일(토)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57998&
+ md=v\nAI explanation — may contain errors\; check the original. This is 
+ a reminder\, not an official submission. Closing time is not supplied by a
+ n all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57998&md=v
+END:VEVENT
+END:VCALENDAR

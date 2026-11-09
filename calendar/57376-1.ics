@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57376-1@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:ECE undergrad off-quota requests · Complete Spring 2026 course reg
- istration and changes
+SUMMARY:ECE undergrad over-quota request · Register for Spring 2026 course
+ s
 DTSTART;VALUE=DATE:20260305
 DTEND;VALUE=DATE:20260306
-DESCRIPTION:Until 5 March 2026\, 18:00\nKorean source: 3.5.(목) 18시까
- 지만 신청 가능\nhttps://ece.snu.ac.kr/community/academics?bbsidx=573
- 76&md=v\nAI explanation — may contain errors\; check the original. This 
- is a reminder\, not an official submission. Closing time is not supplied b
- y an all-day reminder.
+DESCRIPTION:3–5 March 2026\, 18:00\nKorean source: 03-03.(화) 08:30 ~03-
+ 05.(목) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=
+ v\nAI explanation — may contain errors\; check the original. This is a r
+ eminder\, not an official submission. Closing time is not supplied by an a
+ ll-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
 END:VEVENT
 END:VCALENDAR

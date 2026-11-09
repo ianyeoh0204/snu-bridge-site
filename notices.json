@@ -1,15 +1,15 @@
 {
-  "built_at": "2026-11-09T19:07:42Z",
-  "checked_at": "2026-11-09T18:30:18Z",
+  "built_at": "2026-11-09T19:25:46Z",
+  "checked_at": "2026-11-09T19:10:29Z",
   "grounding": {
     "checked": 68,
-    "passed": 61
+    "passed": 68
   },
   "generator": {
     "configured": true,
     "model": "claude-opus-5-5",
-    "last_run": "2026-11-09T19:00:31Z",
-    "waiting": 4
+    "last_run": "2026-11-09T19:22:38Z",
+    "waiting": 0
   },
   "notices": [
     {
@@ -717,31 +717,34 @@
     {
       "id": "57151",
       "title": "Check your name on the completion list",
-      "who": "Grad students completing or graduating in February 2026",
+      "who": "Master's, PhD, integrated students completing/graduating February 2026",
       "deadlines": [
         {
-          "action": "Report list errors or submit deferral",
+          "action": "Report list errors or submit postponement form",
           "end": "2026-01-14",
           "kind": "action",
           "label": "Report list problems",
           "quote": "2026. 1. 14.(수)까지",
-          "when": "14 January 2026; time not stated"
+          "when": "By 14 January 2026",
+          "calendar_path": "calendar/57151-0.ics"
         },
         {
-          "action": "Apply for English name change",
+          "action": "Apply in MySNU to change English name",
           "end": "2026-01-12",
           "kind": "action",
           "label": "Request English name change",
           "quote": "2026. 1. 12.(월)까지",
-          "when": "12 January 2026; time not stated"
+          "when": "By 12 January 2026",
+          "calendar_path": "calendar/57151-1.ics"
         },
         {
-          "action": "Email survey completion certificate",
+          "action": "Email the survey completion certificate",
           "end": "2026-02-06",
           "kind": "action",
-          "label": "Submit PhD survey certificate",
+          "label": "PhD survey certificate",
           "quote": "2026. 2. 6.(금)까지",
-          "when": "6 February 2026; time not stated"
+          "when": "By 6 February 2026",
+          "calendar_path": "calendar/57151-2.ics"
         }
       ],
       "degrees": [
@@ -752,12 +755,11 @@
       "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v",
       "posting_date": "2026.01.05",
       "korean_title": "[대학원] ★2026년 2월 석사, 박사과정 수료/졸업예정자 명단 안내",
-      "period": "February 2026"
+      "period": "Spring 2026"
     },
     {
       "id": "57441",
@@ -814,7 +816,7 @@
         {
           "kind": "info",
           "label": "New rules take effect",
-          "quote": "2026년 9월부터",
+          "quote": "2026년 9월부터(2026학년도 2학기 심사대상자부터)",
           "start": "2026-09-01",
           "when": "From September 2026 (Fall review)"
         }
@@ -824,11 +826,10 @@
         "phd",
         "integrated"
       ],
-      "graduation_scope": "graduating_only",
+      "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57606&md=v",
       "posting_date": "2026.03.13",
       "korean_title": "★[내규] 대학원(석사, 박사, 석박통합 과정) 학위수여(논문 관련) 변경 규정 안내",
@@ -965,36 +966,37 @@
     },
     {
       "id": "57376",
-      "title": "Complete Spring 2026 course registration and changes",
-      "who": "All enrolled ECE students taking Spring 2026 courses",
+      "title": "Register for Spring 2026 courses",
+      "who": "All ECE students taking Spring 2026 courses",
       "deadlines": [
         {
-          "action": "Finalise your course additions and drops",
+          "action": "Finalize your course registration",
           "end": "2026-03-09",
           "kind": "action",
           "label": "Course change period",
           "quote": "03-03.(화)~03-09.(월)",
           "start": "2026-03-03",
-          "when": "3–9 March 2026, 09:00–18:30",
+          "when": "3–9 March 2026, weekdays",
           "calendar_path": "calendar/57376-0.ics"
         },
         {
-          "action": "Request extra-capacity seats in ECE undergraduate courses",
+          "action": "Submit over-quota (정원 외) request",
           "end": "2026-03-05",
           "kind": "action",
-          "label": "ECE undergrad off-quota requests",
-          "quote": "3.5.(목) 18시까지만 신청 가능",
-          "when": "Until 5 March 2026, 18:00",
+          "label": "ECE undergrad over-quota request",
+          "quote": "03-03.(화) 08:30 ~03-05.(목) 18:00",
+          "start": "2026-03-03",
+          "when": "3–5 March 2026, 18:00",
           "calendar_path": "calendar/57376-1.ics"
         },
         {
-          "action": "Confirm approved off-quota courses yourself",
+          "action": "Confirm your approved over-quota course",
           "end": "2026-03-11",
           "kind": "action",
-          "label": "Confirm off-quota courses",
+          "label": "Confirm over-quota course",
           "quote": "03-03.(화)~03-11.(수)",
           "start": "2026-03-03",
-          "when": "3–11 March 2026, until 23:59",
+          "when": "3–11 March 2026, 23:59",
           "calendar_path": "calendar/57376-2.ics"
         }
       ],
@@ -1015,9 +1017,39 @@
     },
     {
       "id": "57374",
-      "title": "Check Spring 2026 ECE course changes before registering",
-      "who": "ECE undergraduates registering for Spring 2026 courses",
-      "deadlines": [],
+      "title": "Register for Spring 2026 ECE courses",
+      "who": "ECE undergraduates taking courses in Spring 2026",
+      "deadlines": [
+        {
+          "action": "Register for your Spring courses",
+          "end": "2026-01-30",
+          "kind": "action",
+          "label": "First-come registration (current students)",
+          "quote": "01-30.(금) 08:30~16:30",
+          "start": "2026-01-30",
+          "when": "30 January 2026, 08:30–16:30",
+          "calendar_path": "calendar/57374-0.ics"
+        },
+        {
+          "action": "Request a seat in full courses",
+          "end": "2026-03-05",
+          "kind": "action",
+          "label": "Over-quota request, ECE undergrad",
+          "quote": "3/5(목) 18시 마감",
+          "when": "By 5 March 2026, 18:00",
+          "calendar_path": "calendar/57374-1.ics"
+        },
+        {
+          "action": "Cancel unwanted courses in mySNU",
+          "end": "2026-04-21",
+          "kind": "action",
+          "label": "Course cancellation",
+          "quote": "03-10.(화)~4-21.(화)",
+          "start": "2026-03-10",
+          "when": "10 March–21 April 2026",
+          "calendar_path": "calendar/57374-2.ics"
+        }
+      ],
       "degrees": [
         "undergraduate"
       ],
@@ -1083,21 +1115,20 @@
     },
     {
       "id": "57963",
-      "title": "Submit publication proof before thesis results deadline",
+      "title": "Meet new thesis publication requirements for graduation",
       "who": "Graduate students with thesis review from Fall 2026",
       "deadlines": [
         {
-          "action": "Submit publication proof and signed forms",
+          "action": "Submit acceptance proof and signed form",
           "kind": "action",
           "label": "Submit publication proof",
           "quote": "논문심사 결과서류 제출일자 이전까지 제출",
-          "when": "Thesis results deadline; date not stated"
+          "when": "Before result-document submission date"
         },
         {
           "kind": "info",
           "label": "New rules apply",
-          "quote": "2026년 9월부터",
-          "start": "2026-09-01",
+          "quote": "2026년 9월부터 (2026학년도 2학기 심사대상자부터)",
           "when": "From September 2026"
         }
       ],
@@ -1109,8 +1140,7 @@
       "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57963&md=v",
       "posting_date": "2026.08.29",
       "korean_title": "대학원(석사, 박사, 석박통합 과정) 학위수여(논문 관련) 변경 규정 안내",
@@ -1199,7 +1229,7 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=51949&md=v",
       "posting_date": "2021.12.20",
       "korean_title": "“대학원 공통역량 교과목” 공과대학 이수요건 및 이수인정 안내(연구윤리 교과목 필수 이수)",
-      "period": "From Spring 2022 admissions onward"
+      "period": "Spring 2022 onward"
     },
     {
       "id": "55507",
@@ -1238,8 +1268,7 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=55871&md=v",
       "posting_date": "2024.09.25",
       "korean_title": "[내규 안내] 논문제출자격시험 석박사통합과정 재응시 관련",
@@ -1618,7 +1647,8 @@
           "label": "전공하나 retreat dates",
           "quote": "2026년 9월 18일(금) ~ 9월 19일(토)",
           "start": "2026-09-18",
-          "when": "18–19 September 2026"
+          "when": "18–19 September 2026",
+          "calendar_path": "calendar/57998-0.ics"
         }
       ],
       "degrees": [
@@ -1627,8 +1657,7 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57998&md=v",
       "posting_date": "2026.08.26",
       "korean_title": "2026 전공하나 잠가확인서(결석계)",
@@ -1637,7 +1666,7 @@
     {
       "id": "58011",
       "title": "Complete the online research ethics course",
-      "who": "New and uncertified graduate students, Fall 2026",
+      "who": "New graduate students and those who never completed it",
       "deadlines": [
         {
           "action": "Finish the research ethics course",
@@ -1646,15 +1675,17 @@
           "label": "Course period",
           "quote": "2026. 9. 1.(화)~9. 30.(수)",
           "start": "2026-09-01",
-          "when": "1–30 September 2026; time not stated"
+          "when": "1–30 September 2026",
+          "calendar_path": "calendar/58011-0.ics"
         },
         {
-          "action": "BK21 participants: finish the course",
+          "action": "BK21 students: finish the course",
           "end": "2026-12-31",
           "kind": "action",
-          "label": "BK21 participants' extended period",
-          "quote": "※ BK21 참여대학원생의 경우 '26.12월까지 수강 가능",
-          "when": "Until December 2026"
+          "label": "BK21 students' extended period",
+          "quote": "'26.12월까지 수강 가능",
+          "when": "Until December 2026",
+          "calendar_path": "calendar/58011-1.ics"
         }
       ],
       "degrees": [
@@ -1665,8 +1696,7 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": true,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v",
       "posting_date": "2026.08.31",
       "korean_title": "2026학년도 2학기 대학원생 연구윤리 교육 실시 안내",
@@ -2079,7 +2109,8 @@
           "label": "First operating period",
           "quote": "2026. 10. 12.(월) ~ 10. 30.(금)",
           "start": "2026-10-12",
-          "when": "12–30 October 2026, weekdays"
+          "when": "12–30 October 2026, weekdays",
+          "calendar_path": "calendar/58122-0.ics"
         },
         {
           "end": "2026-12-14",
@@ -2087,7 +2118,8 @@
           "label": "Second operating period",
           "quote": "2026. 11. 30.(월) ~ 12. 14.(월)",
           "start": "2026-11-30",
-          "when": "30 November–14 December 2026, weekdays"
+          "when": "30 November–14 December 2026, weekdays",
+          "calendar_path": "calendar/58122-1.ics"
         }
       ],
       "degrees": [
@@ -2099,8 +2131,7 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58122&md=v",
       "posting_date": "2026.10.06",
       "korean_title": "시험기간 중 야간 도서관 셔틀버스 증차 및 심야셔틀 운행 노선 변경 안내",

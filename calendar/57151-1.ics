@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57151-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Request English name change · Check your name on the completion li
+ st
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+DESCRIPTION:By 12 January 2026\nKorean source: 2026. 1. 12.(월)까지\nhtt
+ ps://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v
+END:VEVENT
+END:VCALENDAR

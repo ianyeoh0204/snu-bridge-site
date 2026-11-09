@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58011-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Course period · Complete the online research ethics course
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:1–30 September 2026\nKorean source: 2026. 9. 1.(화)~9. 30.(
+ 수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v\nAI expl
+ anation — may contain errors\; check the original. This is a reminder\, 
+ not an official submission. Closing time is not supplied by an all-day rem
+ inder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v
+END:VEVENT
+END:VCALENDAR
