@@ -1,4 +1,4 @@
-/* Student pages: calm, Apple-like. About/study pages use styles.css. */
+/* SNU Bridge pages: calm, Apple-like, SNU navy. */
 :root{
   --bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e3e3e8;
   --navy:#0f3a8a;--accent:#0f3a8a;--accent-soft:#e9eef8;--warn:#b25000;--warn-soft:#fff4e5;--red:#d70015;--red-soft:#ffeef0;
@@ -128,3 +128,16 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
 .original .ko.untranslated::before{content:"한국어";display:inline-block;font-size:11px;font-weight:700;color:var(--muted);background:#f0f0f3;border-radius:4px;padding:1px 6px;margin-bottom:2px}
 .original .en p,.original .ko p{margin:0 0 4px}
 .original hr.divider{border:0;border-top:1px solid var(--line);margin:18px 0}
+
+/* About page */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:8px 0 10px}
+.stats div{background:var(--card);border-radius:18px;padding:16px 18px}
+.stats b{display:block;font-size:28px;letter-spacing:-.02em;color:var(--navy)}
+.stats span{color:var(--muted);font-size:14px;line-height:1.35;display:block}
+.flow{list-style:none;margin:10px 0 0;padding:0;counter-reset:step}
+.flow li{position:relative;background:var(--card);border-radius:18px;padding:16px 18px 16px 62px;margin:0 0 22px;counter-increment:step}
+.flow li::before{content:counter(step);position:absolute;left:18px;top:16px;width:28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font-size:14px;font-weight:600;display:grid;place-items:center}
+.flow li:not(:last-child)::after{content:"";position:absolute;left:31px;bottom:-22px;width:2px;height:22px;background:var(--line)}
+.flow.you li::before{background:var(--ok)}
+.flow b{display:block;font-size:17px}.flow span{display:block;color:var(--muted);font-size:15px}
+@media (max-width:560px){.stats{grid-template-columns:1fr}.stats div{display:flex;align-items:baseline;gap:10px}.stats b{font-size:22px;flex:none}}

@@ -1,4 +1,4 @@
-import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=7768b9202cc4';
+import {DEGREES, filterBriefs, nextDate, endTime} from './product-model.mjs?v=82622663cf57';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');
