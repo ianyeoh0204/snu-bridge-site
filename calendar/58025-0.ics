@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58025-0@snu-bridge
+DTSTAMP:20261108T220811Z
+SUMMARY:Lecture date and time · Attend the thesis writing overview lecture
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DESCRIPTION:11 September 2026\, 18:30\nKorean source: 9월 11일 금요일 
+ 18시 30분\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58025&md=v\n
+ AI explanation — may contain errors\; check the original. This is a remi
+ nder\, not an official submission. Closing time is not supplied by an all-
+ day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58025&md=v
+END:VEVENT
+END:VCALENDAR
