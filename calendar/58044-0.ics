@@ -5,8 +5,8 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58044-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Thesis submission · Submit your bachelor's thesis to the departmen
- t office
+SUMMARY:Graduation thesis submission · Submit your graduation thesis to th
+ e department office
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 DESCRIPTION:By 21 December 2026\; time not stated\nKorean source: 2026. 12.

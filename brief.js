@@ -1,5 +1,5 @@
-import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=3c13295173aa';
-import {calendarLink} from './calendar.js?v=3c13295173aa';
+import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=b7982240a7e3';
+import {calendarLink} from './calendar.js?v=b7982240a7e3';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};
@@ -103,6 +103,7 @@ function glance(b) {
     else if (['event', 'closure'].includes(d.kind) && d.start && started) left.append(el('span', 'Now', 'tag changed'));
     if (d.kind === 'info') left.append(el('span', 'For information', 'tag pending'));
     if (d.degrees?.length) left.append(el('span', d.degrees.map(x => DEGREES[x] || x).join(', ') + ' only', 'tag pending'));
+    if (d.optional) left.append(el('span', 'Only if it applies to you', 'tag pending'));
     left.append(el('br'), el('span', d.when));
     if (passed) row.classList.add('passed');
     const right = el('div', undefined, 'deadline-links');

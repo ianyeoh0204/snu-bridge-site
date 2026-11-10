@@ -5,8 +5,7 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58149-1@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Overlap request (1st round) · Register for 2026 winter session cou
- rses
+SUMMARY:Overlap request (round 1) · Register for winter session courses
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 DESCRIPTION:4–9 November 2026\, 18:00\nKorean source: (1차) 11. 4.(수) 

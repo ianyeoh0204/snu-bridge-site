@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58072-0@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Online application and documents · Apply for your thesis review th
- is semester
+SUMMARY:Online registration and documents · Register online for your thesi
+ s review
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
-DESCRIPTION:21 September – 1 October 2026\, 17:00\nKorean source: 2026년
-  9월 21일(월)～10월 1일(목) 17:00까지\nhttps://ece.snu.ac.kr/comm
- unity/academics?bbsidx=58072&md=v\nAI explanation — may contain errors\;
-  check the original. This is a reminder\, not an official submission. Clos
- ing time is not supplied by an all-day reminder.
+DESCRIPTION:21 Sep–1 Oct 2026\, 17:00\nKorean source: 2026년 9월 21일(
+ 월)～10월 1일(목) 17:00까지\nhttps://ece.snu.ac.kr/community/academ
+ ics?bbsidx=58072&md=v\nAI explanation — may contain errors\; check the o
+ riginal. This is a reminder\, not an official submission. Closing time is 
+ not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
 END:VEVENT
 END:VCALENDAR

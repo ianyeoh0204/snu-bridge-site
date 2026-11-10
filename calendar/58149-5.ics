@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58149-5@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Tuition payment (final) · Register for 2026 winter session courses
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-DESCRIPTION:26–27 November 2026\nKorean source: 2026.11.26.(목) ~ 11.27.
- (금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v\nAI exp
- lanation — may contain errors\; check the original. This is a reminder\,
-  not an official submission. Closing time is not supplied by an all-day re
- minder.
+SUMMARY:Over-quota for cancelled courses · Register for winter session cou
+ rses
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+DESCRIPTION:9–11 December 2026\nKorean source: 2026. 12. 9.(수) ~ 12. 11
+ .(금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v\nAI ex
+ planation — may contain errors\; check the original. This is a reminder\
+ , not an official submission. Closing time is not supplied by an all-day r
+ eminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v
 END:VEVENT
 END:VCALENDAR

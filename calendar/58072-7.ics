@@ -5,15 +5,14 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58072-7@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Final thesis to library · Apply for your thesis review this semest
- er
+SUMMARY:Final thesis to library · Register online for your thesis review
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
-DESCRIPTION:15 January – 1 February 2027\, 23:59\nKorean source: 2027년 
- 1월 15일(금) ∼ 2월 1일(월) 23:59\nhttps://ece.snu.ac.kr/community/
- academics?bbsidx=58072&md=v\nAI explanation — may contain errors\; check
-  the original. This is a reminder\, not an official submission. Closing ti
- me is not supplied by an all-day reminder.
+DESCRIPTION:15 Jan–1 Feb 2027\, 23:59\nKorean source: 2027년 1월 15일(
+ 금) ∼ 2월 1일(월) 23:59\nhttps://ece.snu.ac.kr/community/academics?b
+ bsidx=58072&md=v\nAI explanation — may contain errors\; check the origin
+ al. This is a reminder\, not an official submission. Closing time is not s
+ upplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
 END:VEVENT
 END:VCALENDAR

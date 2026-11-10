@@ -5,14 +5,14 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58149-7@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Winter classes · Register for 2026 winter session courses
+SUMMARY:Winter classes · Register for winter session courses
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
-DESCRIPTION:22 Dec 2026–25 Jan 2027\nKorean source: 2026.12.22.(화) ~ 20
- 27.01.25.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149&md=
- v\nAI explanation — may contain errors\; check the original. This is a r
- eminder\, not an official submission. Closing time is not supplied by an a
- ll-day reminder.
+DESCRIPTION:22 December 2026 – 25 January 2027\nKorean source: 2026.12.22
+ .(화) ~ 2027.01.25.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsid
+ x=58149&md=v\nAI explanation — may contain errors\; check the original. 
+ This is a reminder\, not an official submission. Closing time is not suppl
+ ied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v
 END:VEVENT
 END:VCALENDAR

@@ -5,8 +5,7 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58152-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Application submission · Submit your research internship applicati
- on
+SUMMARY:Application deadline · Submit your research internship application
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 DESCRIPTION:29 October 2026\, 18:00\nKorean source: 10월 29일(목) 18:00

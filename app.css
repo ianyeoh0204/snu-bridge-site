@@ -157,3 +157,7 @@ footer{max-width:760px;margin:auto;padding:0 20px 40px;color:var(--muted);font-s
 .missing{background:var(--warn-soft);color:var(--warn);border-radius:10px;padding:8px 12px;font-size:15px;margin:10px 0}
 .ask .hint{margin-top:10px}
 .files details{margin-top:6px}.files summary{cursor:pointer;color:var(--accent);font-size:14px}.files small{display:block;color:var(--muted);font-size:13px}
+.trial-q{font-size:17px;font-weight:600;margin:18px 0 10px}
+.trial-option{display:block;width:100%;text-align:left;border:1px solid var(--line);border-radius:12px;margin:0 0 8px}
+.trial-note{width:100%;box-sizing:border-box;font:inherit;font-size:15px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0}
+.btn:disabled{opacity:.4;cursor:default}

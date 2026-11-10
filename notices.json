@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-11-10T04:22:00Z",
-  "checked_at": "2026-11-10T04:11:52Z",
+  "built_at": "2026-11-10T04:37:53Z",
+  "checked_at": "2026-11-10T04:28:30Z",
   "grounding": {
     "checked": 68,
     "passed": 68
@@ -8,7 +8,7 @@
   "generator": {
     "configured": true,
     "model": "claude-opus-5-5",
-    "last_run": "2026-11-10T04:19:53Z",
+    "last_run": "2026-11-10T04:34:51Z",
     "waiting": 0
   },
   "notices": [
@@ -402,85 +402,94 @@
     },
     {
       "id": "58149",
-      "title": "Register for 2026 winter session courses",
+      "title": "Register for winter session courses",
       "who": "Students who want to take winter session courses",
       "deadlines": [
         {
-          "action": "Register your winter courses",
+          "action": "Register for winter session courses",
           "end": "2026-11-03",
           "kind": "action",
           "label": "Course registration",
+          "optional": false,
           "quote": "2026.10.27.(화) ~ 11.03.(화)",
           "start": "2026-10-27",
-          "when": "27 Oct–3 Nov 2026, weekends excluded",
+          "when": "27 October – 3 November 2026",
           "calendar_path": "calendar/58149-0.ics"
         },
         {
-          "action": "Submit course overlap request if needed",
+          "action": "File overlap request in mySNU",
           "end": "2026-11-09",
           "kind": "action",
-          "label": "Overlap request (1st round)",
+          "label": "Overlap request (round 1)",
+          "optional": true,
           "quote": "(1차) 11. 4.(수) ~ 11. 9.(월) 18:00",
           "start": "2026-11-04",
           "when": "4–9 November 2026, 18:00",
           "calendar_path": "calendar/58149-1.ics"
         },
         {
-          "action": "Change courses or request over-quota seats",
+          "action": "Change courses or confirm over-quota requests",
           "end": "2026-11-13",
           "kind": "action",
-          "label": "Registration change",
+          "label": "Course change, over-quota requests",
+          "optional": true,
           "quote": "2026.11.11.(수) ~ 11.13.(금)",
           "start": "2026-11-11",
           "when": "11–13 November 2026",
           "calendar_path": "calendar/58149-2.ics"
         },
         {
-          "action": "Submit course overlap request if needed",
-          "end": "2026-11-13",
-          "kind": "action",
-          "label": "Overlap request (2nd round)",
-          "quote": "(2차) 11. 11.(수) ~ 11. 13.(금) 16:00",
-          "start": "2026-11-11",
-          "when": "11–13 November 2026, 16:00",
-          "calendar_path": "calendar/58149-3.ics"
-        },
-        {
           "action": "Print bill and pay tuition",
           "end": "2026-11-23",
           "kind": "action",
-          "label": "Tuition payment (1st)",
+          "label": "Tuition payment (first)",
+          "optional": false,
           "quote": "2026.11.18.(수) ~ 11.23.(월)",
           "start": "2026-11-18",
-          "when": "18–23 November 2026, weekends excluded",
-          "calendar_path": "calendar/58149-4.ics"
+          "when": "18–23 November 2026, weekdays",
+          "calendar_path": "calendar/58149-3.ics"
         },
         {
-          "action": "Pay tuition if still unpaid",
+          "action": "Pay tuition if not yet paid",
           "end": "2026-11-27",
           "kind": "action",
-          "label": "Tuition payment (final)",
+          "label": "Final payment, if unpaid",
+          "optional": true,
           "quote": "2026.11.26.(목) ~ 11.27.(금)",
           "start": "2026-11-26",
           "when": "26–27 November 2026",
+          "calendar_path": "calendar/58149-4.ics"
+        },
+        {
+          "action": "Request and confirm replacement course",
+          "end": "2026-12-11",
+          "kind": "action",
+          "label": "Over-quota for cancelled courses",
+          "optional": true,
+          "quote": "2026. 12. 9.(수) ~ 12. 11.(금)",
+          "start": "2026-12-09",
+          "when": "9–11 December 2026",
           "calendar_path": "calendar/58149-5.ics"
         },
         {
+          "action": "Cancel courses in mySNU",
           "end": "2027-01-07",
-          "kind": "info",
-          "label": "Course cancellation period",
+          "kind": "action",
+          "label": "Course cancellation, if dropping",
+          "optional": true,
           "quote": "2026.12.11.(금) ~ 2027.01.07.(목)",
           "start": "2026-12-11",
-          "when": "11 Dec 2026–7 Jan 2027",
+          "when": "11 December 2026 – 7 January 2027",
           "calendar_path": "calendar/58149-6.ics"
         },
         {
           "end": "2027-01-25",
           "kind": "event",
           "label": "Winter classes",
+          "optional": false,
           "quote": "2026.12.22.(화) ~ 2027.01.25.(월)",
           "start": "2026-12-22",
-          "when": "22 Dec 2026–25 Jan 2027",
+          "when": "22 December 2026 – 25 January 2027",
           "calendar_path": "calendar/58149-7.ics"
         }
       ],
@@ -501,33 +510,35 @@
     },
     {
       "id": "58044",
-      "title": "Submit your bachelor's thesis to the department office",
+      "title": "Submit your graduation thesis to the department office",
       "who": "ECE undergraduates applying to graduate in February 2027",
       "deadlines": [
         {
-          "action": "Submit thesis to undergraduate office",
+          "action": "Submit graduation thesis to department office",
           "end": "2026-12-21",
           "kind": "action",
-          "label": "Thesis submission",
+          "label": "Graduation thesis submission",
           "quote": "2026. 12. 21(월)까지",
           "when": "By 21 December 2026; time not stated",
           "calendar_path": "calendar/58044-0.ics"
         },
         {
-          "action": "Submit submission-date confirmation form",
+          "action": "Submit signed submission-date confirmation form",
           "end": "2026-12-21",
           "kind": "action",
-          "label": "Extension form (if late)",
+          "label": "Late filers: confirmation form",
+          "optional": true,
           "quote": "2026. 12. 21.(월)까지",
           "when": "By 21 December 2026; time not stated",
           "calendar_path": "calendar/58044-1.ics"
         },
         {
-          "action": "Submit thesis if extension form filed",
+          "action": "Submit graduation thesis",
           "end": "2026-12-28",
           "kind": "action",
-          "label": "Extended thesis deadline",
-          "quote": "2026.12.28.(월)까지",
+          "label": "Late filers: thesis submission",
+          "optional": true,
+          "quote": "2026.12.28.(월)까지입니다",
           "when": "By 28 December 2026; time not stated",
           "calendar_path": "calendar/58044-2.ics"
         }
@@ -740,40 +751,31 @@
     },
     {
       "id": "58072",
-      "title": "Apply for your thesis review this semester",
-      "who": "Master's and PhD students submitting theses in Fall 2026",
+      "title": "Register online for your thesis review",
+      "who": "Graduate students seeking a degree this semester",
       "deadlines": [
         {
           "action": "Register online and submit application documents",
           "end": "2026-10-01",
           "kind": "action",
-          "label": "Online application and documents",
+          "label": "Online registration and documents",
           "quote": "2026년 9월 21일(월)～10월 1일(목) 17:00까지",
           "start": "2026-09-21",
-          "when": "21 September – 1 October 2026, 17:00",
+          "when": "21 Sep–1 Oct 2026, 17:00",
           "calendar_path": "calendar/58072-0.ics"
         },
         {
           "action": "Pay the thesis review fee",
           "end": "2026-11-03",
           "kind": "action",
-          "label": "Thesis review fee payment",
+          "label": "Pay thesis review fee",
           "quote": "2026년 10월 21일(수)～ 11월 3일(화) 17:00까지",
           "start": "2026-10-21",
-          "when": "21 October – 3 November 2026, 17:00",
+          "when": "21 Oct–3 Nov 2026, 17:00",
           "calendar_path": "calendar/58072-1.ics"
         },
         {
-          "action": "Submit withdrawal, extension or non-submission forms",
-          "end": "2026-12-14",
-          "kind": "action",
-          "label": "Withdrawal/extension/non-submission forms",
-          "quote": "12월 14일(월) 17:00까지",
-          "when": "14 December 2026, 17:00",
-          "calendar_path": "calendar/58072-2.ics"
-        },
-        {
-          "action": "Submit review result and publication documents",
+          "action": "Submit thesis review result documents",
           "degrees": [
             "masters"
           ],
@@ -782,10 +784,20 @@
           "label": "Master's result documents",
           "quote": "석사: 2026년 12월 14일(월) 17:00까지",
           "when": "14 December 2026, 17:00",
+          "calendar_path": "calendar/58072-2.ics"
+        },
+        {
+          "action": "Submit withdrawal, extension or non-submission forms",
+          "end": "2026-12-14",
+          "kind": "action",
+          "label": "Withdrawal/extension/deferral forms (those concerned)",
+          "optional": true,
+          "quote": "12월 14일(월) 17:00까지",
+          "when": "14 December 2026, 17:00",
           "calendar_path": "calendar/58072-3.ics"
         },
         {
-          "action": "Submit review result and publication documents",
+          "action": "Submit thesis review result documents",
           "degrees": [
             "phd",
             "integrated"
@@ -798,19 +810,20 @@
           "calendar_path": "calendar/58072-4.ics"
         },
         {
-          "action": "Request non-disclosure, if eligible",
+          "action": "Submit thesis non-disclosure application",
           "end": "2027-01-08",
           "kind": "action",
-          "label": "Thesis non-disclosure request",
+          "label": "Non-disclosure request (if needed)",
+          "optional": true,
           "quote": "심사종료 후 ∼ 2027년 1월 8일(금) 17:00까지",
-          "when": "After review until 8 January 2027, 17:00",
+          "when": "Until 8 January 2027, 17:00",
           "calendar_path": "calendar/58072-5.ics"
         },
         {
           "action": "Submit approval page and confirmation form",
           "end": "2027-01-22",
           "kind": "action",
-          "label": "Approval page to office",
+          "label": "Final thesis to office",
           "quote": "2027년 1월 15일(금) ∼ 1월 22일(금) 17:00",
           "start": "2027-01-15",
           "when": "15–22 January 2027, 17:00",
@@ -823,7 +836,7 @@
           "label": "Final thesis to library",
           "quote": "2027년 1월 15일(금) ∼ 2월 1일(월) 23:59",
           "start": "2027-01-15",
-          "when": "15 January – 1 February 2027, 23:59",
+          "when": "15 Jan–1 Feb 2027, 23:59",
           "calendar_path": "calendar/58072-7.ics"
         }
       ],
@@ -2590,13 +2603,13 @@
     {
       "id": "58152",
       "title": "Submit your research internship application",
-      "who": "2nd–4th year ECE undergraduates wanting winter research internships",
+      "who": "ECE undergraduates in years 2–4",
       "deadlines": [
         {
-          "action": "Submit original forms to Room 319",
+          "action": "Submit original application documents",
           "end": "2026-10-29",
           "kind": "action",
-          "label": "Application submission",
+          "label": "Application deadline",
           "quote": "10월 29일(목) 18:00까지",
           "when": "29 October 2026, 18:00",
           "calendar_path": "calendar/58152-0.ics"
@@ -2615,6 +2628,7 @@
           "end": "2026-11-30",
           "kind": "action",
           "label": "Safety certificate (selected students)",
+          "optional": true,
           "quote": "2026. 11월 말까지",
           "when": "By end of November 2026",
           "calendar_path": "calendar/58152-2.ics"
@@ -2622,23 +2636,28 @@
         {
           "end": "2027-02-08",
           "kind": "info",
-          "label": "Internship period",
+          "label": "Internship period (selected students)",
+          "optional": true,
           "quote": "2026. 12. 15.(화)~2027. 2. 8.(월)",
           "start": "2026-12-15",
           "when": "15 December 2026 – 8 February 2027",
           "calendar_path": "calendar/58152-3.ics"
         },
         {
-          "kind": "info",
-          "label": "1st report round",
+          "action": "Submit report, attendance sheet, bank details",
+          "kind": "action",
+          "label": "Report round 1 (selected)",
+          "optional": true,
           "quote": "2026. 1. 15.(금)까지",
-          "when": "15 January (year printed as 2026)"
+          "when": "15 January; year printed as 2026"
         },
         {
-          "kind": "info",
-          "label": "2nd report round",
+          "action": "Submit second report and attendance sheet",
+          "kind": "action",
+          "label": "Report round 2 (selected)",
+          "optional": true,
           "quote": "2026. 2. 10.(수)까지",
-          "when": "10 February (year printed as 2026)"
+          "when": "10 February; year printed as 2026"
         }
       ],
       "degrees": [
@@ -2718,19 +2737,6 @@
         {
           "quotes": [
             {
-              "id": "57951",
-              "quote": "교과목의 영역 인정 여부는 학생의 입학년도 공통교육과정 이수규정을 기준으로 판단함"
-            }
-          ],
-          "sources": [
-            "57951"
-          ],
-          "text": "The area a general-education (교양) course counts toward depends on the rules for your admission year. A new course whose area did not exist in your entry year counts only as general credit. Check this before you rely on a course for graduation.",
-          "title": "Check how general-education courses count for your entry year"
-        },
-        {
-          "quotes": [
-            {
               "id": "57986",
               "quote": "2016학년도 이후 모든 공과대학 학부 및 대학원 신(편)입생"
             },
@@ -2742,14 +2748,14 @@
           "sources": [
             "57986"
           ],
-          "text": "Engineering entrants since 2016 must complete the 생명존중 (suicide prevention) course on eTL. Watch at least 80% of the video, then take the quiz. If you miss the course period, no extra session is offered.",
-          "title": "Complete the suicide-prevention course on eTL"
+          "text": "All new College of Engineering students (2016 entrants onward) must complete the 생명존중 (suicide prevention) course on eTL. Watch at least 80% of the video, then take the quiz. Missed periods cannot be made up.",
+          "title": "Complete the suicide prevention course after admission"
         },
         {
           "quotes": [
             {
-              "id": "57662",
-              "quote": "면담 후 면담 확인서에 교수님 도장(싸인)받아 원본 제출"
+              "id": "58071",
+              "quote": "학부 홈페이지 > 인트라넷 접속 > 수업 > 졸업프로젝트 과제 확인 및 지망"
             },
             {
               "id": "57662",
@@ -2757,28 +2763,23 @@
             }
           ],
           "sources": [
-            "58071",
-            "57662"
+            "57662",
+            "58071"
           ],
-          "text": "Choose a 졸업프로젝트 (graduation project) topic on the department intranet. Meet the professor and submit the signed 면담확인서 (interview form). Then register for the course. If you only register for the course and skip these steps, you receive an F.",
-          "title": "Choose a graduation project topic and register"
+          "text": "Choose a topic on the department intranet. Meet the professor and hand in the signed 면담확인서 (interview confirmation form). Then register for the course. If you only register and skip these steps, you get an F.",
+          "title": "Apply for a graduation project topic"
         },
         {
           "quotes": [
             {
               "id": "57944",
-              "quote": "학생은 2회 불참(또는 지각)이면 F가 부여되오니 반드시 출석을 해주세요."
-            },
-            {
-              "id": "57662",
-              "quote": "중간발표 외 최종발표는 1회라도 미출석시 'F'가 부여될 수 있음"
+              "quote": "※ 학생은 2회 불참(또는 지각)이면 F가 부여되오니 반드시 출석을 해주세요."
             }
           ],
           "sources": [
-            "57944",
-            "57662"
+            "57944"
           ],
-          "text": "Attendance is checked at the start of each session, and arriving late counts the same as missing it. One absence lowers your grade by one step. Two absences mean an F. Missing the final presentation can also mean an F.",
+          "text": "Attendance is checked at the start of each session. One absence or late arrival lowers your grade by one step (A+ to A0). Two absences or late arrivals give you an F.",
           "title": "Attend every graduation project session on time"
         },
         {
@@ -2790,34 +2791,52 @@
             {
               "id": "58196",
               "quote": "지도교수님께 논문 초안 및 포스터 초안을 검토받으셔야 합니다."
+            },
+            {
+              "id": "57662",
+              "quote": "중간발표 외 최종발표는 1회라도 미출석시 'F'가 부여될 수 있음"
             }
           ],
           "sources": [
-            "58196"
+            "58196",
+            "57662"
           ],
-          "text": "Upload your final poster as a PDF in A1 portrait format. Your advisor must review your thesis draft and poster draft before the final poster presentation. Stay at your poster during the whole judging time.",
-          "title": "Submit your poster and get your drafts reviewed"
+          "text": "Upload your poster as an A1 portrait PDF. Your advisor must review your thesis draft and poster draft. Then present at the final poster session for the whole day. Missing the final session can mean an F.",
+          "title": "Submit your poster and present at the final session"
         },
         {
           "quotes": [
             {
               "id": "58045",
               "quote": "논문 작성과 인준지 서명은 전부 졸업프로젝트 학기에 해야 합니다."
-            },
-            {
-              "id": "58044",
-              "quote": "졸업을 하지 않으면서 졸업논문만 제출할 수 없음"
             }
           ],
           "sources": [
-            "58045",
-            "58044"
+            "58045"
           ],
-          "text": "Write the graduation thesis and get your advisor's signature on the 인준지 (approval page) in your project semester. Submit it in your graduating semester. If you are not graduating yet, keep the signed copy. You cannot submit a thesis without graduating.",
-          "title": "Write your thesis and get the advisor's signature"
+          "text": "Write the bachelor's thesis and get your advisor's signature on the 인준지 (approval page), both in the project semester. If you are not graduating yet, keep the signed thesis and do not change its content.",
+          "title": "Write your thesis and get your advisor's signature"
+        },
+        {
+          "quotes": [
+            {
+              "id": "58044",
+              "quote": "※ 졸업을 하지 않으면서 졸업논문만 제출할 수 없음"
+            },
+            {
+              "id": "58045",
+              "quote": "졸업논문 작성하여 인준지에 지도교수님 서명을 받아"
+            }
+          ],
+          "sources": [
+            "58044",
+            "58045"
+          ],
+          "text": "In the semester you graduate, submit the signed thesis to the department office. Write your student number in pencil on the cover. You cannot submit a thesis without graduating that semester.",
+          "title": "Submit your thesis in your graduating semester"
         }
       ],
-      "updated_at": "2026-11-09T19:29:28Z"
+      "updated_at": "2026-11-10T04:36:19Z"
     },
     "masters": {
       "steps": [
@@ -2942,37 +2961,60 @@
         {
           "quotes": [
             {
-              "id": "58134",
-              "quote": "모든 동영상 100% 수강 및 학습자료(PDF) 다운로드·열람 시 이수 인정되며"
+              "id": "57441",
+              "quote": "안전환경(신규)교육을 말함. 정기교육(6시간)은 해당되지 않음"
             },
             {
-              "id": "51949",
-              "quote": "중 한 과목 반드시 이수해야함(2022년 1학기 입학생부터 적용)"
+              "id": "58191",
+              "quote": "안전환경 신규교육을 미 이수한 연구활동종사자(대학원/논자시 자격요건)"
+            },
+            {
+              "id": "58134",
+              "quote": "연구윤리 교과목 및 온라인 교육을 미이수한 재학생"
             }
           ],
           "sources": [
-            "58134",
-            "51949"
+            "57441",
+            "58191",
+            "58134"
           ],
-          "text": "New graduate students take the online research ethics course on eTL. All videos and the PDF must be completed for it to count. Students admitted from 2022 on must also pass one research ethics course (교과목) before graduating.",
-          "title": "Complete research ethics training"
+          "text": "To take the 논자시 (thesis qualifying exam), you need the new lab safety training (not the regular one), the suicide prevention course and the human rights/gender equality course. New students also take the online research ethics course.",
+          "title": "Complete required trainings early"
         },
         {
           "quotes": [
             {
               "id": "57441",
-              "quote": "등록 2학기 째가 되는 분"
+              "quote": "전기정보공학부 대학원 교과목 중 6학점 이상 이수한 자"
             },
             {
               "id": "57441",
-              "quote": "박사&석박통합: 100점 만점에 70점 이상 합격"
+              "quote": "② 박사&석박통합: 100점 만점에 70점 이상 합격"
             }
           ],
           "sources": [
             "57441"
           ],
-          "text": "Take the 논자시 (thesis qualifying exam) in your second registered semester. To be eligible you need: six ECE graduate credits, a pass in English, and new lab safety, suicide-prevention and human-rights training. You pass with an average of 70 or more.",
-          "title": "Pass the thesis qualifying exam in your second semester"
+          "text": "Take the 논자시 in your second semester. First earn at least six ECE graduate course credits; Thesis Research and S/U courses do not count. PhD students need an average of 70 out of 100 on two subjects.",
+          "title": "Pass the thesis qualifying exam"
+        },
+        {
+          "quotes": [
+            {
+              "id": "57151",
+              "quote": "36학점 이상"
+            },
+            {
+              "id": "57151",
+              "quote": "전 교과목 및 전공교과목의 성적 평점평균이 각각 3.0 이상(4.3. 만점 기준)"
+            }
+          ],
+          "sources": [
+            "57151",
+            "58023"
+          ],
+          "text": "수료 (coursework completion) needs four or more registered semesters, 36+ credits including 12+ ECE graduate credits, and a GPA of 3.0+. Other-department courses need an approval form signed by your advisor.",
+          "title": "Meet coursework completion requirements"
         },
         {
           "quotes": [
@@ -2982,42 +3024,24 @@
             },
             {
               "id": "58076",
-              "quote": "예심에서의 위원장은 지도교수입니다."
+              "quote": "게재한 학생과 아직 게재하지 못한 학생 모두 제출해야 합니다."
             }
           ],
           "sources": [
             "58076"
           ],
-          "text": "After passing the 논자시, complete the 예비심사 (preliminary review) by the semester before your thesis defense. Your advisor chairs this committee. Submit the committee report first. Then submit the guidance report and the journal confirmation form.",
-          "title": "Finish the preliminary review one semester before defense"
-        },
-        {
-          "quotes": [
-            {
-              "id": "57151",
-              "quote": "석사·박사 4학기 이상 등록하고 수료에 필요한 학점을 취득한 경우"
-            },
-            {
-              "id": "57151",
-              "quote": "전 교과목 및 전공교과목의 성적 평점평균이 각각 3.0 이상(4.3. 만점 기준)"
-            },
-            {
-              "id": "58023",
-              "quote": "첨부파일 신청서 작성(지도교수 날인 포함)하여 319호 담당자 앞 제출"
-            }
-          ],
-          "sources": [
-            "57151",
-            "58023"
-          ],
-          "text": "For 수료 (coursework completion) you need at least four registered semesters, 36 credits including 12 ECE graduate credits, and a GPA of 3.0 or higher. To count courses from other departments, submit the approval form with your advisor's stamp.",
-          "title": "Meet the coursework completion requirements"
+          "text": "After passing the 논자시, complete the 예비심사 (preliminary review) in the semester before your thesis review. Submit the committee report first. Later submit the guidance report and the journal confirmation form, even if nothing is published yet.",
+          "title": "Finish the preliminary review one semester before"
         },
         {
           "quotes": [
             {
               "id": "57963",
               "quote": "(1항) 국제적으로 인정되는 논문지(SCI(E)급)에 1편 이상의 논문을 게재 또는 게재확정"
+            },
+            {
+              "id": "57963",
+              "quote": "결과서류 제출일자 이후에 발급되는 서류는 실적으로 인정되지 않습니다."
             },
             {
               "id": "55998",
@@ -3028,8 +3052,8 @@
             "57963",
             "55998"
           ],
-          "text": "You need one SCI(E) journal paper, plus one international conference paper, domestic journal paper or registered international patent. Each must be published or accepted, with your advisor as co-author. A co-first-author paper counts as 1/N.",
-          "title": "Publish the required papers with your advisor"
+          "text": "You need one SCI(E) journal paper plus one international conference paper, domestic journal paper or registered international patent. All must be published or accepted, with your advisor as co-author. Co-first-author papers count as 1/N.",
+          "title": "Meet the publication requirements"
         },
         {
           "quotes": [
@@ -3038,24 +3062,23 @@
               "quote": "박사 논문심사(초심, 종심) 신청 대상: 지난 학기에 예비심사를 합격한 자"
             },
             {
-              "id": "58076",
-              "quote": "심사위원은 5명이고 지도교수가 부위원장이 됩니다."
+              "id": "58072",
+              "quote": "수료생인 경우 대학원 연구생 등록 필수"
             },
             {
-              "id": "58072",
-              "quote": "미제출 시 학위를 받을 수 없음"
+              "id": "55507",
+              "quote": "논문심사위원 선정시 반드시 본교 전기·정보공학부 교원을 포함하여야 한다."
             }
           ],
           "sources": [
             "58072",
-            "58076",
-            "58160"
+            "55507"
           ],
-          "text": "After passing the preliminary review, register online for the thesis review. It has a 초심 (first review) and a 종심 (final review). The committee has five members, and your advisor is vice-chair. Present publicly and submit the final thesis to receive the degree.",
-          "title": "Apply for thesis review and defend your thesis"
+          "text": "Only students who passed the preliminary review last semester can apply. Register online, submit documents and pay the fee. Include an SNU ECE professor on the committee. Then upload the final thesis. If you have completed coursework, register as 연구생 (research student).",
+          "title": "Apply for thesis review and submit final thesis"
         }
       ],
-      "updated_at": "2026-11-09T19:29:28Z"
+      "updated_at": "2026-11-10T04:36:19Z"
     },
     "integrated": {
       "steps": [
