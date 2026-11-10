@@ -1,5 +1,5 @@
-import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=d993add9b7e2';
-import {calendarLink} from './calendar.js?v=d993add9b7e2';
+import {isHistorical, endTime, startTime, DEGREES} from './product-model.mjs?v=c089494fa7f5';
+import {calendarLink} from './calendar.js?v=c089494fa7f5';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const VERDICT = {yes: 'Applies to you', if: 'Applies only if…', no: 'Does not apply', unclear: 'Unclear'};

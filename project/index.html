@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta name="app-base" content="/snu-bridge-site/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SNU Bridge · How it works</title><meta name="description" content="How SNU Bridge turns Korean ECE academic notices into checked English, every day."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f3a8a'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="/snu-bridge-site/app.css?v=d993add9b7e2"></head>
+<html lang="en"><head><meta name="app-base" content="/snu-bridge-site/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SNU Bridge · How it works</title><meta name="description" content="How SNU Bridge turns Korean ECE academic notices into checked English, every day."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f3a8a'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="/snu-bridge-site/app.css?v=c089494fa7f5"></head>
 <body>
 <header class="bar"><div class="bar-in"><a class="brand" href="/snu-bridge-site/">SNU Bridge</a><nav aria-label="Main"><a href="/snu-bridge-site/">Notices</a><a href="/snu-bridge-site/start/">Start here</a><a href="/snu-bridge-site/project/" aria-current="page">About</a></nav></div></header>
 <main>
@@ -17,7 +17,7 @@
 <p class="section-note">Nobody has to press a button. The notice list shows when the board was last checked.</p>
 <ol class="flow">
   <li><b>Collect</b><span>Reads the ECE academic board and finds new or edited notices, with their images and attached files (PDF, HWP, Word, Excel). One request per second; the files themselves are not kept or re-posted.</span></li>
-  <li><b>Explain and translate</b><span>An AI model (Claude Opus 5.5) reads the text in images and files, writes the short “At a glance” summary from all of it, and translates the whole notice, tables and attachments included.</span></li>
+  <li><b>Explain and translate</b><span>An AI model (Claude Opus 5.5) reads the text in images and files and writes the short “At a glance” summary from all of it. A second model (Claude Sonnet 5.5) translates the whole notice, tables and attachments included.</span></li>
   <li><b>Check</b><span>Every Korean quote and date in a summary must appear in the notice or its files. Every number, link and email must survive translation; a part that fails is shown in Korean. A second AI pass then looks for meaning errors (same day or next day, who, conditions, “not”). None of this proves every sentence is right, so the Korean original stays one tap away.</span></li>
   <li><b>Publish</b><span>The site is rebuilt and every page is checked at phone and laptop width. If a run fails, a GitHub issue opens automatically.</span></li>
 </ol>
@@ -40,4 +40,4 @@
 <p class="section-note">Built by team SNU Bridge (Yeoh Yu En, ECE) for the 2nd SNU Generative AI Competition, 2026. Free to use.</p>
 </main>
 <footer>AI explanation and translation — may contain errors; the Korean original controls.</footer>
-<script type="module" src="/snu-bridge-site/project/project.js?v=d993add9b7e2"></script></body></html>
+<script type="module" src="/snu-bridge-site/project/project.js?v=c089494fa7f5"></script></body></html>
