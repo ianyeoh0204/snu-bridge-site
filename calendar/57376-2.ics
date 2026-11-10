@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-2@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Overlap request\, round 1 · Register for Spring 2026 courses
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+DESCRIPTION:4–11 February 2026\; time not stated\nKorean source: (1차) 2
+ .4.(수) ~ 2.11.(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57
+ 376&md=v\nAI explanation — may contain errors\; check the original. This
+  is a reminder\, not an official submission. Closing time is not supplied 
+ by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-5@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Over-quota\, ECE undergraduate courses · Register for Spring 2026 
+ courses
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260306
+DESCRIPTION:3 Mar 08:30 – 5 Mar 18:00\, 2026\nKorean source: 03-03.(화) 
+ 08:30 ~03-05.(목) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx
+ =57376&md=v\nAI explanation — may contain errors\; check the original. T
+ his is a reminder\, not an official submission. Closing time is not suppli
+ ed by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR

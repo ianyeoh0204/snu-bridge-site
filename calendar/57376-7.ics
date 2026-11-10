@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-7@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Confirm approved over-quota requests · Register for Spring 2026 co
+ urses
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+DESCRIPTION:By 11 March 2026\, 23:59\nKorean source: 03-03.(화)~03-11.(수
+ )\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v\nAI explana
+ tion — may contain errors\; check the original. This is a reminder\, not
+  an official submission. Closing time is not supplied by an all-day remind
+ er.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR

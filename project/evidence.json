@@ -1,9 +1,9 @@
 {
   "source_records": 68,
   "collection_checks": 68,
-  "grounding_passed": 67,
-  "checked_at": "2026-11-10T05:42:28Z",
-  "built_at": "2026-11-10T05:42:45Z",
+  "grounding_passed": 68,
+  "checked_at": "2026-11-10T06:08:44Z",
+  "built_at": "2026-11-10T06:09:01Z",
   "brief_drafts": 68,
   "reviewed_briefs": 0,
   "generator_configured": true,

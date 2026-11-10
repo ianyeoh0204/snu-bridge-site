@@ -1,14 +1,14 @@
 {
-  "built_at": "2026-11-10T05:42:45Z",
-  "checked_at": "2026-11-10T05:42:28Z",
+  "built_at": "2026-11-10T06:09:01Z",
+  "checked_at": "2026-11-10T06:08:44Z",
   "grounding": {
     "checked": 68,
-    "passed": 67
+    "passed": 68
   },
   "generator": {
     "configured": true,
     "model": "claude-opus-5-5",
-    "last_run": "2026-11-10T05:42:44Z",
+    "last_run": "2026-11-10T06:09:01Z",
     "waiting": 0
   },
   "notices": [
@@ -1255,83 +1255,91 @@
     {
       "id": "57376",
       "title": "Register for Spring 2026 courses",
-      "who": "All students taking courses in Spring 2026",
+      "who": "All students taking Spring 2026 courses",
       "deadlines": [
         {
           "action": "Add your courses to the cart",
           "end": "2026-01-28",
           "kind": "action",
-          "label": "Course cart (continuing students)",
+          "label": "Course cart, current students",
           "quote": "01-28.(수) 00:00~16:00",
-          "when": "27 Jan 09:00 – 28 Jan 2026, 16:00"
+          "when": "27 Jan 09:00 – 28 Jan 16:00, 2026",
+          "calendar_path": "calendar/57376-0.ics"
         },
         {
-          "action": "Register remaining courses first-come, first-served",
+          "action": "Register remaining courses first-come-first-served",
           "end": "2026-02-03",
           "kind": "action",
-          "label": "First-come registration (continuing)",
-          "quote": "Jan 30, Feb 2, Feb 3",
-          "start": "2026-01-30",
-          "when": "30 Jan, 2–3 Feb 2026, 08:30–16:30"
+          "label": "First-come registration, current students",
+          "quote": "02-02.(월), 02-03.(화) 08:30~16:30",
+          "start": "2026-02-02",
+          "when": "30 Jan, 2–3 Feb 2026, 08:30–16:30",
+          "calendar_path": "calendar/57376-1.ics"
         },
         {
-          "action": "Submit overlap request on mySNU",
-          "end": "2026-03-11",
+          "action": "Request overlapping courses in mySNU",
+          "end": "2026-02-11",
           "kind": "action",
-          "label": "Time-clash requests (overlap only)",
-          "optional": "true",
-          "quote": "(1차) 2.4.(수) ~ 2.11.(수) / (2차) 3.3.(화) ~ 3.11.(수)",
+          "label": "Overlap request, round 1",
+          "optional": true,
+          "quote": "(1차) 2.4.(수) ~ 2.11.(수)",
           "start": "2026-02-04",
-          "when": "4–11 Feb or 3–11 Mar 2026"
+          "when": "4–11 February 2026; time not stated",
+          "calendar_path": "calendar/57376-2.ics"
         },
         {
           "action": "Add your courses to the cart",
           "end": "2026-02-20",
           "kind": "action",
-          "label": "Course cart (new students)",
-          "optional": "true",
+          "label": "Course cart, new students",
+          "optional": true,
           "quote": "02-20.(금) 00:00~16:00",
-          "when": "19 Feb 09:00 – 20 Feb 2026, 16:00"
+          "when": "19 Feb 09:00 – 20 Feb 16:00, 2026",
+          "calendar_path": "calendar/57376-3.ics"
         },
         {
-          "action": "Register remaining courses first-come, first-served",
+          "action": "Register remaining courses first-come-first-served",
           "end": "2026-02-25",
           "kind": "action",
-          "label": "First-come registration (new students)",
-          "optional": "true",
-          "quote": "02-24.(화), 02-25.(수)",
+          "label": "First-come registration, new students",
+          "optional": true,
+          "quote": "02-24.(화), 02-25.(수) 08:30~16:30",
           "start": "2026-02-24",
-          "when": "24–25 February 2026, 08:30–16:30"
+          "when": "24–25 February 2026, 08:30–16:30",
+          "calendar_path": "calendar/57376-4.ics"
         },
         {
-          "action": "Add or drop courses if needed",
+          "action": "Submit over-quota request for ECE courses",
+          "end": "2026-03-05",
+          "kind": "action",
+          "label": "Over-quota, ECE undergraduate courses",
+          "optional": true,
+          "quote": "03-03.(화) 08:30 ~03-05.(목) 18:00",
+          "start": "2026-03-03",
+          "when": "3 Mar 08:30 – 5 Mar 18:00, 2026",
+          "calendar_path": "calendar/57376-5.ics"
+        },
+        {
+          "action": "Add or drop courses",
           "end": "2026-03-09",
           "kind": "action",
           "label": "Course change period",
-          "optional": "true",
-          "quote": "개강전 2.26.(목)~2.27.(금) / 개강 후 3.3.(화)~3.9.(월)",
-          "start": "2026-02-26",
-          "when": "26–27 Feb and 3–9 Mar 2026"
-        },
-        {
-          "action": "Request over-quota seat in full course",
-          "end": "2026-03-05",
-          "kind": "action",
-          "label": "Over-quota request, ECE undergrad courses",
-          "optional": "true",
-          "quote": "03-03.(화) 08:30 ~03-05.(목) 18:00",
+          "optional": true,
+          "quote": "03-03.(화)~03-09.(월)",
           "start": "2026-03-03",
-          "when": "3 Mar 08:30 – 5 Mar 2026, 18:00"
+          "when": "26–27 Feb; 3–9 Mar 2026 (24:00)",
+          "calendar_path": "calendar/57376-6.ics"
         },
         {
-          "action": "Confirm your approved over-quota course",
+          "action": "Confirm your approved over-quota courses",
           "end": "2026-03-11",
           "kind": "action",
-          "label": "Confirm approved over-quota courses",
-          "optional": "true",
+          "label": "Confirm approved over-quota requests",
+          "optional": true,
           "quote": "03-03.(화)~03-11.(수)",
           "start": "2026-03-03",
-          "when": "3–11 March 2026, until 23:59"
+          "when": "By 11 March 2026, 23:59",
+          "calendar_path": "calendar/57376-7.ics"
         }
       ],
       "degrees": [
@@ -1343,8 +1351,7 @@
       "graduation_scope": "any",
       "historical": false,
       "new_students": false,
-      "state": "summary_only",
-      "state_note": "See the original notice for the details.",
+      "state": "full",
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v",
       "posting_date": "2026.01.14",
       "korean_title": "[학부&대학원] 2026학년도 1학기 수강신청 안내 (전기·정보공학부 학사교과목 '정원 외 신청기간' 조정 운영 안내 포함)",
@@ -2834,11 +2841,11 @@
   ],
   "pending": [],
   "calendar_feeds": {
-    "undergraduate": 69,
-    "masters": 57,
-    "phd": 61,
-    "integrated": 63,
-    "all": 101
+    "undergraduate": 71,
+    "masters": 59,
+    "phd": 63,
+    "integrated": 65,
+    "all": 103
   },
   "roadmaps": {
     "undergraduate": {

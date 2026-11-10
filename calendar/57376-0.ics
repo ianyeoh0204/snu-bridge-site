@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57376-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Course cart\, current students · Register for Spring 2026 courses
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+DESCRIPTION:27 Jan 09:00 – 28 Jan 16:00\, 2026\nKorean source: 01-28.(수
+ ) 00:00~16:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+ \nAI explanation — may contain errors\; check the original. This is a re
+ minder\, not an official submission. Closing time is not supplied by an al
+ l-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57376&md=v
+END:VEVENT
+END:VCALENDAR
