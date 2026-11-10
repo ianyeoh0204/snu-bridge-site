@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58072-1@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Pay review fee · Apply for thesis review and pay fee
+SUMMARY:Thesis review fee payment · Apply for your thesis review this seme
+ ster
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-DESCRIPTION:21 Oct–3 Nov 2026\, 17:00\nKorean source: 2026년 10월 21일
- (수)～ 11월 3일(화) 17:00까지\nhttps://ece.snu.ac.kr/community/acad
- emics?bbsidx=58072&md=v\nAI explanation — may contain errors\; check the
-  original. This is a reminder\, not an official submission. Closing time i
- s not supplied by an all-day reminder.
+DESCRIPTION:21 October – 3 November 2026\, 17:00\nKorean source: 2026년 
+ 10월 21일(수)～ 11월 3일(화) 17:00까지\nhttps://ece.snu.ac.kr/com
+ munity/academics?bbsidx=58072&md=v\nAI explanation — may contain errors\
+ ; check the original. This is a reminder\, not an official submission. Clo
+ sing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
 END:VEVENT
 END:VCALENDAR

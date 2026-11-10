@@ -5,14 +5,14 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58200-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Payment\, 1st round · Pay your winter session tuition
+SUMMARY:Payment\, 1st round · Pay your winter session course fees
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-DESCRIPTION:18–23 November 2026\, weekdays\nKorean source: 2026.11.18.(
- 수)~11.23.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58200&m
- d=v\nAI explanation — may contain errors\; check the original. This is a
-  reminder\, not an official submission. Closing time is not supplied by an
-  all-day reminder.
+DESCRIPTION:18–23 November 2026\; virtual account until 17:00\nKorean sou
+ rce: 2026.11.18.(수)~11.23.(월)\nhttps://ece.snu.ac.kr/community/academi
+ cs?bbsidx=58200&md=v\nAI explanation — may contain errors\; check the or
+ iginal. This is a reminder\, not an official submission. Closing time is n
+ ot supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v
 END:VEVENT
 END:VCALENDAR

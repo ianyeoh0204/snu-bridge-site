@@ -5,14 +5,14 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58196-2@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Final presentation · Submit your graduation project poster PDF
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-DESCRIPTION:20 November 2026\, 10:00–16:00\nKorean source: 11월 20일(
- 금) 10:00 ~ 16:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196
- &md=v\nAI explanation — may contain errors\; check the original. This is
-  a reminder\, not an official submission. Closing time is not supplied by 
- an all-day reminder.
+SUMMARY:Panel setup · Submit your graduation project poster file
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DESCRIPTION:19 November 2026\, 15:00\nKorean source: 11월 19일(목) 오
+ 후 3시\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v\nAI 
+ explanation — may contain errors\; check the original. This is a reminde
+ r\, not an official submission. Closing time is not supplied by an all-day
+  reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
 END:VEVENT
 END:VCALENDAR

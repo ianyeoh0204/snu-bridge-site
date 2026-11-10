@@ -1,4 +1,4 @@
-import {DEGREES, filterBriefs, cardDate} from './product-model.mjs?v=a9bb1fd6e752';
+import {DEGREES, filterBriefs, cardDate, headline} from './product-model.mjs?v=3c13295173aa';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');
@@ -35,9 +35,12 @@ function card(p, uncertain) {
   a.href = full ? base + 'briefs/' + p.id + '/' : p.source_url;
   if (!full) { a.target = '_blank'; a.rel = 'noopener'; }
   const body = el('div');
-  body.append(el('h2', c?.closed && c.d.action ? c.d.action : p.title), el('p', p.who));
+  const heading = headline(p, c);
+  body.append(el('h2', heading), el('p', p.who));
   if (c) {
-    const when = c.phase === 'starts' ? `${c.d.label} · starts ${c.d.when}` : c.phase === 'closed' ? `Closed: ${c.d.label} · ${c.d.when}` : `${c.d.label} · ${c.d.when}`;
+    // When the headline already is the deadline's label, the line under it gives only the time.
+    const label = heading === c.d.label ? '' : `${c.d.label} · `;
+    const when = c.phase === 'starts' ? `${label}${label ? 'starts' : 'Starts'} ${c.d.when}` : c.phase === 'closed' ? `Closed: ${c.d.label} · ${c.d.when}` : `${label}${c.d.when}`;
     body.append(el('p', when, 'when'));
   } else if (p.ongoing_condition) body.append(el('p', p.ongoing_condition, 'when'));
   if (c?.closed) body.append(el('span', `Closed: ${c.closed.label} · ${c.closed.when}`, 'tag closed'));

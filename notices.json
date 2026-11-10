@@ -1,6 +1,6 @@
 {
-  "built_at": "2026-11-09T19:40:20Z",
-  "checked_at": "2026-11-09T19:37:20Z",
+  "built_at": "2026-11-10T04:22:00Z",
+  "checked_at": "2026-11-10T04:11:52Z",
   "grounding": {
     "checked": 68,
     "passed": 68
@@ -8,41 +8,51 @@
   "generator": {
     "configured": true,
     "model": "claude-opus-5-5",
-    "last_run": "2026-11-09T19:40:19Z",
+    "last_run": "2026-11-10T04:19:53Z",
     "waiting": 0
   },
   "notices": [
     {
       "id": "58196",
-      "title": "Submit your graduation project poster PDF",
-      "who": "Undergraduates in this semester's graduation project",
+      "title": "Submit your graduation project poster file",
+      "who": "Undergraduates taking the Fall 2026 graduation project",
       "deadlines": [
         {
-          "action": "Upload A1 portrait PDF poster",
+          "action": "Upload A1 PDF poster via Google Form",
           "end": "2026-11-09",
           "kind": "action",
-          "label": "Submit poster PDF",
+          "label": "Poster file submission",
           "quote": "11월 9일(월) 23:59까지",
+          "start": "2026-11-09",
           "when": "9 November 2026, 23:59",
           "calendar_path": "calendar/58196-0.ics"
         },
         {
-          "action": "Get drafts reviewed by advisor",
+          "action": "Get advisor review of paper and poster drafts",
           "end": "2026-11-16",
           "kind": "action",
-          "label": "Advisor draft review",
+          "label": "Advisor review of drafts",
           "quote": "11월 16일(월)까지",
-          "when": "By 16 November 2026",
+          "when": "By 16 November 2026; time not stated",
           "calendar_path": "calendar/58196-1.ics"
+        },
+        {
+          "end": "2026-11-19",
+          "kind": "event",
+          "label": "Panel setup",
+          "quote": "11월 19일(목) 오후 3시",
+          "start": "2026-11-19",
+          "when": "19 November 2026, 15:00",
+          "calendar_path": "calendar/58196-2.ics"
         },
         {
           "end": "2026-11-20",
           "kind": "event",
-          "label": "Final presentation",
+          "label": "Final presentation and judging",
           "quote": "11월 20일(금) 10:00 ~ 16:00",
           "start": "2026-11-20",
           "when": "20 November 2026, 10:00–16:00",
-          "calendar_path": "calendar/58196-2.ics"
+          "calendar_path": "calendar/58196-3.ics"
         }
       ],
       "degrees": [
@@ -119,35 +129,58 @@
     },
     {
       "id": "58159",
-      "title": "Apply for the Hanwha Ocean winter internship course",
-      "who": "Undergraduates in 3rd year or above, listed majors",
+      "title": "Submit your Field Practice 3 internship application",
+      "who": "Undergraduates in year 3+ in listed majors, including ECE",
       "deadlines": [
         {
           "action": "Email signed application form",
           "end": "2026-10-30",
           "kind": "action",
-          "label": "Round 1 applications",
+          "label": "Round 1 application",
           "quote": "2026.10.26.(월) ~ 2026.10.30.(금)",
           "start": "2026-10-26",
-          "when": "26–30 October 2026",
+          "when": "26–30 October 2026; time not stated",
           "calendar_path": "calendar/58159-0.ics"
+        },
+        {
+          "kind": "info",
+          "label": "Round 1 results",
+          "quote": "2026.11.09.(월) 16:00 예정",
+          "start": "2026-11-09",
+          "when": "9 November 2026, 16:00 (planned)"
         },
         {
           "action": "Email signed application form",
           "end": "2026-11-11",
           "kind": "action",
-          "label": "Round 2 applications (if held)",
+          "label": "Round 2 application",
           "quote": "2026.11.10.(화) ~ 2026.11.11.(수)",
           "start": "2026-11-10",
-          "when": "10–11 November 2026",
-          "calendar_path": "calendar/58159-1.ics"
+          "when": "10–11 November 2026; may be cancelled",
+          "calendar_path": "calendar/58159-2.ics"
+        },
+        {
+          "kind": "info",
+          "label": "Round 2 results",
+          "quote": "2026.11.16.(월) 16:00 예정",
+          "start": "2026-11-16",
+          "when": "16 November 2026, 16:00 (planned)"
         },
         {
           "kind": "event",
-          "label": "Intern pre-training",
+          "label": "Pre-internship training",
           "quote": "2026.12.07.(월)",
           "start": "2026-12-07",
-          "when": "7 December 2026"
+          "when": "7 December 2026; time not stated"
+        },
+        {
+          "end": "2027-01-28",
+          "kind": "info",
+          "label": "Internship period",
+          "quote": "12/29(화)~1/28(목)",
+          "start": "2026-12-29",
+          "when": "29 December 2026 – 28 January 2027",
+          "calendar_path": "calendar/58159-5.ics"
         }
       ],
       "degrees": [
@@ -164,38 +197,72 @@
     },
     {
       "id": "58200",
-      "title": "Pay your winter session tuition",
+      "title": "Pay your winter session course fees",
       "who": "Students registered for 2026 winter session courses",
       "deadlines": [
         {
-          "action": "Pay winter session tuition",
+          "action": "Pay winter session course fees",
           "end": "2026-11-23",
           "kind": "action",
           "label": "Payment, 1st round",
           "quote": "2026.11.18.(수)~11.23.(월)",
           "start": "2026-11-18",
-          "when": "18–23 November 2026, weekdays",
+          "when": "18–23 November 2026; virtual account until 17:00",
           "calendar_path": "calendar/58200-0.ics"
         },
         {
-          "action": "Pay tuition if not yet paid",
+          "action": "Pay fees if missed first round",
           "end": "2026-11-27",
           "kind": "action",
-          "label": "Payment, final round",
+          "label": "Payment, 2nd (final) round",
           "quote": "2026.11.26.(목)~11.27.(금)",
           "start": "2026-11-26",
-          "when": "26–27 November 2026",
+          "when": "26–27 November 2026; virtual account until 17:00",
           "calendar_path": "calendar/58200-1.ics"
+        },
+        {
+          "kind": "info",
+          "label": "Cancelled courses announced",
+          "quote": "2026. 12. 1.(화)",
+          "start": "2026-12-01",
+          "when": "1 December 2026, mySNU board"
+        },
+        {
+          "kind": "info",
+          "label": "Final course cancellation",
+          "quote": "2026.12.08.(화)",
+          "start": "2026-12-08",
+          "when": "8 December 2026"
         },
         {
           "action": "Drop course for full refund",
           "end": "2026-12-21",
           "kind": "action",
-          "label": "Withdraw for full refund",
+          "label": "Drop: full refund",
           "quote": "2026.12.11.(금)~2026.12.21.(월)",
           "start": "2026-12-11",
           "when": "11–21 December 2026",
-          "calendar_path": "calendar/58200-2.ics"
+          "calendar_path": "calendar/58200-4.ics"
+        },
+        {
+          "action": "Drop course for two-thirds refund",
+          "end": "2027-01-01",
+          "kind": "action",
+          "label": "Drop: two-thirds refund",
+          "quote": "2026.12.22.(화)~2027.01.01.(금)",
+          "start": "2026-12-22",
+          "when": "22 December 2026 – 1 January 2027",
+          "calendar_path": "calendar/58200-5.ics"
+        },
+        {
+          "action": "Drop course for half refund",
+          "end": "2027-01-07",
+          "kind": "action",
+          "label": "Drop: half refund",
+          "quote": "2027.01.02.(토)~2027.01.07.(목)",
+          "start": "2027-01-02",
+          "when": "2–7 January 2027",
+          "calendar_path": "calendar/58200-6.ics"
         }
       ],
       "degrees": [
@@ -335,38 +402,86 @@
     },
     {
       "id": "58149",
-      "title": "Register for winter session courses",
+      "title": "Register for 2026 winter session courses",
       "who": "Students who want to take winter session courses",
       "deadlines": [
         {
-          "action": "Register for winter session courses",
+          "action": "Register your winter courses",
           "end": "2026-11-03",
           "kind": "action",
           "label": "Course registration",
           "quote": "2026.10.27.(화) ~ 11.03.(화)",
           "start": "2026-10-27",
-          "when": "27 Oct–3 Nov 2026, weekdays",
+          "when": "27 Oct–3 Nov 2026, weekends excluded",
           "calendar_path": "calendar/58149-0.ics"
         },
         {
-          "action": "Add or drop winter courses",
+          "action": "Submit course overlap request if needed",
+          "end": "2026-11-09",
+          "kind": "action",
+          "label": "Overlap request (1st round)",
+          "quote": "(1차) 11. 4.(수) ~ 11. 9.(월) 18:00",
+          "start": "2026-11-04",
+          "when": "4–9 November 2026, 18:00",
+          "calendar_path": "calendar/58149-1.ics"
+        },
+        {
+          "action": "Change courses or request over-quota seats",
           "end": "2026-11-13",
           "kind": "action",
-          "label": "Course change period",
+          "label": "Registration change",
           "quote": "2026.11.11.(수) ~ 11.13.(금)",
           "start": "2026-11-11",
           "when": "11–13 November 2026",
-          "calendar_path": "calendar/58149-1.ics"
+          "calendar_path": "calendar/58149-2.ics"
+        },
+        {
+          "action": "Submit course overlap request if needed",
+          "end": "2026-11-13",
+          "kind": "action",
+          "label": "Overlap request (2nd round)",
+          "quote": "(2차) 11. 11.(수) ~ 11. 13.(금) 16:00",
+          "start": "2026-11-11",
+          "when": "11–13 November 2026, 16:00",
+          "calendar_path": "calendar/58149-3.ics"
         },
         {
           "action": "Print bill and pay tuition",
           "end": "2026-11-23",
           "kind": "action",
-          "label": "Tuition payment (first round)",
+          "label": "Tuition payment (1st)",
           "quote": "2026.11.18.(수) ~ 11.23.(월)",
           "start": "2026-11-18",
-          "when": "18–23 November 2026",
-          "calendar_path": "calendar/58149-2.ics"
+          "when": "18–23 November 2026, weekends excluded",
+          "calendar_path": "calendar/58149-4.ics"
+        },
+        {
+          "action": "Pay tuition if still unpaid",
+          "end": "2026-11-27",
+          "kind": "action",
+          "label": "Tuition payment (final)",
+          "quote": "2026.11.26.(목) ~ 11.27.(금)",
+          "start": "2026-11-26",
+          "when": "26–27 November 2026",
+          "calendar_path": "calendar/58149-5.ics"
+        },
+        {
+          "end": "2027-01-07",
+          "kind": "info",
+          "label": "Course cancellation period",
+          "quote": "2026.12.11.(금) ~ 2027.01.07.(목)",
+          "start": "2026-12-11",
+          "when": "11 Dec 2026–7 Jan 2027",
+          "calendar_path": "calendar/58149-6.ics"
+        },
+        {
+          "end": "2027-01-25",
+          "kind": "event",
+          "label": "Winter classes",
+          "quote": "2026.12.22.(화) ~ 2027.01.25.(월)",
+          "start": "2026-12-22",
+          "when": "22 Dec 2026–25 Jan 2027",
+          "calendar_path": "calendar/58149-7.ics"
         }
       ],
       "degrees": [
@@ -386,34 +501,34 @@
     },
     {
       "id": "58044",
-      "title": "Submit your bachelor's graduation thesis",
-      "who": "Undergraduates graduating in February 2027",
+      "title": "Submit your bachelor's thesis to the department office",
+      "who": "ECE undergraduates applying to graduate in February 2027",
       "deadlines": [
         {
-          "action": "Submit thesis to department office",
+          "action": "Submit thesis to undergraduate office",
           "end": "2026-12-21",
           "kind": "action",
           "label": "Thesis submission",
           "quote": "2026. 12. 21(월)까지",
-          "when": "By 21 December 2026",
+          "when": "By 21 December 2026; time not stated",
           "calendar_path": "calendar/58044-0.ics"
         },
         {
-          "action": "Submit submission-date confirmation form if late",
+          "action": "Submit submission-date confirmation form",
           "end": "2026-12-21",
           "kind": "action",
-          "label": "Late-submission form",
+          "label": "Extension form (if late)",
           "quote": "2026. 12. 21.(월)까지",
-          "when": "By 21 December 2026",
+          "when": "By 21 December 2026; time not stated",
           "calendar_path": "calendar/58044-1.ics"
         },
         {
-          "action": "Submit thesis under the extension",
+          "action": "Submit thesis if extension form filed",
           "end": "2026-12-28",
           "kind": "action",
           "label": "Extended thesis deadline",
           "quote": "2026.12.28.(월)까지",
-          "when": "By 28 December 2026",
+          "when": "By 28 December 2026; time not stated",
           "calendar_path": "calendar/58044-2.ics"
         }
       ],
@@ -431,38 +546,58 @@
     },
     {
       "id": "58045",
-      "title": "Submit your advisor-signed graduation thesis",
+      "title": "Get advisor's signature on your graduation thesis",
       "who": "Undergraduates who did the graduation project this semester",
       "deadlines": [
         {
-          "action": "Submit thesis with signed approval page",
+          "action": "Submit thesis with advisor's signature",
           "end": "2026-12-21",
           "kind": "action",
-          "label": "Submit signed thesis",
-          "quote": "2026.12. 21.(월)까지 제출",
+          "label": "Graduating: submit signed thesis",
+          "quote": "2026.12. 21.(월)",
           "start": "2026-12-21",
-          "when": "21 December 2026; time not stated",
+          "when": "21 December 2026 (Mon); time not stated",
           "calendar_path": "calendar/58045-0.ics"
         },
         {
-          "action": "Submit confirmation form if thesis is late",
+          "action": "Submit submission-date confirmation form",
           "end": "2026-12-21",
           "kind": "action",
-          "label": "Late-submission form",
-          "quote": "2026. 12. 21.(월)까지",
+          "label": "Late: submit confirmation form",
+          "quote": "2026. 12. 21.(월)",
           "start": "2026-12-21",
-          "when": "21 December 2026; time not stated",
+          "when": "21 December 2026 (Mon); time not stated",
           "calendar_path": "calendar/58045-1.ics"
         },
         {
-          "action": "Submit the late thesis",
+          "action": "Get advisor's signature and keep thesis",
+          "end": "2026-12-21",
+          "kind": "action",
+          "label": "Non-graduating: sign and keep",
+          "quote": "12.21.(월)",
+          "start": "2026-12-21",
+          "when": "21 December 2026 (Mon); time not stated",
+          "calendar_path": "calendar/58045-2.ics"
+        },
+        {
+          "action": "Submit thesis under confirmation form",
           "end": "2026-12-28",
           "kind": "action",
-          "label": "Late thesis final deadline",
-          "quote": "2026.12.28.(월)까지",
+          "label": "Late thesis: final submission",
+          "quote": "2026.12.28.(월)",
           "start": "2026-12-28",
-          "when": "28 December 2026; time not stated",
-          "calendar_path": "calendar/58045-2.ics"
+          "when": "28 December 2026 (Mon); time not stated",
+          "calendar_path": "calendar/58045-3.ics"
+        },
+        {
+          "action": "Get signature with advisor's prior permission",
+          "end": "2026-12-28",
+          "kind": "action",
+          "label": "Non-graduating: extended signing",
+          "quote": "12. 28.(월)",
+          "start": "2026-12-28",
+          "when": "28 December 2026, with advisor's permission",
+          "calendar_path": "calendar/58045-4.ics"
         }
       ],
       "degrees": [
@@ -518,38 +653,77 @@
     },
     {
       "id": "58071",
-      "title": "Apply for your graduation project topic",
+      "title": "Apply for a Spring 2027 graduation project topic",
       "who": "Undergraduates taking the graduation project in Spring 2027",
       "deadlines": [
         {
-          "action": "Choose project preferences on the intranet",
+          "action": "Choose project topics on the intranet",
           "end": "2026-10-28",
           "kind": "action",
-          "label": "Round 1 topic preference",
+          "label": "1st round topic choice",
           "quote": "10.21(수) – 10.28(수)",
           "start": "2026-10-21",
-          "when": "21–28 October 2026",
+          "when": "21–28 October 2026; time not stated",
           "calendar_path": "calendar/58071-0.ics"
         },
         {
-          "action": "Submit signed paper interview form",
+          "action": "Submit signed interview form on paper",
           "end": "2026-11-17",
           "kind": "action",
-          "label": "Round 1 interview form",
+          "label": "1st round interview",
           "quote": "11.3(화) - 11.17(화)",
           "start": "2026-11-03",
-          "when": "3–17 November 2026",
+          "when": "3–17 November 2026; time not stated",
           "calendar_path": "calendar/58071-1.ics"
         },
         {
-          "action": "Choose project preferences if still unassigned",
+          "action": "Choose topics if not yet assigned",
           "end": "2026-11-26",
           "kind": "action",
-          "label": "Round 2 topic preference",
+          "label": "2nd round topic choice",
           "quote": "11.19(목) - 11.26(목)",
           "start": "2026-11-19",
-          "when": "19–26 November 2026",
+          "when": "19–26 November 2026; time not stated",
           "calendar_path": "calendar/58071-2.ics"
+        },
+        {
+          "action": "Submit signed interview form on paper",
+          "end": "2026-12-16",
+          "kind": "action",
+          "label": "2nd round interview",
+          "quote": "12.2(수) - 12.16(수)",
+          "start": "2026-12-02",
+          "when": "2–16 December 2026; time not stated",
+          "calendar_path": "calendar/58071-3.ics"
+        },
+        {
+          "action": "Submit professor-signed form if still unassigned",
+          "end": "2027-02-26",
+          "kind": "action",
+          "label": "3rd round assignment",
+          "quote": "12.18(금) - 2.26(금)",
+          "start": "2026-12-18",
+          "when": "18 December 2026 – 26 February 2027",
+          "calendar_path": "calendar/58071-4.ics"
+        },
+        {
+          "kind": "event",
+          "label": "Midterm presentations (3)",
+          "quote": "3~5월 중 2~3주 간격",
+          "when": "March–May 2027; dates announced later"
+        },
+        {
+          "kind": "event",
+          "label": "Final poster presentation",
+          "quote": "5월 마지막 주",
+          "when": "Last week of May 2027"
+        },
+        {
+          "action": "Submit your graduation thesis",
+          "kind": "action",
+          "label": "Graduation thesis submission",
+          "quote": "6월 초중순",
+          "when": "Early to mid June 2027"
         }
       ],
       "degrees": [
@@ -566,38 +740,91 @@
     },
     {
       "id": "58072",
-      "title": "Apply for thesis review and pay fee",
-      "who": "Master's and PhD students defending in Fall 2026",
+      "title": "Apply for your thesis review this semester",
+      "who": "Master's and PhD students submitting theses in Fall 2026",
       "deadlines": [
         {
-          "action": "Apply online and submit documents",
+          "action": "Register online and submit application documents",
           "end": "2026-10-01",
           "kind": "action",
-          "label": "Online application",
+          "label": "Online application and documents",
           "quote": "2026년 9월 21일(월)～10월 1일(목) 17:00까지",
           "start": "2026-09-21",
-          "when": "21 Sep–1 Oct 2026, 17:00",
+          "when": "21 September – 1 October 2026, 17:00",
           "calendar_path": "calendar/58072-0.ics"
         },
         {
           "action": "Pay the thesis review fee",
           "end": "2026-11-03",
           "kind": "action",
-          "label": "Pay review fee",
+          "label": "Thesis review fee payment",
           "quote": "2026년 10월 21일(수)～ 11월 3일(화) 17:00까지",
           "start": "2026-10-21",
-          "when": "21 Oct–3 Nov 2026, 17:00",
+          "when": "21 October – 3 November 2026, 17:00",
           "calendar_path": "calendar/58072-1.ics"
         },
         {
-          "action": "Submit the final approved thesis",
+          "action": "Submit withdrawal, extension or non-submission forms",
+          "end": "2026-12-14",
+          "kind": "action",
+          "label": "Withdrawal/extension/non-submission forms",
+          "quote": "12월 14일(월) 17:00까지",
+          "when": "14 December 2026, 17:00",
+          "calendar_path": "calendar/58072-2.ics"
+        },
+        {
+          "action": "Submit review result and publication documents",
+          "degrees": [
+            "masters"
+          ],
+          "end": "2026-12-14",
+          "kind": "action",
+          "label": "Master's result documents",
+          "quote": "석사: 2026년 12월 14일(월) 17:00까지",
+          "when": "14 December 2026, 17:00",
+          "calendar_path": "calendar/58072-3.ics"
+        },
+        {
+          "action": "Submit review result and publication documents",
+          "degrees": [
+            "phd",
+            "integrated"
+          ],
+          "end": "2026-12-21",
+          "kind": "action",
+          "label": "PhD result documents",
+          "quote": "박사: 2026년 12월 21일(월) 17:00까지",
+          "when": "21 December 2026, 17:00",
+          "calendar_path": "calendar/58072-4.ics"
+        },
+        {
+          "action": "Request non-disclosure, if eligible",
+          "end": "2027-01-08",
+          "kind": "action",
+          "label": "Thesis non-disclosure request",
+          "quote": "심사종료 후 ∼ 2027년 1월 8일(금) 17:00까지",
+          "when": "After review until 8 January 2027, 17:00",
+          "calendar_path": "calendar/58072-5.ics"
+        },
+        {
+          "action": "Submit approval page and confirmation form",
+          "end": "2027-01-22",
+          "kind": "action",
+          "label": "Approval page to office",
+          "quote": "2027년 1월 15일(금) ∼ 1월 22일(금) 17:00",
+          "start": "2027-01-15",
+          "when": "15–22 January 2027, 17:00",
+          "calendar_path": "calendar/58072-6.ics"
+        },
+        {
+          "action": "Upload final thesis PDF to library",
           "end": "2027-02-01",
           "kind": "action",
-          "label": "Final thesis submission",
+          "label": "Final thesis to library",
           "quote": "2027년 1월 15일(금) ∼ 2월 1일(월) 23:59",
           "start": "2027-01-15",
-          "when": "15 Jan–1 Feb 2027, 23:59",
-          "calendar_path": "calendar/58072-2.ics"
+          "when": "15 January – 1 February 2027, 23:59",
+          "calendar_path": "calendar/58072-7.ics"
         }
       ],
       "degrees": [
@@ -647,37 +874,85 @@
     {
       "id": "58012",
       "title": "Change or drop your Fall 2026 courses",
-      "who": "All students taking Fall 2026 courses",
+      "who": "All students registered for Fall 2026 courses",
       "deadlines": [
         {
           "action": "Add or delete courses on sugang.snu.ac.kr",
           "end": "2026-09-07",
           "kind": "action",
           "label": "Course change period",
-          "quote": "개강전 8. 28.(금) ~ 8. 31.(월) / 개강후 9. 1.(화) ~ 9. 7(월)",
+          "quote": "수강신청 변경 (개강전 8. 28.(금) ~ 8. 31.(월) / 개강후 9. 1.(화) ~ 9. 7(월))",
           "start": "2026-08-28",
-          "when": "28 Aug–7 Sep 2026",
+          "when": "28 August – 7 September 2026, weekends excluded",
           "calendar_path": "calendar/58012-0.ics"
+        },
+        {
+          "action": "Request over-quota for ECE undergraduate courses",
+          "end": "2026-09-03",
+          "kind": "action",
+          "label": "ECE undergraduate courses over-quota",
+          "quote": "2026.09.01.(화)~09.03.(목) 18:00",
+          "start": "2026-09-01",
+          "when": "1–3 September 2026, 18:00",
+          "calendar_path": "calendar/58012-1.ics"
+        },
+        {
+          "action": "Submit over-quota request on sugang site",
+          "end": "2026-09-07",
+          "kind": "action",
+          "label": "Over-quota request (other courses)",
+          "quote": "2026.09.01.(화)~09.07.(월)",
+          "start": "2026-09-01",
+          "when": "1–7 September 2026",
+          "calendar_path": "calendar/58012-2.ics"
         },
         {
           "action": "Confirm approved over-quota courses",
           "end": "2026-09-09",
           "kind": "action",
-          "label": "Confirm over-quota courses",
+          "label": "Confirm over-quota registration",
           "quote": "2026.09.01.(화)~09.09.(수)",
           "start": "2026-09-01",
           "when": "1–9 September 2026",
-          "calendar_path": "calendar/58012-1.ics"
+          "calendar_path": "calendar/58012-3.ics"
         },
         {
-          "action": "Request course drops in mySNU",
+          "action": "Submit 중복수강신청 in mySNU",
+          "end": "2026-09-09",
+          "kind": "action",
+          "label": "Time-overlap request",
+          "quote": "9/1(화) ~ 9/9(수)",
+          "start": "2026-09-01",
+          "when": "1–9 September 2026",
+          "calendar_path": "calendar/58012-4.ics"
+        },
+        {
+          "action": "Request change via 장병e음",
+          "end": "2026-09-17",
+          "kind": "action",
+          "label": "Military-leave remote class change",
+          "quote": "2026.09.17.(목)까지",
+          "when": "By 17 September 2026",
+          "calendar_path": "calendar/58012-5.ics"
+        },
+        {
+          "action": "Apply for grading-option or classification change",
+          "end": "2026-09-23",
+          "kind": "action",
+          "label": "Grading option, classification change",
+          "quote": "2026.09.23.(수)",
+          "when": "By 23 September 2026",
+          "calendar_path": "calendar/58012-6.ics"
+        },
+        {
+          "action": "Request course drop in mySNU",
           "end": "2026-10-20",
           "kind": "action",
-          "label": "Course drop requests",
+          "label": "Course drop period",
           "quote": "2026.09.08.(화)~10.20.(화)",
           "start": "2026-09-08",
-          "when": "8 September–20 October 2026",
-          "calendar_path": "calendar/58012-2.ics"
+          "when": "8 September – 20 October 2026",
+          "calendar_path": "calendar/58012-7.ics"
         }
       ],
       "degrees": [
@@ -1115,21 +1390,22 @@
     },
     {
       "id": "57963",
-      "title": "Meet new thesis publication requirements for graduation",
+      "title": "Meet the new thesis publication requirements",
       "who": "Graduate students with thesis review from Fall 2026",
       "deadlines": [
         {
-          "action": "Submit acceptance proof and signed form",
+          "action": "Submit proof of publication or acceptance",
           "kind": "action",
           "label": "Submit publication proof",
           "quote": "논문심사 결과서류 제출일자 이전까지 제출",
-          "when": "Before result-document submission date"
+          "when": "Before result-document date; date not stated"
         },
         {
           "kind": "info",
-          "label": "New rules apply",
+          "label": "New rules take effect",
           "quote": "2026년 9월부터 (2026학년도 2학기 심사대상자부터)",
-          "when": "From September 2026"
+          "start": "2026-09-01",
+          "when": "From September 2026 (Fall 2026 reviews)"
         }
       ],
       "degrees": [
@@ -1369,9 +1645,50 @@
     },
     {
       "id": "57944",
-      "title": "Submit poster file and attend final presentation",
+      "title": "Attend the final poster presentation on 20 November",
       "who": "Undergraduates taking the Fall 2026 graduation project course",
       "deadlines": [
+        {
+          "end": "2026-11-20",
+          "kind": "event",
+          "label": "Final poster presentation",
+          "quote": "11월 20일 (금) 09:30-16:30",
+          "start": "2026-11-20",
+          "when": "20 November 2026, 09:30–16:30",
+          "calendar_path": "calendar/57944-0.ics"
+        },
+        {
+          "action": "Change project title in intranet system",
+          "end": "2026-08-28",
+          "kind": "action",
+          "label": "Project title change",
+          "quote": "8월 28일 (금)까지",
+          "when": "28 August 2026; time not stated",
+          "calendar_path": "calendar/57944-1.ics"
+        },
+        {
+          "end": "2026-09-11",
+          "kind": "event",
+          "label": "Session 1: paper-writing lecture",
+          "quote": "9월 11일 (금) 18:30 - 20:30",
+          "start": "2026-09-11",
+          "when": "11 September 2026, 18:30–20:30",
+          "calendar_path": "calendar/57944-2.ics"
+        },
+        {
+          "kind": "event",
+          "label": "Session 2: midterm presentation",
+          "quote": "10월 8일 (목) 18:30",
+          "start": "2026-10-08",
+          "when": "8 October 2026, 18:30"
+        },
+        {
+          "kind": "event",
+          "label": "Session 3: midterm presentation",
+          "quote": "11월 5일 (목) 18:30",
+          "start": "2026-11-05",
+          "when": "5 November 2026, 18:30"
+        },
         {
           "action": "Submit final poster PDF (A1, portrait)",
           "end": "2026-11-09",
@@ -1379,7 +1696,7 @@
           "label": "Final poster file",
           "quote": "~ 11월 9일(월) 23:59",
           "when": "By 9 November 2026, 23:59",
-          "calendar_path": "calendar/57944-0.ics"
+          "calendar_path": "calendar/57944-5.ics"
         },
         {
           "action": "Get thesis draft reviewed by advisor",
@@ -1388,22 +1705,13 @@
           "label": "Thesis draft review",
           "quote": "~ 11월 16일(월) 23:59",
           "when": "By 16 November 2026, 23:59",
-          "calendar_path": "calendar/57944-1.ics"
-        },
-        {
-          "end": "2026-11-20",
-          "kind": "event",
-          "label": "Final poster presentation",
-          "quote": "11월 20일 (금) 09:30-16:30",
-          "start": "2026-11-20",
-          "when": "20 November 2026, 09:30–16:30",
-          "calendar_path": "calendar/57944-2.ics"
+          "calendar_path": "calendar/57944-6.ics"
         }
       ],
       "degrees": [
         "undergraduate"
       ],
-      "graduation_scope": "any",
+      "graduation_scope": "graduating_only",
       "historical": false,
       "new_students": false,
       "state": "full",
@@ -2139,14 +2447,14 @@
     },
     {
       "id": "58123",
-      "title": "Apply for Hanwha Aerospace winter internship course",
+      "title": "Apply for the Hanwha Aerospace winter internship",
       "who": "Undergraduates in third year or above, listed majors",
       "deadlines": [
         {
-          "action": "Submit application to department office and Hanwha",
+          "action": "Submit application to office and Hanwha",
           "end": "2026-10-19",
           "kind": "action",
-          "label": "Course application",
+          "label": "Application period",
           "quote": "2026.10.15.(목)~10.19.(월)",
           "start": "2026-10-15",
           "when": "15–19 October 2026; time not stated",
@@ -2156,19 +2464,37 @@
           "end": "2026-11-06",
           "kind": "event",
           "label": "Job interview",
-          "quote": "2026.11.4.(수)~11.6.(금)",
+          "quote": "2026.11.4.(수)~11.6.(금) 중 하루",
           "start": "2026-11-04",
           "when": "One day, 4–6 November 2026",
           "calendar_path": "calendar/58123-1.ics"
         },
         {
-          "action": "Pay the course fee",
+          "end": "2026-11-20",
+          "kind": "info",
+          "label": "Final selection announced",
+          "quote": "2026. 11. 20.(금) 예정",
+          "start": "2026-11-20",
+          "when": "20 November 2026 (planned)",
+          "calendar_path": "calendar/58123-2.ics"
+        },
+        {
+          "action": "Pay the course fee if selected",
           "end": "2026-11-23",
           "kind": "action",
-          "label": "Course fee (if selected)",
+          "label": "Course fee payment",
           "quote": "11/23(월)까지",
           "when": "By 23 November 2026",
-          "calendar_path": "calendar/58123-2.ics"
+          "calendar_path": "calendar/58123-3.ics"
+        },
+        {
+          "end": "2027-01-28",
+          "kind": "info",
+          "label": "Internship period",
+          "quote": "2026. 12. 28. ~2027.1.28.",
+          "start": "2026-12-28",
+          "when": "28 December 2026 – 28 January 2027",
+          "calendar_path": "calendar/58123-4.ics"
         }
       ],
       "degrees": [
@@ -2181,7 +2507,7 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v",
       "posting_date": "2026.10.06",
       "korean_title": "[한화에어로스페이스] 2026학년도 동계 계절수업 현장실습학기제 운영 예정 안내(영어회화성적 필수)",
-      "period": "Winter session 2026"
+      "period": "Winter 2026"
     },
     {
       "id": "58127",
@@ -2264,10 +2590,10 @@
     {
       "id": "58152",
       "title": "Submit your research internship application",
-      "who": "ECE undergraduates in years 2–4",
+      "who": "2nd–4th year ECE undergraduates wanting winter research internships",
       "deadlines": [
         {
-          "action": "Submit original documents to Room 319",
+          "action": "Submit original forms to Room 319",
           "end": "2026-10-29",
           "kind": "action",
           "label": "Application submission",
@@ -2276,11 +2602,22 @@
           "calendar_path": "calendar/58152-0.ics"
         },
         {
-          "action": "Submit safety training certificate if selected",
+          "end": "2026-11-20",
+          "kind": "info",
+          "label": "Selection announced",
+          "quote": "2026. 11. 20.(금)",
+          "start": "2026-11-20",
+          "when": "20 November 2026",
+          "calendar_path": "calendar/58152-1.ics"
+        },
+        {
+          "action": "Complete safety training, submit certificate",
+          "end": "2026-11-30",
           "kind": "action",
-          "label": "Safety certificate (if selected)",
+          "label": "Safety certificate (selected students)",
           "quote": "2026. 11월 말까지",
-          "when": "End of November 2026"
+          "when": "By end of November 2026",
+          "calendar_path": "calendar/58152-2.ics"
         },
         {
           "end": "2027-02-08",
@@ -2288,8 +2625,20 @@
           "label": "Internship period",
           "quote": "2026. 12. 15.(화)~2027. 2. 8.(월)",
           "start": "2026-12-15",
-          "when": "15 Dec 2026 – 8 Feb 2027",
-          "calendar_path": "calendar/58152-2.ics"
+          "when": "15 December 2026 – 8 February 2027",
+          "calendar_path": "calendar/58152-3.ics"
+        },
+        {
+          "kind": "info",
+          "label": "1st report round",
+          "quote": "2026. 1. 15.(금)까지",
+          "when": "15 January (year printed as 2026)"
+        },
+        {
+          "kind": "info",
+          "label": "2nd report round",
+          "quote": "2026. 2. 10.(수)까지",
+          "when": "10 February (year printed as 2026)"
         }
       ],
       "degrees": [

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58071-4@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:3rd round assignment · Apply for a Spring 2027 graduation project 
+ topic
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:18 December 2026 – 26 February 2027\nKorean source: 12.18(금
+ ) - 2.26(금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v
+ \nAI explanation — may contain errors\; check the original. This is a re
+ minder\, not an official submission. Closing time is not supplied by an al
+ l-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v
+END:VEVENT
+END:VCALENDAR

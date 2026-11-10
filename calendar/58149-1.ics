@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58149-1@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Course change period · Register for winter session courses
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-DESCRIPTION:11–13 November 2026\nKorean source: 2026.11.11.(수) ~ 11.13.
- (금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v\nAI exp
- lanation — may contain errors\; check the original. This is a reminder\,
-  not an official submission. Closing time is not supplied by an all-day re
- minder.
+SUMMARY:Overlap request (1st round) · Register for 2026 winter session cou
+ rses
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DESCRIPTION:4–9 November 2026\, 18:00\nKorean source: (1차) 11. 4.(수) 
+ ~ 11. 9.(월) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5814
+ 9&md=v\nAI explanation — may contain errors\; check the original. This i
+ s a reminder\, not an official submission. Closing time is not supplied by
+  an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v
 END:VEVENT
 END:VCALENDAR

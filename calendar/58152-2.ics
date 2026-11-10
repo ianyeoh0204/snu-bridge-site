@@ -5,14 +5,14 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58152-2@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Internship period · Submit your research internship application
-DTSTART;VALUE=DATE:20270208
-DTEND;VALUE=DATE:20270209
-DESCRIPTION:15 Dec 2026 – 8 Feb 2027\nKorean source: 2026. 12. 15.(화)~2
- 027. 2. 8.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58152&md
- =v\nAI explanation — may contain errors\; check the original. This is a 
- reminder\, not an official submission. Closing time is not supplied by an 
- all-day reminder.
+SUMMARY:Safety certificate (selected students) · Submit your research inte
+ rnship application
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:By end of November 2026\nKorean source: 2026. 11월 말까지\n
+ https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v\nAI explanatio
+ n — may contain errors\; check the original. This is a reminder\, not an
+  official submission. Closing time is not supplied by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v
 END:VEVENT
 END:VCALENDAR

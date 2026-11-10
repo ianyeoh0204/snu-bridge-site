@@ -5,13 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58044-1@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Late-submission form · Submit your bachelor's graduation thesis
+SUMMARY:Extension form (if late) · Submit your bachelor's thesis to the de
+ partment office
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-DESCRIPTION:By 21 December 2026\nKorean source: 2026. 12. 21.(월)까지\nh
- ttps://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v\nAI explanation
-  — may contain errors\; check the original. This is a reminder\, not an 
- official submission. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:By 21 December 2026\; time not stated\nKorean source: 2026. 12.
+  21.(월)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58044&md
+ =v\nAI explanation — may contain errors\; check the original. This is a 
+ reminder\, not an official submission. Closing time is not supplied by an 
+ all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58044&md=v
 END:VEVENT
 END:VCALENDAR

@@ -3,9 +3,9 @@ VERSION:2.0
 PRODID:-//SNU Bridge//Notice reminders//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:58200-2@snu-bridge
+UID:58200-4@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Withdraw for full refund · Pay your winter session tuition
+SUMMARY:Drop: full refund · Pay your winter session course fees
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 DESCRIPTION:11–21 December 2026\nKorean source: 2026.12.11.(금)~2026.12.

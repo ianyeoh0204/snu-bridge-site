@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58152-3@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Internship period · Submit your research internship application
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DESCRIPTION:15 December 2026 – 8 February 2027\nKorean source: 2026. 12. 
+ 15.(화)~2027. 2. 8.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsid
+ x=58152&md=v\nAI explanation — may contain errors\; check the original. 
+ This is a reminder\, not an official submission. Closing time is not suppl
+ ied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58152&md=v
+END:VEVENT
+END:VCALENDAR

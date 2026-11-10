@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58012-7@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course drop period · Change or drop your Fall 2026 courses
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:8 September – 20 October 2026\nKorean source: 2026.09.08.(화
+ )~10.20.(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
+ \nAI explanation — may contain errors\; check the original. This is a re
+ minder\, not an official submission. Closing time is not supplied by an al
+ l-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
+END:VEVENT
+END:VCALENDAR

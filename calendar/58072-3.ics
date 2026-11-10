@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58072-3@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Master's result documents · Apply for your thesis review this seme
+ ster
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+DESCRIPTION:14 December 2026\, 17:00\nKorean source: 석사: 2026년 12월 
+ 14일(월) 17:00까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8072&md=v\nAI explanation — may contain errors\; check the original. Thi
+ s is a reminder\, not an official submission. Closing time is not supplied
+  by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
+END:VEVENT
+END:VCALENDAR

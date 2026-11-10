@@ -8,11 +8,12 @@ DTSTAMP:20261109T081340Z
 SUMMARY:Course change period · Change or drop your Fall 2026 courses
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
-DESCRIPTION:28 Aug–7 Sep 2026\nKorean source: 개강전 8. 28.(금) ~ 8. 
- 31.(월) / 개강후 9. 1.(화) ~ 9. 7(월)\nhttps://ece.snu.ac.kr/communi
- ty/academics?bbsidx=58012&md=v\nAI explanation — may contain errors\; ch
- eck the original. This is a reminder\, not an official submission. Closing
-  time is not supplied by an all-day reminder.
+DESCRIPTION:28 August – 7 September 2026\, weekends excluded\nKorean sour
+ ce: 수강신청 변경 (개강전 8. 28.(금) ~ 8. 31.(월) / 개강후 9
+ . 1.(화) ~ 9. 7(월))\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8012&md=v\nAI explanation — may contain errors\; check the original. Thi
+ s is a reminder\, not an official submission. Closing time is not supplied
+  by an all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
 END:VEVENT
 END:VCALENDAR

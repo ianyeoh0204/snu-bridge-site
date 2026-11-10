@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58196-3@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Final presentation and judging · Submit your graduation project po
+ ster file
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DESCRIPTION:20 November 2026\, 10:00–16:00\nKorean source: 11월 20일(
+ 금) 10:00 ~ 16:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58196
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58196&md=v
+END:VEVENT
+END:VCALENDAR

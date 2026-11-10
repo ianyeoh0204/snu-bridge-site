@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58149-4@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Tuition payment (1st) · Register for 2026 winter session courses
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DESCRIPTION:18–23 November 2026\, weekends excluded\nKorean source: 2026.
+ 11.18.(수) ~ 11.23.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsid
+ x=58149&md=v\nAI explanation — may contain errors\; check the original. 
+ This is a reminder\, not an official submission. Closing time is not suppl
+ ied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v
+END:VEVENT
+END:VCALENDAR

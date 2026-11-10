@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58072-6@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Approval page to office · Apply for your thesis review this semest
+ er
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DESCRIPTION:15–22 January 2027\, 17:00\nKorean source: 2027년 1월 15일
+ (금) ∼ 1월 22일(금) 17:00\nhttps://ece.snu.ac.kr/community/academics
+ ?bbsidx=58072&md=v\nAI explanation — may contain errors\; check the orig
+ inal. This is a reminder\, not an official submission. Closing time is not
+  supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
+END:VEVENT
+END:VCALENDAR

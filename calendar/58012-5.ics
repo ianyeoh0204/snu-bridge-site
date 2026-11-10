@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58012-5@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Military-leave remote class change · Change or drop your Fall 2026
+  courses
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:By 17 September 2026\nKorean source: 2026.09.17.(목)까지\nht
+ tps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58123-4@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Internship period · Apply for the Hanwha Aerospace winter internsh
+ ip
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+DESCRIPTION:28 December 2026 – 28 January 2027\nKorean source: 2026. 12. 
+ 28. ~2027.1.28.\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58123&md
+ =v\nAI explanation — may contain errors\; check the original. This is a 
+ reminder\, not an official submission. Closing time is not supplied by an 
+ all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58123&md=v
+END:VEVENT
+END:VCALENDAR

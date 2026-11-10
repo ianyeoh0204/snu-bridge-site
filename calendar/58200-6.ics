@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58200-6@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Drop: half refund · Pay your winter session course fees
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DESCRIPTION:2–7 January 2027\nKorean source: 2027.01.02.(토)~2027.01.07.
+ (목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v\nAI exp
+ lanation — may contain errors\; check the original. This is a reminder\,
+  not an official submission. Closing time is not supplied by an all-day re
+ minder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v
+END:VEVENT
+END:VCALENDAR

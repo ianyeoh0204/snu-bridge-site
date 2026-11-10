@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58072-2@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Final thesis submission · Apply for thesis review and pay fee
-DTSTART;VALUE=DATE:20270201
-DTEND;VALUE=DATE:20270202
-DESCRIPTION:15 Jan–1 Feb 2027\, 23:59\nKorean source: 2027년 1월 15일(
- 금) ∼ 2월 1일(월) 23:59\nhttps://ece.snu.ac.kr/community/academics?b
- bsidx=58072&md=v\nAI explanation — may contain errors\; check the origin
- al. This is a reminder\, not an official submission. Closing time is not s
- upplied by an all-day reminder.
+SUMMARY:Withdrawal/extension/non-submission forms · Apply for your thesis 
+ review this semester
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+DESCRIPTION:14 December 2026\, 17:00\nKorean source: 12월 14일(월) 17:00
+ 까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v\nAI ex
+ planation — may contain errors\; check the original. This is a reminder\
+ , not an official submission. Closing time is not supplied by an all-day r
+ eminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
 END:VEVENT
 END:VCALENDAR

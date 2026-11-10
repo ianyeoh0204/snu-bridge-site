@@ -5,13 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58071-2@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Round 2 topic preference · Apply for your graduation project topic
+SUMMARY:2nd round topic choice · Apply for a Spring 2027 graduation projec
+ t topic
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-DESCRIPTION:19–26 November 2026\nKorean source: 11.19(목) - 11.26(목)\n
- https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v\nAI explanatio
- n — may contain errors\; check the original. This is a reminder\, not an
-  official submission. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:19–26 November 2026\; time not stated\nKorean source: 11.19(
+ 목) - 11.26(목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58071&
+ md=v\nAI explanation — may contain errors\; check the original. This is 
+ a reminder\, not an official submission. Closing time is not supplied by a
+ n all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v
 END:VEVENT
 END:VCALENDAR

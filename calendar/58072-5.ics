@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58072-5@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Thesis non-disclosure request · Apply for your thesis review this 
+ semester
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DESCRIPTION:After review until 8 January 2027\, 17:00\nKorean source: 심
+ 사종료 후 ∼ 2027년 1월 8일(금) 17:00까지\nhttps://ece.snu.ac.k
+ r/community/academics?bbsidx=58072&md=v\nAI explanation — may contain er
+ rors\; check the original. This is a reminder\, not an official submission
+ . Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58072&md=v
+END:VEVENT
+END:VCALENDAR

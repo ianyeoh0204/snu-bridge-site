@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58012-4@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Time-overlap request · Change or drop your Fall 2026 courses
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+DESCRIPTION:1–9 September 2026\nKorean source: 9/1(화) ~ 9/9(수)\nhttps
+ ://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanation —
+  may contain errors\; check the original. This is a reminder\, not an offi
+ cial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
+END:VEVENT
+END:VCALENDAR

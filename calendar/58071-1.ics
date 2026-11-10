@@ -5,13 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58071-1@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Round 1 interview form · Apply for your graduation project topic
+SUMMARY:1st round interview · Apply for a Spring 2027 graduation project t
+ opic
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-DESCRIPTION:3–17 November 2026\nKorean source: 11.3(화) - 11.17(화)\nht
- tps://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v\nAI explanation 
- — may contain errors\; check the original. This is a reminder\, not an o
- fficial submission. Closing time is not supplied by an all-day reminder.
+DESCRIPTION:3–17 November 2026\; time not stated\nKorean source: 11.3(화
+ ) - 11.17(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58071&md=
+ v\nAI explanation — may contain errors\; check the original. This is a r
+ eminder\, not an official submission. Closing time is not supplied by an a
+ ll-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58071&md=v
 END:VEVENT
 END:VCALENDAR

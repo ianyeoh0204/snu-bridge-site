@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58012-2@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Course drop requests · Change or drop your Fall 2026 courses
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-DESCRIPTION:8 September–20 October 2026\nKorean source: 2026.09.08.(화)~
- 10.20.(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\n
- AI explanation — may contain errors\; check the original. This is a remi
- nder\, not an official submission. Closing time is not supplied by an all-
- day reminder.
+SUMMARY:Over-quota request (other courses) · Change or drop your Fall 2026
+  courses
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:1–7 September 2026\nKorean source: 2026.09.01.(화)~09.07.(
+ 월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI expl
+ anation — may contain errors\; check the original. This is a reminder\, 
+ not an official submission. Closing time is not supplied by an all-day rem
+ inder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v
 END:VEVENT
 END:VCALENDAR

@@ -14,8 +14,9 @@ export function applicable(post,degree='all'){
 }
 const timed=d=>['event','closure'].includes(d.kind);
 // What a card shows: the deadline the title refers to (the first one for this degree). When it has
-// passed, only a later deadline marked as an action takes over, under its own action phrase;
-// otherwise the card says "Closed". Events and closures show their start until they begin.
+// passed, the next thing still ahead takes over under its own phrase: a later action, or an event
+// or closure the student still has to turn up for. A date with no kind (old briefs) never takes
+// over. With nothing ahead the card says "Closed". Events and closures show their start until they begin.
 export function cardDate(post,degree='all',now=Date.now()){
  const ds=applicable(post,degree);
  const i=ds.findIndex(d=>!d.optional&&Number.isFinite(endTime(d.end)));
@@ -23,10 +24,13 @@ export function cardDate(post,degree='all',now=Date.now()){
  const primary=ds[i];
  if(timed(primary)&&startTime(primary.start)>now)return {d:primary,at:startTime(primary.start),phase:'starts'};
  if(endTime(primary.end)>=now)return {d:primary,at:endTime(primary.end),phase:timed(primary)?'ongoing':'open'};
- const next=ds.slice(i+1).find(d=>d.kind==='action'&&!d.optional&&endTime(d.end)>=now);
- if(next)return {d:next,at:endTime(next.end),phase:'open',closed:primary};
+ const next=ds.slice(i+1).find(d=>(d.kind==='action'||timed(d))&&!d.optional&&endTime(d.end)>=now);
+ if(next&&timed(next)&&startTime(next.start)>now)return {d:next,at:startTime(next.start),phase:'starts',closed:primary};
+ if(next)return {d:next,at:endTime(next.end),phase:timed(next)?'ongoing':'open',closed:primary};
  return {d:primary,at:endTime(primary.end),phase:'closed'};
 }
+// The card's headline: the notice title, or what to do next once the title's own deadline has passed.
+export function headline(post,c){return c?.closed?(c.d.action||c.d.label||post.title):post.title;}
 export function nextDate(post,degree='all',now=Date.now()){
  const c=cardDate(post,degree,now);
  return c&&c.phase!=='closed'?c.d:null;

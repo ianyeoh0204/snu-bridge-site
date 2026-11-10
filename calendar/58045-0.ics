@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:58045-0@snu-bridge
 DTSTAMP:20261109T081340Z
-SUMMARY:Submit signed thesis · Submit your advisor-signed graduation thesi
- s
+SUMMARY:Graduating: submit signed thesis · Get advisor's signature on your
+  graduation thesis
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-DESCRIPTION:21 December 2026\; time not stated\nKorean source: 2026.12. 21.
- (월)까지 제출\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58045
- &md=v\nAI explanation — may contain errors\; check the original. This is
-  a reminder\, not an official submission. Closing time is not supplied by 
- an all-day reminder.
+DESCRIPTION:21 December 2026 (Mon)\; time not stated\nKorean source: 2026.1
+ 2. 21.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58045&md=v\n
+ AI explanation — may contain errors\; check the original. This is a remi
+ nder\, not an official submission. Closing time is not supplied by an all-
+ day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=58045&md=v
 END:VEVENT
 END:VCALENDAR

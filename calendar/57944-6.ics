@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57944-6@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Thesis draft review · Attend the final poster presentation on 20 N
+ ovember
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:By 16 November 2026\, 23:59\nKorean source: ~ 11월 16일(월) 
+ 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v\nAI exp
+ lanation — may contain errors\; check the original. This is a reminder\,
+  not an official submission. Closing time is not supplied by an all-day re
+ minder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v
+END:VEVENT
+END:VCALENDAR

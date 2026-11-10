@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57944-1@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Thesis draft review · Submit poster file and attend final presenta
- tion
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-DESCRIPTION:By 16 November 2026\, 23:59\nKorean source: ~ 11월 16일(월) 
- 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v\nAI exp
- lanation — may contain errors\; check the original. This is a reminder\,
-  not an official submission. Closing time is not supplied by an all-day re
- minder.
+SUMMARY:Project title change · Attend the final poster presentation on 20 
+ November
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+DESCRIPTION:28 August 2026\; time not stated\nKorean source: 8월 28일 (
+ 금)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v\nA
+ I explanation — may contain errors\; check the original. This is a remin
+ der\, not an official submission. Closing time is not supplied by an all-d
+ ay reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57944&md=v
 END:VEVENT
 END:VCALENDAR

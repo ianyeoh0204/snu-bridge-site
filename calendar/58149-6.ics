@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58149-6@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course cancellation period · Register for 2026 winter session cour
+ ses
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DESCRIPTION:11 Dec 2026–7 Jan 2027\nKorean source: 2026.12.11.(금) ~ 202
+ 7.01.07.(목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v
+ \nAI explanation — may contain errors\; check the original. This is a re
+ minder\, not an official submission. Closing time is not supplied by an al
+ l-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=58149&md=v
+END:VEVENT
+END:VCALENDAR
