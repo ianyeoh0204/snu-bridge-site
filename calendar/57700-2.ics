@@ -5,14 +5,15 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:57700-2@snu-bridge
 DTSTAMP:20261109T165228Z
-SUMMARY:Tuition payment (final) · Register for 2026 summer session courses
-DTSTART;VALUE=DATE:20260608
-DTEND;VALUE=DATE:20260609
-DESCRIPTION:4–8 June 2026\nKorean source: (최종) 2026. 6. 4.(목) ∼ 6
- . 8.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v\nAI
-  explanation — may contain errors\; check the original. This is a remind
- er\, not an official submission. Closing time is not supplied by an all-da
- y reminder.
+SUMMARY:Course changes (if needed) · Register for summer 2026 session cour
+ ses
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+DESCRIPTION:18–21 May 2026\, until 18:30\nKorean source: 2026. 5. 18.(월
+ ) ∼ 5. 21.(목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57700&
+ md=v\nAI explanation — may contain errors\; check the original. This is 
+ a reminder\, not an official submission. Closing time is not supplied by a
+ n all-day reminder.
 URL:https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v
 END:VEVENT
 END:VCALENDAR

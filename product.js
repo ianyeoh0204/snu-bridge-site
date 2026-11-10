@@ -1,4 +1,4 @@
-import {DEGREES, filterBriefs, cardDate, headline} from './product-model.mjs?v=b7982240a7e3';
+import {DEGREES, filterBriefs, cardDate, headline} from './product-model.mjs?v=1b00abed8308';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');

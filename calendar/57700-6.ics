@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57700-6@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Extra-seat request\, closed courses · Register for summer 2026 ses
+ sion courses
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+DESCRIPTION:12–16 June 2026\, until 18:30\nKorean source: 2026. 6. 12.(
+ 금) ~ 6. 16.(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57700
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v
+END:VEVENT
+END:VCALENDAR

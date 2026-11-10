@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57700-4@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Final payment (unpaid students) · Register for summer 2026 session
+  courses
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+DESCRIPTION:4–8 June 2026\; bank until 16:00\nKorean source: (최종) 202
+ 6. 6. 4.(목) ∼ 6. 8.(월)\nhttps://ece.snu.ac.kr/community/academics?bb
+ sidx=57700&md=v\nAI explanation — may contain errors\; check the origina
+ l. This is a reminder\, not an official submission. Closing time is not su
+ pplied by an all-day reminder.
+URL:https://ece.snu.ac.kr/community/academics?bbsidx=57700&md=v
+END:VEVENT
+END:VCALENDAR
