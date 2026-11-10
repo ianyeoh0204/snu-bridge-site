@@ -1,4 +1,4 @@
-import {DEGREES, filterBriefs, cardDate, headline} from './product-model.mjs?v=1b00abed8308';
+import {DEGREES, filterBriefs, cardDate, headline} from './product-model.mjs?v=d993add9b7e2';
 
 const base = document.querySelector('meta[name="app-base"]')?.content || '/';
 const list = document.querySelector('#list');
@@ -51,6 +51,25 @@ function card(p, uncertain) {
   return a;
 }
 
+// One calendar per degree (built by web/build.py): subscribe once, later deadlines arrive by themselves.
+let feeds = {};
+const feedPath = () => base + 'calendar/' + degree + '.ics';
+function subscribe() {
+  const box = document.querySelector('#subscribe');
+  box.hidden = !feeds[degree];
+  if (box.hidden) return;
+  const webcal = 'webcal://' + location.host + feedPath();
+  document.querySelector('#subscribe-what').textContent = `subscribe once and every ${degree === 'all' ? 'ECE' : DEGREES[degree]} deadline appears there in English.`;
+  document.querySelector('#subscribe-apple').href = webcal;
+  document.querySelector('#subscribe-google').href = 'https://calendar.google.com/calendar/render?cid=' + encodeURIComponent(webcal);
+}
+document.querySelector('#subscribe-copy').addEventListener('click', async e => {
+  const url = location.origin + feedPath();
+  try { await navigator.clipboard.writeText(url); e.target.textContent = 'Link copied'; }
+  catch { prompt('Copy this calendar address:', url); }
+  setTimeout(() => { e.target.textContent = 'Copy link'; }, 2500);
+});
+
 function render() {
   document.querySelectorAll('[data-degree]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.degree === degree)));
   document.querySelectorAll('[data-grad]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.grad === grad)));
@@ -62,6 +81,7 @@ function render() {
   if (!shown.length) list.append(el('div', `No current notices for ${degree === 'all' ? 'these choices' : DEGREES[degree] + ' students'}. That does not guarantee you have nothing to do — check the ECE board too.`, 'empty'));
   document.querySelector('#maybe').hidden = !maybe.length;
   document.querySelector('#maybe-list').replaceChildren(...maybe.map(p => card(p, true)));
+  subscribe();
   pastButton.hidden = !past.length;
   pastButton.textContent = showPast ? 'Hide past and closed notices' : `Show ${past.length} past or closed notice${past.length === 1 ? '' : 's'}`;
 }
@@ -80,6 +100,7 @@ pastButton.addEventListener('click', () => { showPast = !showPast; render(); });
 
 fetch(base + 'notices.json', {cache: 'no-store'}).then(r => { if (!r.ok) throw new Error(); return r.json(); }).then(data => {
   notices = data.notices;
+  feeds = data.calendar_feeds || {};
   const when = new Intl.DateTimeFormat('en-GB', {day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23', timeZone: 'Asia/Seoul'}).format(new Date(data.checked_at));
   document.querySelector('#updated').textContent = `Checked against the ECE board ${when} (Korea time). Updated daily.`;
   if (data.pending?.length) {

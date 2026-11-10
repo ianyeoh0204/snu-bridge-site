@@ -6,7 +6,7 @@ BEGIN:VEVENT
 UID:58123-1@snu-bridge
 DTSTAMP:20261109T165228Z
 SUMMARY:Job interview · Apply for the Hanwha Aerospace winter internship
-DTSTART;VALUE=DATE:20261106
+DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261107
 DESCRIPTION:One day\, 4–6 November 2026\nKorean source: 2026.11.4.(수)~1
  1.6.(금) 중 하루\nhttps://ece.snu.ac.kr/community/academics?bbsidx=581

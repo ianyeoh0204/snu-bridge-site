@@ -6,7 +6,7 @@ BEGIN:VEVENT
 UID:58127-1@snu-bridge
 DTSTAMP:20261109T165228Z
 SUMMARY:No parking Gate B–G9 · Avoid closed campus parking and roads
-DTSTART;VALUE=DATE:20261013
+DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261014
 DESCRIPTION:11 Oct 21:00–13 Oct 23:59\nKorean source: 10. 11.(일) 21:00 
  ~ 10. 13.(화) 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=581

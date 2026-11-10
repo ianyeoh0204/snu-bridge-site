@@ -1,0 +1,834 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SNU Bridge//Notice reminders//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SNU Bridge · ECE deadlines · Master’s
+NAME:SNU Bridge · ECE deadlines · Master’s
+X-WR-TIMEZONE:Asia/Seoul
+X-WR-CALDESC:Deadlines from SNU ECE academic notices\, explained in English
+  by AI. May contain errors\; the Korean original controls.
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:57151-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Report list problems · Check your name on the completion list
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+DESCRIPTION:By 14 January 2026\nEnglish guide: https://ianyeoh0204.github.i
+ o/snu-bridge-site/briefs/57151/\nKorean source: 2026. 1. 14.(수)까지\nh
+ ttps://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v\nAI explanation
+  — may contain errors\; check the original. This is a reminder\, not an 
+ official submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57151/
+END:VEVENT
+BEGIN:VEVENT
+UID:57151-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Request English name change · Check your name on the completion li
+ st
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+DESCRIPTION:By 12 January 2026\nEnglish guide: https://ianyeoh0204.github.i
+ o/snu-bridge-site/briefs/57151/\nKorean source: 2026. 1. 12.(월)까지\nh
+ ttps://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v\nAI explanation
+  — may contain errors\; check the original. This is a reminder\, not an 
+ official submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57151/
+END:VEVENT
+BEGIN:VEVENT
+UID:57151-2@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:PhD survey certificate · Check your name on the completion list
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260207
+DESCRIPTION:By 6 February 2026\nEnglish guide: https://ianyeoh0204.github.i
+ o/snu-bridge-site/briefs/57151/\nKorean source: 2026. 2. 6.(금)까지\nht
+ tps://ece.snu.ac.kr/community/academics?bbsidx=57151&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57151/
+END:VEVENT
+BEGIN:VEVENT
+UID:57441-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Google Form · Register for the thesis qualifying exam
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DESCRIPTION:11–18 February 2026\nEnglish guide: https://ianyeoh0204.githu
+ b.io/snu-bridge-site/briefs/57441/\nKorean source: 2026. 2. 11.(수) - 202
+ 6. 2. 18.(수)까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=574
+ 41&md=v\nAI explanation — may contain errors\; check the original. This 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57441/
+END:VEVENT
+BEGIN:VEVENT
+UID:57441-1@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Portal registration · Register for the thesis qualifying exam
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
+DESCRIPTION:20 Feb 10:00 – 27 Feb 2026\nEnglish guide: https://ianyeoh020
+ 4.github.io/snu-bridge-site/briefs/57441/\nKorean source: 2026. 2. 20.(금
+ ) 10:00 - 2026. 2. 27.(금)까지\nhttps://ece.snu.ac.kr/community/academi
+ cs?bbsidx=57441&md=v\nAI explanation — may contain errors\; check the or
+ iginal. This is a reminder\, not an official submission. Closing time is n
+ ot supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57441/
+END:VEVENT
+BEGIN:VEVENT
+UID:57448-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:1st registration round · Pay the graduate research student registr
+ ation fee
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+DESCRIPTION:20 Feb–9 Mar 2026\, 17:00\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/57448/\nKorean source: 2026. 2. 20.(금)
+  09:00 ~ 3. 9.(월) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbsid
+ x=57448&md=v\nAI explanation — may contain errors\; check the original. 
+ This is a reminder\, not an official submission. Closing time is not suppl
+ ied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57448/
+END:VEVENT
+BEGIN:VEVENT
+UID:57448-1@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:2nd (final) round · Pay the graduate research student registration
+  fee
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+DESCRIPTION:19–31 Mar 2026\, 17:00\nEnglish guide: https://ianyeoh0204.gi
+ thub.io/snu-bridge-site/briefs/57448/\nKorean source: 2026. 3. 19.(목) 09
+ :00 ~ 3. 31.(화) 17:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=
+ 57448&md=v\nAI explanation — may contain errors\; check the original. Th
+ is is a reminder\, not an official submission. Closing time is not supplie
+ d by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57448/
+END:VEVENT
+BEGIN:VEVENT
+UID:57626-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Online application and documents · Register online and submit thes
+ is review documents
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+DESCRIPTION:23–31 March 2026\, 17:00\nEnglish guide: https://ianyeoh0204.
+ github.io/snu-bridge-site/briefs/57626/\nKorean source: 2026년 3월 23일
+ ～3월 31일 17:00까지\nhttps://ece.snu.ac.kr/community/academics?bbsid
+ x=57626&md=v\nAI explanation — may contain errors\; check the original. 
+ This is a reminder\, not an official submission. Closing time is not suppl
+ ied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57626/
+END:VEVENT
+BEGIN:VEVENT
+UID:57626-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Pay review fee · Register online and submit thesis review document
+ s
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+DESCRIPTION:20 April–3 May 2026\nEnglish guide: https://ianyeoh0204.githu
+ b.io/snu-bridge-site/briefs/57626/\nKorean source: 2026년 4월 20일～ 5
+ 월 3일까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57626&md=
+ v\nAI explanation — may contain errors\; check the original. This is a r
+ eminder\, not an official submission. Closing time is not supplied by an a
+ ll-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57626/
+END:VEVENT
+BEGIN:VEVENT
+UID:57626-2@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Final thesis submission · Register online and submit thesis review
+  documents
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+DESCRIPTION:17 July–2 August 2026\nEnglish guide: https://ianyeoh0204.git
+ hub.io/snu-bridge-site/briefs/57626/\nKorean source: 2026년 7월 17일 
+ ∼ 8월 2일\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57626&md=v
+ \nAI explanation — may contain errors\; check the original. This is a re
+ minder\, not an official submission. Closing time is not supplied by an al
+ l-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57626/
+END:VEVENT
+BEGIN:VEVENT
+UID:57700-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Course registration · Register for summer 2026 session courses
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+DESCRIPTION:6–13 May 2026\, weekdays only\nEnglish guide: https://ianyeoh
+ 0204.github.io/snu-bridge-site/briefs/57700/\nKorean source: 2026. 5. 6.(
+ 수) ∼ 5. 13.(수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=577
+ 00&md=v\nAI explanation — may contain errors\; check the original. This 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57700/
+END:VEVENT
+BEGIN:VEVENT
+UID:57700-3@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Tuition payment\, first round · Register for summer 2026 session c
+ ourses
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+DESCRIPTION:28 May–2 June 2026\nEnglish guide: https://ianyeoh0204.github
+ .io/snu-bridge-site/briefs/57700/\nKorean source: (1차) 2026. 5. 28.(목)
+  ∼ 6. 2.(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57700&md
+ =v\nAI explanation — may contain errors\; check the original. This is a 
+ reminder\, not an official submission. Closing time is not supplied by an 
+ all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57700/
+END:VEVENT
+BEGIN:VEVENT
+UID:57960-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Gown rental period · Rent your graduation gown online
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+DESCRIPTION:13–31 August 2026\, 10:00–17:00\nEnglish guide: https://ian
+ yeoh0204.github.io/snu-bridge-site/briefs/57960/\nKorean source: 2026. 8.1
+ 3.(목) ~ 2026. 8. 31.(월)\nhttps://ece.snu.ac.kr/community/academics?bbs
+ idx=57960&md=v\nAI explanation — may contain errors\; check the original
+ . This is a reminder\, not an official submission. Closing time is not sup
+ plied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57960/
+END:VEVENT
+BEGIN:VEVENT
+UID:57986-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Course period (2nd round) · Complete the online suicide prevention
+  course
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DESCRIPTION:28 October – 27 November 2026\nEnglish guide: https://ianyeoh
+ 0204.github.io/snu-bridge-site/briefs/57986/\nKorean source: (2차) 2026. 
+ 10.28.(수) ~ 11. 27.(금)\nhttps://ece.snu.ac.kr/community/academics?bbsi
+ dx=57986&md=v\nAI explanation — may contain errors\; check the original.
+  This is a reminder\, not an official submission. Closing time is not supp
+ lied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57986/
+END:VEVENT
+BEGIN:VEVENT
+UID:57986-1@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Course period (1st round) · Complete the online suicide prevention
+  course
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:24 August – 7 September 2026\nEnglish guide: https://ianyeoh0
+ 204.github.io/snu-bridge-site/briefs/57986/\nKorean source: (1차) 2026. 8
+ .24.(월) ~ 9.7.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=57
+ 986&md=v\nAI explanation — may contain errors\; check the original. This
+  is a reminder\, not an official submission. Closing time is not supplied 
+ by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57986/
+END:VEVENT
+BEGIN:VEVENT
+UID:57991-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Application to department office · Submit your SAP application to 
+ the department office
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DESCRIPTION:By 3 September 2026\nEnglish guide: https://ianyeoh0204.github.
+ io/snu-bridge-site/briefs/57991/\nKorean source: 2026. 9. 3.(목)까지\nh
+ ttps://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v\nAI explanation
+  — may contain errors\; check the original. This is a reminder\, not an 
+ official submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57991/
+END:VEVENT
+BEGIN:VEVENT
+UID:57991-2@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Funding claim (selected students) · Submit your SAP application to
+  the department office
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:By 8 November 2026\nEnglish guide: https://ianyeoh0204.github.i
+ o/snu-bridge-site/briefs/57991/\nKorean source: 2026. 11. 8(일)까지\nht
+ tps://ece.snu.ac.kr/community/academics?bbsidx=57991&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/57991/
+END:VEVENT
+BEGIN:VEVENT
+UID:58011-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Course period · Complete the online research ethics course
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:1–30 September 2026\nEnglish guide: https://ianyeoh0204.githu
+ b.io/snu-bridge-site/briefs/58011/\nKorean source: 2026. 9. 1.(화)~9. 30.
+ (수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v\nAI exp
+ lanation — may contain errors\; check the original. This is a reminder\,
+  not an official submission. Closing time is not supplied by an all-day re
+ minder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58011/
+END:VEVENT
+BEGIN:VEVENT
+UID:58011-1@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:BK21 students' extended period · Complete the online research ethi
+ cs course
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Until December 2026\nEnglish guide: https://ianyeoh0204.github.
+ io/snu-bridge-site/briefs/58011/\nKorean source: '26.12월까지 수강 
+ 가능\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58011&md=v\nAI ex
+ planation — may contain errors\; check the original. This is a reminder\
+ , not an official submission. Closing time is not supplied by an all-day r
+ eminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58011/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course change period · Change or drop your Fall 2026 courses
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:28 August – 7 September 2026\, weekends excluded\nEnglish gui
+ de: https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/\nKorean so
+ urce: 수강신청 변경 (개강전 8. 28.(금) ~ 8. 31.(월) / 개강후
+  9. 1.(화) ~ 9. 7(월))\nhttps://ece.snu.ac.kr/community/academics?bbsidx
+ =58012&md=v\nAI explanation — may contain errors\; check the original. T
+ his is a reminder\, not an official submission. Closing time is not suppli
+ ed by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-1@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:ECE undergraduate courses over-quota · Change or drop your Fall 20
+ 26 courses
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DESCRIPTION:1–3 September 2026\, 18:00\nEnglish guide: https://ianyeoh020
+ 4.github.io/snu-bridge-site/briefs/58012/\nKorean source: 2026.09.01.(화)
+ ~09.03.(목) 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-2@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Over-quota request (other courses) · Change or drop your Fall 2026
+  courses
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:1–7 September 2026\nEnglish guide: https://ianyeoh0204.github
+ .io/snu-bridge-site/briefs/58012/\nKorean source: 2026.09.01.(화)~09.07.(
+ 월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI expl
+ anation — may contain errors\; check the original. This is a reminder\, 
+ not an official submission. Closing time is not supplied by an all-day rem
+ inder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-3@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Confirm over-quota registration · Change or drop your Fall 2026 co
+ urses
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+DESCRIPTION:1–9 September 2026\nEnglish guide: https://ianyeoh0204.github
+ .io/snu-bridge-site/briefs/58012/\nKorean source: 2026.09.01.(화)~09.09.(
+ 수)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI expl
+ anation — may contain errors\; check the original. This is a reminder\, 
+ not an official submission. Closing time is not supplied by an all-day rem
+ inder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-4@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Time-overlap request · Change or drop your Fall 2026 courses
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+DESCRIPTION:1–9 September 2026\nEnglish guide: https://ianyeoh0204.github
+ .io/snu-bridge-site/briefs/58012/\nKorean source: 9/1(화) ~ 9/9(수)\nhtt
+ ps://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanation 
+ — may contain errors\; check the original. This is a reminder\, not an o
+ fficial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-5@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Military-leave remote class change · Change or drop your Fall 2026
+  courses
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:By 17 September 2026\nEnglish guide: https://ianyeoh0204.github
+ .io/snu-bridge-site/briefs/58012/\nKorean source: 2026.09.17.(목)까지\n
+ https://ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanatio
+ n — may contain errors\; check the original. This is a reminder\, not an
+  official submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-6@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Grading option\, classification change · Change or drop your Fall 
+ 2026 courses
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DESCRIPTION:By 23 September 2026\nEnglish guide: https://ianyeoh0204.github
+ .io/snu-bridge-site/briefs/58012/\nKorean source: 2026.09.23.(수)\nhttps:
+ //ece.snu.ac.kr/community/academics?bbsidx=58012&md=v\nAI explanation — 
+ may contain errors\; check the original. This is a reminder\, not an offic
+ ial submission. Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58012-7@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course drop period · Change or drop your Fall 2026 courses
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:8 September – 20 October 2026\nEnglish guide: https://ianyeoh
+ 0204.github.io/snu-bridge-site/briefs/58012/\nKorean source: 2026.09.08.(
+ 화)~10.20.(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58012&m
+ d=v\nAI explanation — may contain errors\; check the original. This is a
+  reminder\, not an official submission. Closing time is not supplied by an
+  all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/
+END:VEVENT
+BEGIN:VEVENT
+UID:58022-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Submit confirmation form · Submit your Thesis Research confirmatio
+ n form
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:3–17 September 2026\; time not stated\nEnglish guide: https:/
+ /ianyeoh0204.github.io/snu-bridge-site/briefs/58022/\nKorean source: 2026.
+  9. 3.(목) ~ 2026. 9. 17.(목)\nhttps://ece.snu.ac.kr/community/academics
+ ?bbsidx=58022&md=v\nAI explanation — may contain errors\; check the orig
+ inal. This is a reminder\, not an official submission. Closing time is not
+  supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58022/
+END:VEVENT
+BEGIN:VEVENT
+UID:58023-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Approval form submission · Submit course credit approval form for 
+ outside courses
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:3–17 September 2026\; time not stated\nEnglish guide: https:/
+ /ianyeoh0204.github.io/snu-bridge-site/briefs/58023/\nKorean source: 2026.
+  9. 3.(목) ~ 2026. 9. 17.(목)\nhttps://ece.snu.ac.kr/community/academics
+ ?bbsidx=58023&md=v\nAI explanation — may contain errors\; check the orig
+ inal. This is a reminder\, not an official submission. Closing time is not
+  supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58023/
+END:VEVENT
+BEGIN:VEVENT
+UID:58031-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Building 38 floors closed · Stay out of Building 38\, floors 4–5
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:23 October 2026\, 11:30–18:00\nEnglish guide: https://ianyeoh
+ 0204.github.io/snu-bridge-site/briefs/58031/\nKorean source: 2026. 10. 23.
+ (금) 11:30 ~ 18:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5803
+ 1&md=v\nAI explanation — may contain errors\; check the original. This i
+ s a reminder\, not an official submission. Closing time is not supplied by
+  an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58031/
+END:VEVENT
+BEGIN:VEVENT
+UID:58043-0@snu-bridge
+DTSTAMP:20261109T143545Z
+SUMMARY:Written exam · Attend the thesis qualifying written exam
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DESCRIPTION:11 September 2026\, 10:00–12:00\nEnglish guide: https://ianye
+ oh0204.github.io/snu-bridge-site/briefs/58043/\nKorean source: 2026. 9. 11
+ .(금) 10:00 ~ 12:00(120분)\nhttps://ece.snu.ac.kr/community/academics?bb
+ sidx=58043&md=v\nAI explanation — may contain errors\; check the origina
+ l. This is a reminder\, not an official submission. Closing time is not su
+ pplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58043/
+END:VEVENT
+BEGIN:VEVENT
+UID:58055-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Application and documents · Apply for graduate credit transfer (
+ 통산인정)
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:21 September 2026\, 5 pm\nEnglish guide: https://ianyeoh0204.gi
+ thub.io/snu-bridge-site/briefs/58055/\nKorean source: ~ 2026. 9. 21.(월) 
+ 오후 5시까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58055&
+ md=v\nAI explanation — may contain errors\; check the original. This is 
+ a reminder\, not an official submission. Closing time is not supplied by a
+ n all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58055/
+END:VEVENT
+BEGIN:VEVENT
+UID:58056-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Submit application documents · Apply for prior graduate credit rec
+ ognition
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:By 21 September 2026\, 5 pm\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/58056/\nKorean source: ~ 2026. 9. 21.(
+ 월) 오후 5시까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8056&md=v\nAI explanation — may contain errors\; check the original. Thi
+ s is a reminder\, not an official submission. Closing time is not supplied
+  by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58056/
+END:VEVENT
+BEGIN:VEVENT
+UID:58057-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Submit paper application · Submit prior SNU graduate credit recogn
+ ition application
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:Until 21 September 2026\, 5 pm\nEnglish guide: https://ianyeoh0
+ 204.github.io/snu-bridge-site/briefs/58057/\nKorean source: ~ 2026. 9. 21.
+ (월) 오후 5시까지\nhttps://ece.snu.ac.kr/community/academics?bbsidx=
+ 58057&md=v\nAI explanation — may contain errors\; check the original. Th
+ is is a reminder\, not an official submission. Closing time is not supplie
+ d by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58057/
+END:VEVENT
+BEGIN:VEVENT
+UID:58072-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Online registration and documents · Register online for your thesi
+ s review
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:21 Sep–1 Oct 2026\, 17:00\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/58072/\nKorean source: 2026년 9월 21
+ 일(월)～10월 1일(목) 17:00까지\nhttps://ece.snu.ac.kr/community/ac
+ ademics?bbsidx=58072&md=v\nAI explanation — may contain errors\; check t
+ he original. This is a reminder\, not an official submission. Closing time
+  is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58072/
+END:VEVENT
+BEGIN:VEVENT
+UID:58072-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Pay thesis review fee · Register online for your thesis review
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DESCRIPTION:21 Oct–3 Nov 2026\, 17:00\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/58072/\nKorean source: 2026년 10월 21
+ 일(수)～ 11월 3일(화) 17:00까지\nhttps://ece.snu.ac.kr/community/a
+ cademics?bbsidx=58072&md=v\nAI explanation — may contain errors\; check 
+ the original. This is a reminder\, not an official submission. Closing tim
+ e is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58072/
+END:VEVENT
+BEGIN:VEVENT
+UID:58072-2@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Master's result documents · Register online for your thesis review
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+DESCRIPTION:14 December 2026\, 17:00\nEnglish guide: https://ianyeoh0204.gi
+ thub.io/snu-bridge-site/briefs/58072/\nKorean source: 석사: 2026년 12
+ 월 14일(월) 17:00까지\nhttps://ece.snu.ac.kr/community/academics?bbsi
+ dx=58072&md=v\nAI explanation — may contain errors\; check the original.
+  This is a reminder\, not an official submission. Closing time is not supp
+ lied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58072/
+END:VEVENT
+BEGIN:VEVENT
+UID:58072-6@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Final thesis to office · Register online for your thesis review
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DESCRIPTION:15–22 January 2027\, 17:00\nEnglish guide: https://ianyeoh020
+ 4.github.io/snu-bridge-site/briefs/58072/\nKorean source: 2027년 1월 15
+ 일(금) ∼ 1월 22일(금) 17:00\nhttps://ece.snu.ac.kr/community/academ
+ ics?bbsidx=58072&md=v\nAI explanation — may contain errors\; check the o
+ riginal. This is a reminder\, not an official submission. Closing time is 
+ not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58072/
+END:VEVENT
+BEGIN:VEVENT
+UID:58072-7@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Final thesis to library · Register online for your thesis review
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+DESCRIPTION:15 Jan–1 Feb 2027\, 23:59\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/58072/\nKorean source: 2027년 1월 15
+ 일(금) ∼ 2월 1일(월) 23:59\nhttps://ece.snu.ac.kr/community/academi
+ cs?bbsidx=58072&md=v\nAI explanation — may contain errors\; check the or
+ iginal. This is a reminder\, not an official submission. Closing time is n
+ ot supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58072/
+END:VEVENT
+BEGIN:VEVENT
+UID:58126-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Classes off\, 302 closed · Note class cancellations and building c
+ losures
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261128
+DESCRIPTION:26 Nov 09:00–27 Nov 20:00\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/58126/\nKorean source: 2026. 11. 26.(목
+ ) 09:00 ~ 11. 27.(금) 20:00\nhttps://ece.snu.ac.kr/community/academics?bb
+ sidx=58126&md=v\nAI explanation — may contain errors\; check the origina
+ l. This is a reminder\, not an official submission. Closing time is not su
+ pplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58126/
+END:VEVENT
+BEGIN:VEVENT
+UID:58126-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Some classes off\, 39 closed · Note class cancellations and buildi
+ ng closures
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261205
+DESCRIPTION:3 Dec 09:00–4 Dec 20:00\nEnglish guide: https://ianyeoh0204.g
+ ithub.io/snu-bridge-site/briefs/58126/\nKorean source: 2026. 12. 3.(목) 0
+ 9:00 ~ 12. 4.(금) 20:00\nhttps://ece.snu.ac.kr/community/academics?bbsidx
+ =58126&md=v\nAI explanation — may contain errors\; check the original. T
+ his is a reminder\, not an official submission. Closing time is not suppli
+ ed by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58126/
+END:VEVENT
+BEGIN:VEVENT
+UID:58127-0@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Stadium and riverside lots closed · Avoid closed campus parking an
+ d roads
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261015
+DESCRIPTION:8 Oct 21:00–14 Oct 23:59\nEnglish guide: https://ianyeoh0204.
+ github.io/snu-bridge-site/briefs/58127/\nKorean source: 10. 8.(목) 21:00 
+ ~ 10. 14.(수) 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=581
+ 27&md=v\nAI explanation — may contain errors\; check the original. This 
+ is a reminder\, not an official submission. Closing time is not supplied b
+ y an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58127/
+END:VEVENT
+BEGIN:VEVENT
+UID:58127-1@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:No parking Gate B–G9 · Avoid closed campus parking and roads
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:11 Oct 21:00–13 Oct 23:59\nEnglish guide: https://ianyeoh0204
+ .github.io/snu-bridge-site/briefs/58127/\nKorean source: 10. 11.(일) 21:0
+ 0 ~ 10. 13.(화) 23:59\nhttps://ece.snu.ac.kr/community/academics?bbsidx=5
+ 8127&md=v\nAI explanation — may contain errors\; check the original. Thi
+ s is a reminder\, not an official submission. Closing time is not supplied
+  by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58127/
+END:VEVENT
+BEGIN:VEVENT
+UID:58127-2@snu-bridge
+DTSTAMP:20261109T165228Z
+SUMMARY:Gate B–G9 road closed · Avoid closed campus parking and roads
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:13 October\, 21:30–22:30\nEnglish guide: https://ianyeoh0204.
+ github.io/snu-bridge-site/briefs/58127/\nKorean source: 10. 13.(화) 21:30
+  ~ 22:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58127&md=v\nAI 
+ explanation — may contain errors\; check the original. This is a reminde
+ r\, not an official submission. Closing time is not supplied by an all-day
+  reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58127/
+END:VEVENT
+BEGIN:VEVENT
+UID:58128-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Building 17 closed · Stay out of Building 17 during law exams
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261108
+DESCRIPTION:6–7 November 2026\; time not stated\nEnglish guide: https://i
+ anyeoh0204.github.io/snu-bridge-site/briefs/58128/\nKorean source: 2026. 1
+ 1. 6.(금) ~ 11. 7.(토)\nhttps://ece.snu.ac.kr/community/academics?bbsidx
+ =58128&md=v\nAI explanation — may contain errors\; check the original. T
+ his is a reminder\, not an official submission. Closing time is not suppli
+ ed by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58128/
+END:VEVENT
+BEGIN:VEVENT
+UID:58134-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course completion deadline · Complete the online research ethics c
+ ourse
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:31 October 2026\; time not stated\nEnglish guide: https://ianye
+ oh0204.github.io/snu-bridge-site/briefs/58134/\nKorean source: 2026. 10. 3
+ 1.(토)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58134&md=v\nAI e
+ xplanation — may contain errors\; check the original. This is a reminder
+ \, not an official submission. Closing time is not supplied by an all-day 
+ reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58134/
+END:VEVENT
+BEGIN:VEVENT
+UID:58149-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Course registration · Register for winter session courses
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DESCRIPTION:27 October – 3 November 2026\nEnglish guide: https://ianyeoh0
+ 204.github.io/snu-bridge-site/briefs/58149/\nKorean source: 2026.10.27.(
+ 화) ~ 11.03.(화)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58149/
+END:VEVENT
+BEGIN:VEVENT
+UID:58149-3@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Tuition payment (first) · Register for winter session courses
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DESCRIPTION:18–23 November 2026\, weekdays\nEnglish guide: https://ianyeo
+ h0204.github.io/snu-bridge-site/briefs/58149/\nKorean source: 2026.11.18.(
+ 수) ~ 11.23.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58149
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58149/
+END:VEVENT
+BEGIN:VEVENT
+UID:58149-7@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Winter classes · Register for winter session courses
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20270126
+DESCRIPTION:22 December 2026 – 25 January 2027\nEnglish guide: https://ia
+ nyeoh0204.github.io/snu-bridge-site/briefs/58149/\nKorean source: 2026.12.
+ 22.(화) ~ 2027.01.25.(월)\nhttps://ece.snu.ac.kr/community/academics?bbs
+ idx=58149&md=v\nAI explanation — may contain errors\; check the original
+ . This is a reminder\, not an official submission. Closing time is not sup
+ plied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58149/
+END:VEVENT
+BEGIN:VEVENT
+UID:58161-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Exchange info session · Attend the outbound exchange student info 
+ session
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+DESCRIPTION:30 October 2026\; 10:00 or 14:00\nEnglish guide: https://ianyeo
+ h0204.github.io/snu-bridge-site/briefs/58161/\nKorean source: 2026. 10. 30
+ .(금) 오전 10:00 - 11:30 / 오후 14:00 - 15:30\nhttps://ece.snu.ac.kr/
+ community/academics?bbsidx=58161&md=v\nAI explanation — may contain erro
+ rs\; check the original. This is a reminder\, not an official submission. 
+ Closing time is not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58161/
+END:VEVENT
+BEGIN:VEVENT
+UID:58182-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Mid-semester feedback survey · Submit mid-semester course feedback
+  on mySNU
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DESCRIPTION:29 October – 12 November 2026\nEnglish guide: https://ianyeoh
+ 0204.github.io/snu-bridge-site/briefs/58182/\nKorean source: 2026.10.29.(
+ 목) ~ 11.12.(목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58182
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58182/
+END:VEVENT
+BEGIN:VEVENT
+UID:58191-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Safety training session · Attend new-researcher lab safety trainin
+ g
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DESCRIPTION:20 November 2026\, 09:30–18:30\nEnglish guide: https://ianyeo
+ h0204.github.io/snu-bridge-site/briefs/58191/\nKorean source: 2026. 11. 20
+ .(금) 09:30~18:30\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58191
+ &md=v\nAI explanation — may contain errors\; check the original. This is
+  a reminder\, not an official submission. Closing time is not supplied by 
+ an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58191/
+END:VEVENT
+BEGIN:VEVENT
+UID:58200-0@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Payment\, 1st round · Pay your winter session course fees
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DESCRIPTION:18–23 November 2026\; virtual account until 17:00\nEnglish gu
+ ide: https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/\nKorean s
+ ource: 2026.11.18.(수)~11.23.(월)\nhttps://ece.snu.ac.kr/community/acade
+ mics?bbsidx=58200&md=v\nAI explanation — may contain errors\; check the 
+ original. This is a reminder\, not an official submission. Closing time is
+  not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/
+END:VEVENT
+BEGIN:VEVENT
+UID:58200-1@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Payment\, 2nd (final) round · Pay your winter session course fees
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DESCRIPTION:26–27 November 2026\; virtual account until 17:00\nEnglish gu
+ ide: https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/\nKorean s
+ ource: 2026.11.26.(목)~11.27.(금)\nhttps://ece.snu.ac.kr/community/acade
+ mics?bbsidx=58200&md=v\nAI explanation — may contain errors\; check the 
+ original. This is a reminder\, not an official submission. Closing time is
+  not supplied by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/
+END:VEVENT
+BEGIN:VEVENT
+UID:58200-4@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Drop: full refund · Pay your winter session course fees
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+DESCRIPTION:11–21 December 2026\nEnglish guide: https://ianyeoh0204.githu
+ b.io/snu-bridge-site/briefs/58200/\nKorean source: 2026.12.11.(금)~2026.1
+ 2.21.(월)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v\nA
+ I explanation — may contain errors\; check the original. This is a remin
+ der\, not an official submission. Closing time is not supplied by an all-d
+ ay reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/
+END:VEVENT
+BEGIN:VEVENT
+UID:58200-5@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Drop: two-thirds refund · Pay your winter session course fees
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+DESCRIPTION:22 December 2026 – 1 January 2027\nEnglish guide: https://ian
+ yeoh0204.github.io/snu-bridge-site/briefs/58200/\nKorean source: 2026.12.2
+ 2.(화)~2027.01.01.(금)\nhttps://ece.snu.ac.kr/community/academics?bbsidx
+ =58200&md=v\nAI explanation — may contain errors\; check the original. T
+ his is a reminder\, not an official submission. Closing time is not suppli
+ ed by an all-day reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/
+END:VEVENT
+BEGIN:VEVENT
+UID:58200-6@snu-bridge
+DTSTAMP:20261109T081340Z
+SUMMARY:Drop: half refund · Pay your winter session course fees
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DESCRIPTION:2–7 January 2027\nEnglish guide: https://ianyeoh0204.github.i
+ o/snu-bridge-site/briefs/58200/\nKorean source: 2027.01.02.(토)~2027.01.0
+ 7.(목)\nhttps://ece.snu.ac.kr/community/academics?bbsidx=58200&md=v\nAI e
+ xplanation — may contain errors\; check the original. This is a reminder
+ \, not an official submission. Closing time is not supplied by an all-day 
+ reminder.
+URL:https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/
+END:VEVENT
+END:VCALENDAR
