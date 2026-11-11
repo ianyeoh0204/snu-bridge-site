@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>SNU Bridge · ECE academic notices in English</title><link>https://ianyeoh0204.github.io/snu-bridge-site/</link>
 <description>Korean SNU ECE academic notices, explained in English. AI explanation; the Korean original controls.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 06:41:38 +0000</lastBuildDate>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 07:44:47 +0000</lastBuildDate>
+<item><title>Attend a thesis defense and submit confirmation</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58203/</link>
+<guid isPermaLink="false">ece-58203-2e617095fdad</guid><pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
+<description>Graduate students taking the Master's/PhD Seminar course · Applies only if… · Online attendance registration: One week before the defense date; Cancel online registration (if needed): By the day before the defense</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58203&amp;md=v">ECE academic board</source></item>
 <item><title>Pay your winter session course fees</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58200/</link>
 <guid isPermaLink="false">ece-58200-c2e703b2252a</guid><pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
 <description>Students registered for 2026 winter session courses · Applies to you · Payment, 1st round: 18–23 November 2026; virtual account until 17:00; Payment, 2nd (final) round: 26–27 November 2026; virtual account until 17:00; Cancelled courses announced: 1 December 2026, mySNU board; Final course cancellation: 8 December 2026; Drop: full refund: 11–21 December 2026; Drop: two-thirds refund: 22 December 2026 – 1 January 2027; Drop: half refund: 2–7 January 2027</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58200&amp;md=v">ECE academic board</source></item>
@@ -11,9 +14,9 @@
 <item><title>Attend new-researcher lab safety training</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58191/</link>
 <guid isPermaLink="false">ece-58191-cd74b2a902bd</guid><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
 <description>Graduate researchers who have not completed new safety training · Applies only if… · Safety training session: 20 November 2026, 09:30–18:30</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58191&amp;md=v">ECE academic board</source></item>
-<item><title>Check the thesis defense presentation schedule</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58160/</link>
-<guid isPermaLink="false">ece-58160-bad3229b8262</guid><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
-<description>Thesis defenders and seminar attendees, Fall 2026 · Applies only if…</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58160&amp;md=v">ECE academic board</source></item>
+<item><title>Check your thesis presentation date, time and room</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58160/</link>
+<guid isPermaLink="false">ece-58160-fd4de43d2965</guid><pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
+<description>Master's/PhD students defending this semester, and attendees · Applies only if… · PhD presentations begin: 4 November 2026, 15:00; Master's defenses begin: 13 November 2026, 10:00; Last listed master's defense: 8 December 2026, 14:30; Last readable PhD presentation: 16 December 2026, 16:00</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58160&amp;md=v">ECE academic board</source></item>
 <item><title>Attend graduation project third midterm presentation</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58183/</link>
 <guid isPermaLink="false">ece-58183-cb6caeeff1cc</guid><pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
 <description>Undergraduates taking the graduation project course · Applies only if… · Third midterm presentation: 5 November 2026, 18:30</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58183&amp;md=v">ECE academic board</source></item>
@@ -119,7 +122,4 @@
 <item><title>Change grading method for eligible general-education courses</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58015/</link>
 <guid isPermaLink="false">ece-58015-0b1cec8c7f40</guid><pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
 <description>Undergraduates taking eligible common-curriculum courses · Applies only if… · Grading method change period: 1–23 September 2026, 09:00–23:59</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58015&amp;md=v">ECE academic board</source></item>
-<item><title>Change or drop your Fall 2026 courses</title><link>https://ianyeoh0204.github.io/snu-bridge-site/briefs/58012/</link>
-<guid isPermaLink="false">ece-58012-d4977d439865</guid><pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
-<description>All students registered for Fall 2026 courses · Applies to you · Course change period: 28 August – 7 September 2026, weekends excluded; ECE undergraduate courses over-quota: 1–3 September 2026, 18:00; Over-quota request (other courses): 1–7 September 2026; Confirm over-quota registration: 1–9 September 2026; Time-overlap request: 1–9 September 2026; Military-leave remote class change: By 17 September 2026; Grading option, classification change: By 23 September 2026; Course drop period: 8 September – 20 October 2026</description><source url="https://ece.snu.ac.kr/community/academics?bbsidx=58012&amp;md=v">ECE academic board</source></item>
 </channel></rss>

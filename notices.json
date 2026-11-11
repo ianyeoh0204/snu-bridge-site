@@ -1,14 +1,14 @@
 {
-  "built_at": "2026-11-10T06:41:38Z",
-  "checked_at": "2026-11-10T06:40:39Z",
+  "built_at": "2026-11-11T07:44:47Z",
+  "checked_at": "2026-11-11T07:41:03Z",
   "grounding": {
-    "checked": 68,
-    "passed": 68
+    "checked": 69,
+    "passed": 69
   },
   "generator": {
     "configured": true,
     "model": "claude-opus-5-5",
-    "last_run": "2026-11-10T06:41:37Z",
+    "last_run": "2026-11-11T07:44:09Z",
     "waiting": 0
   },
   "notices": [
@@ -282,9 +282,52 @@
     },
     {
       "id": "58160",
-      "title": "Check the thesis defense presentation schedule",
-      "who": "Thesis defenders and seminar attendees, Fall 2026",
-      "deadlines": [],
+      "title": "Check your thesis presentation date, time and room",
+      "who": "Master's/PhD students defending this semester, and attendees",
+      "deadlines": [
+        {
+          "degrees": [
+            "phd",
+            "integrated"
+          ],
+          "kind": "event",
+          "label": "PhD presentations begin",
+          "quote": "11/4(수) 15:00",
+          "start": "2026-11-04",
+          "when": "4 November 2026, 15:00"
+        },
+        {
+          "degrees": [
+            "masters"
+          ],
+          "kind": "event",
+          "label": "Master's defenses begin",
+          "quote": "11/13(금) 10:00",
+          "start": "2026-11-13",
+          "when": "13 November 2026, 10:00"
+        },
+        {
+          "degrees": [
+            "masters"
+          ],
+          "kind": "event",
+          "label": "Last listed master's defense",
+          "quote": "12/8(화) 14:30",
+          "start": "2026-12-08",
+          "when": "8 December 2026, 14:30"
+        },
+        {
+          "degrees": [
+            "phd",
+            "integrated"
+          ],
+          "kind": "event",
+          "label": "Last readable PhD presentation",
+          "quote": "12/16(수) 16:00",
+          "start": "2026-12-16",
+          "when": "16 December 2026, 16:00"
+        }
+      ],
       "degrees": [
         "masters",
         "phd",
@@ -2836,6 +2879,41 @@
       "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58183&md=v",
       "posting_date": "2026.10.29",
       "korean_title": "[2026학년도 2학기] 졸업프로젝트(전기공학설계프로젝트) 3회차 중간발표 안내",
+      "period": "Fall 2026"
+    },
+    {
+      "id": "58203",
+      "title": "Attend a thesis defense and submit confirmation",
+      "who": "Graduate students taking the Master's/PhD Seminar course",
+      "deadlines": [
+        {
+          "action": "Email the department office to register",
+          "kind": "action",
+          "label": "Online attendance registration",
+          "quote": "심사일 1주일 전까지",
+          "when": "One week before the defense date"
+        },
+        {
+          "action": "Email the office if you cannot attend",
+          "kind": "action",
+          "label": "Cancel online registration (if needed)",
+          "optional": true,
+          "quote": "심사 전날까지",
+          "when": "By the day before the defense"
+        }
+      ],
+      "degrees": [
+        "masters",
+        "phd",
+        "integrated"
+      ],
+      "graduation_scope": "any",
+      "historical": false,
+      "new_students": false,
+      "state": "full",
+      "source_url": "https://ece.snu.ac.kr/community/academics?bbsidx=58203&md=v",
+      "posting_date": "2026.11.06",
+      "korean_title": "2026학년도 2학기 대학원 논문심사 공개발표 - 석박사세미나 수강생 참여방법 안내",
       "period": "Fall 2026"
     }
   ],

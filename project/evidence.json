@@ -1,17 +1,17 @@
 {
-  "source_records": 68,
-  "collection_checks": 68,
-  "grounding_passed": 68,
-  "checked_at": "2026-11-10T06:40:39Z",
-  "built_at": "2026-11-10T06:41:38Z",
-  "brief_drafts": 68,
+  "source_records": 69,
+  "collection_checks": 69,
+  "grounding_passed": 69,
+  "checked_at": "2026-11-11T07:41:03Z",
+  "built_at": "2026-11-11T07:44:47Z",
+  "brief_drafts": 69,
   "reviewed_briefs": 0,
   "generator_configured": true,
-  "translated_notices": 68,
-  "text_pieces": 2147,
-  "text_pieces_in_english": 2145,
+  "translated_notices": 69,
+  "text_pieces": 2162,
+  "text_pieces_in_english": 2159,
   "images": 13,
   "images_in_english": 13,
-  "files": 118,
-  "files_in_english": 99
+  "files": 119,
+  "files_in_english": 101
 }
