@@ -2,8 +2,8 @@
   "source_records": 69,
   "collection_checks": 69,
   "grounding_passed": 69,
-  "checked_at": "2026-11-11T07:41:03Z",
-  "built_at": "2026-11-11T07:44:47Z",
+  "checked_at": "2026-11-12T08:10:48Z",
+  "built_at": "2026-11-12T08:14:12Z",
   "brief_drafts": 69,
   "reviewed_briefs": 0,
   "generator_configured": true,
@@ -13,5 +13,5 @@
   "images": 13,
   "images_in_english": 13,
   "files": 119,
-  "files_in_english": 101
+  "files_in_english": 102
 }
